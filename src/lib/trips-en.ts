@@ -228,12 +228,12 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
       {
         question: "where exactly will we surf?",
         answer:
-          "at the Canal, the spot that always has waves (explained above), and also at Barrinha — a gentle, waist-high wave that's great for practicing. the spot is full of sea turtles and has a church in the background, one of the most beautiful and classic scenes in Saquarema.",
+          "at Barrinha — a gentle, waist-high wave that's great for practicing. the spot is full of sea turtles and has a church in the background, one of the most beautiful and classic scenes in Saquarema.",
       },
       {
         question: "how does payment work?",
         answer:
-          "payment is via Pix, in 4 installments:\n\non booking (deposit) — R$ 890 (secures your spot and already covers the R$ 450 lodging fee; you settle the rooms directly with Renan on arrival)\nby 09/30 — R$ 700\nby 10/31 — R$ 700\nby 11/30 — R$ 700 (final balance, 1 month before the trip, which starts on 1/7)\n\ntotal: R$ 2,990 per person.",
+          "payment is via Pix, in 4 installments:\n\non booking (deposit) — R$ 890 (secures your spot)\nby 09/30 — R$ 700\nby 10/31 — R$ 700\nby 11/30 — R$ 700 (final balance, 1 month before the trip, which starts on 1/7)\n\ntotal: R$ 2,990 per person.",
       },
     ],
   },

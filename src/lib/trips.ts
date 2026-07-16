@@ -638,12 +638,12 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
       {
         question: "onde exatamente vamos surfar?",
         answer:
-          "no Canal, o point que sempre tem onda (explicamos ali em cima) e, também, na Barrinha — uma ondinha suave que bate na cintura, ótima pra treinar. o point é cheio de tartarugas e ainda tem a igreja no fundo, um dos cenários mais bonitos e clássicos de Saquarema.",
+          "na Barrinha — uma ondinha suave que bate na cintura, ótima pra treinar. o point é cheio de tartarugas e ainda tem a igreja no fundo, um dos cenários mais bonitos e clássicos de Saquarema.",
       },
       {
         question: "como funciona o pagamento?",
         answer:
-          "o pagamento é via Pix, em 4 parcelas:\n\nna reserva (sinal) — R$ 890 (garante a vaga e já cobre a acomodação de R$ 450; você quita os quartos direto com o Renan na hora)\naté 30/09 — R$ 700\naté 31/10 — R$ 700\naté 30/11 — R$ 700 (saldo final, 1 mês antes da viagem, que começa em 7/01)\n\ntotal: R$ 2.990 por pessoa.",
+          "o pagamento é via Pix, em 4 parcelas:\n\nna reserva (sinal) — R$ 890 (garante a vaga)\naté 30/09 — R$ 700\naté 31/10 — R$ 700\naté 30/11 — R$ 700 (saldo final, 1 mês antes da viagem, que começa em 7/01)\n\ntotal: R$ 2.990 por pessoa.",
       },
     ],
     pending: false,
