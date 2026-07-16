@@ -39,8 +39,8 @@ export default function TripDetail({ slug }: { slug: string }) {
 
   const flightHelpMessage =
     lang === "en"
-      ? `Hi Julia, I need help with the flight for the ${trip.title} group trip (${trip.dates}). I need to arrive by [time] and can depart starting [time].`
-      : `Oi Julia, preciso de ajuda com a passagem pra viagem em grupo ${trip.title} (${trip.dates}). preciso chegar até [horário] e posso partir a partir de [horário].`;
+      ? `Hi Julia, I need help with the flight for the ${trip.title} group trip (${trip.dates}). my departure city is [city] and my return city is [city].`
+      : `Oi Julia, preciso de ajuda com a passagem pra viagem em grupo ${trip.title} (${trip.dates}). minha cidade de partida é [cidade] e minha cidade de retorno é [cidade].`;
 
   return (
     <article>
@@ -188,26 +188,36 @@ export default function TripDetail({ slug }: { slug: string }) {
                 <SectionLabel number={nextSection()}>{ui.included[lang]}</SectionLabel>
                 <div className="grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-2">
                   {trip.included.length > 0 && (
-                    <ul className="flex flex-col gap-3 text-sm leading-relaxed text-[var(--foreground)]/85">
-                      {trip.included.map((item) => (
-                        <li key={item} className="flex gap-3">
-                          <span aria-hidden className="text-[var(--foreground)]/70">
-                            ✓
-                          </span>
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    <div>
+                      <p className="mb-4 text-sm font-medium tracking-[0.15em] text-[var(--foreground)]/70">
+                        {ui.included[lang]}
+                      </p>
+                      <ul className="flex flex-col gap-3 text-sm leading-relaxed text-[var(--foreground)]/85">
+                        {trip.included.map((item) => (
+                          <li key={item} className="flex gap-3">
+                            <span aria-hidden className="text-[var(--foreground)]/70">
+                              ✓
+                            </span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   )}
                   {trip.notIncluded.length > 0 && (
-                    <ul className="flex flex-col gap-3 text-sm leading-relaxed text-[var(--foreground)]/60">
-                      {trip.notIncluded.map((item) => (
-                        <li key={item} className="flex gap-3">
-                          <span aria-hidden>—</span>
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    <div>
+                      <p className="mb-4 text-sm font-medium tracking-[0.15em] text-[var(--foreground)]/70">
+                        {ui.notIncluded[lang]}
+                      </p>
+                      <ul className="flex flex-col gap-3 text-sm leading-relaxed text-[var(--foreground)]/60">
+                        {trip.notIncluded.map((item) => (
+                          <li key={item} className="flex gap-3">
+                            <span aria-hidden>—</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   )}
                 </div>
               </section>

@@ -57,7 +57,12 @@ const content = {
   ctaButton: { pt: "fale comigo", en: "talk to me" },
 };
 
-const orderedTestimonials = interleaveByDestination(testimonials);
+const priorityTestimonials = testimonials.filter((t) => t.priority);
+const restTestimonials = testimonials.filter((t) => !t.priority);
+const orderedTestimonials = [
+  ...interleaveByDestination(priorityTestimonials),
+  ...interleaveByDestination(restTestimonials),
+];
 
 export default function Testemunhos() {
   const { lang } = useLanguage();

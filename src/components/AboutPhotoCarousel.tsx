@@ -38,7 +38,9 @@ export default function AboutPhotoCarousel({ photos }: { photos: AboutPhoto[] })
         style={{ background: "var(--foreground)" }}
       />
 
-      <div className="relative aspect-[4/5] overflow-hidden rounded-t-[220px] rounded-b-3xl shadow-2xl">
+      <div
+        className="relative aspect-[4/5] shadow-2xl [clip-path:inset(0_round_9999px_9999px_1.5rem_1.5rem)]"
+      >
         {photos.map((p, i) => (
           // eslint-disable-next-line @next/next/no-img-element
           <img

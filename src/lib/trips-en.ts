@@ -913,7 +913,7 @@ important: outings and the schedule are subject to change according to the river
         day: 2,
         title: "fri, oct 23 — yoga, massage and volcano",
         description:
-          "sunrise yoga (7–8:15am) and breakfast. massages during the morning (in two groups). free afternoon. around 4pm we head out for the evening visit to Masaya Volcano — a chance to peer inside an active volcano, with a stop at the Masaya craft market. return around 7:30pm and a late dinner.",
+          "sunrise yoga (7–8:15am) and breakfast. free afternoon. around 4pm we head out for the evening visit to Masaya Volcano — a chance to peer inside an active volcano, with a stop at the Masaya craft market. return around 7:30pm and a late dinner.",
       },
       {
         day: 3,
@@ -925,7 +925,7 @@ important: outings and the schedule are subject to change according to the river
         day: 4,
         title: "sun, oct 25 — freediving and rest",
         description:
-          "after breakfast, an introductory freediving course right in the lagoon (theory + open-water practice). lunch at the house and return around 1–2pm. a restful afternoon, massages (second group) and dinner at the villa.",
+          "after breakfast, an introductory freediving course right in the lagoon (theory + open-water practice). lunch at the house and return around 1–2pm. a restful afternoon, a 60-minute full-body massage and dinner at the villa.",
       },
       {
         day: 5,

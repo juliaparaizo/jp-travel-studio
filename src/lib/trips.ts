@@ -356,7 +356,6 @@ recomendamos levar dinheiro em espécie, pois alguns locais não aceitam cartão
     heroImage: "/images/trips/laponia/laponia-1.jpeg",
     heroImages: [
       "/images/trips/laponia/hero/hero-1.jpg",
-      "/images/trips/laponia/hero/hero-2.jpg",
       "/images/trips/laponia/hero/hero-3.jpg",
       "/images/trips/laponia/hero/hero-4.jpg",
       "/images/trips/laponia/hero/hero-5.jpg",
@@ -1091,7 +1090,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
         day: 2,
         title: "sex, 23/out — yoga, massagem e vulcão",
         description:
-          "yoga ao amanhecer (7h–8h15) e café da manhã. massagens durante a manhã (em dois grupos). tarde livre. por volta das 16h saímos para a visita noturna ao Vulcão Masaya — dá pra espiar dentro de um vulcão ativo, com parada no mercado de artesanato de Masaya. retorno ~19h30 e jantar tardio.",
+          "yoga ao amanhecer (7h–8h15) e café da manhã. tarde livre. por volta das 16h saímos para a visita noturna ao Vulcão Masaya — dá pra espiar dentro de um vulcão ativo, com parada no mercado de artesanato de Masaya. retorno ~19h30 e jantar tardio.",
       },
       {
         day: 3,
@@ -1103,7 +1102,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
         day: 4,
         title: "dom, 25/out — freediving e descanso",
         description:
-          "após o café, curso introdutório de freediving na própria laguna (teoria + prática em águas abertas). almoço na casa e retorno por volta das 13h–14h. tarde de descanso, massagens (segundo grupo) e jantar na villa.",
+          "após o café, curso introdutório de freediving na própria laguna (teoria + prática em águas abertas). almoço na casa e retorno por volta das 13h–14h. tarde de descanso, massagem full-body de 60 min e jantar na villa.",
       },
       {
         day: 5,

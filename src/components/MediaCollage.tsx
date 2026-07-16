@@ -6,7 +6,6 @@ import HeroCarousel from "@/components/HeroCarousel";
 
 const carouselImages = [
   "/images/girl-trips/carousel/carousel-1.jpg",
-  "/images/girl-trips/carousel/carousel-2.jpg",
   "/images/girl-trips/carousel/carousel-3.jpg",
   "/images/girl-trips/carousel/carousel-4.jpg",
   "/images/girl-trips/carousel/carousel-5.jpg",
