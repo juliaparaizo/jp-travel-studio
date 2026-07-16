@@ -87,6 +87,15 @@ export async function POST(req: NextRequest) {
   const safeWhatsapp = escapeHtml(whatsapp.trim());
   const safeDestination = escapeHtml(destination.trim());
 
+  // log every submission regardless of email outcome, so entries can be
+  // recovered from Vercel logs if the email send fails
+  console.log("notify-me: new submission", JSON.stringify({
+    name: name.trim(),
+    whatsapp: whatsapp.trim(),
+    destination: destination.trim(),
+    tripSlug,
+  }));
+
   try {
     await resend.emails.send({
       from: "jp travel studio <onboarding@resend.dev>",

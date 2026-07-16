@@ -166,6 +166,13 @@ export async function POST(req: NextRequest) {
     ["nascimento", esc(birthDate)],
   ];
 
+  // log every submission regardless of email outcome, so answers can be
+  // recovered from Vercel logs if the email send fails
+  console.log(
+    "planejar: new submission",
+    JSON.stringify(Object.fromEntries(rows)),
+  );
+
   try {
     await resend.emails.send({
       from: "jp travel studio <onboarding@resend.dev>",
