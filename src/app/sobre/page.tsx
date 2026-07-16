@@ -5,6 +5,7 @@ import { useLanguage } from "@/lib/i18n";
 import { whatsappNumber } from "@/lib/trips";
 import AboutPhotoCarousel, { type AboutPhoto } from "@/components/AboutPhotoCarousel";
 import AboutHeroCarousel, { type BannerItem } from "@/components/AboutHeroCarousel";
+import InstagramPreview from "@/components/InstagramPreview";
 
 const headingFont = {
   fontFamily: "var(--font-zt-bros-oskon-90s)",
@@ -202,6 +203,8 @@ export default function Sobre() {
           </div>
         </div>
       </section>
+
+      <InstagramPreview />
     </div>
   );
 }

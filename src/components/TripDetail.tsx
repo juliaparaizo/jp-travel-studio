@@ -7,6 +7,7 @@ import { ui } from "@/lib/ui-strings";
 import TripGallery from "@/components/TripGallery";
 import HeroCarousel from "@/components/HeroCarousel";
 import SectionLabel from "@/components/SectionLabel";
+import NotifyMeForm from "@/components/NotifyMeForm";
 
 const headingFont = {
   fontFamily: "var(--font-zt-bros-oskon-90s)",
@@ -35,6 +36,11 @@ export default function TripDetail({ slug }: { slug: string }) {
     sectionCount += 1;
     return sectionCount;
   };
+
+  const flightHelpMessage =
+    lang === "en"
+      ? `Hi Julia, I need help with the flight for the ${trip.title} group trip (${trip.dates}). I need to arrive by [time] and can depart starting [time].`
+      : `Oi Julia, preciso de ajuda com a passagem pra viagem em grupo ${trip.title} (${trip.dates}). preciso chegar até [horário] e posso partir a partir de [horário].`;
 
   return (
     <article>
@@ -268,6 +274,16 @@ export default function TripDetail({ slug }: { slug: string }) {
                 >
                   {ui.closeMySpot[lang]}
                 </a>
+                <div>
+                  <a
+                    href={whatsappUrl(flightHelpMessage)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block text-xs tracking-wide text-[var(--foreground)]/60 underline underline-offset-4 hover:text-[var(--foreground)]"
+                  >
+                    {ui.flightHelp[lang]}
+                  </a>
+                </div>
                 {trip.agency && (
                   <p className="mt-6 text-xs text-[var(--foreground)]/50">
                     {ui.operatedBy[lang]} {trip.agency}
@@ -296,6 +312,10 @@ export default function TripDetail({ slug }: { slug: string }) {
                 </div>
               </section>
             )}
+
+            <section className="mt-20">
+              <NotifyMeForm destination={trip.destination} tripSlug={trip.slug} />
+            </section>
           </>
         )}
       </div>

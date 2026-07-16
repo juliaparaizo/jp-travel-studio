@@ -20,6 +20,13 @@ export default function AboutPhotoCarousel({ photos }: { photos: AboutPhoto[] })
 
   const current = photos[index];
 
+  const goPrev = () => {
+    setIndex((i) => (i - 1 + photos.length) % photos.length);
+  };
+  const goNext = () => {
+    setIndex((i) => (i + 1) % photos.length);
+  };
+
   return (
     <div className="relative mx-auto w-full max-w-sm">
       <div
@@ -42,6 +49,31 @@ export default function AboutPhotoCarousel({ photos }: { photos: AboutPhoto[] })
             style={{ opacity: i === index ? 1 : 0 }}
           />
         ))}
+
+        {photos.length > 1 && (
+          <>
+            <button
+              type="button"
+              aria-label="previous photo"
+              onClick={goPrev}
+              className="absolute left-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-white backdrop-blur-sm transition-colors hover:bg-black/50"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current" aria-hidden="true">
+                <path d="M15.5 4 7 12l8.5 8 1.4-1.4L9.8 12l7.1-6.6z" />
+              </svg>
+            </button>
+            <button
+              type="button"
+              aria-label="next photo"
+              onClick={goNext}
+              className="absolute right-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-white backdrop-blur-sm transition-colors hover:bg-black/50"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current" aria-hidden="true">
+                <path d="M8.5 4 17 12l-8.5 8-1.4-1.4L14.2 12 7.1 5.4z" />
+              </svg>
+            </button>
+          </>
+        )}
       </div>
 
       <div className="relative mt-5 flex items-center justify-center gap-2">

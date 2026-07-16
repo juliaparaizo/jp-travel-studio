@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useLanguage } from "@/lib/i18n";
 import { whatsappNumber } from "@/lib/trips";
+import InstagramPreview from "@/components/InstagramPreview";
 
 const headingFont = {
   fontFamily: "var(--font-zt-bros-oskon-90s)",
@@ -138,7 +139,7 @@ export default function Contato() {
       <section className="relative flex min-h-[55vh] items-end overflow-hidden px-6 pb-16 pt-32">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/trips/laponia/laponia-1.jpeg"
+          src="/images/contato/julia-piramides.jpg"
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -231,6 +232,8 @@ export default function Contato() {
           </div>
         </div>
       </section>
+
+      <InstagramPreview />
     </div>
   );
 }

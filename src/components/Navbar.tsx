@@ -44,7 +44,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
         <Link href="/" className="relative block h-14 w-14 shrink-0" onClick={() => setOpen(false)}>
           <Image
-            src="/images/jp-travel-studio-logo.jpg"
+            src="/images/jp-travel-studio-logo.svg"
             alt="jp travel studio"
             fill
             sizes="56px"

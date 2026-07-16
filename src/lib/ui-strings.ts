@@ -41,6 +41,10 @@ export const ui = {
   knowMore: { pt: "quero saber mais", en: "i want to know more" },
   comingSoon: { pt: "em breve", en: "coming soon" },
   operatedBy: { pt: "operado por", en: "operated by" },
+  flightHelp: {
+    pt: "preciso de ajuda com a passagem aérea",
+    en: "i need help with my flight",
+  },
   overview: { pt: "visão geral", en: "overview" },
   investment: { pt: "investimento", en: "investment" },
   allInclusive: { pt: "tudo incluso", en: "all inclusive" },
@@ -48,4 +52,30 @@ export const ui = {
   destinationLabel: { pt: "destino", en: "destination" },
   datesLabel: { pt: "datas", en: "dates" },
   durationLabel: { pt: "duração", en: "duration" },
+  notifyTitle: { pt: "não vai dar nessa data?", en: "can't make this date?" },
+  notifySubtitle: {
+    pt: "deixa seu nome e whatsapp que eu te aviso pessoalmente assim que tiver uma nova data pra esse destino.",
+    en: "leave your name and whatsapp and i'll personally let you know as soon as there's a new date for this destination.",
+  },
+  notifyNamePlaceholder: { pt: "seu nome", en: "your name" },
+  notifyWhatsappPlaceholder: { pt: "seu whatsapp (com DDD)", en: "your whatsapp number" },
+  notifyConsent: {
+    pt: "aceito que a Julia me contate no WhatsApp quando houver uma nova data pra esse destino.",
+    en: "i agree to be contacted by Julia on WhatsApp when there's a new date for this destination.",
+  },
+  notifyButton: { pt: "quero ser avisada", en: "notify me" },
+  notifySending: { pt: "enviando...", en: "sending..." },
+  notifySuccess: {
+    pt: "prontinho! você vai ser a primeira a saber quando tiver uma nova data 💌",
+    en: "all set! you'll be the first to know when there's a new date 💌",
+  },
+  notifyError: {
+    pt: "não deu pra enviar agora — tenta de novo em instantes ou chama no whatsapp.",
+    en: "couldn't send right now — try again shortly or reach out on whatsapp.",
+  },
+  instagramHandle: { pt: "@juliaparaizo", en: "@juliaparaizo" },
+  instagramSubtitle: {
+    pt: "acompanhe minhas aventuras em tempo real",
+    en: "follow my adventures in real time",
+  },
 } satisfies Record<string, Record<Lang, string>>;

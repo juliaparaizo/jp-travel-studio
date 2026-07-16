@@ -66,8 +66,8 @@ export const trips: Trip[] = [
       "/images/trips/lencois-maranhenses/hero/hero-5.jpg",
       "/images/trips/lencois-maranhenses/hero/hero-6.jpg",
     ],
-    dates: "14 a 17 de setembro de 2026",
-    dateForSort: "2026-09-14",
+    dates: "04 a 07 de setembro de 2026",
+    dateForSort: "2026-09-04",
     duration: "4 dias",
     priceDisplay: "R$ 2.500",
     priceValue: 2500,
@@ -78,9 +78,10 @@ export const trips: Trip[] = [
     tagline:
       "travessia de 3 dias pelas dunas do parque nacional, dormindo em rede na casa de famílias nativas",
     description:
-      "4 dias nos lençóis maranhenses com a trilha ecoaventura. chegada em barreirinhas no dia 14 para descansar, já que a busca para a travessia é às 4h da manhã do dia 15. são 3 dias de trekking pelo parque nacional dos lençóis maranhenses, com pernoite em rede na casa de famílias nativas nos oásis baixa grande e queimada dos britos, travessia de rios, banho de lagoa e a imensidão das dunas ao amanhecer.",
+      "4 dias nos lençóis maranhenses com a trilha ecoaventura. chegada em barreirinhas no dia 4 para descansar, já que a busca para a travessia é às 4h da manhã do dia 5. são 3 dias de trekking pelo parque nacional dos lençóis maranhenses, com pernoite em rede na casa de famílias nativas nos oásis baixa grande e queimada dos britos, travessia de rios, banho de lagoa e a imensidão das dunas ao amanhecer. bônus: a viagem cai numa sexta a segunda que já emenda com o feriado de 7 de setembro — dá pra aproveitar o feriado prolongado sem gastar dia de férias. weekendmaxxing nível máximo.",
+    urgentBadge: "cai no feriado",
     whatsappMessage:
-      "Oi Julia! Quero saber mais sobre a viagem aos Lençóis Maranhenses (14 a 17 de setembro de 2026) :)",
+      "Oi Julia! Quero saber mais sobre a viagem aos Lençóis Maranhenses (4 a 7 de setembro de 2026) :)",
     paymentMethods: [
       "dinheiro",
       "pix",
@@ -108,19 +109,19 @@ export const trips: Trip[] = [
     itinerary: [
       {
         day: 1,
-        title: "dia 15 — barreirinhas → oásis baixa grande",
+        title: "dia 5 — barreirinhas → oásis baixa grande",
         description:
           "saída de Barreirinhas às 8h30 em tour de barco voadeira, com visita à APA Pequenos Lençóis Maranhenses e passagem pelos povoados de Vassouras e Mandacaru. parada para almoço na praia de Caburé. às 13h40 o barco segue para Atins, chegando às 14h. de lá, transporte 4x4 até a foz do Rio Negro (cerca de 1h), seguido de caminhada de 7 a 8km (2 a 3h) até o Oásis Baixa Grande, onde pernoitamos em rede na casa de uma família nativa.",
       },
       {
         day: 2,
-        title: "dia 16 — oásis baixa grande → oásis queimada dos britos (10km)",
+        title: "dia 6 — oásis baixa grande → oásis queimada dos britos (10km)",
         description:
           "caminhada com início às 5h30 (café servido às 5h), cerca de 10km em 3 a 4 horas, com o nascer do sol e a travessia do Rio Negro. passagem pela Ponta do Peadouro, região de dunas altas. chegada prevista para 10h30 no povoado, onde ficamos na casa de uma família nativa. das 11h às 15h30, almoço e descanso; às 16h, banho de lagoa e pôr do sol; às 19h, jantar e noite livre.",
       },
       {
         day: 3,
-        title: "dia 17 — oásis queimada dos britos → lagoa do junco (14km)",
+        title: "dia 7 — oásis queimada dos britos → lagoa do junco (14km)",
         description:
           "saída às 3h da manhã (café servido às 2h30), com caminhada de 6 a 9 horas entre trechos a pé e banhos, passando pela lagoa das Cabras e pela lagoa do Junco. chegada prevista para as 10h, seguindo às 10h30 de 4x4 até Santo Amaro. às 13h, retorno para Barreirinhas ou São Luís.",
       },
@@ -172,7 +173,12 @@ evite itens pesados: livros, agendas, eletrônicos pesados e excesso de roupa. o
       {
         question: "por que a saída é de madrugada?",
         answer:
-          "o trekking segue sempre no sentido Barreirinhas → Santo Amaro, o que evita caminhar com o sol e o vento de frente, além de facilitar a subida nas dunas. por isso a chegada em Barreirinhas é recomendada no dia 14, um dia antes da busca às 4h da manhã do dia 15.",
+          "o trekking segue sempre no sentido Barreirinhas → Santo Amaro, o que evita caminhar com o sol e o vento de frente, além de facilitar a subida nas dunas. por isso a chegada em Barreirinhas é recomendada no dia 4, um dia antes da busca às 4h da manhã do dia 5.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
       },
     ],
   },
@@ -331,14 +337,14 @@ recomendamos levar dinheiro em espécie, pois alguns locais não aceitam cartão
           "sim, todas as experiências da Giovana Gentil são exclusivas para mulheres.",
       },
       {
-        question: "a Gio acompanha a expedição?",
-        answer:
-          "sim! a Gio estará presente em absolutamente todos os momentos da expedição — com exceção do tempo livre, é claro :)",
-      },
-      {
         question: "a taxa ambiental está inclusa?",
         answer:
           "não, a taxa ambiental do Parque Estadual do Jalapão é de R$ 30 por pessoa e é paga diretamente na entrada do parque. não esqueça de levar em espécie!",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
       },
     ],
   },
@@ -529,7 +535,7 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
   },
   {
     slug: "surfcamp-saquarema",
-    title: "Surfcamp Saquarema",
+    title: "Saquarema Surf Trip",
     destination: "Saquarema, Rio de Janeiro",
     cardImage: "/images/trips/surfcamp-saquarema/cover.jpg",
     heroImage: "/images/trips/surfcamp-saquarema/cover.jpg",
@@ -541,31 +547,112 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
       "/images/trips/surfcamp-saquarema/hero/hero-5.jpg",
       "/images/trips/surfcamp-saquarema/hero/hero-6.jpg",
     ],
-    dates: "09 a 11 de janeiro de 2027",
-    dateForSort: "2027-01-09",
-    duration: "",
-    priceDisplay: "a confirmar",
-    priceValue: 0,
+    dates: "07 a 10 de janeiro de 2027",
+    dateForSort: "2027-01-07",
+    duration: "4 dias · 3 noites",
+    priceDisplay: "R$ 2.990",
+    priceValue: 2990,
     national: true,
-    priceInstallments: "",
-    agency: "",
-    tagline: "",
-    description: "",
+    priceInstallments:
+      "sinal de R$ 890 via Pix para reservar — parcelas até 30/09, 31/10 e 30/11",
+    agency: "Green House Saqua",
+    urgentBadge: "15 vagas",
+    tagline:
+      "4 dias de surf, canoa havaiana, yoga e sol em saquarema, só entre meninas",
+    description:
+      "quatro dias na capital brasileira do surf, num grupo fechado de no máximo 15 meninas. você chega, a gente cuida de tudo: aulas de surf, canoa havaiana, yoga na praia, passeios de buggy, noites temáticas e muito tempo pra relaxar e fazer amizades novas. é só chegar no rio no ponto de encontro — do resto cuidamos nós. ideal pra quem tá pegando a primeira onda ou já surfa em qualquer nível: teremos guias pra te acompanhar e vídeo análises pra você ver sua evolução.",
     whatsappMessage:
-      "Oi Julia! Quero saber mais sobre o Surfcamp Saquarema (9 a 11 de janeiro de 2027) :)",
-    paymentMethods: [],
-    included: [],
-    notIncluded: [],
-    itinerary: [],
-    accommodation: "",
-    forWhom: [],
-    faqs: [],
-    pending: true,
+      "Oi Julia! Quero saber mais sobre o Surfcamp Saquarema (7 a 10 de janeiro de 2027) :)",
+    paymentMethods: ["Pix"],
+    included: [
+      "3 noites de hospedagem (quarto compartilhado)",
+      "transfer Rio ↔ Saquarema (ida e volta)",
+      "aulas de surf",
+      "canoa havaiana",
+      "sessão de yoga",
+      "stand-up paddle (pôr do sol/nascer do sol)",
+      "passeios de buggy",
+      "vídeos de drone",
+      "almoço premium",
+      "Noite do Hambúrguer (jantar)",
+      "Noite do Sushi (jantar)",
+      "recepção de boas-vindas",
+    ],
+    notIncluded: [
+      "transporte até o ponto de encontro no Rio",
+      "refeições fora as citadas (cafés, bebidas, outros almoços)",
+      "aulas extras opcionais de domingo",
+      "despesas pessoais e gorjetas",
+      "seguro viagem",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "quinta, 7/jan — chegada, rumo a Saquarema",
+        description:
+          "saída do Rio por volta das 12h, em transfer exclusivo do grupo. chegada no fim da tarde e recepção de boas-vindas da galera. check-in na hospedagem e Noite do Hambúrguer — nosso jantar de abertura.",
+      },
+      {
+        day: 2,
+        title: "sexta, 8/jan — água & aventura: canoa havaiana + surf + buggy",
+        description:
+          "manhã de canoa havaiana no mar, seguida de aula de surf com instrutores. passeio de buggy pela orla e lagoa à tarde, com vídeos de drone pra guardar de recordação.",
+      },
+      {
+        day: 3,
+        title: "sábado, 9/jan — equilíbrio: surf + yoga + sushi",
+        description:
+          "mais uma sessão de surf pela manhã, seguida de sessão de yoga pra alongar e relaxar. passeio de buggy à tarde e Noite do Sushi — jantar especial do grupo.",
+      },
+      {
+        day: 4,
+        title: "domingo, 10/jan — livre & volta: stand-up no pôr do sol",
+        description:
+          "manhã ou dia livre pra conhecer a cidade no seu ritmo. stand-up paddle no pôr do sol (ou nascer do sol), com aulas extras opcionais pra quem quiser mais mar. transfer de volta ao Rio depois do pôr do sol (~16h).",
+      },
+    ],
+    accommodation:
+      "3 noites em quarto compartilhado, em parceria com a Green House Saqua — pousada e escola de surf local que cuida de toda a estrutura da viagem em Saquarema.",
+    forWhom: [
+      {
+        title: "meninas de todos os níveis",
+        description:
+          "de quem nunca pegou uma onda até quem já surfa e quer evoluir — temos guias acompanhando de perto e vídeo análises pra você corrigir os detalhes e ver sua evolução.",
+      },
+    ],
+    faqs: [
+      {
+        question: "preciso saber surfar pra participar?",
+        answer:
+          "não! o camp é pra meninas de todos os níveis, iniciante ou não — temos guias pra te acompanhar de perto e vídeo análises pra você corrigir os detalhes e ver sua evolução.",
+      },
+      {
+        question: "quem organiza os passeios em Saquarema?",
+        answer:
+          "essa trip é em parceria com a Green House Saqua, pousada e escola de surf local que cuida de toda a estrutura em Saquarema.",
+      },
+      {
+        question: "e se o mar tiver grande ou pequeno, ainda vou conseguir surfar?",
+        answer:
+          "sempre! a gente escolhe uma maré ideal no Canal — o canal da lagoa que tem acesso direto ao mar. seja qual for o tamanho do mar, ali sempre vai ter onda, e é onde todo mundo consegue aprender a surfar: pegar sua primeira onda e tirar a foto pra provar.",
+      },
+      {
+        question: "onde exatamente vamos surfar?",
+        answer:
+          "no Canal, o point que sempre tem onda (explicamos ali em cima) e, também, na Barrinha — uma ondinha suave que bate na cintura, ótima pra treinar. o point é cheio de tartarugas e ainda tem a igreja no fundo, um dos cenários mais bonitos e clássicos de Saquarema.",
+      },
+      {
+        question: "como funciona o pagamento?",
+        answer:
+          "o pagamento é via Pix, em 4 parcelas:\n\nna reserva (sinal) — R$ 890 (garante a vaga e já cobre a acomodação de R$ 450; você quita os quartos direto com o Renan na hora)\naté 30/09 — R$ 700\naté 31/10 — R$ 700\naté 30/11 — R$ 700 (saldo final, 1 mês antes da viagem, que começa em 7/01)\n\ntotal: R$ 2.990 por pessoa.",
+      },
+    ],
+    pending: false,
     isPlaceholderImage: false,
   },
   {
     slug: "surfcamp-ubatuba",
-    title: "Surfcamp Ubatuba",
+    title: "Ubatuba Surf Trip",
     destination: "Ubatuba, São Paulo",
     cardImage: "/images/trips/surfcamp-ubatuba/cover.jpg",
     heroImage: "/images/trips/surfcamp-ubatuba/cover.jpg",
@@ -794,6 +881,11 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
         question: "a viagem é só para mulheres?",
         answer: "sim, como sempre — experiências exclusivas para mulheres.",
       },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
     ],
   },
   {
@@ -942,6 +1034,11 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
         question: "a viagem é só para mulheres?",
         answer: "sim, como sempre — experiências exclusivas para mulheres.",
       },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
     ],
   },
   {
@@ -979,7 +1076,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     notIncluded: [
       "voos até Manágua (MGA)",
       "seguro viagem (fortemente recomendado)",
-      "refeições fora nos dias de passeio: almoço em Granada (~US$ 15) e almoço em San Juan del Sur (~US$ 15) — o jantar em San Juan é por conta da Julia",
+      "refeições fora nos dias de passeio: almoço em Granada (~US$ 15) e almoço em San Juan del Sur (~US$ 15) — o jantar (pizza) em San Juan já está incluso",
       "bebidas alcoólicas extras (o open bar do catamarã já está incluso)",
       "gorjetas (voluntárias) e compras pessoais / souvenirs",
     ],
@@ -1012,7 +1109,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
         day: 5,
         title: "seg, 26/out — dia de praia em San Juan del Sur",
         description:
-          "café cedo e dia inteiro na praia: mirante do Cristo, tempo livre na cidade, almoço por lá (por conta) e, à tarde, passeio de catamarã (open bar e petiscos inclusos) até o pôr do sol, com happy hour à beira-mar. jantar em San Juan (a pizza do grupo é por conta da Julia).",
+          "café cedo e dia inteiro na praia: mirante do Cristo, tempo livre na cidade, almoço por lá (por conta) e, à tarde, passeio de catamarã (open bar e petiscos inclusos) até o pôr do sol, com happy hour à beira-mar. jantar em San Juan (a pizza do jantar será inclusa).",
       },
       {
         day: 6,

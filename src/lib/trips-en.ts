@@ -26,7 +26,7 @@ type TripEnOverride = Partial<
 export const tripsEn: Record<string, TripEnOverride> = {
   "lencois-maranhenses": {
     destination: "Lençóis Maranhenses, Brazil",
-    dates: "september 14–17, 2026",
+    dates: "september 4–7, 2026",
     duration: "4 days",
     priceDisplay: "R$ 2,500",
     priceInstallments:
@@ -34,9 +34,10 @@ export const tripsEn: Record<string, TripEnOverride> = {
     tagline:
       "a 3-day trek across the dunes of the national park, sleeping in hammocks at native families' homes",
     description:
-      "4 days in the Lençóis Maranhenses with Trilha Ecoaventura. arrival in Barreirinhas on the 14th to rest, since pickup for the trek is at 4am on the 15th. it's 3 days of trekking through the Lençóis Maranhenses National Park, sleeping in hammocks at native families' homes in the Oásis Baixa Grande and Oásis Queimada dos Britos, river crossings, lagoon swims and the vastness of the dunes at sunrise.",
+      "4 days in the Lençóis Maranhenses with Trilha Ecoaventura. arrival in Barreirinhas on the 4th to rest, since pickup for the trek is at 4am on the 5th. it's 3 days of trekking through the Lençóis Maranhenses National Park, sleeping in hammocks at native families' homes in the Oásis Baixa Grande and Oásis Queimada dos Britos, river crossings, lagoon swims and the vastness of the dunes at sunrise. bonus: the trip runs friday through monday, right into Brazil's september 7th independence day holiday — a long weekend without spending a single vacation day. peak weekendmaxxing.",
+    urgentBadge: "long weekend trip",
     whatsappMessage:
-      "Hi Julia! I want to know more about the Lençóis Maranhenses trip (september 14–17, 2026) :)",
+      "Hi Julia! I want to know more about the Lençóis Maranhenses trip (september 4–7, 2026) :)",
     paymentMethods: [
       "cash",
       "pix",
@@ -64,19 +65,19 @@ export const tripsEn: Record<string, TripEnOverride> = {
     itinerary: [
       {
         day: 1,
-        title: "day 15 — barreirinhas → oásis baixa grande",
+        title: "day 5 — barreirinhas → oásis baixa grande",
         description:
           "departure from Barreirinhas at 8:30am on a speedboat tour, visiting the APA Pequenos Lençóis Maranhenses and passing through the villages of Vassouras and Mandacaru. lunch stop at Caburé beach. at 1:40pm the boat continues to Atins, arriving at 2pm. from there, 4x4 transport to the mouth of the Rio Negro (about 1h), followed by a 7 to 8km trek (2 to 3h) to Oásis Baixa Grande, where we sleep in hammocks at a native family's home.",
       },
       {
         day: 2,
-        title: "day 16 — oásis baixa grande → oásis queimada dos britos (10km)",
+        title: "day 6 — oásis baixa grande → oásis queimada dos britos (10km)",
         description:
           "trek starting at 5:30am (breakfast at 5am), about 10km over 3 to 4 hours, watching the sunrise and crossing the Rio Negro. passing through Ponta do Peadouro, an area of tall dunes. expected arrival at the village at 10:30am, staying at a native family's home. from 11am to 3:30pm, lunch and rest; at 4pm, a lagoon swim and sunset; at 7pm, dinner and a free evening.",
       },
       {
         day: 3,
-        title: "day 17 — oásis queimada dos britos → lagoa do junco (14km)",
+        title: "day 7 — oásis queimada dos britos → lagoa do junco (14km)",
         description:
           "departure at 3am (breakfast at 2:30am), with a 6 to 9 hour trek combining walking and swims, passing Lagoa das Cabras and Lagoa do Junco. expected arrival at 10am, continuing at 10:30am by 4x4 to Santo Amaro. at 1pm, return to Barreirinhas or São Luís.",
       },
@@ -128,16 +129,113 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
       {
         question: "why does it depart before dawn?",
         answer:
-          "the trek always runs from Barreirinhas towards Santo Amaro, which avoids walking straight into the sun and wind, and makes climbing the dunes easier. that's why arriving in Barreirinhas on the 14th is recommended, a day before the 4am pickup on the 15th.",
+          "the trek always runs from Barreirinhas towards Santo Amaro, which avoids walking straight into the sun and wind, and makes climbing the dunes easier. that's why arriving in Barreirinhas on the 4th is recommended, a day before the 4am pickup on the 5th.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
       },
     ],
   },
   "surfcamp-saquarema": {
     destination: "Saquarema, Rio de Janeiro, Brazil",
-    dates: "january 9–11, 2027",
-    priceDisplay: "to be confirmed",
+    dates: "january 7–10, 2027",
+    duration: "4 days · 3 nights",
+    priceDisplay: "R$ 2,990",
+    priceInstallments:
+      "R$ 890 deposit via Pix to book — installments due 09/30, 10/31 and 11/30",
+    urgentBadge: "15 spots",
+    tagline:
+      "4 days of surf, outrigger canoe, yoga and sun in saquarema, women only",
+    description:
+      "four days in the brazilian capital of surf, in a closed group of up to 15 girls. you show up, we handle the rest: surf lessons, outrigger canoe, beach yoga, buggy tours, themed nights and plenty of time to relax and make new friends. just get to the meeting point in rio — we take care of everything else. perfect whether you're catching your first wave or already surf at any level: we'll have guides to support you and video analysis so you can see your progress.",
     whatsappMessage:
-      "Hi Julia! I want to know more about the Saquarema Surfcamp (january 9–11, 2027) :)",
+      "Hi Julia! I want to know more about the Saquarema Surfcamp (january 7–10, 2027) :)",
+    paymentMethods: ["Pix"],
+    included: [
+      "3 nights of lodging (shared room)",
+      "Rio ↔ Saquarema transfer (round trip)",
+      "surf lessons",
+      "outrigger canoe",
+      "yoga session",
+      "stand-up paddle (sunset/sunrise)",
+      "buggy tours",
+      "drone videos",
+      "premium lunch",
+      "Burger Night (dinner)",
+      "Sushi Night (dinner)",
+      "welcome reception",
+    ],
+    notIncluded: [
+      "transport to the meeting point in Rio",
+      "meals other than those listed (coffees, drinks, other lunches)",
+      "optional extra lessons on sunday",
+      "personal expenses and tips",
+      "travel insurance",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "thursday, 1/7 — arrival, heading to saquarema",
+        description:
+          "departure from Rio around noon, in an exclusive group transfer. late afternoon arrival and welcome reception from the crew. check-in at the lodging and Burger Night — our opening dinner.",
+      },
+      {
+        day: 2,
+        title: "friday, 1/8 — water & adventure: outrigger canoe + surf + buggy",
+        description:
+          "morning outrigger canoe session at sea, followed by a surf lesson with instructors. buggy tour along the coast and lagoon in the afternoon, with drone videos to take home as keepsakes.",
+      },
+      {
+        day: 3,
+        title: "saturday, 1/9 — balance: surf + yoga + sushi",
+        description:
+          "another surf session in the morning, followed by a yoga session to stretch and relax. buggy tour in the afternoon and Sushi Night — the group's special dinner.",
+      },
+      {
+        day: 4,
+        title: "sunday, 1/10 — free time & return: sunset stand-up paddle",
+        description:
+          "free morning or day to explore the town at your own pace. sunset stand-up paddle (or sunrise), with optional extra lessons for anyone who wants more time in the water. transfer back to Rio after sunset (~4pm).",
+      },
+    ],
+    accommodation:
+      "3 nights in a shared room, in partnership with Green House Saqua — a local guesthouse and surf school that handles the full trip structure in Saquarema.",
+    forWhom: [
+      {
+        title: "women of every level",
+        description:
+          "from those who've never caught a wave to those who already surf and want to improve — we'll have guides supporting you closely and video analysis so you can correct the details and see your progress.",
+      },
+    ],
+    faqs: [
+      {
+        question: "do i need to know how to surf to join?",
+        answer:
+          "no! the camp is for women of every level, beginner or not — we'll have guides supporting you closely and video analysis so you can correct the details and see your progress.",
+      },
+      {
+        question: "who organizes the activities in saquarema?",
+        answer:
+          "this trip is in partnership with Green House Saqua, a local guesthouse and surf school that handles the full structure in Saquarema.",
+      },
+      {
+        question: "what if the ocean is too big or too small, will i still be able to surf?",
+        answer:
+          "always! we pick the ideal tide at the Canal — the lagoon channel with direct access to the ocean. no matter how big or small the swell is, there's always a wave there, and it's where everyone learns to surf: catching your first wave and getting the photo to prove it.",
+      },
+      {
+        question: "where exactly will we surf?",
+        answer:
+          "at the Canal, the spot that always has waves (explained above), and also at Barrinha — a gentle, waist-high wave that's great for practicing. the spot is full of sea turtles and has a church in the background, one of the most beautiful and classic scenes in Saquarema.",
+      },
+      {
+        question: "how does payment work?",
+        answer:
+          "payment is via Pix, in 4 installments:\n\non booking (deposit) — R$ 890 (secures your spot and already covers the R$ 450 lodging fee; you settle the rooms directly with Renan on arrival)\nby 09/30 — R$ 700\nby 10/31 — R$ 700\nby 11/30 — R$ 700 (final balance, 1 month before the trip, which starts on 1/7)\n\ntotal: R$ 2,990 per person.",
+      },
+    ],
   },
   "surfcamp-ubatuba": {
     destination: "Ubatuba, São Paulo, Brazil",
@@ -340,14 +438,14 @@ we recommend bringing cash, as some places don't take cards.`,
           "yes, all Giovana Gentil experiences are exclusively for women.",
       },
       {
-        question: "does Gio join the expedition?",
-        answer:
-          "yes! Gio will be there for absolutely every moment of the expedition — except free time, of course :)",
-      },
-      {
         question: "is the environmental fee included?",
         answer:
           "no, the Jalapão State Park environmental fee is R$ 30 per person and is paid directly at the park entrance. don't forget to bring cash!",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
       },
     ],
   },
@@ -639,6 +737,11 @@ important: outings and the schedule are subject to change according to the river
         question: "is the trip women-only?",
         answer: "yes, as always — experiences exclusively for women.",
       },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
     ],
   },
   "amazonia-2": {
@@ -760,6 +863,11 @@ important: outings and the schedule are subject to change according to the river
         question: "is the trip women-only?",
         answer: "yes, as always — experiences exclusively for women.",
       },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
     ],
   },
   nicaragua: {
@@ -790,7 +898,7 @@ important: outings and the schedule are subject to change according to the river
     notIncluded: [
       "flights to Managua (MGA)",
       "travel insurance (strongly recommended)",
-      "meals out on tour days: lunch in Granada (~US$ 15) and lunch in San Juan del Sur (~US$ 15) — dinner in San Juan is on Julia",
+      "meals out on tour days: lunch in Granada (~US$ 15) and lunch in San Juan del Sur (~US$ 15) — dinner (pizza) in San Juan is already included",
       "extra alcoholic drinks (the catamaran's open bar is already included)",
       "tips (voluntary) and personal shopping / souvenirs",
     ],
@@ -823,7 +931,7 @@ important: outings and the schedule are subject to change according to the river
         day: 5,
         title: "mon, oct 26 — beach day in San Juan del Sur",
         description:
-          "early breakfast and a full day at the beach: the Christ viewpoint, free time in town, lunch there (on your own) and, in the afternoon, a catamaran ride (open bar and snacks included) into the sunset, with a beachside happy hour. dinner in San Juan (the group's pizza is on Julia).",
+          "early breakfast and a full day at the beach: the Christ viewpoint, free time in town, lunch there (on your own) and, in the afternoon, a catamaran ride (open bar and snacks included) into the sunset, with a beachside happy hour. dinner in San Juan (pizza dinner included).",
       },
       {
         day: 6,
