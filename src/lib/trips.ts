@@ -909,7 +909,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     national: true,
     priceInstallments: "",
     agency: "Amazônia Jungle Hotel",
-    urgentBadge: "5 vagas restantes",
+    urgentBadge: "3 vagas restantes",
     tagline:
       "encontro das águas, botos cor-de-rosa e uma noite inteira dormindo na selva",
     description:

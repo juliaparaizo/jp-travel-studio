@@ -750,7 +750,7 @@ important: outings and the schedule are subject to change according to the river
     dates: "march 24–28, 2027",
     duration: "5 days · 4 nights",
     priceDisplay: "R$ 4,500",
-    urgentBadge: "5 spots left",
+    urgentBadge: "3 spots left",
     tagline:
       "the meeting of the waters, pink river dolphins and a whole night sleeping in the jungle",
     description:
