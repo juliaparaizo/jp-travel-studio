@@ -468,29 +468,11 @@ export default function Planejar() {
                         data.birthDate !== "";
 
   const buildWhatsappMessage = () => {
-    const n = stepNames[lang];
-    const lines = [
+    const message =
       lang === "pt"
-        ? `Olá, acabei de preencher o formulário no site! Meu nome é ${data.name}.`
-        : `Hi, I just filled out the form on the website! My name is ${data.name}.`,
-      "",
-      `${n[0]}: ${data.destinationText}`,
-      `${n[1]}: ${
-        data.hasSpecificDate === "yes"
-          ? data.specificDate
-          : data.availableDuration
-      }`,
-      `${n[2]}: ${data.companions}${data.companionsOther ? ` — ${data.companionsOther}` : ""}${data.childrenInfo ? ` — ${data.childrenInfo}` : ""} | ${
-        lang === "pt" ? "passagens compradas" : "tickets bought"
-      }: ${data.boughtTickets === "yes" ? (lang === "pt" ? "sim" : "yes") : lang === "pt" ? "ainda não" : "not yet"}`,
-      `${n[3]}: ${data.scenarios.join(", ")}${data.scenariosOther ? ` — ${data.scenariosOther}` : ""}`,
-      `${n[4]}: ${data.objectives.join(", ")}${data.objectivesOther ? ` — ${data.objectivesOther}` : ""}`,
-      `${n[5]}: ${data.comfortLevel}${data.comfortOther ? ` — ${data.comfortOther}` : ""} | ${data.travelPace} | ${data.logisticPrefs.join(", ")}`,
-      `${n[6]}: ${data.budgetRange}`,
-      `${n[7]}: ${data.priorityExperiences}${data.additionalNotes ? ` | ${data.additionalNotes}` : ""}`,
-      `${n[8]}: ${data.name} | ${data.phone} | ${data.email} | ${data.birthDate}`,
-    ];
-    return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(lines.join("\n"))}`;
+        ? `Olá, acabei de preencher o formulário de assessoria no site! Meu nome é ${data.name}.`
+        : `Hi, I just filled out the trip-planning form on the website! My name is ${data.name}.`;
+    return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
   };
 
   const [submitted, setSubmitted] = useState(false);
