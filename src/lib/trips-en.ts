@@ -35,7 +35,7 @@ export const tripsEn: Record<string, TripEnOverride> = {
       "a 3-day trek across the dunes of the national park, sleeping in hammocks at native families' homes",
     description:
       "4 days in the Lençóis Maranhenses with Trilha Ecoaventura. arrival in Barreirinhas on the 4th to rest, since pickup for the trek is at 4am on the 5th. it's 3 days of trekking through the Lençóis Maranhenses National Park, sleeping in hammocks at native families' homes in the Oásis Baixa Grande and Oásis Queimada dos Britos, river crossings, lagoon swims and the vastness of the dunes at sunrise. bonus: the trip runs friday through monday, right into Brazil's september 7th independence day holiday — a long weekend without spending a single vacation day. peak weekendmaxxing.",
-    urgentBadge: "long weekend trip",
+    urgentBadge: "5 spots left",
     whatsappMessage:
       "Hi Julia! I want to know more about the Lençóis Maranhenses trip (september 4–7, 2026) :)",
     paymentMethods: [
@@ -309,8 +309,8 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
     tagline:
       "natural springs, golden dunes, canyons and brazil's wildest cerrado",
     description:
-      "a 4-day expedition through the Jalapão region of Tocantins with Gio — crystal-clear natural springs that bubble up from the ground, golden dunes of capim dourado, breathtaking canyons and waterfalls hidden in the heart of the cerrado. everything included: lodging, 3 full meals a day, transfers, 4x4 transport, licensed environmental guide and entrance to every attraction. arrive in palmas on the 8th, the expedition starts early on the 9th. only 2 spots left!",
-    urgentBadge: "2 spots",
+      "a 4-day expedition through the Jalapão region of Tocantins with Gio — crystal-clear natural springs that bubble up from the ground, golden dunes of capim dourado, breathtaking canyons and waterfalls hidden in the heart of the cerrado. everything included: lodging, 3 full meals a day, transfers, 4x4 transport, licensed environmental guide and entrance to every attraction. arrive in palmas on the 8th, the expedition starts early on the 9th. spots are sold out!",
+    urgentBadge: "sold out",
     whatsappMessage:
       "Hi Julia! I want to know more about the Jalapão expedition (october 9–12, 2026) :)",
     paymentMethods: [

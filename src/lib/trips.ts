@@ -79,7 +79,7 @@ export const trips: Trip[] = [
       "travessia de 3 dias pelas dunas do parque nacional, dormindo em rede na casa de famílias nativas",
     description:
       "4 dias nos lençóis maranhenses com a trilha ecoaventura. chegada em barreirinhas no dia 4 para descansar, já que a busca para a travessia é às 4h da manhã do dia 5. são 3 dias de trekking pelo parque nacional dos lençóis maranhenses, com pernoite em rede na casa de famílias nativas nos oásis baixa grande e queimada dos britos, travessia de rios, banho de lagoa e a imensidão das dunas ao amanhecer. bônus: a viagem cai numa sexta a segunda que já emenda com o feriado de 7 de setembro — dá pra aproveitar o feriado prolongado sem gastar dia de férias. weekendmaxxing nível máximo.",
-    urgentBadge: "cai no feriado",
+    urgentBadge: "5 vagas restantes",
     whatsappMessage:
       "Oi Julia! Quero saber mais sobre a viagem aos Lençóis Maranhenses (4 a 7 de setembro de 2026) :)",
     paymentMethods: [
@@ -208,8 +208,8 @@ evite itens pesados: livros, agendas, eletrônicos pesados e excesso de roupa. o
     tagline:
       "fervedouros, dunas douradas, cânions e o cerrado mais selvagem do brasil",
     description:
-      "4 dias de expedição no Jalapão tocantinense com a Gio — fervedouros de água cristalina que borbulha do chão, dunas douradas de capim doirado, cânions impressionantes e cachoeiras escondidas no coração do cerrado. tudo incluso: hospedagem, 3 refeições completas por dia, translado, transporte 4x4, guia ambiental credenciado e entradas em todos os atrativos. chegue em palmas no dia 8, a expedição começa cedo no dia 9. somente 2 vagas restantes!",
-    urgentBadge: "2 vagas",
+      "4 dias de expedição no Jalapão tocantinense com a Gio — fervedouros de água cristalina que borbulha do chão, dunas douradas de capim doirado, cânions impressionantes e cachoeiras escondidas no coração do cerrado. tudo incluso: hospedagem, 3 refeições completas por dia, translado, transporte 4x4, guia ambiental credenciado e entradas em todos os atrativos. chegue em palmas no dia 8, a expedição começa cedo no dia 9. vagas esgotadas!",
+    urgentBadge: "esgotado",
     whatsappMessage:
       "Oi Julia! Quero saber mais sobre a expedição ao Jalapão (9 a 12 de outubro de 2026) :)",
     paymentMethods: [
