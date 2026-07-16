@@ -413,9 +413,20 @@ export default function Planejar() {
   const { lang } = useLanguage();
   const [step, setStep] = useState(0);
   const [data, setData] = useState<FormData>(initialData);
+  const [honeypot, setHoneypot] = useState("");
 
   const set = (patch: Partial<FormData>) =>
     setData((d) => ({ ...d, ...patch }));
+
+  const sendEmailCopy = () => {
+    fetch("/api/planejar", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ...data, honeypot }),
+    }).catch(() => {
+      // best-effort: the WhatsApp handoff still goes through even if this fails
+    });
+  };
 
   const totalSteps = 9;
 
@@ -544,6 +555,15 @@ export default function Planejar() {
 
   return (
     <div className="mx-auto w-full max-w-2xl px-6 py-14">
+      <input
+        type="text"
+        value={honeypot}
+        onChange={(e) => setHoneypot(e.target.value)}
+        tabIndex={-1}
+        autoComplete="off"
+        className="hidden"
+        aria-hidden="true"
+      />
       <div className="mb-10">
         <div className="mb-3 flex items-center justify-between text-xs text-[var(--foreground)]/40">
           <span className="tracking-[0.2em]">
@@ -1028,6 +1048,7 @@ export default function Planejar() {
                 e.preventDefault();
                 return;
               }
+              sendEmailCopy();
               setSubmitted(true);
             }}
             className={`rounded-full px-8 py-3.5 text-sm transition-all duration-200 ${
