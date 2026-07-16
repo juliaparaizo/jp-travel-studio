@@ -21,7 +21,7 @@ const content = {
     en: "let's plan your next trip!",
   },
   introBody: {
-    pt: "tem dúvida sobre algum destino, quer saber mais sobre os próximos roteiros ou só bater um papo? me chama — respondo com carinho.",
+    pt: "tem dúvida sobre algum destino, quer saber mais sobre os próximos roteiros ou só bater um papo? só me chama :)",
     en: "have a question about a destination, want to know more about upcoming trips, or just want to chat? reach out — i answer with care.",
   },
   whatsappLabel: { pt: "whatsapp", en: "whatsapp" },
