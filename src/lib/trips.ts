@@ -1055,6 +1055,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     priceInstallments:
       "pagamento via Wise em 3 parcelas: US$ 100 até 28/07 · US$ 650 até 15/08 · US$ 750 até 30/09",
     agency: "Villa Laguna",
+    urgentBadge: "7 vagas restantes",
     tagline:
       "retiro intimista à beira de uma laguna vulcânica, villa exclusiva pro grupo e tudo incluso",
     description:

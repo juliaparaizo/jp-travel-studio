@@ -878,6 +878,7 @@ important: outings and the schedule are subject to change according to the river
     priceDisplay: "US$ 1,500",
     priceInstallments:
       "payment via Wise in 3 installments: US$ 100 by 07/28 · US$ 650 by 08/15 · US$ 750 by 09/30",
+    urgentBadge: "7 spots left",
     tagline:
       "an intimate retreat by a volcanic lagoon, an exclusive villa for the group and everything included",
     description:
