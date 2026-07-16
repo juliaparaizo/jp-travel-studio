@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# scratch folder for dragging in raw photos/videos before processing
+/dropbox
+
 # debug
 npm-debug.log*
 yarn-debug.log*
