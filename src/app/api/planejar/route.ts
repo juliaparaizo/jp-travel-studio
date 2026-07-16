@@ -175,7 +175,7 @@ export async function POST(req: NextRequest) {
 
   try {
     await resend.emails.send({
-      from: "jp travel studio <onboarding@resend.dev>",
+      from: "jp travel studio <oi@juliaparaizotravel.com>",
       to: notifyEmail,
       subject: `novo roteiro personalizado — ${name.trim()}`,
       html: `
