@@ -35,6 +35,10 @@ export const ui = {
   included: { pt: "o que está incluso", en: "what's included" },
   notIncluded: { pt: "não incluso", en: "not included" },
   accommodation: { pt: "acomodações", en: "accommodations" },
+  travelRequirements: {
+    pt: "requisitos de viagem",
+    en: "travel requirements",
+  },
   faq: { pt: "faq", en: "faq" },
   howToPay: { pt: "como você quer pagar?", en: "how would you like to pay?" },
   closeMySpot: { pt: "quero fechar minha vaga", en: "i want my spot" },

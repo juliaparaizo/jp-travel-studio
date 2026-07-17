@@ -8,6 +8,13 @@ import TripGallery from "@/components/TripGallery";
 import HeroCarousel from "@/components/HeroCarousel";
 import SectionLabel from "@/components/SectionLabel";
 import NotifyMeForm from "@/components/NotifyMeForm";
+import Testimonials from "@/components/Testimonials";
+
+const testimonialDestinationBySlug: Record<string, string> = {
+  "lencois-maranhenses": "lencois",
+  amazonia: "amazonia",
+  "amazonia-2": "amazonia",
+};
 
 const headingFont = {
   fontFamily: "var(--font-zt-bros-oskon-90s)",
@@ -302,6 +309,19 @@ export default function TripDetail({ slug }: { slug: string }) {
               </div>
             </section>
 
+            {trip.travelRequirements && (
+              <section className="mt-20">
+                <SectionLabel number={nextSection()}>
+                  {ui.travelRequirements[lang]}
+                </SectionLabel>
+                <div className="mx-auto max-w-3xl rounded-2xl border-2 border-amber-500/50 bg-amber-500/10 p-6 sm:p-8">
+                  <p className="text-sm leading-relaxed text-[var(--foreground)]/90">
+                    {trip.travelRequirements}
+                  </p>
+                </div>
+              </section>
+            )}
+
             {trip.faqs.length > 0 && (
               <section className="mt-20">
                 <SectionLabel number={nextSection()}>{ui.faq[lang]}</SectionLabel>
@@ -329,6 +349,10 @@ export default function TripDetail({ slug }: { slug: string }) {
           </>
         )}
       </div>
+
+      {!trip.pending && testimonialDestinationBySlug[trip.slug] && (
+        <Testimonials destination={testimonialDestinationBySlug[trip.slug]} />
+      )}
     </article>
   );
 }

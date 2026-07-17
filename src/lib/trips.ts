@@ -40,6 +40,7 @@ export type Trip = {
   accommodation: string;
   accommodationImages?: string[];
   forWhom: ForWhom[];
+  travelRequirements?: string;
   faqs: Faq[];
   pending?: boolean;
   isPlaceholderImage?: boolean;
@@ -372,7 +373,7 @@ recomendamos levar dinheiro em espécie, pois alguns locais não aceitam cartão
     tagline: "aurora boreal, vila do papai noel e o oceano ártico em 7 dias",
     description:
       "7 dias, 12 meninas, o norte da Finlândia em dezembro. uma trip criada em parceria com a Giovana Gentil e a agência TimeTravels: caça à aurora boreal, trenó com huskies, visita à Vila do Papai Noel, travessia até a Noruega e sauna após mergulho no Oceano Ártico. 2026 é o melhor ano de todos para ver a aurora — e nós vamos estar lá.",
-    urgentBadge: "5 vagas restantes",
+    urgentBadge: "esgotado",
     whatsappMessage:
       "Oi Julia! Quero saber mais sobre a Lapland Girls Trip (13 a 19 de dezembro de 2026) :)",
     paymentMethods: [],
@@ -553,7 +554,7 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
     priceValue: 2990,
     national: true,
     priceInstallments:
-      "sinal de R$ 890 via Pix para reservar — parcelas até 30/09, 31/10 e 30/11",
+      "sinal de R$ 200 via Pix para reservar — entrada de R$ 1.450 até 10/09 e restante de R$ 1.340 até 07/12",
     agency: "Green House Saqua",
     urgentBadge: "15 vagas",
     tagline:
@@ -573,12 +574,11 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
       "passeios de buggy",
       "vídeos de drone",
       "almoço premium",
-      "Noite do Hambúrguer (jantar)",
-      "Noite do Sushi (jantar)",
       "recepção de boas-vindas",
     ],
     notIncluded: [
       "transporte até o ponto de encontro no Rio",
+      "jantares (incluindo Noite do Hambúrguer e Noite do Sushi)",
       "refeições fora as citadas (cafés, bebidas, outros almoços)",
       "aulas extras opcionais de domingo",
       "despesas pessoais e gorjetas",
@@ -589,7 +589,7 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
         day: 1,
         title: "quinta, 7/jan — chegada, rumo a Saquarema",
         description:
-          "saída do Rio por volta das 12h, em transfer exclusivo do grupo. chegada no fim da tarde e recepção de boas-vindas da galera. check-in na hospedagem e Noite do Hambúrguer — nosso jantar de abertura.",
+          "saída do Rio por volta das 12h, em transfer exclusivo do grupo. chegada no fim da tarde e recepção de boas-vindas da galera. check-in na hospedagem e Noite do Hambúrguer — nosso jantar de abertura (por conta).",
       },
       {
         day: 2,
@@ -601,7 +601,7 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
         day: 3,
         title: "sábado, 9/jan — equilíbrio: surf + yoga + sushi",
         description:
-          "mais uma sessão de surf pela manhã, seguida de sessão de yoga pra alongar e relaxar. passeio de buggy à tarde e Noite do Sushi — jantar especial do grupo.",
+          "mais uma sessão de surf pela manhã, seguida de sessão de yoga pra alongar e relaxar. passeio de buggy à tarde e Noite do Sushi — jantar especial do grupo (por conta).",
       },
       {
         day: 4,
@@ -643,7 +643,7 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
       {
         question: "como funciona o pagamento?",
         answer:
-          "o pagamento é via Pix, em 4 parcelas:\n\nna reserva (sinal) — R$ 890 (garante a vaga)\naté 30/09 — R$ 700\naté 31/10 — R$ 700\naté 30/11 — R$ 700 (saldo final, 1 mês antes da viagem, que começa em 7/01)\n\ntotal: R$ 2.990 por pessoa.",
+          "valor por pessoa: R$ 2.990, dividido em 3 etapas:\n\n1) sinal — R$ 200 → pra garantir sua vaga (vagas limitadas, confirmo por ordem de pagamento)\n2) entrada — R$ 1.450 → até 10/09\n\nessas duas são fixas, porque é com elas que eu fecho e pago a reserva 🔒\n\n3) restante — R$ 1.340 → é só quitar até 07/12\n\nessa última parte fica do seu jeito: se quiser pagar tudo de uma vez, pode. se preferir ir quebrando em pedacinhos ao longo de out/nov, também pode. o que importa é estar quitado até 07/12 ✅\n\ntudo por Pix, chave: (79) 98858-8863. manda o comprovante aqui que eu vou marcando 💛\n\n⚠️ o sinal e a entrada não são reembolsáveis, então só confirma se tiver certeza que vai!",
       },
     ],
     pending: false,
@@ -1053,7 +1053,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     priceValue: 8250,
     national: false,
     priceInstallments:
-      "pagamento via Wise em 3 parcelas: US$ 100 até 28/07 · US$ 650 até 15/08 · US$ 750 até 30/09",
+      "pagamento via Wise em 3 parcelas: US$ 100 até 28/07 · US$ 650 até 15/08 · US$ 750 até 15/09",
     agency: "Villa Laguna",
     urgentBadge: "7 vagas restantes",
     tagline:
@@ -1067,17 +1067,17 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
       "hospedagem por 5 noites em quarto compartilhado, com banheiro privativo e limpeza diária",
       "3 refeições veganas caseiras por dia, com bebida natural (jantar já no dia da chegada e café da manhã no dia da saída)",
       "traslados aeroporto ↔ villa (Manágua, MGA), individuais e disponíveis 24h",
-      "presente de boas-vindas: ecobag pintada à mão, café orgânico local e cartão artesanal",
+      "presente de boas-vindas de artesãos locais",
       "água, café orgânico da fazenda e chás à vontade",
       "uso exclusivo da propriedade para o nosso grupo",
-      "todas as atividades do roteiro: dia em Granada + Ilhotas, dia em San Juan del Sur + catamarã, visita noturna ao Vulcão Masaya, curso intro de freediving, 1 aula de yoga e 1 massagem de 60 min",
+      "todas as atividades do roteiro: dia em Granada + Ilhotas, dia em San Juan del Sur + catamarã, visita noturna ao Vulcão Masaya, curso intro de freediving, 1 aula de yoga e massagens de 60 min (nos dias 2 e 4)",
       "coordenação e equipe local cuidando de tudo no dia a dia",
     ],
     notIncluded: [
       "voos até Manágua (MGA)",
       "seguro viagem (fortemente recomendado)",
       "refeições fora nos dias de passeio: almoço em Granada (~US$ 15) e almoço em San Juan del Sur (~US$ 15) — o jantar (pizza) em San Juan já está incluso",
-      "bebidas alcoólicas extras (o open bar do catamarã já está incluso)",
+      "bebidas alcoólicas extras (bar e petiscos do catamarã já estão inclusos)",
       "gorjetas (voluntárias) e compras pessoais / souvenirs",
     ],
     itinerary: [
@@ -1085,13 +1085,13 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
         day: 1,
         title: "qui, 22/out — chegada",
         description:
-          "traslados a partir das 14h (cerca de 1h do aeroporto). encontro de boas-vindas, jantar e uma primeira noite para relaxar.",
+          "traslados disponíveis a qualquer horário no dia da chegada (cerca de 1h do aeroporto). check-in a partir das 14h. encontro de boas-vindas, jantar e uma primeira noite para relaxar.",
       },
       {
         day: 2,
         title: "sex, 23/out — yoga, massagem e vulcão",
         description:
-          "yoga ao amanhecer (7h–8h15) e café da manhã. tarde livre. por volta das 16h saímos para a visita noturna ao Vulcão Masaya — dá pra espiar dentro de um vulcão ativo, com parada no mercado de artesanato de Masaya. retorno ~19h30 e jantar tardio.",
+          "yoga ao amanhecer (7h–8h15), café da manhã e almoço inclusos. massagem de 60 min ao longo da tarde, com tempo livre no restante. por volta das 16h saímos para a visita noturna ao Vulcão Masaya — dá pra espiar dentro de um vulcão ativo, com parada no mercado de artesanato de Masaya. retorno ~19h30 e jantar tardio.",
       },
       {
         day: 3,
@@ -1103,13 +1103,13 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
         day: 4,
         title: "dom, 25/out — freediving e descanso",
         description:
-          "após o café, curso introdutório de freediving na própria laguna (teoria + prática em águas abertas). almoço na casa e retorno por volta das 13h–14h. tarde de descanso, massagem full-body de 60 min e jantar na villa.",
+          "após o café, curso introdutório de freediving na própria laguna (teoria + prática em águas abertas). retorno à villa por volta das 14h para almoço em casa (não na escola de freediving). tarde de descanso, massagem full-body de 60 min e jantar na villa.",
       },
       {
         day: 5,
         title: "seg, 26/out — dia de praia em San Juan del Sur",
         description:
-          "café cedo e dia inteiro na praia: mirante do Cristo, tempo livre na cidade, almoço por lá (por conta) e, à tarde, passeio de catamarã (open bar e petiscos inclusos) até o pôr do sol, com happy hour à beira-mar. jantar em San Juan (a pizza do jantar será inclusa).",
+          "café cedo e dia inteiro na praia: mirante do Cristo, tempo livre na cidade, almoço por lá (por conta) e, à tarde, passeio de catamarã (bar e petiscos inclusos) até o pôr do sol. jantar em San Juan (a pizza do jantar será inclusa).",
       },
       {
         day: 6,
@@ -1118,6 +1118,8 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
           "café da manhã e saída às 11h, com traslados de volta ao aeroporto.",
       },
     ],
+    travelRequirements:
+      "brasileiros não precisam de visto de turismo para estadias de até 90 dias na Nicarágua. basta apresentar um passaporte com validade mínima de seis meses, comprovante de voo de ida e volta, e pagar uma taxa de entrada de aproximadamente US$ 10 (tourist card) ao chegar ao país. além disso, o Certificado Internacional de Vacinação contra a Febre Amarela é obrigatório.",
     accommodation: `Villa Laguna, às margens da Laguna de Apoyo — uma cratera vulcânica de 20.000 anos entre Granada e Masaya, de águas mornas e mineral-ricas.
 
 acomodação em 7 quartos (2 suítes vista lago com varanda, 2 quartos duplos com pátio de frente pra lagoa e 3 quartos duplos vista jardim), todos com banheiro privativo, limpeza diária e troca de toalhas a cada 3 dias.
@@ -1134,7 +1136,7 @@ uso exclusivo da propriedade durante toda a estadia — sem dividir espaço com 
       {
         title: "quem quer aventura e paisagem",
         description:
-          "vulcão ativo à noite, catamarã com open bar em San Juan del Sur, passeio pelas Isletas em Granada e introdução ao freediving — tudo incluso no pacote.",
+          "vulcão ativo à noite, catamarã com bar em San Juan del Sur, passeio pelas Isletas em Granada e introdução ao freediving — tudo incluso no pacote.",
       },
       {
         title: "quem busca uma experiência íntima",
@@ -1146,7 +1148,7 @@ uso exclusivo da propriedade durante toda a estadia — sem dividir espaço com 
       {
         question: "como funciona o pagamento?",
         answer:
-          "pagamento via Wise, em 3 parcelas:\n\n1ª parcela (reserva da vaga) — US$ 100 até 28/07\n2ª parcela — US$ 650 até 15/08\n3ª parcela (saldo final) — US$ 750 até 30/09\n\na vaga só é garantida após o pagamento da 1ª parcela. a parcela inicial faz parte do depósito de reserva e é não reembolsável. cada participante cobre a própria taxa do Wise, para que o valor chegue completo. vagas limitadas — o grupo é pequeno e fecha rápido.",
+          "pagamento via Wise, em 3 parcelas:\n\n1ª parcela (reserva da vaga) — US$ 100 até 28/07\n2ª parcela — US$ 650 até 15/08\n3ª parcela (saldo final) — US$ 750 até 15/09\n\na vaga só é garantida após o pagamento da 1ª parcela. a parcela inicial faz parte do depósito de reserva e é não reembolsável. cada participante cobre a própria taxa do Wise, para que o valor chegue completo. vagas limitadas — o grupo é pequeno e fecha rápido.",
       },
       {
         question: "o que preciso saber antes de viajar?",

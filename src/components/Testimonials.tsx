@@ -4,8 +4,18 @@ import { testimonials } from "@/lib/testimonials";
 import { useLanguage } from "@/lib/i18n";
 import { ui } from "@/lib/ui-strings";
 
-export default function Testimonials() {
+export default function Testimonials({
+  destination,
+}: {
+  destination?: string;
+}) {
   const { lang } = useLanguage();
+
+  const filtered = destination
+    ? testimonials.filter((t) => t.destination === destination)
+    : testimonials;
+
+  if (filtered.length === 0) return null;
 
   return (
     <section className="mx-auto max-w-6xl px-6 py-24">
@@ -17,7 +27,7 @@ export default function Testimonials() {
       </h2>
 
       <div className="columns-1 gap-8 md:columns-2">
-        {testimonials.map((t) => (
+        {filtered.map((t) => (
           <div
             key={`${t.name}-${t.context}`}
             className="mb-8 break-inside-avoid overflow-hidden rounded-2xl border border-[var(--foreground)]/15 bg-[var(--foreground)]/5"

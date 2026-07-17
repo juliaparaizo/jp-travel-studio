@@ -18,6 +18,7 @@ type TripEnOverride = Partial<
     | "itinerary"
     | "accommodation"
     | "forWhom"
+    | "travelRequirements"
     | "faqs"
     | "priceDisplay"
   >
@@ -144,7 +145,7 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
     duration: "4 days · 3 nights",
     priceDisplay: "R$ 2,990",
     priceInstallments:
-      "R$ 890 deposit via Pix to book — installments due 09/30, 10/31 and 11/30",
+      "R$ 200 deposit via Pix to book — R$ 1,450 due by 09/10 and the remaining R$ 1,340 due by 12/07",
     urgentBadge: "15 spots",
     tagline:
       "4 days of surf, outrigger canoe, yoga and sun in saquarema, women only",
@@ -163,12 +164,11 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
       "buggy tours",
       "drone videos",
       "premium lunch",
-      "Burger Night (dinner)",
-      "Sushi Night (dinner)",
       "welcome reception",
     ],
     notIncluded: [
       "transport to the meeting point in Rio",
+      "dinners (including Burger Night and Sushi Night)",
       "meals other than those listed (coffees, drinks, other lunches)",
       "optional extra lessons on sunday",
       "personal expenses and tips",
@@ -179,7 +179,7 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
         day: 1,
         title: "thursday, 1/7 — arrival, heading to saquarema",
         description:
-          "departure from Rio around noon, in an exclusive group transfer. late afternoon arrival and welcome reception from the crew. check-in at the lodging and Burger Night — our opening dinner.",
+          "departure from Rio around noon, in an exclusive group transfer. late afternoon arrival and welcome reception from the crew. check-in at the lodging and Burger Night — our opening dinner (on your own).",
       },
       {
         day: 2,
@@ -191,7 +191,7 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
         day: 3,
         title: "saturday, 1/9 — balance: surf + yoga + sushi",
         description:
-          "another surf session in the morning, followed by a yoga session to stretch and relax. buggy tour in the afternoon and Sushi Night — the group's special dinner.",
+          "another surf session in the morning, followed by a yoga session to stretch and relax. buggy tour in the afternoon and Sushi Night — the group's special dinner (on your own).",
       },
       {
         day: 4,
@@ -233,7 +233,7 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
       {
         question: "how does payment work?",
         answer:
-          "payment is via Pix, in 4 installments:\n\non booking (deposit) — R$ 890 (secures your spot)\nby 09/30 — R$ 700\nby 10/31 — R$ 700\nby 11/30 — R$ 700 (final balance, 1 month before the trip, which starts on 1/7)\n\ntotal: R$ 2,990 per person.",
+          "price per person: R$ 2,990, split into 3 steps:\n\n1) deposit — R$ 200 → to secure your spot (limited spots, confirmed in order of payment)\n2) down payment — R$ 1,450 → due by 09/10\n\nthese two are fixed, since they're what lets me close and pay for the reservation 🔒\n\n3) remaining balance — R$ 1,340 → just needs to be settled by 12/07\n\nthis last part is up to you: pay it all at once, or break it into smaller chunks through october/november if you prefer. what matters is being fully paid by 12/07 ✅\n\nall via Pix, key: (79) 98858-8863. send me the receipt here and i'll mark you down 💛\n\n⚠️ the deposit and down payment are non-refundable, so only confirm if you're sure you're going!",
       },
     ],
   },
@@ -459,7 +459,7 @@ we recommend bringing cash, as some places don't take cards.`,
       "northern lights, santa claus village and the arctic ocean in 7 days",
     description:
       "7 days, 12 girls, northern Finland in december. a trip created in partnership with Giovana Gentil and the TimeTravels agency: northern lights hunting, husky sledding, a visit to Santa Claus Village, a crossing into Norway and a sauna after a dip in the Arctic Ocean. 2026 is the best year of all to see the aurora — and we'll be there.",
-    urgentBadge: "5 spots left",
+    urgentBadge: "sold out",
     whatsappMessage:
       "Hi Julia! I want to know more about the Lapland Girls Trip (december 13–19, 2026) :)",
     included: [
@@ -877,7 +877,7 @@ important: outings and the schedule are subject to change according to the river
     duration: "6 days · 5 nights",
     priceDisplay: "US$ 1,500",
     priceInstallments:
-      "payment via Wise in 3 installments: US$ 100 by 07/28 · US$ 650 by 08/15 · US$ 750 by 09/30",
+      "payment via Wise in 3 installments: US$ 100 by 07/28 · US$ 650 by 08/15 · US$ 750 by 09/15",
     urgentBadge: "7 spots left",
     tagline:
       "an intimate retreat by a volcanic lagoon, an exclusive villa for the group and everything included",
@@ -890,17 +890,17 @@ important: outings and the schedule are subject to change according to the river
       "5 nights of lodging in a shared room, with private bathroom and daily cleaning",
       "3 homemade vegan meals a day, with a natural drink (dinner on arrival day and breakfast on departure day included)",
       "airport ↔ villa transfers (Managua, MGA), individual and available 24h",
-      "welcome gift: hand-painted tote bag, local organic coffee and a handmade card",
+      "welcome gift from local artisans",
       "water, organic farm coffee and teas at will",
       "exclusive use of the property for our group",
-      "every activity on the itinerary: a day in Granada + the Isletas, a day in San Juan del Sur + catamaran, an evening visit to Masaya Volcano, an intro freediving course, 1 yoga class and 1 60-minute massage",
+      "every activity on the itinerary: a day in Granada + the Isletas, a day in San Juan del Sur + catamaran, an evening visit to Masaya Volcano, an intro freediving course, 1 yoga class and 60-minute massages (on days 2 and 4)",
       "local coordination and team taking care of everything day to day",
     ],
     notIncluded: [
       "flights to Managua (MGA)",
       "travel insurance (strongly recommended)",
       "meals out on tour days: lunch in Granada (~US$ 15) and lunch in San Juan del Sur (~US$ 15) — dinner (pizza) in San Juan is already included",
-      "extra alcoholic drinks (the catamaran's open bar is already included)",
+      "extra alcoholic drinks (bar and snacks on the catamaran already included)",
       "tips (voluntary) and personal shopping / souvenirs",
     ],
     itinerary: [
@@ -908,13 +908,13 @@ important: outings and the schedule are subject to change according to the river
         day: 1,
         title: "thu, oct 22 — arrival",
         description:
-          "transfers starting at 2pm (about 1h from the airport). welcome gathering, dinner and a first night to relax.",
+          "transfers available any time on arrival day (about 1h from the airport). check-in starting at 2pm. welcome gathering, dinner and a first night to relax.",
       },
       {
         day: 2,
         title: "fri, oct 23 — yoga, massage and volcano",
         description:
-          "sunrise yoga (7–8:15am) and breakfast. free afternoon. around 4pm we head out for the evening visit to Masaya Volcano — a chance to peer inside an active volcano, with a stop at the Masaya craft market. return around 7:30pm and a late dinner.",
+          "sunrise yoga (7–8:15am), breakfast and lunch included. 60-minute massage during the afternoon, with free time for the rest. around 4pm we head out for the evening visit to Masaya Volcano — a chance to peer inside an active volcano, with a stop at the Masaya craft market. return around 7:30pm and a late dinner.",
       },
       {
         day: 3,
@@ -926,13 +926,13 @@ important: outings and the schedule are subject to change according to the river
         day: 4,
         title: "sun, oct 25 — freediving and rest",
         description:
-          "after breakfast, an introductory freediving course right in the lagoon (theory + open-water practice). lunch at the house and return around 1–2pm. a restful afternoon, a 60-minute full-body massage and dinner at the villa.",
+          "after breakfast, an introductory freediving course right in the lagoon (theory + open-water practice). return to the villa around 2pm for lunch at home (not at the freediving school). a restful afternoon, a 60-minute full-body massage and dinner at the villa.",
       },
       {
         day: 5,
         title: "mon, oct 26 — beach day in San Juan del Sur",
         description:
-          "early breakfast and a full day at the beach: the Christ viewpoint, free time in town, lunch there (on your own) and, in the afternoon, a catamaran ride (open bar and snacks included) into the sunset, with a beachside happy hour. dinner in San Juan (pizza dinner included).",
+          "early breakfast and a full day at the beach: the Christ viewpoint, free time in town, lunch there (on your own) and, in the afternoon, a catamaran ride (bar and snacks included) into the sunset. dinner in San Juan (pizza dinner included).",
       },
       {
         day: 6,
@@ -948,6 +948,8 @@ accommodation across 7 rooms (2 lake-view suites with balcony, 2 double rooms wi
 common spaces: an open living room and kitchen with large tables and hammock chairs; a lakefront yoga shala equipped with mats, blocks and cushions; and an open-air rancho used for meals, workshops and activities, with a stunning view of the lagoon.
 
 exclusive use of the property throughout your stay — no sharing space with other guests.`,
+    travelRequirements:
+      "Brazilian citizens don't need a tourist visa for stays of up to 90 days in Nicaragua. just bring a passport valid for at least six months, proof of a round-trip flight, and pay an entry fee of approximately US$ 10 (tourist card) on arrival. the International Certificate of Vaccination against Yellow Fever is also mandatory.",
     forWhom: [
       {
         title: "those who want to truly disconnect",
@@ -957,7 +959,7 @@ exclusive use of the property throughout your stay — no sharing space with oth
       {
         title: "those who want adventure and scenery",
         description:
-          "an active volcano at night, a catamaran with open bar in San Juan del Sur, a boat tour through the Isletas in Granada and an intro to freediving — all included in the package.",
+          "an active volcano at night, a catamaran with bar in San Juan del Sur, a boat tour through the Isletas in Granada and an intro to freediving — all included in the package.",
       },
       {
         title: "those looking for an intimate experience",
@@ -969,7 +971,7 @@ exclusive use of the property throughout your stay — no sharing space with oth
       {
         question: "how does payment work?",
         answer:
-          "payment via Wise, in 3 installments:\n\n1st installment (to secure your spot) — US$ 100 by 07/28\n2nd installment — US$ 650 by 08/15\n3rd installment (final balance) — US$ 750 by 09/30\n\nyour spot is only guaranteed after the 1st installment is paid. the initial installment is part of the reservation deposit and is non-refundable. each participant covers their own Wise fee, so the full amount comes through. spots are limited — the group is small and fills up fast.",
+          "payment via Wise, in 3 installments:\n\n1st installment (to secure your spot) — US$ 100 by 07/28\n2nd installment — US$ 650 by 08/15\n3rd installment (final balance) — US$ 750 by 09/15\n\nyour spot is only guaranteed after the 1st installment is paid. the initial installment is part of the reservation deposit and is non-refundable. each participant covers their own Wise fee, so the full amount comes through. spots are limited — the group is small and fills up fast.",
       },
       {
         question: "what should i know before traveling?",
