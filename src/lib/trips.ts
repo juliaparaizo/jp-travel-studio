@@ -574,11 +574,13 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
       "passeios de buggy",
       "vídeos de drone",
       "almoço premium",
+      "Noite do Hambúrguer (jantar de quinta)",
+      "Noite do Sushi (jantar de sábado)",
       "recepção de boas-vindas",
     ],
     notIncluded: [
       "transporte até o ponto de encontro no Rio",
-      "jantares (incluindo Noite do Hambúrguer e Noite do Sushi)",
+      "jantar de sexta",
       "refeições fora as citadas (cafés, bebidas, outros almoços)",
       "aulas extras opcionais de domingo",
       "despesas pessoais e gorjetas",
@@ -589,19 +591,19 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
         day: 1,
         title: "quinta, 7/jan — chegada, rumo a Saquarema",
         description:
-          "saída do Rio por volta das 12h, em transfer exclusivo do grupo. chegada no fim da tarde e recepção de boas-vindas da galera. check-in na hospedagem e Noite do Hambúrguer — nosso jantar de abertura (por conta).",
+          "saída do Rio por volta das 12h, em transfer exclusivo do grupo. chegada no fim da tarde e recepção de boas-vindas da galera. check-in na hospedagem e Noite do Hambúrguer — nosso jantar de abertura.",
       },
       {
         day: 2,
         title: "sexta, 8/jan — água & aventura: canoa havaiana + surf + buggy",
         description:
-          "manhã de canoa havaiana no mar, seguida de aula de surf com instrutores. passeio de buggy pela orla e lagoa à tarde, com vídeos de drone pra guardar de recordação.",
+          "manhã de canoa havaiana no mar, seguida de aula de surf com instrutores. passeio de buggy pela orla e lagoa à tarde, com vídeos de drone pra guardar de recordação. jantar livre (por conta) — aproveita pra conhecer os restaurantes de Saquarema.",
       },
       {
         day: 3,
         title: "sábado, 9/jan — equilíbrio: surf + yoga + sushi",
         description:
-          "mais uma sessão de surf pela manhã, seguida de sessão de yoga pra alongar e relaxar. passeio de buggy à tarde e Noite do Sushi — jantar especial do grupo (por conta).",
+          "mais uma sessão de surf pela manhã, seguida de sessão de yoga pra alongar e relaxar. passeio de buggy à tarde e Noite do Sushi — jantar especial do grupo.",
       },
       {
         day: 4,
@@ -643,7 +645,7 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
       {
         question: "como funciona o pagamento?",
         answer:
-          "valor por pessoa: R$ 2.990, dividido em 3 etapas:\n\n1) sinal — R$ 200 → pra garantir sua vaga (vagas limitadas, confirmo por ordem de pagamento)\n2) entrada — R$ 1.450 → até 10/09\n\nessas duas são fixas, porque é com elas que eu fecho e pago a reserva 🔒\n\n3) restante — R$ 1.340 → é só quitar até 07/12\n\nessa última parte fica do seu jeito: se quiser pagar tudo de uma vez, pode. se preferir ir quebrando em pedacinhos ao longo de out/nov, também pode. o que importa é estar quitado até 07/12 ✅\n\ntudo por Pix, chave: (79) 98858-8863. manda o comprovante aqui que eu vou marcando 💛\n\n⚠️ o sinal e a entrada não são reembolsáveis, então só confirma se tiver certeza que vai!",
+          "forma de pagamento: Pix, não aceito cartão de crédito.\n\nvalor por pessoa: R$ 2.990, dividido em 3 etapas:\n\n1) sinal — R$ 200 → pra garantir sua vaga (vagas limitadas, confirmo por ordem de pagamento)\n2) entrada — R$ 1.450 → até 10/09\n\nessas duas são fixas.\n\n3) restante — R$ 1.340 → é só quitar até 07/12\n\nessa última parte fica do seu jeito: se quiser pagar tudo de uma vez, pode. se preferir ir quebrando em pedacinhos ao longo de out/nov, também pode. o que importa é estar quitado até 07/12.\n\nchave Pix: (79) 98858-8863. manda o comprovante aqui que eu vou marcando.\n\no sinal e a entrada não são reembolsáveis.",
       },
     ],
     pending: false,

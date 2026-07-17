@@ -164,11 +164,13 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
       "buggy tours",
       "drone videos",
       "premium lunch",
+      "Burger Night (thursday dinner)",
+      "Sushi Night (saturday dinner)",
       "welcome reception",
     ],
     notIncluded: [
       "transport to the meeting point in Rio",
-      "dinners (including Burger Night and Sushi Night)",
+      "friday dinner",
       "meals other than those listed (coffees, drinks, other lunches)",
       "optional extra lessons on sunday",
       "personal expenses and tips",
@@ -179,19 +181,19 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
         day: 1,
         title: "thursday, 1/7 — arrival, heading to saquarema",
         description:
-          "departure from Rio around noon, in an exclusive group transfer. late afternoon arrival and welcome reception from the crew. check-in at the lodging and Burger Night — our opening dinner (on your own).",
+          "departure from Rio around noon, in an exclusive group transfer. late afternoon arrival and welcome reception from the crew. check-in at the lodging and Burger Night — our opening dinner.",
       },
       {
         day: 2,
         title: "friday, 1/8 — water & adventure: outrigger canoe + surf + buggy",
         description:
-          "morning outrigger canoe session at sea, followed by a surf lesson with instructors. buggy tour along the coast and lagoon in the afternoon, with drone videos to take home as keepsakes.",
+          "morning outrigger canoe session at sea, followed by a surf lesson with instructors. buggy tour along the coast and lagoon in the afternoon, with drone videos to take home as keepsakes. dinner on your own — a great chance to check out Saquarema's restaurants.",
       },
       {
         day: 3,
         title: "saturday, 1/9 — balance: surf + yoga + sushi",
         description:
-          "another surf session in the morning, followed by a yoga session to stretch and relax. buggy tour in the afternoon and Sushi Night — the group's special dinner (on your own).",
+          "another surf session in the morning, followed by a yoga session to stretch and relax. buggy tour in the afternoon and Sushi Night — the group's special dinner.",
       },
       {
         day: 4,
@@ -233,7 +235,7 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
       {
         question: "how does payment work?",
         answer:
-          "price per person: R$ 2,990, split into 3 steps:\n\n1) deposit — R$ 200 → to secure your spot (limited spots, confirmed in order of payment)\n2) down payment — R$ 1,450 → due by 09/10\n\nthese two are fixed, since they're what lets me close and pay for the reservation 🔒\n\n3) remaining balance — R$ 1,340 → just needs to be settled by 12/07\n\nthis last part is up to you: pay it all at once, or break it into smaller chunks through october/november if you prefer. what matters is being fully paid by 12/07 ✅\n\nall via Pix, key: (79) 98858-8863. send me the receipt here and i'll mark you down 💛\n\n⚠️ the deposit and down payment are non-refundable, so only confirm if you're sure you're going!",
+          "payment method: Pix, credit card not accepted.\n\nprice per person: R$ 2,990, split into 3 steps:\n\n1) deposit — R$ 200 → to secure your spot (limited spots, confirmed in order of payment)\n2) down payment — R$ 1,450 → due by 09/10\n\nthese two are fixed.\n\n3) remaining balance — R$ 1,340 → just needs to be settled by 12/07\n\nthis last part is up to you: pay it all at once, or break it into smaller chunks through october/november if you prefer. what matters is being fully paid by 12/07.\n\nPix key: (79) 98858-8863. send me the receipt here and i'll mark you down.\n\nthe deposit and down payment are non-refundable.",
       },
     ],
   },
