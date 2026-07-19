@@ -1048,14 +1048,14 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     destination: "Laguna de Apoyo, Nicarágua",
     cardImage: "/images/trips/nicaragua/nicaragua-card.jpg",
     heroImage: "/images/trips/nicaragua/nicaragua-hero.jpg",
-    dates: "22 a 27 de outubro de 2026",
-    dateForSort: "2026-10-22",
+    dates: "8 a 13 de março de 2027",
+    dateForSort: "2027-03-08",
     duration: "6 dias · 5 noites",
     priceDisplay: "US$ 1.500",
     priceValue: 8250,
     national: false,
     priceInstallments:
-      "pagamento via Wise em 3 parcelas: US$ 100 até 28/07 · US$ 650 até 15/08 · US$ 750 até 15/09",
+      "pagamento via Wise em 3 parcelas: US$ 100 até 12/12 · US$ 650 até 30/12 · US$ 750 até 30/01",
     agency: "Villa Laguna",
     urgentBadge: "7 vagas restantes",
     tagline:
@@ -1063,7 +1063,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     description:
       "um retiro intimista à beira de uma laguna vulcânica de águas quentes, dentro da reserva natural de Laguna de Apoyo, entre Granada e Masaya. uma villa só para o nosso grupo, cozinha 100% vegana, yoga com vista para a água e dias de passeio pela Nicarágua. é só chegar — cuidam de tudo: traslados, refeições, atividades e logística.",
     whatsappMessage:
-      "Oi Julia! Quero saber mais sobre a viagem à Nicarágua (22 a 27 de outubro de 2026) :)",
+      "Oi Julia! Quero saber mais sobre a viagem à Nicarágua (8 a 13 de março de 2027) :)",
     paymentMethods: ["Wise"],
     included: [
       "hospedagem por 5 noites em quarto compartilhado, com banheiro privativo e limpeza diária",
@@ -1085,37 +1085,37 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     itinerary: [
       {
         day: 1,
-        title: "qui, 22/out — chegada",
+        title: "seg, 08/mar — chegada",
         description:
           "traslados disponíveis a qualquer horário no dia da chegada (cerca de 1h do aeroporto). check-in a partir das 14h. encontro de boas-vindas, jantar e uma primeira noite para relaxar.",
       },
       {
         day: 2,
-        title: "sex, 23/out — yoga, massagem e vulcão",
+        title: "ter, 09/mar — yoga, massagem e vulcão",
         description:
           "yoga ao amanhecer (7h–8h15), café da manhã e almoço inclusos. massagem de 60 min ao longo da tarde, com tempo livre no restante. por volta das 16h saímos para a visita noturna ao Vulcão Masaya — dá pra espiar dentro de um vulcão ativo, com parada no mercado de artesanato de Masaya. retorno ~19h30 e jantar tardio.",
       },
       {
         day: 3,
-        title: "sáb, 24/out — Granada + Ilhotas",
+        title: "qua, 10/mar — Granada + Ilhotas",
         description:
           "café da manhã e saída por volta das 9h30. dia na cidade colonial de Granada, com almoço por lá (por conta) e passeio de barco pelas Isletas à tarde. de volta à villa entre 16h e 17h para o jantar.",
       },
       {
         day: 4,
-        title: "dom, 25/out — freediving e descanso",
+        title: "qui, 11/mar — freediving e descanso",
         description:
           "após o café, curso introdutório de freediving na própria laguna (teoria + prática em águas abertas). retorno à villa por volta das 14h para almoço em casa (não na escola de freediving). tarde de descanso, massagem full-body de 60 min e jantar na villa.",
       },
       {
         day: 5,
-        title: "seg, 26/out — dia de praia em San Juan del Sur",
+        title: "sex, 12/mar — dia de praia em San Juan del Sur",
         description:
           "café cedo e dia inteiro na praia: mirante do Cristo, tempo livre na cidade, almoço por lá (por conta) e, à tarde, passeio de catamarã (bar e petiscos inclusos) até o pôr do sol. jantar em San Juan (a pizza do jantar será inclusa).",
       },
       {
         day: 6,
-        title: "ter, 27/out — despedida",
+        title: "sáb, 13/mar — despedida",
         description:
           "café da manhã e saída às 11h, com traslados de volta ao aeroporto.",
       },
@@ -1150,7 +1150,7 @@ uso exclusivo da propriedade durante toda a estadia — sem dividir espaço com 
       {
         question: "como funciona o pagamento?",
         answer:
-          "pagamento via Wise, em 3 parcelas:\n\n1ª parcela (reserva da vaga) — US$ 100 até 28/07\n2ª parcela — US$ 650 até 15/08\n3ª parcela (saldo final) — US$ 750 até 15/09\n\na vaga só é garantida após o pagamento da 1ª parcela. a parcela inicial faz parte do depósito de reserva e é não reembolsável. cada participante cobre a própria taxa do Wise, para que o valor chegue completo. vagas limitadas — o grupo é pequeno e fecha rápido.",
+          "pagamento via Wise, em 3 parcelas:\n\n1ª parcela (reserva da vaga) — US$ 100 até 12/12\n2ª parcela — US$ 650 até 30/12\n3ª parcela (saldo final) — US$ 750 até 30/01\n\na vaga só é garantida após o pagamento da 1ª parcela. a parcela inicial faz parte do depósito de reserva e é não reembolsável. cada participante cobre a própria taxa do Wise, para que o valor chegue completo. vagas limitadas — o grupo é pequeno e fecha rápido.",
       },
       {
         question: "o que preciso saber antes de viajar?",

@@ -875,18 +875,18 @@ important: outings and the schedule are subject to change according to the river
   nicaragua: {
     title: "Nicaragua Retreat — Villa Laguna",
     destination: "Laguna de Apoyo, Nicaragua",
-    dates: "october 22–27, 2026",
+    dates: "march 8–13, 2027",
     duration: "6 days · 5 nights",
     priceDisplay: "US$ 1,500",
     priceInstallments:
-      "payment via Wise in 3 installments: US$ 100 by 07/28 · US$ 650 by 08/15 · US$ 750 by 09/15",
+      "payment via Wise in 3 installments: US$ 100 by 12/12 · US$ 650 by 12/30 · US$ 750 by 01/30",
     urgentBadge: "7 spots left",
     tagline:
       "an intimate retreat by a volcanic lagoon, an exclusive villa for the group and everything included",
     description:
       "an intimate retreat by a warm-water volcanic lagoon, inside the Laguna de Apoyo nature reserve, between Granada and Masaya. a villa just for our group, 100% vegan kitchen, yoga overlooking the water and days exploring Nicaragua. all you have to do is show up — we handle everything: transfers, meals, activities and logistics.",
     whatsappMessage:
-      "Hi Julia! I want to know more about the Nicaragua trip (october 22–27, 2026) :)",
+      "Hi Julia! I want to know more about the Nicaragua trip (march 8–13, 2027) :)",
     paymentMethods: ["Wise"],
     included: [
       "5 nights of lodging in a shared room, with private bathroom and daily cleaning",
@@ -908,37 +908,37 @@ important: outings and the schedule are subject to change according to the river
     itinerary: [
       {
         day: 1,
-        title: "thu, oct 22 — arrival",
+        title: "mon, mar 8 — arrival",
         description:
           "transfers available any time on arrival day (about 1h from the airport). check-in starting at 2pm. welcome gathering, dinner and a first night to relax.",
       },
       {
         day: 2,
-        title: "fri, oct 23 — yoga, massage and volcano",
+        title: "tue, mar 9 — yoga, massage and volcano",
         description:
           "sunrise yoga (7–8:15am), breakfast and lunch included. 60-minute massage during the afternoon, with free time for the rest. around 4pm we head out for the evening visit to Masaya Volcano — a chance to peer inside an active volcano, with a stop at the Masaya craft market. return around 7:30pm and a late dinner.",
       },
       {
         day: 3,
-        title: "sat, oct 24 — Granada + the Isletas",
+        title: "wed, mar 10 — Granada + the Isletas",
         description:
           "breakfast and departure around 9:30am. a day in the colonial city of Granada, with lunch there (on your own) and a boat tour through the Isletas in the afternoon. back at the villa between 4 and 5pm for dinner.",
       },
       {
         day: 4,
-        title: "sun, oct 25 — freediving and rest",
+        title: "thu, mar 11 — freediving and rest",
         description:
           "after breakfast, an introductory freediving course right in the lagoon (theory + open-water practice). return to the villa around 2pm for lunch at home (not at the freediving school). a restful afternoon, a 60-minute full-body massage and dinner at the villa.",
       },
       {
         day: 5,
-        title: "mon, oct 26 — beach day in San Juan del Sur",
+        title: "fri, mar 12 — beach day in San Juan del Sur",
         description:
           "early breakfast and a full day at the beach: the Christ viewpoint, free time in town, lunch there (on your own) and, in the afternoon, a catamaran ride (bar and snacks included) into the sunset. dinner in San Juan (pizza dinner included).",
       },
       {
         day: 6,
-        title: "tue, oct 27 — farewell",
+        title: "sat, mar 13 — farewell",
         description:
           "breakfast and departure at 11am, with transfers back to the airport.",
       },
@@ -973,7 +973,7 @@ exclusive use of the property throughout your stay — no sharing space with oth
       {
         question: "how does payment work?",
         answer:
-          "payment via Wise, in 3 installments:\n\n1st installment (to secure your spot) — US$ 100 by 07/28\n2nd installment — US$ 650 by 08/15\n3rd installment (final balance) — US$ 750 by 09/15\n\nyour spot is only guaranteed after the 1st installment is paid. the initial installment is part of the reservation deposit and is non-refundable. each participant covers their own Wise fee, so the full amount comes through. spots are limited — the group is small and fills up fast.",
+          "payment via Wise, in 3 installments:\n\n1st installment (to secure your spot) — US$ 100 by 12/12\n2nd installment — US$ 650 by 12/30\n3rd installment (final balance) — US$ 750 by 01/30\n\nyour spot is only guaranteed after the 1st installment is paid. the initial installment is part of the reservation deposit and is non-refundable. each participant covers their own Wise fee, so the full amount comes through. spots are limited — the group is small and fills up fast.",
       },
       {
         question: "what should i know before traveling?",
