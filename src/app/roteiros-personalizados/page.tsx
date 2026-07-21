@@ -19,8 +19,8 @@ const content = {
     en: "this is a full service travel agency specialized in providing unique experiences.",
   },
   stamp: {
-    pt: "meu serviço é gratuito e completo, do começo ao fim de cada viagem.",
-    en: "my service is free and complete, from the beginning to the end of every trip.",
+    pt: "cobro R$ 150 pelo serviço de curadoria e planejamento de itinerário, do começo ao fim de cada viagem.",
+    en: "i charge R$ 150 for the itinerary curation and planning service, from the beginning to the end of every trip.",
   },
   script: {
     pt: "depois do primeiro contato com o cliente, criamos juntos o roteiro ideal, transformando desejos em experiências reais.",
