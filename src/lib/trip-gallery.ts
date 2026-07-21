@@ -7,6 +7,7 @@ const slugs = [
   "surfcamp-ubatuba",
   "nicaragua",
   "amazonia-2",
+  "amazonia-3",
 ] as const;
 
 export function getTripGallery(slug: string): {

@@ -44,6 +44,7 @@ export type Trip = {
   faqs: Faq[];
   pending?: boolean;
   isPlaceholderImage?: boolean;
+  soldOut?: boolean;
 };
 
 export const whatsappNumber = "16022065421";
@@ -80,7 +81,8 @@ export const trips: Trip[] = [
       "travessia de 3 dias pelas dunas do parque nacional, dormindo em rede na casa de famílias nativas",
     description:
       "4 dias nos lençóis maranhenses com a trilha ecoaventura. chegada em barreirinhas no dia 4 para descansar, já que a busca para a travessia é às 4h da manhã do dia 5. são 3 dias de trekking pelo parque nacional dos lençóis maranhenses, com pernoite em rede na casa de famílias nativas nos oásis baixa grande e queimada dos britos, travessia de rios, banho de lagoa e a imensidão das dunas ao amanhecer. bônus: a viagem cai numa sexta a segunda que já emenda com o feriado de 7 de setembro — dá pra aproveitar o feriado prolongado sem gastar dia de férias. weekendmaxxing nível máximo.",
-    urgentBadge: "5 vagas restantes",
+    urgentBadge: "esgotado",
+    soldOut: true,
     whatsappMessage:
       "Oi Julia! Quero saber mais sobre a viagem aos Lençóis Maranhenses (4 a 7 de setembro de 2026) :)",
     paymentMethods: [
@@ -211,6 +213,7 @@ evite itens pesados: livros, agendas, eletrônicos pesados e excesso de roupa. o
     description:
       "4 dias de expedição no Jalapão tocantinense com a Gio — fervedouros de água cristalina que borbulha do chão, dunas douradas de capim doirado, cânions impressionantes e cachoeiras escondidas no coração do cerrado. tudo incluso: hospedagem, 3 refeições completas por dia, translado, transporte 4x4, guia ambiental credenciado e entradas em todos os atrativos. chegue em palmas no dia 8, a expedição começa cedo no dia 9. vagas esgotadas!",
     urgentBadge: "esgotado",
+    soldOut: true,
     whatsappMessage:
       "Oi Julia! Quero saber mais sobre a expedição ao Jalapão (9 a 12 de outubro de 2026) :)",
     paymentMethods: [
@@ -374,6 +377,7 @@ recomendamos levar dinheiro em espécie, pois alguns locais não aceitam cartão
     description:
       "7 dias, 12 meninas, o norte da Finlândia em dezembro. uma trip criada em parceria com a Giovana Gentil e a agência TimeTravels: caça à aurora boreal, trenó com huskies, visita à Vila do Papai Noel, travessia até a Noruega e sauna após mergulho no Oceano Ártico. 2026 é o melhor ano de todos para ver a aurora — e nós vamos estar lá.",
     urgentBadge: "esgotado",
+    soldOut: true,
     whatsappMessage:
       "Oi Julia! Quero saber mais sobre a Lapland Girls Trip (13 a 19 de dezembro de 2026) :)",
     paymentMethods: [],
@@ -759,6 +763,7 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
     priceInstallments: "",
     agency: "Amazônia Jungle Hotel",
     urgentBadge: "esgotado",
+    soldOut: true,
     tagline:
       "encontro das águas, botos cor-de-rosa e uma noite inteira dormindo na selva",
     description:
@@ -911,13 +916,166 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     national: true,
     priceInstallments: "",
     agency: "Amazônia Jungle Hotel",
-    urgentBadge: "3 vagas restantes",
+    urgentBadge: "esgotado",
+    soldOut: true,
     tagline:
       "encontro das águas, botos cor-de-rosa e uma noite inteira dormindo na selva",
     description:
       "5 dias e 4 noites no Amazônia Jungle Hotel, às margens do Rio Negro. pacote uirapuru: focagem de jacarés, caminhada na selva, nado com botos cor-de-rosa, visita a comunidades indígenas e ribeirinhas, e uma noite de pernoite acampada na floresta com redes suspensas e fogueira. o pulmão do mundo, ao vivo.",
     whatsappMessage:
       "Oi Julia! Quero saber mais sobre a viagem à Amazônia (24 a 28 de março de 2027) :)",
+    paymentMethods: [],
+    included: [
+      "traslado ida e volta (buscamos você no local desejado em Manaus e levamos de volta ao final do pacote)",
+      "pensão completa: café da manhã, almoço e jantar em todos os dias",
+      "pernoites em suítes com ar-condicionado, chuveiro elétrico e frigobar (exceto na noite de acampamento na selva)",
+      "passeios de selva: focagem de jacarés à noite, nado com botos cor-de-rosa, pescaria de piranha e de pirarucu",
+      "visita a comunidade indígena, a uma casa de caboclos ribeirinhos e à comunidade flutuante do Catalão",
+      "1 noite de pernoite acampada na selva com redes suspensas, fogueira e jantar de peixe assado na brasa",
+      "plantio de uma muda de árvore amazônica",
+      "toda a infraestrutura do Amazônia Jungle Hotel (piscina, restaurante, áreas de convivência)",
+    ],
+    notIncluded: [
+      "passagem aérea até Manaus",
+      "bebidas alcoólicas e itens de consumo pessoal",
+      "gorjetas e atividades opcionais não listadas no roteiro",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "chegada + focagem de jacarés",
+        description:
+          'saída de Manaus (buscamos no aeroporto ou em qualquer hotel do perímetro urbano) rumo ao Amazônia Jungle Hotel — cerca de 45 minutos de carro pela ponte sobre o Rio Negro e mais 5 minutos de travessia em canoa motorizada com colete salva-vidas. check-in com suco regional de boas-vindas e reconhecimento do hotel e suas árvores frutíferas. almoço com culinária regional e internacional. à tarde, passeio de reconhecimento da fauna e flora: igarapés, igapós e visita à exuberante Sumaúma, chamada pelos indígenas de "a mãe" das árvores, além das ruínas do antigo Ariaú Towers, que já foi o maior hotel de selva do mundo (Guinness Book). antes do jantar, saída para focagem de jacarés no rio Ariaú — o guia foca a lanterna nas margens e os olhos do jacaré brilham vermelhos, revelando sua localização. jantar com culinária regional e internacional.',
+      },
+      {
+        day: 2,
+        title: "caminhada na selva + pescaria de piranha",
+        description:
+          "café da manhã com frutas típicas da região. caminhada na selva por trilhas pouco exploradas — o guia ensina noções de sobrevivência na floresta e mostra plantas comestíveis e medicinais (recomendado usar calça, manga comprida e sapato fechado; o hotel vende repelente se precisar). almoço com culinária regional e internacional. à tarde, pescaria recreativa de piranha e outros peixes da região amazônica — se quiser, o chef prepara sua pesca para o jantar. jantar com culinária regional e internacional.",
+      },
+      {
+        day: 3,
+        title: "botos cor-de-rosa + comunidade indígena",
+        description:
+          "café da manhã com frutas típicas. passeio até uma estrutura flutuante para interação com os botos cor-de-rosa — sempre acompanhada por um instrutor, com direito a nadar no maior rio do mundo com segurança total e fotos garantidas. em seguida, visita à tribo indígena Kubeua, uma comunidade receptiva onde você observa modos de vida, cultura, rituais e tradições. almoço com culinária regional e internacional. à tarde, visita a uma casa de caboclos ribeirinhos, que compartilham como vivem em harmonia com a natureza — incluindo a colheita do açaí e a produção da farinha de mandioca. jantar com culinária regional e internacional.",
+      },
+      {
+        day: 4,
+        title: "nascer do sol + pernoite acampada na selva",
+        description:
+          "o dia começa cedo (05h) com passeio de observação do nascer do sol, com chance de ver pássaros, botos e animais silvestres. café da manhã e almoço com culinária regional e internacional. à tarde, saída para a experiência mais imersiva do pacote: pernoite acampada na floresta amazônica, guiada apenas por lanterna, com noções práticas de sobrevivência. os guias montam um acampamento com redes suspensas (protegidas dos animais noturnos) e fazem uma fogueira para assar o peixe do jantar e acompanhamentos típicos. a noite é regada a histórias e lendas do folclore amazônico contadas pelos guias.",
+      },
+      {
+        day: 5,
+        title: "plantio + encontro das águas + retorno a manaus",
+        description:
+          "a floresta acorda com o canto dos pássaros. desativação do acampamento e retorno ao hotel para café da manhã com frutas típicas. em seguida, você planta uma muda de árvore amazônica, simbolizando o compromisso com a preservação da floresta. almoço com culinária regional e internacional. à tarde, retorno a Manaus para visitar o Encontro das Águas — o ponto onde o Rio Negro e o Rio Solimões correm lado a lado sem se misturar por até 8 km — com pescaria recreativa de pirarucu (peixe de água doce que chega a 150 kg) e visita à comunidade flutuante do Catalão, com igrejas, mercados e escola sobre a água. às 17h, retorno e traslado para o aeroporto ou hotel em Manaus.",
+      },
+    ],
+    accommodation: `Amazônia Jungle Hotel — às margens do Rio Negro, a cerca de 45 minutos de Manaus de carro mais uma travessia de canoa.
+
+suítes com ar-condicionado, chuveiro elétrico e frigobar. o hotel conta com piscina, restaurante com culinária regional e internacional, e toda a infraestrutura de selva.
+
+na noite do 4º dia, a hospedagem é substituída pela experiência de pernoite acampada na floresta, em redes suspensas montadas pelos guias — a vivência mais imersiva do pacote.
+
+importante: os passeios e o cronograma estão sujeitos a alterações de acordo com a época do rio — cheia (fevereiro a julho) ou seca (agosto a janeiro).`,
+    accommodationImages: [
+      "/images/trips/amazonia/acomodacao/1.jpeg",
+      "/images/trips/amazonia/acomodacao/2.jpeg",
+      "/images/trips/amazonia/acomodacao/3.jpeg",
+      "/images/trips/amazonia/acomodacao/4.jpeg",
+      "/images/trips/amazonia/acomodacao/5.jpeg",
+      "/images/trips/amazonia/acomodacao/6.jpeg",
+      "/images/trips/amazonia/acomodacao/7.jpeg",
+      "/images/trips/amazonia/acomodacao/8.jpeg",
+    ],
+    forWhom: [
+      {
+        title: "quem quer viver a floresta de verdade",
+        description:
+          "noites na floresta amazônica, pesca de piranha, nado com boto cor-de-rosa, focagem de jacarés e o encontro das águas do Rio Negro com o Solimões. a Amazônia é transformadora.",
+      },
+      {
+        title: "quem quer ver o brasil de um ângulo diferente",
+        description:
+          "a floresta mais biodiversa do planeta fica aqui no Brasil — e a maioria das brasileiras nunca foi. essa trip muda a relação com o próprio país.",
+      },
+      {
+        title: "quem quer desconectar de verdade",
+        description:
+          "uma noite inteira acampada na selva, guiada só pela lanterna e pela experiência dos guias locais. sem sinal, sem pressa, sem rotina — só a floresta, o rio e a turma.",
+      },
+    ],
+    faqs: [
+      {
+        question: "como chegamos até o hotel?",
+        answer:
+          "saímos de Manaus (buscamos no aeroporto internacional ou em qualquer hotel do perímetro urbano). o trajeto de carro dura cerca de 45 minutos, pela ponte sobre o Rio Negro, mais 5 minutos de travessia em canoa motorizada com colete salva-vidas até o Amazônia Jungle Hotel.",
+      },
+      {
+        question: "a alimentação está inclusa?",
+        answer:
+          "sim! o pacote inclui pensão completa — café da manhã, almoço e jantar com culinária regional e internacional em todos os dias, inclusive durante a noite de acampamento na selva.",
+      },
+      {
+        question: "como funciona a noite dormindo na selva?",
+        answer:
+          "no 4º dia, saímos para uma experiência totalmente imersiva na floresta amazônica, guiadas apenas por lanterna. os guias montam um acampamento com redes suspensas (para evitar animais noturnos) e fazem uma fogueira para assar o jantar. é uma vivência de sobrevivência guiada, segura e inesquecível.",
+      },
+      {
+        question: "vou conseguir nadar com os botos cor-de-rosa?",
+        answer:
+          "sim! no 3º dia visitamos uma estrutura flutuante onde um instrutor alimenta os botos e estimula que eles se aproximem, permitindo nadar com eles no rio com total segurança e ótimas fotos.",
+      },
+      {
+        question: "o roteiro pode mudar?",
+        answer:
+          "os passeios e o cronograma podem sofrer alterações conforme a época do rio: cheia (fevereiro a julho) ou seca (agosto a janeiro). isso pode alterar levemente os pontos visitados, mas a estrutura geral do pacote se mantém.",
+      },
+      {
+        question: "o que não posso esquecer de levar?",
+        answer:
+          'roupas leves e de manga comprida, calça (para a caminhada na selva), sapato fechado, protetor solar, repelente (também vendido no hotel) e uma câmera — porque "da floresta, não levamos nada além de fotografias e lembranças; na floresta, não deixamos nada além de pegadas."',
+      },
+      {
+        question: "a viagem é só para mulheres?",
+        answer: "sim, como sempre — experiências exclusivas para mulheres.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
+    ],
+  },
+  {
+    slug: "amazonia-3",
+    title: "Amazônia",
+    destination: "Amazônia, Brasil",
+    cardImage: "/images/trips/amazonia/amazonia-1.jpeg",
+    heroImage: "/images/trips/amazonia/amazonia-1.jpeg",
+    heroImages: [
+      "/images/trips/amazonia/hero/hero-1.jpg",
+      "/images/trips/amazonia/hero/hero-2.jpg",
+      "/images/trips/amazonia/hero/hero-3.jpg",
+      "/images/trips/amazonia/hero/hero-4.jpg",
+      "/images/trips/amazonia/hero/hero-5.jpg",
+      "/images/trips/amazonia/hero/hero-6.jpg",
+    ],
+    dates: "29 de março a 2 de abril de 2027",
+    dateForSort: "2027-03-29",
+    duration: "5 dias · 4 noites",
+    priceDisplay: "R$ 4.500",
+    priceValue: 4500,
+    national: true,
+    priceInstallments: "",
+    agency: "Amazônia Jungle Hotel",
+    tagline:
+      "encontro das águas, botos cor-de-rosa e uma noite inteira dormindo na selva",
+    description:
+      "5 dias e 4 noites no Amazônia Jungle Hotel, às margens do Rio Negro. pacote uirapuru: focagem de jacarés, caminhada na selva, nado com botos cor-de-rosa, visita a comunidades indígenas e ribeirinhas, e uma noite de pernoite acampada na floresta com redes suspensas e fogueira. o pulmão do mundo, ao vivo.",
+    whatsappMessage:
+      "Oi Julia! Quero saber mais sobre a viagem à Amazônia (29 de março a 2 de abril de 2027) :)",
     paymentMethods: [],
     included: [
       "traslado ida e volta (buscamos você no local desejado em Manaus e levamos de volta ao final do pacote)",

@@ -128,26 +128,37 @@ export default function TripsSection() {
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map((baseTrip) => {
           const trip = localizeTrip(baseTrip, lang);
-          return (
-            <Link
-              key={trip.slug}
-              href={`/girl-trips/${trip.slug}`}
-              className="group overflow-hidden rounded-2xl border border-[var(--foreground)]/15 bg-[var(--foreground)]/5 transition-colors hover:border-[var(--foreground)]/40"
-            >
+          const cardClassName = trip.soldOut
+            ? "group overflow-hidden rounded-2xl border border-[var(--foreground)]/15 bg-[var(--foreground)]/5 cursor-not-allowed"
+            : "group overflow-hidden rounded-2xl border border-[var(--foreground)]/15 bg-[var(--foreground)]/5 transition-colors hover:border-[var(--foreground)]/40";
+
+          const cardContent = (
+            <>
               <div className="relative aspect-[4/3] overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={trip.cardImage}
                   alt={trip.title}
-                  className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                  className={`h-full w-full object-cover ${
+                    trip.soldOut
+                      ? "grayscale"
+                      : "transition-transform duration-500 ease-out group-hover:scale-105"
+                  }`}
                 />
                 <span className="absolute left-4 top-4 rounded-full bg-[var(--background)]/80 px-3 py-1 text-xs tracking-wide backdrop-blur">
                   {trip.destination}
                 </span>
-                {trip.urgentBadge && (
+                {trip.urgentBadge && !trip.soldOut && (
                   <span className="absolute right-4 top-4 rounded-full bg-[var(--foreground)] px-3 py-1 text-xs tracking-wide text-[var(--background)]">
                     {trip.urgentBadge}
                   </span>
+                )}
+                {trip.soldOut && (
+                  <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden bg-black/20">
+                    <span className="w-[150%] -rotate-[30deg] bg-red-600 py-2 text-center text-xl font-bold uppercase tracking-[0.3em] text-white shadow-lg sm:text-2xl">
+                      {ui.soldOut[lang]}
+                    </span>
+                  </div>
                 )}
               </div>
 
@@ -176,6 +187,20 @@ export default function TripsSection() {
                   <p className="mt-1 text-lg">{trip.priceDisplay}</p>
                 </div>
               </div>
+            </>
+          );
+
+          if (trip.soldOut) {
+            return (
+              <div key={trip.slug} className={cardClassName} aria-disabled="true">
+                {cardContent}
+              </div>
+            );
+          }
+
+          return (
+            <Link key={trip.slug} href={`/girl-trips/${trip.slug}`} className={cardClassName}>
+              {cardContent}
             </Link>
           );
         })}

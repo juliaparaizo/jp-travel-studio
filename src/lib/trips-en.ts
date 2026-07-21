@@ -36,7 +36,7 @@ export const tripsEn: Record<string, TripEnOverride> = {
       "a 3-day trek across the dunes of the national park, sleeping in hammocks at native families' homes",
     description:
       "4 days in the Lençóis Maranhenses with Trilha Ecoaventura. arrival in Barreirinhas on the 4th to rest, since pickup for the trek is at 4am on the 5th. it's 3 days of trekking through the Lençóis Maranhenses National Park, sleeping in hammocks at native families' homes in the Oásis Baixa Grande and Oásis Queimada dos Britos, river crossings, lagoon swims and the vastness of the dunes at sunrise. bonus: the trip runs friday through monday, right into Brazil's september 7th independence day holiday — a long weekend without spending a single vacation day. peak weekendmaxxing.",
-    urgentBadge: "5 spots left",
+    urgentBadge: "sold out",
     whatsappMessage:
       "Hi Julia! I want to know more about the Lençóis Maranhenses trip (september 4–7, 2026) :)",
     paymentMethods: [
@@ -752,13 +752,138 @@ important: outings and the schedule are subject to change according to the river
     dates: "march 24–28, 2027",
     duration: "5 days · 4 nights",
     priceDisplay: "R$ 4,500",
-    urgentBadge: "3 spots left",
+    urgentBadge: "sold out",
     tagline:
       "the meeting of the waters, pink river dolphins and a whole night sleeping in the jungle",
     description:
       "5 days and 4 nights at the Amazônia Jungle Hotel, on the banks of the Rio Negro. the uirapuru package: caiman spotting, jungle trekking, swimming with pink river dolphins, visits to indigenous and riverside communities, and one night camping in the forest with hanging hammocks and a bonfire. the lungs of the world, live.",
     whatsappMessage:
       "Hi Julia! I want to know more about the Amazon trip (march 24–28, 2027) :)",
+    included: [
+      "round-trip transfer (we pick you up wherever you like in Manaus and drop you back at the end of the package)",
+      "full board: breakfast, lunch and dinner every day",
+      "overnight stays in suites with air conditioning, electric shower and minibar (except the jungle camping night)",
+      "jungle outings: nighttime caiman spotting, swimming with pink river dolphins, piranha and pirarucu fishing",
+      "visit to an indigenous community, a riverside caboclo home and the floating community of Catalão",
+      "1 night camping in the jungle with hanging hammocks, bonfire and fresh fish dinner grilled over the fire",
+      "planting of an amazonian tree seedling",
+      "full Amazônia Jungle Hotel infrastructure (pool, restaurant, common areas)",
+    ],
+    notIncluded: [
+      "airfare to Manaus",
+      "alcoholic drinks and personal items",
+      "tips and optional activities not listed in the itinerary",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "arrival + caiman spotting",
+        description:
+          'departure from Manaus (we pick you up at the airport or any hotel within the city limits) toward the Amazônia Jungle Hotel — about 45 minutes by car over the Rio Negro bridge plus a 5-minute crossing in a motorized canoe with life jackets. check-in with a regional welcome juice and a tour of the hotel and its fruit trees. lunch with regional and international cuisine. in the afternoon, a fauna and flora orientation outing: igarapés, igapós and a visit to the exuberant Sumaúma, called "the mother" of trees by indigenous peoples, plus the ruins of the old Ariaú Towers, once the largest jungle hotel in the world (Guinness Book). before dinner, nighttime caiman spotting on the Ariaú river — the guide shines a flashlight along the banks and the caimans\' eyes glow red, revealing their location. dinner with regional and international cuisine.',
+      },
+      {
+        day: 2,
+        title: "jungle trek + piranha fishing",
+        description:
+          "breakfast with typical regional fruits. jungle trek along rarely explored trails — the guide teaches forest survival basics and points out edible and medicinal plants (pants, long sleeves and closed shoes recommended; the hotel sells repellent if you need it). lunch with regional and international cuisine. in the afternoon, recreational fishing for piranha and other amazonian fish — if you want, the chef prepares your catch for dinner. dinner with regional and international cuisine.",
+      },
+      {
+        day: 3,
+        title: "pink river dolphins + indigenous community",
+        description:
+          "breakfast with typical fruits. outing to a floating platform to interact with pink river dolphins — always accompanied by an instructor, with the chance to swim in the world's largest river in total safety, photos guaranteed. next, a visit to the Kubeua indigenous tribe, a welcoming community where you observe ways of life, culture, rituals and traditions. lunch with regional and international cuisine. in the afternoon, a visit to a riverside caboclo home, where they share how they live in harmony with nature — including açaí harvesting and cassava flour production. dinner with regional and international cuisine.",
+      },
+      {
+        day: 4,
+        title: "sunrise + overnight jungle camp",
+        description:
+          "the day starts early (5am) with a sunrise watching outing, with chances to see birds, dolphins and wild animals. breakfast and lunch with regional and international cuisine. in the afternoon, departure for the package's most immersive experience: an overnight camp in the amazon forest, guided only by flashlight, with hands-on survival basics. the guides set up a camp with hanging hammocks (protected from nocturnal animals) and build a bonfire to grill the fish for dinner with typical sides. the night flows with stories and legends of amazonian folklore told by the guides.",
+      },
+      {
+        day: 5,
+        title: "tree planting + meeting of the waters + return to manaus",
+        description:
+          "the forest wakes with birdsong. camp breakdown and return to the hotel for breakfast with typical fruits. next, you plant an amazonian tree seedling, symbolizing the commitment to preserving the forest. lunch with regional and international cuisine. in the afternoon, return to Manaus to visit the Meeting of the Waters — the point where the Rio Negro and the Rio Solimões run side by side without mixing for up to 8 km — with recreational pirarucu fishing (a freshwater fish that reaches 150 kg) and a visit to the floating community of Catalão, with churches, markets and a school on the water. at 5pm, return and transfer to the airport or your hotel in Manaus.",
+      },
+    ],
+    accommodation: `Amazônia Jungle Hotel — on the banks of the Rio Negro, about 45 minutes from Manaus by car plus a canoe crossing.
+
+suites with air conditioning, electric shower and minibar. the hotel has a pool, a restaurant with regional and international cuisine, and full jungle infrastructure.
+
+on the 4th night, lodging is replaced by the overnight jungle camping experience, in hanging hammocks set up by the guides — the package's most immersive experience.
+
+important: outings and the schedule are subject to change according to the river season — high water (february to july) or low water (august to january).`,
+    forWhom: [
+      {
+        title: "those who want to truly live the forest",
+        description:
+          "nights in the amazon forest, piranha fishing, swimming with pink river dolphins, caiman spotting and the meeting of the waters of the Rio Negro and the Solimões. the Amazon is transformative.",
+      },
+      {
+        title: "those who want to see brazil from a different angle",
+        description:
+          "the most biodiverse forest on the planet is right here in Brazil — and most brazilian women have never been. this trip changes your relationship with your own country.",
+      },
+      {
+        title: "those who want to truly disconnect",
+        description:
+          "a whole night camping in the jungle, guided only by flashlight and the local guides' experience. no signal, no rush, no routine — just the forest, the river and the crew.",
+      },
+    ],
+    faqs: [
+      {
+        question: "how do we get to the hotel?",
+        answer:
+          "we leave from Manaus (we pick you up at the international airport or any hotel within the city limits). the drive takes about 45 minutes, over the Rio Negro bridge, plus a 5-minute crossing in a motorized canoe with life jackets to the Amazônia Jungle Hotel.",
+      },
+      {
+        question: "are meals included?",
+        answer:
+          "yes! the package includes full board — breakfast, lunch and dinner with regional and international cuisine every day, including during the jungle camping night.",
+      },
+      {
+        question: "how does the night sleeping in the jungle work?",
+        answer:
+          "on the 4th day, we head out for a fully immersive experience in the amazon forest, guided only by flashlight. the guides set up a camp with hanging hammocks (to avoid nocturnal animals) and build a bonfire to grill dinner. it's a guided, safe and unforgettable survival experience.",
+      },
+      {
+        question: "will i get to swim with the pink river dolphins?",
+        answer:
+          "yes! on the 3rd day we visit a floating platform where an instructor feeds the dolphins and encourages them to come close, letting you swim with them in the river in total safety with great photos.",
+      },
+      {
+        question: "can the itinerary change?",
+        answer:
+          "outings and the schedule can change according to the river season: high water (february to july) or low water (august to january). this may slightly alter the spots visited, but the package's overall structure stays the same.",
+      },
+      {
+        question: "what can't i forget to bring?",
+        answer:
+          'light clothes and long sleeves, pants (for the jungle trek), closed shoes, sunscreen, repellent (also sold at the hotel) and a camera — because "from the forest, we take nothing but photographs and memories; in the forest, we leave nothing but footprints."',
+      },
+      {
+        question: "is the trip women-only?",
+        answer: "yes, as always — experiences exclusively for women.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
+    ],
+  },
+  "amazonia-3": {
+    title: "Amazon",
+    destination: "Amazon, Brazil",
+    dates: "march 29 – april 2, 2027",
+    duration: "5 days · 4 nights",
+    priceDisplay: "R$ 4,500",
+    tagline:
+      "the meeting of the waters, pink river dolphins and a whole night sleeping in the jungle",
+    description:
+      "5 days and 4 nights at the Amazônia Jungle Hotel, on the banks of the Rio Negro. the uirapuru package: caiman spotting, jungle trekking, swimming with pink river dolphins, visits to indigenous and riverside communities, and one night camping in the forest with hanging hammocks and a bonfire. the lungs of the world, live.",
+    whatsappMessage:
+      "Hi Julia! I want to know more about the Amazon trip (march 29 – april 2, 2027) :)",
     included: [
       "round-trip transfer (we pick you up wherever you like in Manaus and drop you back at the end of the package)",
       "full board: breakfast, lunch and dinner every day",

@@ -14,6 +14,7 @@ const testimonialDestinationBySlug: Record<string, string> = {
   "lencois-maranhenses": "lencois",
   amazonia: "amazonia",
   "amazonia-2": "amazonia",
+  "amazonia-3": "amazonia",
 };
 
 const headingFont = {
@@ -63,6 +64,13 @@ export default function TripDetail({ slug }: { slug: string }) {
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-black/30 to-black/10" />
+        {trip.soldOut && (
+          <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center overflow-hidden">
+            <span className="w-[150%] -rotate-[30deg] bg-red-600 py-3 text-center text-3xl font-bold uppercase tracking-[0.3em] text-white shadow-lg sm:text-4xl">
+              {ui.soldOut[lang]}
+            </span>
+          </div>
+        )}
         <div className="relative z-10 mx-auto w-full max-w-5xl px-6 pb-12">
           <p className="text-xs tracking-[0.25em] text-[var(--foreground)]/80">
             {trip.destination}
@@ -73,7 +81,7 @@ export default function TripDetail({ slug }: { slug: string }) {
           <div className="mt-4 flex flex-wrap items-center gap-4 text-sm text-[var(--foreground)]/80">
             <span>{trip.dates}</span>
             {trip.duration && <span>· {trip.duration}</span>}
-            {trip.urgentBadge && (
+            {trip.urgentBadge && !trip.soldOut && (
               <span className="rounded-full bg-[var(--foreground)] px-3 py-1 text-xs text-[var(--background)]">
                 {trip.urgentBadge}
               </span>
