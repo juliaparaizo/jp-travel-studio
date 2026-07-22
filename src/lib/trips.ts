@@ -625,6 +625,13 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
       "/images/trips/surfcamp-saquarema/acomodacao/3.jpg",
       "/images/trips/surfcamp-saquarema/acomodacao/4.jpg",
       "/images/trips/surfcamp-saquarema/acomodacao/5.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/6.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/7.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/8.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/9.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/10.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/11.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/12.jpg",
     ],
     forWhom: [
       {
