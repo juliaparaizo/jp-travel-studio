@@ -155,7 +155,8 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
       "Hi Julia! I want to know more about the Saquarema Surfcamp (january 7–10, 2027) :)",
     paymentMethods: ["Pix"],
     included: [
-      "3 nights of lodging (shared room)",
+      "3 nights of lodging (women-only shared room)",
+      "breakfast included every day",
       "Rio ↔ Saquarema transfer (round trip)",
       "surf lessons",
       "outrigger canoe",
@@ -187,23 +188,23 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
         day: 2,
         title: "friday, 1/8 — water & adventure: outrigger canoe + surf + buggy",
         description:
-          "morning outrigger canoe session at sea, followed by a surf lesson with instructors. buggy tour along the coast and lagoon in the afternoon, with drone videos to take home as keepsakes. dinner on your own — a great chance to check out Saquarema's restaurants.",
+          "breakfast included. morning outrigger canoe session at sea, followed by a surf lesson with instructors. buggy tour along the coast and lagoon in the afternoon, with drone videos to take home as keepsakes. dinner on your own — a great chance to check out Saquarema's restaurants.",
       },
       {
         day: 3,
         title: "saturday, 1/9 — balance: surf + yoga + sushi",
         description:
-          "another surf session in the morning, followed by a yoga session to stretch and relax. buggy tour in the afternoon and Sushi Night — the group's special dinner.",
+          "breakfast included. another surf session in the morning, followed by a yoga session to stretch and relax. buggy tour in the afternoon and Sushi Night — the group's special dinner.",
       },
       {
         day: 4,
         title: "sunday, 1/10 — free time & return: sunset stand-up paddle",
         description:
-          "free morning or day to explore the town at your own pace. sunset stand-up paddle (or sunrise), with optional extra lessons for anyone who wants more time in the water. transfer back to Rio after sunset (~4pm).",
+          "breakfast included. free morning or day to explore the town at your own pace. sunset stand-up paddle (or sunrise), with optional extra lessons for anyone who wants more time in the water. transfer back to Rio after sunset (~4pm).",
       },
     ],
     accommodation:
-      "3 nights in a shared room, in partnership with Green House Saqua — a local guesthouse and surf school that handles the full trip structure in Saquarema.",
+      "3 nights in a women-only shared room, in partnership with Green House Saqua — a local guesthouse and surf school that handles the full trip structure in Saquarema.",
     forWhom: [
       {
         title: "women of every level",
@@ -243,7 +244,7 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
     destination: "Ubatuba, São Paulo, Brazil",
     dates: "january 14–18, 2027",
     duration: "5 days · 4 nights",
-    priceDisplay: "R$ 3,500",
+    priceDisplay: "R$ 3,000",
     tagline: "4 days of surf, nature and good vibes among women",
     description:
       "a retreat for you to slow down, connect with the ocean and live real surf days — from sunrise to sunset — on one of the most beautiful beaches on São Paulo's north coast. if you've always wanted to learn to surf (or take what you already know further) in a welcoming, women-only environment, with full structure and nothing to worry about, this camp is for you.",
@@ -877,7 +878,7 @@ important: outings and the schedule are subject to change according to the river
     destination: "Amazon, Brazil",
     dates: "march 29 – april 2, 2027",
     duration: "5 days · 4 nights",
-    priceDisplay: "R$ 4,500",
+    priceDisplay: "R$ 5,000",
     tagline:
       "the meeting of the waters, pink river dolphins and a whole night sleeping in the jungle",
     description:

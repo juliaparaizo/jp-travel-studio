@@ -569,7 +569,8 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
       "Oi Julia! Quero saber mais sobre o Surfcamp Saquarema (7 a 10 de janeiro de 2027) :)",
     paymentMethods: ["Pix"],
     included: [
-      "3 noites de hospedagem (quarto compartilhado)",
+      "3 noites de hospedagem (quarto feminino compartilhado)",
+      "café da manhã incluso todos os dias",
       "transfer Rio ↔ Saquarema (ida e volta)",
       "aulas de surf",
       "canoa havaiana",
@@ -601,23 +602,30 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
         day: 2,
         title: "sexta, 8/jan — água & aventura: canoa havaiana + surf + buggy",
         description:
-          "manhã de canoa havaiana no mar, seguida de aula de surf com instrutores. passeio de buggy pela orla e lagoa à tarde, com vídeos de drone pra guardar de recordação. jantar livre (por conta) — aproveita pra conhecer os restaurantes de Saquarema.",
+          "café da manhã incluso. manhã de canoa havaiana no mar, seguida de aula de surf com instrutores. passeio de buggy pela orla e lagoa à tarde, com vídeos de drone pra guardar de recordação. jantar livre (por conta) — aproveita pra conhecer os restaurantes de Saquarema.",
       },
       {
         day: 3,
         title: "sábado, 9/jan — equilíbrio: surf + yoga + sushi",
         description:
-          "mais uma sessão de surf pela manhã, seguida de sessão de yoga pra alongar e relaxar. passeio de buggy à tarde e Noite do Sushi — jantar especial do grupo.",
+          "café da manhã incluso. mais uma sessão de surf pela manhã, seguida de sessão de yoga pra alongar e relaxar. passeio de buggy à tarde e Noite do Sushi — jantar especial do grupo.",
       },
       {
         day: 4,
         title: "domingo, 10/jan — livre & volta: stand-up no pôr do sol",
         description:
-          "manhã ou dia livre pra conhecer a cidade no seu ritmo. stand-up paddle no pôr do sol (ou nascer do sol), com aulas extras opcionais pra quem quiser mais mar. transfer de volta ao Rio depois do pôr do sol (~16h).",
+          "café da manhã incluso. manhã ou dia livre pra conhecer a cidade no seu ritmo. stand-up paddle no pôr do sol (ou nascer do sol), com aulas extras opcionais pra quem quiser mais mar. transfer de volta ao Rio depois do pôr do sol (~16h).",
       },
     ],
     accommodation:
-      "3 noites em quarto compartilhado, em parceria com a Green House Saqua — pousada e escola de surf local que cuida de toda a estrutura da viagem em Saquarema.",
+      "3 noites em quarto feminino compartilhado, em parceria com a Green House Saqua — pousada e escola de surf local que cuida de toda a estrutura da viagem em Saquarema.",
+    accommodationImages: [
+      "/images/trips/surfcamp-saquarema/acomodacao/1.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/2.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/3.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/4.jpg",
+      "/images/trips/surfcamp-saquarema/acomodacao/5.jpg",
+    ],
     forWhom: [
       {
         title: "meninas de todos os níveis",
@@ -672,8 +680,8 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
     dates: "14 a 18 de janeiro de 2027",
     dateForSort: "2027-01-14",
     duration: "5 dias · 4 noites",
-    priceDisplay: "R$ 3.500",
-    priceValue: 3500,
+    priceDisplay: "R$ 3.000",
+    priceValue: 3000,
     national: true,
     priceInstallments: "",
     agency: "",
@@ -1065,8 +1073,8 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     dates: "29 de março a 2 de abril de 2027",
     dateForSort: "2027-03-29",
     duration: "5 dias · 4 noites",
-    priceDisplay: "R$ 4.500",
-    priceValue: 4500,
+    priceDisplay: "R$ 5.000",
+    priceValue: 5000,
     national: true,
     priceInstallments: "",
     agency: "Amazônia Jungle Hotel",
