@@ -157,4 +157,38 @@ I made friendships I'll carry for life and can't wait to embark on the next adve
     quoteEn: `this was one of the best trips I've ever taken in my life! Ju put together the perfect itinerary, it felt like I was in a movie. the company was also great — at first I was a little "scared" of traveling with people I didn't know but we got along so well and became friends! I'm already eyeing the next trips!!`,
     photo: "/images/testimonials/julia-madeira.jpg",
   },
+  {
+    name: "Catarina Alves",
+    destination: "amazonia",
+    context: "grupo Amazônia, maio de 2026",
+    quote: `A viagem para a Amazônia foi minha primeira viagem que fiz sozinha e não poderia ter sido melhor. Viver esse lugar mágico e me conectar absurdamente com meninas que eu mal conhecia foi uma das melhores experiências da minha vida, mal vejo a hora de ir para a próxima!
+
+Em questão de organização, foi tudo impecável! Não tivemos que nos preocupar com nada em nenhum momento, apenas aproveitar esse lugar inesquecível! Gratidão apenas!!`,
+    contextEn: "Amazon group, may 2026",
+    quoteEn: `The trip to the Amazon was my first solo trip and it couldn't have been better. Living in that magical place and connecting so deeply with girls I barely knew was one of the best experiences of my life — I can't wait for the next one!
+
+As for the organization, everything was flawless! We didn't have to worry about anything at any point, just enjoy this unforgettable place! So grateful!!`,
+  },
+  {
+    name: "Giovanna Camilo",
+    destination: "lencois",
+    context: "grupo Lençóis Maranhenses, maio de 2026",
+    quote: `amei a viagem de lençóis do início ao fim. a ju foi muito cuidadosa desde as primeiras mensagens, sempre respondendo tudo com atenção, e é nítida a preocupação dela em fazer com que tudo aconteça da melhor forma.
+
+além disso, o roteiro foi mto bem pensado, e a experiência de compartilhar tudo isso com mulheres incríveis, que têm valores e ideais parecidos, fechou a viagem da melhor forma. obrigada por tornar essa experiência tão especial. 🤍`,
+    contextEn: "Lençóis Maranhenses group, may 2026",
+    quoteEn: `I loved the Lençóis trip from start to finish. Ju was so thoughtful from the very first messages, always responding to everything carefully, and her concern for making sure everything went the best way possible was clear.
+
+Beyond that, the itinerary was very well thought out, and the experience of sharing it all with incredible women, who share similar values and ideals, made the trip perfect. Thank you for making this experience so special. 🤍`,
+    photo: "/images/testimonials/giovanna-lencois2.jpg",
+  },
+  {
+    name: "Erika",
+    destination: "lencois",
+    context: "grupo Lençóis Maranhenses, maio de 2026",
+    quote: `Passando pra agradecer pela experiência incrível que foi essa viagem, posso dizer que foi um dos momentos mais inesquecíveis da minha vida. Todo o cuidado que a Julia teve com todas as meninas, sua preocupação com tudo, realmente foi um diferencial, me senti segura 100% do tempo :) da pra ver que tudo foi escolhido por ela com muito cuidado. Recomendo a viagem pra todos que conheço!! Voltaria mil vezes, não vejo a hora de fechar outra viagem com a Julia, sucesso 💘`,
+    contextEn: "Lençóis Maranhenses group, may 2026",
+    quoteEn: `Just stopping by to thank you for the incredible experience this trip was — I can say it was one of the most unforgettable moments of my life. All the care Julia had with all the girls, her concern for everything, really made a difference, I felt 100% safe the whole time :) you can tell everything was chosen by her with a lot of care. I recommend this trip to everyone I know!! I'd go back a thousand times, can't wait to book another trip with Julia, success 💘`,
+    photo: "/images/testimonials/erika-lencois.jpg",
+  },
 ];

@@ -353,6 +353,171 @@ recomendamos levar dinheiro em espécie, pois alguns locais não aceitam cartão
     ],
   },
   {
+    slug: "jalapao-2",
+    title: "Jalapão",
+    destination: "Jalapão, Tocantins",
+    cardImage: "/images/trips/jalapao/jalapao-2.jpeg",
+    heroImage: "/images/trips/jalapao/jalapao-1.jpeg",
+    heroImages: [
+      "/images/trips/jalapao/hero/hero-1.jpg",
+      "/images/trips/jalapao/hero/hero-2.jpg",
+      "/images/trips/jalapao/hero/hero-3.jpg",
+      "/images/trips/jalapao/hero/hero-4.jpg",
+      "/images/trips/jalapao/hero/hero-5.jpg",
+      "/images/trips/jalapao/hero/hero-6.jpg",
+    ],
+    dates: "14 a 17 de outubro de 2026",
+    dateForSort: "2026-10-14",
+    duration: "4 dias",
+    priceDisplay: "R$ 3.500",
+    priceValue: 3500,
+    national: true,
+    priceInstallments:
+      "por pessoa — hospedagem, alimentação completa, translados e entradas inclusos",
+    agency: "Tour Jalapão x Giovana Gentil",
+    tagline:
+      "fervedouros, dunas douradas, cânions e o cerrado mais selvagem do brasil",
+    description:
+      "4 dias de expedição no Jalapão tocantinense com a Gio — fervedouros de água cristalina que borbulha do chão, dunas douradas de capim doirado, cânions impressionantes e cachoeiras escondidas no coração do cerrado. tudo incluso: hospedagem, 3 refeições completas por dia, translado, transporte 4x4, guia ambiental credenciado e entradas em todos os atrativos. chegue em palmas no dia 13, a expedição começa cedo no dia 14.",
+    whatsappMessage:
+      "Oi Julia! Quero saber mais sobre a expedição ao Jalapão (14 a 17 de outubro de 2026) :)",
+    paymentMethods: [
+      "pix à vista",
+      "transferência bancária",
+      "boleto",
+      "cartão de crédito em até 10x",
+    ],
+    included: [
+      "translado Palmas ↔ Jalapão (ida e volta)",
+      "transporte em veículo 4x4 durante toda a expedição",
+      "condutor ambiental credenciado pelo órgão competente",
+      "hospedagem nas pousadas do Jalapão",
+      "alimentação completa — café da manhã, almoço e jantar em todos os dias",
+      "água mineral a bordo durante todo o trajeto",
+      "taxa de visitação de todos os atrativos do roteiro",
+      "seguro de acidente",
+    ],
+    notIncluded: [
+      "passagem aérea",
+      "taxa ambiental — R$ 30 por pessoa (pago na entrada do parque)",
+      "hotel em Palmas na noite do dia 13 de outubro",
+      "traslado aeroporto ↔ hotel em Palmas",
+      "bebidas durante as refeições",
+      "atividades opcionais",
+      "despesas pessoais",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "1º dia de expedição — lagoa do japonês + pedra furada",
+        description:
+          "saída de Palmas às 8h. primeiro destino: Lagoa do Japonês, um dos cartões-postais do Jalapão. almoço em rota. à tarde, Pedra Furada — uma formação rochosa única no meio do cerrado. jantar às 19h e check-in na pousada.",
+      },
+      {
+        day: 2,
+        title: "2º dia — cânion do sussuapara + dunas do jalapão",
+        description:
+          "café da manhã às 7h. cânion do Sussuapara — paredes de rocha de tirar o fôlego. almoço na comunidade quilombola do Rio Novo. tarde na Prainha do Rio Novo. parada fotográfica no Morro do Saca Trapo. Lagoa do Jacaré e Paredão da Serra do Espírito Santo. Dunas do Jalapão ao entardecer. jantar às 19:30h e check-in na pousada.",
+      },
+      {
+        day: 3,
+        title: "3º dia — fervedouros + cachoeira do formiga",
+        description:
+          "café da manhã às 7h. Fervedouro dos Buritis. Cachoeira do Formiga — águas esmeraldas e transparência surreal. almoço. visita à cabana de artesanato de capim dourado da Jane. Fervedouro Beija Flor. Fervedouro Por Enquanto. jantar às 19h e check-in na pousada.",
+      },
+      {
+        day: 4,
+        title: "4º dia — fervedouro bela vista + retorno a palmas",
+        description:
+          "café da manhã às 7h. Fervedouro Bela Vista. parada fotográfica na Serra da Catedral. Cachoeira do Poço Encantado. almoço. saída rumo a Palmas — chegada prevista às 18h. voos de retorno a partir das 18h do dia 17.",
+      },
+    ],
+    accommodation: `hospedagem em pousadas confortáveis no interior do Jalapão, selecionadas pela Tour Jalapão. todas as refeições são incluídas: café da manhã, almoço e jantar, com comida regional, simples, farta e feita com muito amor.
+
+- atenção: o sinal de internet nas pousadas é fraco. wi-fi disponível somente pela manhã, antes da saída, e no final do dia ao retornar. é a desconexão que o Jalapão pede — e que a gente abraça!
+- dieta especial (vegana, vegetariana, etc.): possível mediante aviso prévio — o cardápio precisa estar dentro das possibilidades da região.`,
+    forWhom: [
+      {
+        title: "quem quer aventura no coração do brasil",
+        description:
+          "o Jalapão é um dos destinos mais incríveis e menos conhecidos do Brasil — ideal para quem quer sair do óbvio e descobrir paisagens de outro mundo.",
+      },
+      {
+        title: "quem ama natureza intocada",
+        description:
+          "fervedouros, dunas, cânions e o cerrado preservado — tudo longe de multidões e conectado de verdade com a natureza.",
+      },
+      {
+        title: "quem quer tudo resolvido",
+        description:
+          "com hospedagem, alimentação completa, transporte, guia e entradas incluídos, é só chegar em Palmas no dia 13 e embarcar na aventura.",
+      },
+    ],
+    faqs: [
+      {
+        question: "quando preciso chegar em palmas?",
+        answer:
+          "recomendamos chegar em Palmas na noite do dia 13 de outubro (voo noturno) ou muito cedo no dia 14, antes das 7h da manhã. a expedição sai de Palmas às 8h do dia 14 — a Tour Jalapão busca nos hotéis entre 6h30 e 7h20.",
+      },
+      {
+        question: "quando posso comprar voos de volta?",
+        answer:
+          "a expedição retorna a Palmas com chegada prevista às 18h do dia 17 de outubro. recomendamos voos de volta a partir das 20h para ter uma margem tranquila.",
+      },
+      {
+        question: "o hotel em palmas está incluso?",
+        answer:
+          "não, o hotel na noite do dia 13 em Palmas não está incluso. mas a Gio pode indicar opções econômicas e centrais — é só chamar no WhatsApp!",
+      },
+      {
+        question: "o que é um fervedouro?",
+        answer:
+          "fervedouros são nascentes naturais onde a água brota do chão com tanta pressão que cria um 'fervimento' — mesmo que a água seja gelada! a transparência e a cor turquesa são de outro mundo. uma das experiências mais únicas do Brasil.",
+      },
+      {
+        question: "posso usar protetor solar nos fervedouros?",
+        answer:
+          "não! é proibido entrar nos atrativos com repelente, protetor solar, bronzeador ou similares no corpo. isso é obrigatório para preservar as nascentes. leve roupas de proteção UV se preferir.",
+      },
+      {
+        question: "qual a franquia de bagagem?",
+        answer:
+          "a bagagem permitida a bordo do veículo 4x4 é de no máximo 20 litros (equivalente a uma mochila pequena de 10 kg). é importante respeitar isso para garantir espaço para todas.",
+      },
+      {
+        question: "tem internet e celular no jalapão?",
+        answer:
+          "o sinal de internet e celular nas pousadas é fraco. wi-fi disponível somente pela manhã e ao final do dia. é a desconexão total que o Jalapão oferece — e que a gente abraça de coração!",
+      },
+      {
+        question: "tem atividades opcionais?",
+        answer: `sim! há várias opções pagas:
+- rapel na Cachoeira da Roncadeira (70m) — R$ 120/pessoa
+- tirolesa em Taquaruçu (1.000m de descida) — R$ 120/pessoa
+- tirolesa na Lagoa do Japonês — R$ 40/pessoa
+- trekking na Serra do Jacurutu (nascer do sol) — R$ 160/pessoa
+- rafting no Rio Sono (~2h de descida) — R$ 200/pessoa
+
+recomendamos levar dinheiro em espécie, pois alguns locais não aceitam cartão.`,
+      },
+      {
+        question: "a viagem é só para mulheres?",
+        answer:
+          "sim, todas as experiências da Giovana Gentil são exclusivas para mulheres.",
+      },
+      {
+        question: "a taxa ambiental está inclusa?",
+        answer:
+          "não, a taxa ambiental do Parque Estadual do Jalapão é de R$ 30 por pessoa e é paga diretamente na entrada do parque. não esqueça de levar em espécie!",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
+    ],
+  },
+  {
     slug: "laponia",
     title: "Lapônia",
     destination: "Lapônia, Finlândia",

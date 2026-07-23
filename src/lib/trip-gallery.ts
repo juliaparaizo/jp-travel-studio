@@ -8,6 +8,7 @@ const slugs = [
   "nicaragua",
   "amazonia-2",
   "amazonia-3",
+  "jalapao-2",
 ] as const;
 
 export function getTripGallery(slug: string): {

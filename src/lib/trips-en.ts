@@ -452,6 +452,154 @@ we recommend bringing cash, as some places don't take cards.`,
       },
     ],
   },
+  "jalapao-2": {
+    destination: "Jalapão, Tocantins, Brazil",
+    dates: "october 14–17, 2026",
+    duration: "4 days",
+    priceInstallments:
+      "per person — lodging, full meals, transfers and entrance fees included",
+    tagline:
+      "natural springs, golden dunes, canyons and brazil's wildest cerrado",
+    description:
+      "a 4-day expedition through the Jalapão region of Tocantins with Gio — crystal-clear natural springs that bubble up from the ground, golden dunes of capim dourado, breathtaking canyons and waterfalls hidden in the heart of the cerrado. everything included: lodging, 3 full meals a day, transfers, 4x4 transport, licensed environmental guide and entrance to every attraction. arrive in palmas on the 13th, the expedition starts early on the 14th.",
+    whatsappMessage:
+      "Hi Julia! I want to know more about the Jalapão expedition (october 14–17, 2026) :)",
+    paymentMethods: [
+      "pix upfront",
+      "bank transfer",
+      "boleto",
+      "credit card in up to 10 installments",
+    ],
+    included: [
+      "transfer Palmas ↔ Jalapão (round trip)",
+      "4x4 vehicle transport throughout the expedition",
+      "environmental guide licensed by the local authority",
+      "lodging in Jalapão guesthouses",
+      "full meals — breakfast, lunch and dinner every day",
+      "mineral water on board throughout the trip",
+      "entrance fees for every attraction on the itinerary",
+      "accident insurance",
+    ],
+    notIncluded: [
+      "airfare",
+      "environmental fee — R$ 30 per person (paid at the park entrance)",
+      "hotel in Palmas on the night of october 13",
+      "transfer airport ↔ hotel in Palmas",
+      "drinks with meals",
+      "optional activities",
+      "personal expenses",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "expedition day 1 — lagoa do japonês + pedra furada",
+        description:
+          "departure from Palmas at 8am. first stop: Lagoa do Japonês, one of Jalapão's postcard sights. lunch en route. in the afternoon, Pedra Furada — a one-of-a-kind rock formation in the middle of the cerrado. dinner at 7pm and check-in at the guesthouse.",
+      },
+      {
+        day: 2,
+        title: "day 2 — sussuapara canyon + jalapão dunes",
+        description:
+          "breakfast at 7am. Sussuapara canyon — breathtaking rock walls. lunch at the Rio Novo quilombola community. afternoon at Prainha do Rio Novo. photo stop at Morro do Saca Trapo. Lagoa do Jacaré and the Serra do Espírito Santo cliff wall. Jalapão Dunes at sunset. dinner at 7:30pm and check-in at the guesthouse.",
+      },
+      {
+        day: 3,
+        title: "day 3 — natural springs + formiga waterfall",
+        description:
+          "breakfast at 7am. Buritis spring. Formiga Waterfall — emerald waters and surreal transparency. lunch. visit to Jane's capim dourado handicraft cabin. Beija Flor spring. Por Enquanto spring. dinner at 7pm and check-in at the guesthouse.",
+      },
+      {
+        day: 4,
+        title: "day 4 — bela vista spring + return to palmas",
+        description:
+          "breakfast at 7am. Bela Vista spring. photo stop at Serra da Catedral. Poço Encantado waterfall. lunch. departure for Palmas — expected arrival at 6pm. return flights from 6pm on the 17th.",
+      },
+    ],
+    accommodation: `lodging in comfortable guesthouses in the Jalapão interior, selected by Tour Jalapão. all meals are included: breakfast, lunch and dinner, with regional food — simple, generous and made with lots of love.
+
+- heads up: internet signal at the guesthouses is weak. wi-fi is available only in the morning, before departure, and at the end of the day upon return. it's the disconnection Jalapão asks for — and that we embrace!
+- special diets (vegan, vegetarian, etc.): possible with advance notice — the menu needs to stay within what the region can offer.`,
+    forWhom: [
+      {
+        title: "those who want adventure in the heart of brazil",
+        description:
+          "Jalapão is one of Brazil's most incredible and least known destinations — ideal for those who want to skip the obvious and discover otherworldly landscapes.",
+      },
+      {
+        title: "those who love untouched nature",
+        description:
+          "natural springs, dunes, canyons and preserved cerrado — all far from crowds and truly connected with nature.",
+      },
+      {
+        title: "those who want everything taken care of",
+        description:
+          "with lodging, full meals, transport, guide and entrance fees included, all you have to do is arrive in Palmas on the 13th and set off on the adventure.",
+      },
+    ],
+    faqs: [
+      {
+        question: "when do i need to arrive in palmas?",
+        answer:
+          "we recommend arriving in Palmas on the night of october 13 (evening flight) or very early on the 14th, before 7am. the expedition leaves Palmas at 8am on the 14th — Tour Jalapão picks everyone up at their hotels between 6:30am and 7:20am.",
+      },
+      {
+        question: "when can i book return flights?",
+        answer:
+          "the expedition returns to Palmas with expected arrival at 6pm on october 17. we recommend return flights from 8pm onwards for a comfortable margin.",
+      },
+      {
+        question: "is the hotel in palmas included?",
+        answer:
+          "no, the hotel on the night of the 13th in Palmas is not included. but Gio can suggest affordable, central options — just reach out on WhatsApp!",
+      },
+      {
+        question: "what is a fervedouro?",
+        answer:
+          "fervedouros are natural springs where water rises from the ground with so much pressure it creates a 'boiling' effect — even though the water is cold! the transparency and turquoise color are out of this world. one of Brazil's most unique experiences.",
+      },
+      {
+        question: "can i wear sunscreen in the springs?",
+        answer:
+          "no! it's forbidden to enter the attractions with repellent, sunscreen, tanning oil or similar products on your body. this is mandatory to preserve the springs. bring UV-protection clothing if you prefer.",
+      },
+      {
+        question: "what's the luggage allowance?",
+        answer:
+          "luggage allowed on board the 4x4 vehicle is at most 20 liters (equivalent to a small 10 kg backpack). respecting this is important to guarantee space for everyone.",
+      },
+      {
+        question: "is there internet and cell signal in jalapão?",
+        answer:
+          "internet and cell signal at the guesthouses is weak. wi-fi is available only in the morning and at the end of the day. it's the total disconnection Jalapão offers — and that we wholeheartedly embrace!",
+      },
+      {
+        question: "are there optional activities?",
+        answer: `yes! there are several paid options:
+- rappelling at Roncadeira Waterfall (70m) — R$ 120/person
+- zipline in Taquaruçu (1,000m descent) — R$ 120/person
+- zipline at Lagoa do Japonês — R$ 40/person
+- trekking at Serra do Jacurutu (sunrise) — R$ 160/person
+- rafting on the Sono River (~2h descent) — R$ 200/person
+
+we recommend bringing cash, as some places don't take cards.`,
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Giovana Gentil experiences are exclusively for women.",
+      },
+      {
+        question: "is the environmental fee included?",
+        answer:
+          "no, the Jalapão State Park environmental fee is R$ 30 per person and is paid directly at the park entrance. don't forget to bring cash!",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
+    ],
+  },
   laponia: {
     title: "Lapland",
     destination: "Lapland, Finland",
