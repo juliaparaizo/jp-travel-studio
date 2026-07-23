@@ -369,8 +369,8 @@ recomendamos levar dinheiro em espécie, pois alguns locais não aceitam cartão
     dates: "14 a 17 de outubro de 2026",
     dateForSort: "2026-10-14",
     duration: "4 dias",
-    priceDisplay: "R$ 3.500",
-    priceValue: 3500,
+    priceDisplay: "R$ 3.800",
+    priceValue: 3800,
     national: true,
     priceInstallments:
       "por pessoa — hospedagem, alimentação completa, translados e entradas inclusos",
