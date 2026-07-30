@@ -92,7 +92,7 @@ export default function Contato() {
     e.preventDefault();
     const subject = encodeURIComponent("quero entrar para a lista de novidades");
     const body = encodeURIComponent(`nome: ${name}\ne-mail: ${email}`);
-    window.location.href = `mailto:julia.vianaparaizo@fora.travel?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:juliaparaizo@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const contactCards = [
@@ -111,8 +111,8 @@ export default function Contato() {
     {
       icon: <EmailIcon />,
       label: content.emailLabel[lang],
-      value: "julia.vianaparaizo@fora.travel",
-      href: "mailto:julia.vianaparaizo@fora.travel",
+      value: "juliaparaizo@gmail.com",
+      href: "mailto:juliaparaizo@gmail.com",
     },
     {
       icon: <InstagramIcon />,
