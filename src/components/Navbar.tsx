@@ -93,7 +93,7 @@ export default function Navbar() {
                   </Link>
 
                   <div className="invisible absolute left-1/2 top-full z-50 w-64 -translate-x-1/2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
-                    <ul className="flex flex-col gap-1 rounded-2xl border border-[var(--foreground)]/10 bg-[var(--background)] p-3 shadow-2xl">
+                    <ul className="flex max-h-[70vh] flex-col gap-1 overflow-y-auto overscroll-contain rounded-2xl border border-[var(--foreground)]/10 bg-[var(--background)] p-3 shadow-2xl">
                       {tripsSorted.map((t) => {
                         const trip = localizeTrip(t, lang);
                         return (
@@ -139,7 +139,7 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <ul className="flex flex-col gap-4 border-t border-[var(--foreground)]/10 px-6 py-6 md:hidden">
+        <ul className="flex max-h-[calc(100vh-4.5rem)] flex-col gap-4 overflow-y-auto overscroll-contain border-t border-[var(--foreground)]/10 px-6 py-6 md:hidden">
           {navItems.map((item) => {
             const active = pathname === item.href;
             const isGirlTrips = item.href === "/girl-trips";

@@ -3,7 +3,7 @@ import { trips } from "@/lib/trips";
 import TripDetail from "@/components/TripDetail";
 
 export function generateStaticParams() {
-  return trips.map((trip) => ({ slug: trip.slug }));
+  return trips.filter((trip) => !trip.hidden).map((trip) => ({ slug: trip.slug }));
 }
 
 export default async function TripPage({
@@ -12,7 +12,7 @@ export default async function TripPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const trip = trips.find((t) => t.slug === slug);
+  const trip = trips.find((t) => t.slug === slug && !t.hidden);
   if (!trip) notFound();
 
   return <TripDetail slug={slug} />;

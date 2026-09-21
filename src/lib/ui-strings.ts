@@ -83,4 +83,23 @@ export const ui = {
     pt: "acompanhe minhas aventuras em tempo real",
     en: "follow my adventures in real time",
   },
+  availabilityLabel: { pt: "quando posso viajar?", en: "when can you travel?" },
+  availabilityClear: { pt: "limpar datas", en: "clear dates" },
+  availabilityConfirm: { pt: "confirmar datas", en: "confirm dates" },
+  availabilitySelectStart: { pt: "escolha a data inicial", en: "choose the start date" },
+  availabilitySelectEnd: { pt: "agora escolha a data final", en: "now pick the end date" },
+  availabilityClose: { pt: "fechar calendário", en: "close calendar" },
+  availabilityPrevMonth: { pt: "mês anterior", en: "previous month" },
+  availabilityNextMonth: { pt: "próximo mês", en: "next month" },
+  noTripsTitle: { pt: "nenhuma viagem encontrada", en: "no trips found" },
+  noTripsBodyDates: {
+    pt: "não encontramos nenhuma viagem que caiba nesse período. experimente ampliar suas datas ou escolher outra janela.",
+    en: "we couldn't find any trip that fits this window. try widening your dates or picking a different range.",
+  },
+  noTripsBodyGeneric: {
+    pt: "nenhuma viagem encontrada com esses filtros.",
+    en: "no trips found with these filters.",
+  },
+  changeDates: { pt: "alterar datas", en: "change dates" },
+  clearFilters: { pt: "limpar filtros", en: "clear filters" },
 } satisfies Record<string, Record<Lang, string>>;

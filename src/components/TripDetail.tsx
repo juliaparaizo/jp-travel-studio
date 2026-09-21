@@ -12,9 +12,12 @@ import Testimonials from "@/components/Testimonials";
 
 const testimonialDestinationBySlug: Record<string, string> = {
   "lencois-maranhenses": "lencois",
+  "lencois-maranhenses-2": "lencois",
+  "lencois-maranhenses-3": "lencois",
   amazonia: "amazonia",
   "amazonia-2": "amazonia",
   "amazonia-3": "amazonia",
+  "amazonia-4": "amazonia",
 };
 
 const headingFont = {

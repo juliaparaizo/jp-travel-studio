@@ -6,6 +6,8 @@ import { tripsSorted, type Trip } from "@/lib/trips";
 import { localizeTrip } from "@/lib/trips-en";
 import { useLanguage, type Lang } from "@/lib/i18n";
 import { ui } from "@/lib/ui-strings";
+import AvailabilityDateFilter, { type DateRange } from "@/components/AvailabilityDateFilter";
+import { isTripWithinAvailabilityWindow, parseISODate } from "@/lib/date-utils";
 
 type Filter = "todas" | "disponiveis" | "embreve" | "nacionais" | "internacionais";
 type Sort = "data" | "az" | "menor" | "maior";
@@ -47,6 +49,18 @@ function applyFilter(trips: Trip[], filter: Filter): Trip[] {
   }
 }
 
+function applyAvailability(trips: Trip[], range: DateRange | null): Trip[] {
+  if (!range) return trips;
+  return trips.filter((t) =>
+    isTripWithinAvailabilityWindow(
+      parseISODate(t.dateForSort),
+      parseISODate(t.dateForSortEnd),
+      range.start,
+      range.end,
+    ),
+  );
+}
+
 function applySort(trips: Trip[], sort: Sort): Trip[] {
   const list = [...trips];
   switch (sort) {
@@ -69,8 +83,12 @@ export default function TripsSection() {
   const { lang } = useLanguage();
   const [filter, setFilter] = useState<Filter>("todas");
   const [sort, setSort] = useState<Sort>("data");
+  const [availability, setAvailability] = useState<DateRange | null>(null);
+  const [datesOpen, setDatesOpen] = useState(false);
 
-  const visible = applySort(applyFilter(tripsSorted, filter), sort);
+  const categoryFiltered = applyFilter(tripsSorted, filter);
+  const visible = applySort(applyAvailability(categoryFiltered, availability), sort);
+  const hasNoResults = visible.length === 0;
 
   return (
     <section className="mx-auto max-w-6xl px-6 py-24">
@@ -103,6 +121,15 @@ export default function TripsSection() {
         </div>
       </div>
 
+      <div className="mb-8 flex justify-center">
+        <AvailabilityDateFilter
+          value={availability}
+          onChange={setAvailability}
+          open={datesOpen}
+          onOpenChange={setDatesOpen}
+        />
+      </div>
+
       <div className="mb-16 flex items-center justify-center gap-3">
         <span className="text-xs tracking-[0.15em] text-[var(--foreground)]/50">
           {sortByLabel[lang]}
@@ -125,7 +152,41 @@ export default function TripsSection() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {hasNoResults ? (
+        <div className="mx-auto flex max-w-md flex-col items-center gap-5 rounded-3xl border border-[var(--foreground)]/15 bg-[var(--foreground)]/5 px-8 py-16 text-center animate-[fadeIn_250ms_ease-out]">
+          <h3 className="text-2xl" style={{ fontFamily: "var(--font-zt-bros-oskon-90s)", fontWeight: 400 }}>
+            {ui.noTripsTitle[lang]}
+          </h3>
+          <p className="text-sm leading-relaxed text-[var(--foreground)]/70">
+            {availability ? ui.noTripsBodyDates[lang] : ui.noTripsBodyGeneric[lang]}
+          </p>
+          <div className="mt-2 flex flex-wrap items-center justify-center gap-4">
+            {availability && (
+              <button
+                type="button"
+                onClick={() => setDatesOpen(true)}
+                className="rounded-full bg-[var(--foreground)] px-6 py-2.5 text-sm tracking-wide text-[var(--background)] transition-opacity hover:opacity-90"
+              >
+                {ui.changeDates[lang]}
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={() => {
+                setAvailability(null);
+                setFilter("todas");
+              }}
+              className="text-sm tracking-wide text-[var(--foreground)]/60 underline underline-offset-4 hover:text-[var(--foreground)]"
+            >
+              {ui.clearFilters[lang]}
+            </button>
+          </div>
+        </div>
+      ) : (
+      <div
+        key={visible.map((t) => t.slug).join(",")}
+        className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 animate-[fadeIn_300ms_ease-out]"
+      >
         {visible.map((baseTrip) => {
           const trip = localizeTrip(baseTrip, lang);
           const cardClassName = trip.soldOut
@@ -205,6 +266,7 @@ export default function TripsSection() {
           );
         })}
       </div>
+      )}
     </section>
   );
 }
