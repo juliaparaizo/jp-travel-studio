@@ -1527,9 +1527,9 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
       "/images/trips/amazonia/hero/hero-5.jpg",
       "/images/trips/amazonia/hero/hero-6.jpg",
     ],
-    dates: "27 a 31 de maio de 2027",
-    dateForSort: "2027-05-27",
-    dateForSortEnd: "2027-05-31",
+    dates: "31 de maio a 4 de junho de 2027",
+    dateForSort: "2027-05-31",
+    dateForSortEnd: "2027-06-04",
     duration: "5 dias · 4 noites",
     priceDisplay: "R$ 4.500",
     priceValue: 4500,
@@ -1541,7 +1541,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
     description:
       "5 dias e 4 noites no Amazônia Jungle Hotel, às margens do Rio Negro. pacote uirapuru: focagem de jacarés, caminhada na selva, nado com botos cor-de-rosa, visita a comunidades indígenas e ribeirinhas, e uma noite de pernoite acampada na floresta com redes suspensas e fogueira. o pulmão do mundo, ao vivo.",
     whatsappMessage:
-      "Oi Julia! Acabei de ler o material sobre a viagem à Amazônia (27 a 31 de maio de 2027) e quero garantir minha vaga :)",
+      "Oi Julia! Acabei de ler o material sobre a viagem à Amazônia (31 de maio a 4 de junho de 2027) e quero garantir minha vaga :)",
     paymentMethods: [],
     included: [
       "traslado ida e volta (buscamos você no local desejado em Manaus e levamos de volta ao final do pacote)",
@@ -1815,6 +1815,8 @@ uso exclusivo da propriedade durante toda a estadia — sem dividir espaço com 
       "trilhas, praias selvagens e cachoeiras na Bahia, em parceria inédita com a Numaré Brand",
     description:
       "5 dias, 12 meninas, em um dos maiores cartões postais do Brasil. Itacaré não é só praia bonita e água cristalina: é mata atlântica, trilhas, rios, cachoeiras e comunidades locais, com praias que só são acessíveis depois de uma caminhada pela mata. em uma edição inédita, teremos como parceira a Numaré Brand — cada menina recebe um kit especial da marca pra usar na viagem (e levar pra casa depois). voo de ida e volta para Ilhéus (IOS).",
+    urgentBadge: "esgotado",
+    soldOut: true,
     whatsappMessage:
       "Oi Julia! Acabei de ler o material sobre a viagem a Itacaré (29 de junho a 3 de julho de 2027) e quero garantir minha vaga :)",
     paymentMethods: ["pix", "boleto", "cartão de crédito"],
@@ -1969,6 +1971,8 @@ a organização dos quartos é decidida coletivamente na chegada, de forma tranq
       "trilhas, praias selvagens e cachoeiras na Bahia, em parceria inédita com a Numaré Brand",
     description:
       "5 dias, 12 meninas, em um dos maiores cartões postais do Brasil. Itacaré não é só praia bonita e água cristalina: é mata atlântica, trilhas, rios, cachoeiras e comunidades locais, com praias que só são acessíveis depois de uma caminhada pela mata. em uma edição inédita, teremos como parceira a Numaré Brand — cada menina recebe um kit especial da marca pra usar na viagem (e levar pra casa depois). voo de ida e volta para Ilhéus (IOS).",
+    urgentBadge: "esgotado",
+    soldOut: true,
     whatsappMessage:
       "Oi Julia! Acabei de ler o material sobre a viagem a Itacaré (30 de outubro a 3 de novembro de 2026) e quero garantir minha vaga :)",
     paymentMethods: ["pix", "boleto", "cartão de crédito"],
@@ -2287,6 +2291,7 @@ a organização dos quartos é decidida coletivamente na chegada, de forma tranq
   },
   {
     slug: "lombok-bali-filipinas-2027",
+    hidden: true,
     title: "Lombok + Bali + Filipinas",
     destination: "Lombok, Bali e Filipinas",
     cardImage: "/images/trips/lombok-bali-filipinas-2027/hero/hero-1.jpg",
@@ -2511,6 +2516,7 @@ a organização dos quartos é decidida coletivamente na chegada, de forma tranq
   },
   {
     slug: "filipinas-2027",
+    hidden: true,
     title: "Filipinas",
     destination: "Cebu e Siargao, Filipinas",
     cardImage: "/images/trips/filipinas-2027/hero/hero-1.jpg",
@@ -2701,6 +2707,8 @@ a organização dos quartos é decidida coletivamente na chegada, de forma tranq
       "geisers ao amanhecer, vales da lua e o silêncio absoluto do Salar de Uyuni, em 9 dias",
     description:
       "9 dias entre o Chile e a Bolívia: geisers ao amanhecer, vales da lua com cores de outro planeta, lagunas com flamingos, hotel de sal em Colchani e o silêncio absoluto do Salar de Uyuni. uma das experiências mais surreais que você vai viver.",
+    urgentBadge: "esgotado",
+    soldOut: true,
     whatsappMessage:
       "Oi Julia! Acabei de ler o material sobre a viagem Atacama + Uyuni (14 a 22 de fevereiro de 2027) e quero garantir minha vaga :)",
     paymentMethods: ["pix", "cartão de crédito"],
@@ -3000,6 +3008,7 @@ atenção: toda a rota envolve altitude entre 2.440m (San Pedro) e mais de 4.300
       "praia, rio e cultura Pataxó para receber 2027 em Caraíva, com a festa da virada por sua conta",
     description:
       "8 dias de Réveillon em Caraíva com a Gio e uma turma de até 12 mulheres. hospedagem exclusiva para o grupo no Tupinambá Pousada e Hostel, café da manhã, traslados de Porto Seguro, passeio de barco pelo Rio Caraíva e visita à Reserva Pataxó do Porto do Boi. a festa da virada não está inclusa, para que cada uma escolha como quer celebrar.",
+    urgentBadge: "2 vagas",
     whatsappMessage:
       "Oi Julia! Acabei de ler o material sobre a viagem de Réveillon em Caraíva (26 de dezembro de 2026 a 2 de janeiro de 2027) e quero garantir minha vaga :)",
     paymentMethods: ["cartão de crédito"],

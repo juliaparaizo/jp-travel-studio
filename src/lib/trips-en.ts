@@ -1126,7 +1126,7 @@ important: outings and the schedule are subject to change according to the river
   "amazonia-4": {
     title: "Amazon",
     destination: "Amazon, Brazil",
-    dates: "may 27–31, 2027",
+    dates: "may 31 – june 4, 2027",
     duration: "5 days · 4 nights",
     priceDisplay: "R$ 4,500",
     tagline:
@@ -1134,7 +1134,7 @@ important: outings and the schedule are subject to change according to the river
     description:
       "5 days and 4 nights at the Amazônia Jungle Hotel, on the banks of the Rio Negro. the uirapuru package: caiman spotting, jungle trekking, swimming with pink river dolphins, visits to indigenous and riverside communities, and one night camping in the forest with hanging hammocks and a bonfire. the lungs of the world, live.",
     whatsappMessage:
-      "Hi Julia! I just read the material about the Amazon trip (may 27–31, 2027) and I want to secure my spot :)",
+      "Hi Julia! I just read the material about the Amazon trip (may 31 – june 4, 2027) and I want to secure my spot :)",
     included: [
       "round-trip transfer (we pick you up wherever you like in Manaus and drop you back at the end of the package)",
       "full board: breakfast, lunch and dinner every day",
@@ -1498,6 +1498,7 @@ exclusive use of the property throughout your stay — no sharing space with oth
       "trails, wild beaches and waterfalls in Bahia, in a brand-new partnership with Numaré Brand",
     description:
       "5 days, 12 girls, in one of Brazil's biggest postcard destinations. Itacaré isn't just pretty beaches and crystal-clear water: it's Atlantic rainforest, trails, rivers, waterfalls and local communities, with beaches only reachable after a walk through the forest. in a brand-new partnership, our partner this edition is Numaré Brand — every girl gets a special kit from the brand to wear on the trip (and take home afterward). round-trip flight to Ilhéus (IOS).",
+    urgentBadge: "sold out",
     whatsappMessage:
       "Hi Julia! I just read the material about the Itacaré trip (june 29 – july 3, 2027) and I want to secure my spot :)",
     paymentMethods: ["pix", "boleto", "credit card"],
@@ -1631,6 +1632,7 @@ room assignments are decided together on arrival, no stress — we make it work!
       "trails, wild beaches and waterfalls in Bahia, in a brand-new partnership with Numaré Brand",
     description:
       "5 days, 12 girls, in one of Brazil's biggest postcard destinations. Itacaré isn't just pretty beaches and crystal-clear water: it's Atlantic rainforest, trails, rivers, waterfalls and local communities, with beaches only reachable after a walk through the forest. in a brand-new partnership, our partner this edition is Numaré Brand — every girl gets a special kit from the brand to wear on the trip (and take home afterward). round-trip flight to Ilhéus (IOS).",
+    urgentBadge: "sold out",
     whatsappMessage:
       "Hi Julia! I just read the material about the Itacaré trip (october 30 – november 3, 2026) and I want to secure my spot :)",
     paymentMethods: ["pix", "boleto", "credit card"],
@@ -2310,6 +2312,7 @@ room assignments are decided together on arrival, no stress — we make it work!
       "geysers at dawn, moon valleys and the absolute silence of the Salar de Uyuni, over 9 days",
     description:
       "9 days between Chile and Bolivia: geysers at dawn, moon valleys in colors from another planet, lagoons with flamingos, a salt hotel in Colchani and the absolute silence of the Salar de Uyuni. one of the most surreal experiences you'll ever live.",
+    urgentBadge: "sold out",
     whatsappMessage:
       "Hi Julia! I just read the material about the Atacama + Uyuni trip (february 14–22, 2027) and I want to secure my spot :)",
     paymentMethods: ["pix", "credit card"],
@@ -2590,6 +2593,7 @@ heads up: the whole route involves altitudes between 2,440m (San Pedro) and over
       "beach, river and Pataxó culture to welcome 2027 in Caraíva, with the New Year's party on your own",
     description:
       "8 days of New Year's in Caraíva with Gio and a group of up to 12 women. group-exclusive lodging at Tupinambá Pousada e Hostel, breakfast, transfers from Porto Seguro, a boat trip along the Caraíva River and a visit to the Pataxó Reserve at Porto do Boi. the New Year's Eve party isn't included, so each of you can choose how to celebrate.",
+    urgentBadge: "2 spots",
     whatsappMessage:
       "Hi Julia! I just read the material about the New Year's trip to Caraíva (december 26, 2026 – january 2, 2027) and I want to secure my spot :)",
     paymentMethods: ["credit card"],
