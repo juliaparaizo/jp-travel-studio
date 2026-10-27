@@ -250,10 +250,11 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
     priceDisplay: "R$ 2,700",
     priceInstallments:
       "1st batch (first 3 spots): R$ 2,700 · 2nd batch (remaining spots): R$ 3,000 — R$ 300 deposit to book (non-refundable), the rest in up to 4 interest-free installments or up to 6 with interest",
+    urgentBadge: "sept 7 holiday",
     tagline:
       "a 3-day trek across the dunes of the national park, sleeping in hammocks at native families' homes",
     description:
-      "4 days in the Lençóis Maranhenses with Julia. arrival in São Luís/Barreirinhas on the 4th to rest, since pickup for the trek is before dawn on the 5th. it's 3 days of trekking through the Lençóis Maranhenses National Park (between 30 and 40km total), sleeping in hammocks at native families' homes in the Oásis Baixa Grande and Oásis Queimada dos Britos, a Rio Negro crossing, lagoon swims and the vastness of the dunes at sunrise. a group of up to 12 girls, in one of the most unique and exotic landscapes in the world — no hotel, no luxury: home-cooked food, lagoon baths and the silence only the desert has.",
+      "4 days in the Lençóis Maranhenses with Julia. arrival in São Luís/Barreirinhas on the 4th to rest, since pickup for the trek is before dawn on the 5th. it's 3 days of trekking through the Lençóis Maranhenses National Park (between 30 and 40km total), sleeping in hammocks at native families' homes in the Oásis Baixa Grande and Oásis Queimada dos Britos, a Rio Negro crossing, lagoon swims and the vastness of the dunes at sunrise. bonus: the trip falls on Brazil's september 7th independence day holiday (tuesday) — saturday to tuesday, you only need 1 vacation day (monday, 9/6). a long weekend with a desert crossing! a group of up to 12 girls, in one of the most unique and exotic landscapes in the world — no hotel, no luxury: home-cooked food, lagoon baths and the silence only the desert has.",
     whatsappMessage:
       "Hi Julia! I just read the material about the Lençóis Maranhenses trip (september 4–7, 2027) and I want to secure my spot :)",
     paymentMethods: ["pix", "boleto", "credit card"],

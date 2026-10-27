@@ -335,10 +335,11 @@ evite itens pesados: livros, agendas, eletrônicos pesados e excesso de roupa. o
     priceInstallments:
       "1º lote (3 primeiras vagas): R$ 2.700 · 2º lote (demais vagas): R$ 3.000 — entrada de R$ 300 para reservar (não reembolsável), restante em até 4x sem juros ou até 6x com juros",
     agency: "Trilha Ecoaventura",
+    urgentBadge: "feriado 7 de setembro",
     tagline:
       "travessia de 3 dias pelas dunas do parque nacional, dormindo em rede na casa de famílias nativas",
     description:
-      "4 dias nos lençóis maranhenses com a Julia. chegada em são luís/barreirinhas no dia 4 para descansar, já que a busca para a travessia é de madrugada no dia 5. são 3 dias de trekking pelo parque nacional dos lençóis maranhenses (entre 30 e 40km no total), com pernoite em rede na casa de famílias nativas nos oásis baixa grande e queimada dos britos, travessia do rio negro, banho de lagoa e a imensidão das dunas ao amanhecer. um grupo de até 12 meninas, numa das paisagens mais únicas e exóticas do mundo — sem hotel, sem luxo: comida caseira, banho de lagoa e o silêncio que só o deserto tem.",
+      "4 dias nos lençóis maranhenses com a Julia. chegada em são luís/barreirinhas no dia 4 para descansar, já que a busca para a travessia é de madrugada no dia 5. são 3 dias de trekking pelo parque nacional dos lençóis maranhenses (entre 30 e 40km no total), com pernoite em rede na casa de famílias nativas nos oásis baixa grande e queimada dos britos, travessia do rio negro, banho de lagoa e a imensidão das dunas ao amanhecer. bônus: a viagem cai no feriado de 7 de setembro (terça) — de sábado a terça, dá pra aproveitar com só 1 dia útil de folga (segunda, 6/9). feriadão com travessia no deserto! um grupo de até 12 meninas, numa das paisagens mais únicas e exóticas do mundo — sem hotel, sem luxo: comida caseira, banho de lagoa e o silêncio que só o deserto tem.",
     whatsappMessage:
       "Oi Julia! Acabei de ler o material sobre a viagem aos Lençóis Maranhenses (4 a 7 de setembro de 2027) e quero garantir minha vaga :)",
     paymentMethods: ["pix", "boleto", "cartão de crédito"],
