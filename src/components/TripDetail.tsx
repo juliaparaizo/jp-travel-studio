@@ -13,6 +13,7 @@ import Testimonials from "@/components/Testimonials";
 const testimonialDestinationBySlug: Record<string, string> = {
   "lencois-maranhenses": "lencois",
   "lencois-maranhenses-2": "lencois",
+  "lencois-maranhenses-4": "lencois",
   "lencois-maranhenses-3": "lencois",
   amazonia: "amazonia",
   "amazonia-2": "amazonia",

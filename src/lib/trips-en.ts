@@ -243,6 +243,110 @@ avoid heavy items: books, planners, heavy electronics and excess clothing. the i
       },
     ],
   },
+  "lencois-maranhenses-4": {
+    destination: "Lençóis Maranhenses, Brazil",
+    dates: "september 4–7, 2027",
+    duration: "4 days",
+    priceDisplay: "R$ 2,700",
+    priceInstallments:
+      "1st batch (first 3 spots): R$ 2,700 · 2nd batch (remaining spots): R$ 3,000 — R$ 300 deposit to book (non-refundable), the rest in up to 4 interest-free installments or up to 6 with interest",
+    tagline:
+      "a 3-day trek across the dunes of the national park, sleeping in hammocks at native families' homes",
+    description:
+      "4 days in the Lençóis Maranhenses with Julia. arrival in São Luís/Barreirinhas on the 4th to rest, since pickup for the trek is before dawn on the 5th. it's 3 days of trekking through the Lençóis Maranhenses National Park (between 30 and 40km total), sleeping in hammocks at native families' homes in the Oásis Baixa Grande and Oásis Queimada dos Britos, a Rio Negro crossing, lagoon swims and the vastness of the dunes at sunrise. a group of up to 12 girls, in one of the most unique and exotic landscapes in the world — no hotel, no luxury: home-cooked food, lagoon baths and the silence only the desert has.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Lençóis Maranhenses trip (september 4–7, 2027) and I want to secure my spot :)",
+    paymentMethods: ["pix", "boleto", "credit card"],
+    included: [
+      "transfer São Luís ↔ Barreirinhas",
+      "all transport for the crossing (4x4, boat or speedboat, depending on the route)",
+      "breakfast, lunch and dinner on trekking days",
+      "hammock lodging at native families' homes (2 nights)",
+      "local eco guide, ICMBio certified",
+      "individual travel insurance",
+      "transfer back Santo Amaro ↔ São Luís",
+    ],
+    notIncluded: [
+      "airfare",
+      "hotel in Barreirinhas",
+      "airport ↔ hotel transfers and vice versa",
+      "drinks (paid directly to the families, in cash — about R$ 30 per day)",
+      "anything not listed in \"what's included\"",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "day 5 — barreirinhas → oásis baixa grande",
+        description:
+          "departure from São Luís to Barreirinhas at 4am, by van. at 8:30am, departure by boat from Barreirinhas, visiting the APA Pequenos Lençóis Maranhenses and passing through the villages of Vassouras and Mandacaru, with lunch at Caburé beach. in the afternoon, we continue by boat to Atins and from there, by 4x4, to the mouth of the Rio Negro, where the roughly 8km trek to Oásis Baixa Grande begins — home to 6 families living amid the restinga, in the middle of the desert. overnight in a hammock at a native family's home, with a home-cooked dinner. lunch and dinner included.",
+      },
+      {
+        day: 2,
+        title: "day 6 — oásis baixa grande → oásis queimada dos britos (10km)",
+        description:
+          "departure at 5:30am to catch the sunrise and cross the Rio Negro. it's a 10km trek to Oásis Queimada dos Britos, passing through Ponta do Peadouro, a region of tall dunes with an incredible view over the desert. arrival around 10:30/11am, with lunch and a free afternoon to rest. at 4pm we head out to watch the sunset, then on to the overnight hammock stay in a village of about 20 families, with dinner. breakfast, lunch and dinner included.",
+      },
+      {
+        day: 3,
+        title: "day 7 — oásis queimada dos britos → lagoa do junco (14km)",
+        description:
+          "departure before dawn, around 3am, for the final 14km trek to Lagoa do Junco, with swims along the way in other lagoons in the region. expected arrival at 10am, followed by 4x4 to Santo Amaro and from there the transfer back to Barreirinhas or São Luís. breakfast included.",
+      },
+    ],
+    accommodation: `lodging in hammock shelters built by the local residents, in the Oásis Baixa Grande and Oásis Queimada dos Britos — we all sleep side by side in hammocks, with bedsheets provided by the families. the shelters usually have outlets to charge your phone and wi-fi (with restricted hours to save generator power) — a portable charger can help. bathrooms are communal, so there's always a line for showers, which should be quick.
+
+Oásis Baixa Grande is home to 6 families; Oásis Queimada dos Britos is larger, with about 20 families. lodging and meals at the shelters are already included in the package — bring small cash bills for drinks, paid directly to the families (about R$ 30 per day).`,
+    forWhom: [
+      {
+        title: "those who want to truly disconnect",
+        description:
+          "3 days of trekking across the national park's dunes, sleeping in hammocks at native families' homes, with no rush and no luxury.",
+      },
+      {
+        title: "those who love a real trek",
+        description:
+          "stretches of up to 8km, 10km and 14km between dunes, rivers and lagoons — between 30 and 40km total over 3 days. it's a genuinely physical itinerary, so make sure you're up for the adventure.",
+      },
+      {
+        title: "those who want to meet local communities",
+        description:
+          "lodging and meals at families' homes in the Oásis Baixa Grande and Oásis Queimada dos Britos, with local guides certified by ICMBio.",
+      },
+    ],
+    faqs: [
+      {
+        question: "what should i bring?",
+        answer: `a headlamp, UV-protective clothing, a cap, sunglasses, sunscreen, a rain cover, a 30, 40 or 60L backpack, a trekking pole, a 1.5L water bottle or hydration pack, swimwear, cereal bars/nuts/fruit for trail snacks, a camera, sandals or flip-flops, socks, a beach towel, personal hygiene products and personal medication.
+
+avoid heavy items: books, planners, heavy electronics and excess clothing. the ideal is to carry around 4kg in your backpack — less is more.`,
+      },
+      {
+        question: "how does payment work?",
+        answer:
+          "the package has 2 price batches: 1st batch (first 3 spots) — R$ 2,700; 2nd batch (remaining spots) — R$ 3,000. to confirm your spot, the deposit is R$ 300 (non-refundable). the rest can be split into up to 4 interest-free installments or up to 6 with interest, via pix, boleto or credit card.",
+      },
+      {
+        question: "what's the cancellation policy?",
+        answer:
+          "cancellations must be requested at least 15 days before the contracted services begin; after that, a fee of 50% of the amount paid applies. refunds are issued minus bank transfer fees. no-shows are charged 100% of the contracted services.",
+      },
+      {
+        question: "is there a vegetarian or vegan option?",
+        answer:
+          "yes, but it needs to be informed at the time of booking so the family responsible for the meal can prepare accordingly.",
+      },
+      {
+        question: "why does it depart before dawn?",
+        answer:
+          "the trek always runs from Barreirinhas towards Santo Amaro, which avoids walking straight into the sun and wind, and makes climbing the dunes easier. that's why arriving in São Luís/Barreirinhas on the 4th is recommended — look for flights landing by early afternoon, to have some slack for the trip to Barreirinhas. on the 5th, pickup is before dawn, at the airport or your hotel. on the way back, we recommend flights from 6pm on the 7th, to allow a margin for any last-minute issues.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "yes! i accompany the group start to finish, at every step of the crossing — except free time, of course :) and i'll always be available for any questions that come up, before or during the trip 💛",
+      },
+    ],
+  },
   "surfcamp-saquarema": {
     destination: "Saquarema, Rio de Janeiro, Brazil",
     dates: "january 7–10, 2027",
@@ -1598,6 +1702,127 @@ room assignments are decided together on arrival, no stress — we make it work!
         question: "how does Numaré fit into the trip?",
         answer:
           "Numaré is this edition's sponsor. on arrival, each person gets a kit with pieces from the brand to wear during the trip — and of course, take home afterward. throughout the days, we'll shoot photos and videos for Numaré's use; by joining the trip, you grant image usage rights for that content to be published on the brand's social media. if you have any objection to this, it's essential to speak with Gio before the trip.",
+      },
+      {
+        question: "i don't want to join the surf lesson — what now?",
+        answer:
+          "no problem! just let Gio or Malice know ahead of time — while the group is in the lesson, you're free to enjoy the beach at your own pace.",
+      },
+      {
+        question: "how does payment work?",
+        answer:
+          "we accept pix, boleto or credit card. on the card, installments go up to 6x with interest; via pix, the full amount needs to be settled before the trip starts.",
+      },
+      {
+        question: "what's the cancellation policy?",
+        answer:
+          "cancellations must be requested at least 15 days before the contracted services begin; after that, a fee of 50% of the amount paid applies. refunds are issued minus bank transfer fees. no-shows are charged 100% of the contracted services.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group start to finish. Gio is 24, from São Paulo, and spent 5 months backpacking solo around the world — today she organizes group trips for women, with the purpose of helping those who want to travel but don't know how. i've done this trip myself and hand-picked this partnership, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
+    ],
+  },
+  "itacare-3": {
+    destination: "Itacaré, Brazil",
+    dates: "september 15–19, 2027",
+    duration: "5 days",
+    priceDisplay: "R$ 2,500",
+    priceInstallments:
+      "we accept pix, boleto or credit card — card installments up to 6x with interest; pix payments need to be fully settled before the trip starts",
+    tagline:
+      "trails, wild beaches and waterfalls in Bahia",
+    description:
+      "5 days, 12 girls, in one of Brazil's biggest postcard destinations. Itacaré isn't just pretty beaches and crystal-clear water: it's Atlantic rainforest, trails, rivers, waterfalls and local communities, with beaches only reachable after a walk through the forest. round-trip flight to Ilhéus (IOS).",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Itacaré trip (september 15–19, 2027) and I want to secure my spot :)",
+    paymentMethods: ["pix", "boleto", "credit card"],
+    included: [
+      "transfer Ilhéus ↔ Itacaré",
+      "lodging",
+      "breakfast",
+      "surf lesson",
+      "outing to Praia da Engenhoca",
+      "footvolley (altinha) lesson",
+    ],
+    notIncluded: [
+      "airfare",
+      "meals (lunches and dinners)",
+      "drinks and personal expenses (shopping, souvenirs, snacks — estimated R$ 300 to R$ 500 over the 5 days)",
+      "local transport within Itacaré (local drivers and parking)",
+      "anything not listed in \"what's included\"",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "day 1 — arrival in Itacaré (Ilhéus → Itacaré)",
+        description:
+          "the first day is for arriving, breathing and starting to get into the Itacaré mood. after the flight and the transfer to the lodging, we enjoy the afternoon at Praia da Concha, with calm water — a perfect scene to unwind after traveling. at night, a special dinner in the historic center, to officially kick off this experience together.",
+      },
+      {
+        day: 2,
+        title: "day 2 — Itacarezinho (Itacarezinho beach → footvolley → downtown)",
+        description:
+          "a full day to experience one of Itacaré's most beautiful beaches: Itacarezinho (or Prainha, depending on conditions). the idea is to enjoy the day unhurried, with sea, sand, sun and lots of conversation. to make it even more fun, we'll have a group footvolley (altinha) lesson — because a good trip also needs movement and laughter. late afternoon, we head back to the lodging to rest.",
+      },
+      {
+        day: 3,
+        title: "day 3 — surf lesson and Engenhoca",
+        description:
+          "sunday is for putting your feet in the sand and giving surfing a try! we'll do a short morning trail to Praia da Engenhoca, where we'll have a group surf lesson and enjoy the rest of the day there, taking in the beach, the sea and Itacaré's unhurried vibe. a day to try something new, have fun together and, of course, soak up some sun.",
+      },
+      {
+        day: 4,
+        title: "day 4 — Praia da Tiririca",
+        description:
+          "a full day to experience one of Itacaré's most beautiful beaches: Itacarezinho (or Prainha, depending on conditions). the idea is to enjoy the day unhurried, with sea, sand, sun and lots of conversation. to make it even more fun, we'll have a group footvolley (altinha) lesson — because a good trip also needs movement and laughter. late afternoon, we head back to the lodging to rest.",
+      },
+      {
+        day: 5,
+        title: "day 5 — farewell",
+        description:
+          "before saying goodbye to Itacaré, a free morning to walk around the historic center, check out the little shops, buy some handicrafts and soak up the last moments in town. we wrap up with a farewell breakfast together, before heading to the airport — transfers are organized around each person's flight time, so if anyone has an earlier flight, just let us know.",
+      },
+    ],
+    accommodation: `a triplex house 450m from the historic center and 250m from Praia da Concha — 12 guests, 5 bedrooms, 10 beds and 5 bathrooms.
+
+suite 1: 2 twin beds · suite 2: 2 twin beds · suite 3: 1 twin bed and 1 double bed · suite 4: 1 twin bed and 1 double bed · suite 5: 1 double bed.
+
+room assignments are decided together on arrival, no stress — we make it work!`,
+    forWhom: [
+      {
+        title: "those who want to go beyond the obvious",
+        description:
+          "Itacaré is much more than a beach: Atlantic rainforest trails, rivers, waterfalls and local communities that don't show up much in the typical itineraries.",
+      },
+      {
+        title: "those who want to connect and move",
+        description:
+          "a surf lesson, a footvolley lesson, trails to preserved beaches and plenty of time to slow down, eat well and swap stories.",
+      },
+    ],
+    faqs: [
+      {
+        question: "how does the trip work?",
+        answer:
+          "getting to Ilhéus is on your own. on arrival, you'll already have a car assigned, heading out from Ilhéus to Itacaré — Gio spends the day at the airport welcoming everyone and helping match people with the right transfer. on september 19th, transfers leave Itacaré back to Ilhéus Airport.",
+      },
+      {
+        question: "do i have to do every activity?",
+        answer:
+          "no! since the whole program is already included in the package, we encourage you to make the most of it, but you're not required to join anything.",
+      },
+      {
+        question: "how are the beds set up?",
+        answer:
+          "the house has different bed setups — 10 beds total, across 5 bedrooms. room assignments are decided together on arrival, nice and easy.",
+      },
+      {
+        question: "do you help with booking flights?",
+        answer:
+          "yes! we have a partner agency that helps you find good-value flights — just reach out to Gio and ask for help.",
       },
       {
         question: "i don't want to join the surf lesson — what now?",
@@ -3971,6 +4196,154 @@ or similar. lodging, beach clubs and other services may be replaced with equival
         question: "is the trip women-only?",
         answer:
           "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+    ],
+  },
+  "jalapao-3": {
+    destination: "Jalapão, Tocantins, Brazil",
+    dates: "may 14–17, 2027",
+    duration: "4 days",
+    priceInstallments:
+      "per person — lodging, full meals, transfers and entrance fees included",
+    tagline:
+      "natural springs, golden dunes, canyons and brazil's wildest cerrado",
+    description:
+      "a 4-day expedition through the Jalapão region of Tocantins with Julia — crystal-clear natural springs that bubble up from the ground, golden dunes of capim dourado, breathtaking canyons and waterfalls hidden in the heart of the cerrado. everything included: lodging, 3 full meals a day, transfers, 4x4 transport, licensed environmental guide and entrance to every attraction. arrive in palmas on the 13th, the expedition starts early on the 14th.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Jalapão expedition (may 14–17, 2027) and I want to secure my spot :)",
+    paymentMethods: [
+      "pix upfront",
+      "bank transfer",
+      "boleto",
+      "credit card in up to 10 installments",
+    ],
+    included: [
+      "transfer Palmas ↔ Jalapão (round trip)",
+      "4x4 vehicle transport throughout the expedition",
+      "environmental guide licensed by the local authority",
+      "lodging in Jalapão guesthouses",
+      "full meals — breakfast, lunch and dinner every day",
+      "mineral water on board throughout the trip",
+      "entrance fees for every attraction on the itinerary",
+      "accident insurance",
+    ],
+    notIncluded: [
+      "airfare",
+      "environmental fee — R$ 30 per person (paid at the park entrance)",
+      "hotel in Palmas on the night of may 13",
+      "transfer airport ↔ hotel in Palmas",
+      "drinks with meals",
+      "optional activities",
+      "personal expenses",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "expedition day 1 — lagoa do japonês + pedra furada",
+        description:
+          "departure from Palmas at 8am. first stop: Lagoa do Japonês, one of Jalapão's postcard sights. lunch en route. in the afternoon, Pedra Furada — a one-of-a-kind rock formation in the middle of the cerrado. dinner at 7pm and check-in at the guesthouse.",
+      },
+      {
+        day: 2,
+        title: "day 2 — sussuapara canyon + jalapão dunes",
+        description:
+          "breakfast at 7am. Sussuapara canyon — breathtaking rock walls. lunch at the Rio Novo quilombola community. afternoon at Prainha do Rio Novo. photo stop at Morro do Saca Trapo. Lagoa do Jacaré and the Serra do Espírito Santo cliff wall. Jalapão Dunes at sunset. dinner at 7:30pm and check-in at the guesthouse.",
+      },
+      {
+        day: 3,
+        title: "day 3 — natural springs + formiga waterfall",
+        description:
+          "breakfast at 7am. Buritis spring. Formiga Waterfall — emerald waters and surreal transparency. lunch. visit to Jane's capim dourado handicraft cabin. Beija Flor spring. Por Enquanto spring. dinner at 7pm and check-in at the guesthouse.",
+      },
+      {
+        day: 4,
+        title: "day 4 — bela vista spring + return to palmas",
+        description:
+          "breakfast at 7am. Bela Vista spring. photo stop at Serra da Catedral. Poço Encantado waterfall. lunch. departure for Palmas — expected arrival at 6pm. return flights from 6pm on the 17th.",
+      },
+    ],
+    accommodation: `lodging in comfortable guesthouses in the Jalapão interior, selected by Tour Jalapão. all meals are included: breakfast, lunch and dinner, with regional food — simple, generous and made with lots of love.
+
+- heads up: internet signal at the guesthouses is weak. wi-fi is available only in the morning, before departure, and at the end of the day upon return. it's the disconnection Jalapão asks for — and that we embrace!
+- special diets (vegan, vegetarian, etc.): possible with advance notice — the menu needs to stay within what the region can offer.`,
+    forWhom: [
+      {
+        title: "those who want adventure in the heart of brazil",
+        description:
+          "Jalapão is one of Brazil's most incredible and least known destinations — ideal for those who want to skip the obvious and discover otherworldly landscapes.",
+      },
+      {
+        title: "those who love untouched nature",
+        description:
+          "natural springs, dunes, canyons and preserved cerrado — all far from crowds and truly connected with nature.",
+      },
+      {
+        title: "those who want everything taken care of",
+        description:
+          "with lodging, full meals, transport, guide and entrance fees included, all you have to do is arrive in Palmas on the 13th and set off on the adventure.",
+      },
+    ],
+    faqs: [
+      {
+        question: "when do i need to arrive in palmas?",
+        answer:
+          "we recommend arriving in Palmas on the night of may 13 (evening flight) or very early on the 14th, before 7am. the expedition leaves Palmas at 8am on the 14th — Tour Jalapão picks everyone up at their hotels between 6:30am and 7:20am.",
+      },
+      {
+        question: "when can i book return flights?",
+        answer:
+          "the expedition returns to Palmas with expected arrival at 6pm on may 17. we recommend return flights from 8pm onwards for a comfortable margin.",
+      },
+      {
+        question: "is the hotel in palmas included?",
+        answer:
+          "no, the hotel on the night of the 13th in Palmas is not included. but i can suggest affordable, central options — just reach out on WhatsApp!",
+      },
+      {
+        question: "what is a fervedouro?",
+        answer:
+          "fervedouros are natural springs where water rises from the ground with so much pressure it creates a 'boiling' effect — even though the water is cold! the transparency and turquoise color are out of this world. one of Brazil's most unique experiences.",
+      },
+      {
+        question: "can i wear sunscreen in the springs?",
+        answer:
+          "no! it's forbidden to enter the attractions with repellent, sunscreen, tanning oil or similar products on your body. this is mandatory to preserve the springs. bring UV-protection clothing if you prefer.",
+      },
+      {
+        question: "what's the luggage allowance?",
+        answer:
+          "luggage allowed on board the 4x4 vehicle is at most 20 liters (equivalent to a small 10 kg backpack). respecting this is important to guarantee space for everyone.",
+      },
+      {
+        question: "is there internet and cell signal in jalapão?",
+        answer:
+          "internet and cell signal at the guesthouses is weak. wi-fi is available only in the morning and at the end of the day. it's the total disconnection Jalapão offers — and that we wholeheartedly embrace!",
+      },
+      {
+        question: "are there optional activities?",
+        answer: `yes! there are several paid options:
+- rappelling at Roncadeira Waterfall (70m) — R$ 120/person
+- zipline in Taquaruçu (1,000m descent) — R$ 120/person
+- zipline at Lagoa do Japonês — R$ 40/person
+- trekking at Serra do Jacurutu (sunrise) — R$ 160/person
+- rafting on the Sono River (~2h descent) — R$ 200/person
+
+we recommend bringing cash, as some places don't take cards.`,
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+      {
+        question: "is the environmental fee included?",
+        answer:
+          "no, the Jalapão State Park environmental fee is R$ 30 per person and is paid directly at the park entrance. don't forget to bring cash!",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "yes! i accompany the group start to finish, at every step of the expedition — except free time, of course :) and i'll always be available for any questions that come up, before or during the trip 💛",
       },
     ],
   },

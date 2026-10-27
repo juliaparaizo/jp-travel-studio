@@ -312,6 +312,127 @@ evite itens pesados: livros, agendas, eletrônicos pesados e excesso de roupa. o
     ],
   },
   {
+    slug: "lencois-maranhenses-4",
+    title: "Lençóis Maranhenses",
+    destination: "Lençóis Maranhenses, Maranhão",
+    cardImage: "/images/trips/lencois-maranhenses/hero/hero-1.jpg",
+    heroImage: "/images/trips/lencois-maranhenses/hero/hero-1.jpg",
+    heroImages: [
+      "/images/trips/lencois-maranhenses/hero/hero-1.jpg",
+      "/images/trips/lencois-maranhenses/hero/hero-2.jpg",
+      "/images/trips/lencois-maranhenses/hero/hero-3.jpg",
+      "/images/trips/lencois-maranhenses/hero/hero-4.jpg",
+      "/images/trips/lencois-maranhenses/hero/hero-5.jpg",
+      "/images/trips/lencois-maranhenses/hero/hero-6.jpg",
+    ],
+    dates: "4 a 7 de setembro de 2027",
+    dateForSort: "2027-09-04",
+    dateForSortEnd: "2027-09-07",
+    duration: "4 dias",
+    priceDisplay: "R$ 2.700",
+    priceValue: 2700,
+    national: true,
+    priceInstallments:
+      "1º lote (3 primeiras vagas): R$ 2.700 · 2º lote (demais vagas): R$ 3.000 — entrada de R$ 300 para reservar (não reembolsável), restante em até 4x sem juros ou até 6x com juros",
+    agency: "Trilha Ecoaventura",
+    tagline:
+      "travessia de 3 dias pelas dunas do parque nacional, dormindo em rede na casa de famílias nativas",
+    description:
+      "4 dias nos lençóis maranhenses com a Julia. chegada em são luís/barreirinhas no dia 4 para descansar, já que a busca para a travessia é de madrugada no dia 5. são 3 dias de trekking pelo parque nacional dos lençóis maranhenses (entre 30 e 40km no total), com pernoite em rede na casa de famílias nativas nos oásis baixa grande e queimada dos britos, travessia do rio negro, banho de lagoa e a imensidão das dunas ao amanhecer. um grupo de até 12 meninas, numa das paisagens mais únicas e exóticas do mundo — sem hotel, sem luxo: comida caseira, banho de lagoa e o silêncio que só o deserto tem.",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a viagem aos Lençóis Maranhenses (4 a 7 de setembro de 2027) e quero garantir minha vaga :)",
+    paymentMethods: ["pix", "boleto", "cartão de crédito"],
+    included: [
+      "transfer São Luís ↔ Barreirinhas",
+      "todo o transporte da travessia (4x4, barco ou lancha, conforme o roteiro)",
+      "café da manhã, almoço e jantar nos dias de caminhada",
+      "hospedagem em rede na casa de famílias nativas (2 noites)",
+      "condutor ecológico local, credenciado no ICMBio",
+      "seguro viagem individual",
+      "transfer de volta Santo Amaro ↔ São Luís",
+    ],
+    notIncluded: [
+      "passagem aérea",
+      "hotel em Barreirinhas",
+      "traslados aeroporto ↔ hotel e vice-versa",
+      "bebidas (pagas direto às famílias, em dinheiro — cerca de R$ 30 por dia)",
+      'tudo o que não estiver listado em "o que está incluso"',
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "dia 5 — barreirinhas → oásis baixa grande",
+        description:
+          "saída de São Luís para Barreirinhas às 4h, de van. às 8h30, saída de barco de Barreirinhas, com visita à APA Pequenos Lençóis Maranhenses, passando pelos povoados de Vassouras e Mandacaru, com almoço na praia de Caburé. à tarde, seguimos de barco até Atins e de lá, de 4x4, até a foz do Rio Negro, onde começa a caminhada de cerca de 8km até o Oásis Baixa Grande — onde 6 famílias vivem cercadas por restinga, no meio do deserto. pernoite em rede na casa de uma família nativa, com jantar caseiro. almoço e jantar inclusos.",
+      },
+      {
+        day: 2,
+        title: "dia 6 — oásis baixa grande → oásis queimada dos britos (10km)",
+        description:
+          "saída às 5h30 para acompanhar o nascer do sol e cruzar o Rio Negro. são 10km de caminhada até o Oásis Queimada dos Britos, passando pela Ponta do Peadouro, região de dunas altas com vista incrível sobre o deserto. chegada por volta das 10h30/11h, com almoço e tarde livre pra descansar. às 16h saímos para observar o pôr do sol, seguindo para o pernoite em rede numa vila de cerca de 20 famílias, com jantar. café da manhã, almoço e jantar inclusos.",
+      },
+      {
+        day: 3,
+        title: "dia 7 — oásis queimada dos britos → lagoa do junco (14km)",
+        description:
+          "saída de madrugada, por volta das 3h, para a caminhada final de 14km até a Lagoa do Junco, com banhos ao longo do caminho em outras lagoas da região. chegada prevista para as 10h, seguindo de 4x4 até Santo Amaro e de lá o transfer de volta a Barreirinhas ou São Luís. café da manhã incluso.",
+      },
+    ],
+    accommodation: `hospedagem em redários construídos pelos moradores, nos oásis Baixa Grande e Queimada dos Britos — dormimos todas lado a lado nas redes, com lençóis fornecidos pelas famílias. os redários costumam ter tomadas para recarregar o celular e wi-fi (com horários restritos para economizar energia dos geradores) — um carregador portátil pode ajudar. os banheiros são comunitários, então sempre tem fila para o banho, que deve ser rapidinho.
+
+o Oásis Baixa Grande reúne 6 famílias; o Oásis Queimada dos Britos é maior, com cerca de 20 famílias. estadia e alimentação nos redários já estão inclusas no pacote — leve dinheiro trocado para as bebidas, pagas direto às famílias (cerca de R$ 30 por dia).`,
+    forWhom: [
+      {
+        title: "quem quer se desconectar de verdade",
+        description:
+          "3 dias de trekking pelas dunas do parque nacional, dormindo em rede na casa de famílias nativas, sem pressa e sem luxo.",
+      },
+      {
+        title: "quem gosta de caminhada de verdade",
+        description:
+          "trechos de até 8km, 10km e 14km entre dunas, rios e lagoas — ao todo, entre 30 e 40km em 3 dias. é um itinerário físico de verdade, então vale ter certeza de que está apta pra aventura.",
+      },
+      {
+        title: "quem quer conhecer as comunidades locais",
+        description:
+          "hospedagem e refeições nas casas de famílias dos oásis Baixa Grande e Queimada dos Britos, com guias locais credenciados no ICMBio.",
+      },
+    ],
+    faqs: [
+      {
+        question: "o que preciso levar?",
+        answer: `lanterna de cabeça, roupas com proteção UV, boné, óculos de sol, protetor solar, capa de chuva, mochila de 30, 40 ou 60L, bastão de caminhada, garrafa de água de 1,5L ou mochila de hidratação, roupa de banho, barra de cereal/castanhas/frutas para lanche na trilha, câmera fotográfica, sandálias ou chinelos, meias, toalha de praia, produtos de higiene pessoal e medicamentos pessoais.
+
+evite itens pesados: livros, agendas, eletrônicos pesados e excesso de roupa. o ideal é carregar cerca de 4kg de mochila — menos é mais.`,
+      },
+      {
+        question: "como funciona o pagamento?",
+        answer:
+          "o pacote tem 2 lotes de preço: 1º lote (3 primeiras vagas) — R$ 2.700; 2º lote (demais vagas) — R$ 3.000. para confirmar a vaga, a entrada é de R$ 300 (depósito não reembolsável). o restante pode ser parcelado em até 4x sem juros ou até 6x com juros, via pix, boleto ou cartão.",
+      },
+      {
+        question: "qual a política de cancelamento?",
+        answer:
+          "o cancelamento deve ser solicitado até 15 dias antes do início dos serviços contratados; após esse prazo, será cobrada uma taxa de 50% do valor contratado. devoluções são feitas com desconto das taxas de transferência bancária. em caso de não comparecimento (no-show), a cobrança é de 100% dos serviços contratados.",
+      },
+      {
+        question: "tem opção vegetariana ou vegana?",
+        answer:
+          "sim, mas é preciso informar no ato da reserva para que a família responsável pela refeição possa se organizar.",
+      },
+      {
+        question: "por que a saída é de madrugada?",
+        answer:
+          "o trekking segue sempre no sentido Barreirinhas → Santo Amaro, o que evita caminhar com o sol e o vento de frente, além de facilitar a subida nas dunas. por isso a chegada em São Luís/Barreirinhas é recomendada no dia 4 — procure voos que pousem até o início da tarde, pra ter folga no trajeto até Barreirinhas. no dia 5, a busca é de madrugada, no aeroporto ou no hotel. na volta, recomendamos voos a partir das 18h do dia 7, pra dar margem para imprevistos.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "sim! eu acompanho o grupo do começo ao fim, em todas as etapas da travessia — tirando o tempo livre, claro :) e estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem 💛",
+      },
+    ],
+  },
+  {
     slug: "jalapao",
     hidden: true,
     title: "Jalapão",
@@ -644,6 +765,172 @@ recomendamos levar dinheiro em espécie, pois alguns locais não aceitam cartão
         question: "a Julia estará presente nessa viagem?",
         answer:
           "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
+    ],
+  },
+  {
+    slug: "jalapao-3",
+    title: "Jalapão",
+    destination: "Jalapão, Tocantins",
+    cardImage: "/images/trips/jalapao/jalapao-2.jpeg",
+    heroImage: "/images/trips/jalapao/jalapao-1.jpeg",
+    heroImages: [
+      "/images/trips/jalapao/hero/hero-1.jpg",
+      "/images/trips/jalapao/hero/hero-2.jpg",
+      "/images/trips/jalapao/hero/hero-3.jpg",
+      "/images/trips/jalapao/hero/hero-4.jpg",
+      "/images/trips/jalapao/hero/hero-5.jpg",
+      "/images/trips/jalapao/hero/hero-6.jpg",
+    ],
+    dates: "14 a 17 de maio de 2027",
+    dateForSort: "2027-05-14",
+    dateForSortEnd: "2027-05-17",
+    duration: "4 dias",
+    priceDisplay: "R$ 3.800",
+    priceValue: 3800,
+    national: true,
+    priceInstallments:
+      "por pessoa — hospedagem, alimentação completa, translados e entradas inclusos",
+    agency: "Tour Jalapão",
+    tagline:
+      "fervedouros, dunas douradas, cânions e o cerrado mais selvagem do brasil",
+    description:
+      "4 dias de expedição no Jalapão tocantinense com a Julia — fervedouros de água cristalina que borbulha do chão, dunas douradas de capim doirado, cânions impressionantes e cachoeiras escondidas no coração do cerrado. tudo incluso: hospedagem, 3 refeições completas por dia, translado, transporte 4x4, guia ambiental credenciado e entradas em todos os atrativos. chegue em palmas no dia 13, a expedição começa cedo no dia 14.",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a expedição ao Jalapão (14 a 17 de maio de 2027) e quero garantir minha vaga :)",
+    paymentMethods: [
+      "pix à vista",
+      "transferência bancária",
+      "boleto",
+      "cartão de crédito em até 10x",
+    ],
+    included: [
+      "translado Palmas ↔ Jalapão (ida e volta)",
+      "transporte em veículo 4x4 durante toda a expedição",
+      "condutor ambiental credenciado pelo órgão competente",
+      "hospedagem nas pousadas do Jalapão",
+      "alimentação completa — café da manhã, almoço e jantar em todos os dias",
+      "água mineral a bordo durante todo o trajeto",
+      "taxa de visitação de todos os atrativos do roteiro",
+      "seguro de acidente",
+    ],
+    notIncluded: [
+      "passagem aérea",
+      "taxa ambiental — R$ 30 por pessoa (pago na entrada do parque)",
+      "hotel em Palmas na noite do dia 13 de maio",
+      "traslado aeroporto ↔ hotel em Palmas",
+      "bebidas durante as refeições",
+      "atividades opcionais",
+      "despesas pessoais",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "1º dia de expedição — lagoa do japonês + pedra furada",
+        description:
+          "saída de Palmas às 8h. primeiro destino: Lagoa do Japonês, um dos cartões-postais do Jalapão. almoço em rota. à tarde, Pedra Furada — uma formação rochosa única no meio do cerrado. jantar às 19h e check-in na pousada.",
+      },
+      {
+        day: 2,
+        title: "2º dia — cânion do sussuapara + dunas do jalapão",
+        description:
+          "café da manhã às 7h. cânion do Sussuapara — paredes de rocha de tirar o fôlego. almoço na comunidade quilombola do Rio Novo. tarde na Prainha do Rio Novo. parada fotográfica no Morro do Saca Trapo. Lagoa do Jacaré e Paredão da Serra do Espírito Santo. Dunas do Jalapão ao entardecer. jantar às 19:30h e check-in na pousada.",
+      },
+      {
+        day: 3,
+        title: "3º dia — fervedouros + cachoeira do formiga",
+        description:
+          "café da manhã às 7h. Fervedouro dos Buritis. Cachoeira do Formiga — águas esmeraldas e transparência surreal. almoço. visita à cabana de artesanato de capim dourado da Jane. Fervedouro Beija Flor. Fervedouro Por Enquanto. jantar às 19h e check-in na pousada.",
+      },
+      {
+        day: 4,
+        title: "4º dia — fervedouro bela vista + retorno a palmas",
+        description:
+          "café da manhã às 7h. Fervedouro Bela Vista. parada fotográfica na Serra da Catedral. Cachoeira do Poço Encantado. almoço. saída rumo a Palmas — chegada prevista às 18h. voos de retorno a partir das 18h do dia 17.",
+      },
+    ],
+    accommodation: `hospedagem em pousadas confortáveis no interior do Jalapão, selecionadas pela Tour Jalapão. todas as refeições são incluídas: café da manhã, almoço e jantar, com comida regional, simples, farta e feita com muito amor.
+
+- atenção: o sinal de internet nas pousadas é fraco. wi-fi disponível somente pela manhã, antes da saída, e no final do dia ao retornar. é a desconexão que o Jalapão pede — e que a gente abraça!
+- dieta especial (vegana, vegetariana, etc.): possível mediante aviso prévio — o cardápio precisa estar dentro das possibilidades da região.`,
+    forWhom: [
+      {
+        title: "quem quer aventura no coração do brasil",
+        description:
+          "o Jalapão é um dos destinos mais incríveis e menos conhecidos do Brasil — ideal para quem quer sair do óbvio e descobrir paisagens de outro mundo.",
+      },
+      {
+        title: "quem ama natureza intocada",
+        description:
+          "fervedouros, dunas, cânions e o cerrado preservado — tudo longe de multidões e conectado de verdade com a natureza.",
+      },
+      {
+        title: "quem quer tudo resolvido",
+        description:
+          "com hospedagem, alimentação completa, transporte, guia e entradas incluídos, é só chegar em Palmas no dia 13 e embarcar na aventura.",
+      },
+    ],
+    faqs: [
+      {
+        question: "quando preciso chegar em palmas?",
+        answer:
+          "recomendamos chegar em Palmas na noite do dia 13 de maio (voo noturno) ou muito cedo no dia 14, antes das 7h da manhã. a expedição sai de Palmas às 8h do dia 14 — a Tour Jalapão busca nos hotéis entre 6h30 e 7h20.",
+      },
+      {
+        question: "quando posso comprar voos de volta?",
+        answer:
+          "a expedição retorna a Palmas com chegada prevista às 18h do dia 17 de maio. recomendamos voos de volta a partir das 20h para ter uma margem tranquila.",
+      },
+      {
+        question: "o hotel em palmas está incluso?",
+        answer:
+          "não, o hotel na noite do dia 13 em Palmas não está incluso. mas eu posso indicar opções econômicas e centrais — é só chamar no WhatsApp!",
+      },
+      {
+        question: "o que é um fervedouro?",
+        answer:
+          "fervedouros são nascentes naturais onde a água brota do chão com tanta pressão que cria um 'fervimento' — mesmo que a água seja gelada! a transparência e a cor turquesa são de outro mundo. uma das experiências mais únicas do Brasil.",
+      },
+      {
+        question: "posso usar protetor solar nos fervedouros?",
+        answer:
+          "não! é proibido entrar nos atrativos com repelente, protetor solar, bronzeador ou similares no corpo. isso é obrigatório para preservar as nascentes. leve roupas de proteção UV se preferir.",
+      },
+      {
+        question: "qual a franquia de bagagem?",
+        answer:
+          "a bagagem permitida a bordo do veículo 4x4 é de no máximo 20 litros (equivalente a uma mochila pequena de 10 kg). é importante respeitar isso para garantir espaço para todas.",
+      },
+      {
+        question: "tem internet e celular no jalapão?",
+        answer:
+          "o sinal de internet e celular nas pousadas é fraco. wi-fi disponível somente pela manhã e ao final do dia. é a desconexão total que o Jalapão oferece — e que a gente abraça de coração!",
+      },
+      {
+        question: "tem atividades opcionais?",
+        answer: `sim! há várias opções pagas:
+- rapel na Cachoeira da Roncadeira (70m) — R$ 120/pessoa
+- tirolesa em Taquaruçu (1.000m de descida) — R$ 120/pessoa
+- tirolesa na Lagoa do Japonês — R$ 40/pessoa
+- trekking na Serra do Jacurutu (nascer do sol) — R$ 160/pessoa
+- rafting no Rio Sono (~2h de descida) — R$ 200/pessoa
+
+recomendamos levar dinheiro em espécie, pois alguns locais não aceitam cartão.`,
+      },
+      {
+        question: "a viagem é só para mulheres?",
+        answer:
+          "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres.",
+      },
+      {
+        question: "a taxa ambiental está inclusa?",
+        answer:
+          "não, a taxa ambiental do Parque Estadual do Jalapão é de R$ 30 por pessoa e é paga diretamente na entrada do parque. não esqueça de levar em espécie!",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "sim! eu acompanho o grupo do começo ao fim, em todas as etapas da expedição — tirando o tempo livre, claro :) e estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem 💛",
       },
     ],
   },
@@ -1923,6 +2210,148 @@ a organização dos quartos é decidida coletivamente na chegada, de forma tranq
         question: "como a Numaré entra na viagem?",
         answer:
           "a Numaré é a patrocinadora dessa expedição. na chegada, cada uma recebe um kit com peças da marca pra usar durante a viagem — e claro, levar pra casa depois. ao longo dos dias, registramos fotos e vídeos para uso da Numaré; ao participar da viagem, você concede o direito de uso de imagem para publicação desse conteúdo nas redes sociais da marca. se tiver alguma objeção quanto a esse ponto, é essencial falar com a Gio antes da viagem.",
+      },
+      {
+        question: "não quero participar da aula de surf, e agora?",
+        answer:
+          "sem problema! é só avisar a Gio ou a Malice com antecedência — enquanto o grupo estiver na aula, você pode curtir a praia à vontade.",
+      },
+      {
+        question: "como funciona o pagamento?",
+        answer:
+          "aceitamos pix, boleto ou cartão. no cartão, o parcelamento é em até 6x com juros; no pix, o valor total precisa estar quitado até o início da viagem.",
+      },
+      {
+        question: "qual a política de cancelamento?",
+        answer:
+          "o cancelamento deve ser solicitado até 15 dias antes do início dos serviços contratados; após esse prazo, será cobrada uma taxa de 50% do valor contratado. devoluções são feitas com desconto das taxas de transferência bancária. em caso de não comparecimento (no-show), a cobrança é de 100% dos serviços contratados.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo do início ao fim. a Gio tem 24 anos, é de São Paulo, e já passou 5 meses mochilando sozinha pelo mundo — hoje organiza viagens em grupo pra mulheres com o propósito de ajudar quem quer viajar, mas não sabe como. eu já fiz essa viagem pessoalmente e escolhi essa parceria a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
+    ],
+  },
+  {
+    slug: "itacare-3",
+    title: "Itacaré",
+    destination: "Itacaré, Bahia",
+    cardImage: "/images/trips/itacare/hero/hero-1.jpg",
+    heroImage: "/images/trips/itacare/hero/hero-1.jpg",
+    heroImages: [
+      "/images/trips/itacare/hero/hero-1.jpg",
+      "/images/trips/itacare/hero/hero-2.jpg",
+      "/images/trips/itacare/hero/hero-3.jpg",
+      "/images/trips/itacare/hero/hero-4.jpg",
+    ],
+    dates: "15 a 19 de setembro de 2027",
+    dateForSort: "2027-09-15",
+    dateForSortEnd: "2027-09-19",
+    duration: "5 dias",
+    priceDisplay: "R$ 2.500",
+    priceValue: 2500,
+    national: true,
+    priceInstallments:
+      "aceitamos pix, boleto ou cartão — parcelamento no cartão em até 6x com juros; no pix, os valores precisam estar quitados até o início da viagem",
+    agency: "Giovana Gentil",
+    tagline:
+      "trilhas, praias selvagens e cachoeiras na Bahia",
+    description:
+      "5 dias, 12 meninas, em um dos maiores cartões postais do Brasil. Itacaré não é só praia bonita e água cristalina: é mata atlântica, trilhas, rios, cachoeiras e comunidades locais, com praias que só são acessíveis depois de uma caminhada pela mata. voo de ida e volta para Ilhéus (IOS).",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a viagem a Itacaré (15 a 19 de setembro de 2027) e quero garantir minha vaga :)",
+    paymentMethods: ["pix", "boleto", "cartão de crédito"],
+    included: [
+      "transfer Ilhéus ↔ Itacaré",
+      "hospedagem",
+      "café da manhã",
+      "aula de surf",
+      "passeio na Praia da Engenhoca",
+      "aula de altinha",
+    ],
+    notIncluded: [
+      "passagem aérea",
+      "refeições (almoços e jantares)",
+      "bebidas e gastos pessoais (compras, souvenirs, snacks — estimativa de R$ 300 a R$ 500 ao longo dos 5 dias)",
+      "deslocamentos internos em Itacaré (motoristas locais e estacionamentos)",
+      'tudo não mencionado em "o que está incluso"',
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "dia 1 — chegada a Itacaré (Ilhéus → Itacaré)",
+        description:
+          "o primeiro dia é para chegar, respirar e começar a entrar no clima de Itacaré. depois do voo e do transfer até a hospedagem, aproveitamos a tarde na Praia da Concha, com mar calminho — cenário perfeito pra desacelerar depois da viagem. à noite, jantar especial no centro histórico, pra começar oficialmente essa experiência juntas.",
+      },
+      {
+        day: 2,
+        title: "dia 2 — Itacarezinho (praia de Itacarezinho → altinha → centrinho)",
+        description:
+          "dia inteiro para viver uma das praias mais bonitas de Itacaré: Itacarezinho (ou Prainha, dependendo das condições). a ideia é aproveitar o dia sem pressa, entre mar, areia, sol e muita conversa. pra deixar tudo ainda mais divertido, teremos uma aula de altinha em grupo — porque viagem boa também tem que ter movimento e risada. no fim da tarde, voltamos pra hospedagem pra descansar.",
+      },
+      {
+        day: 3,
+        title: "dia 3 — aula de surf e Engenhoca",
+        description:
+          "domingo é dia de colocar o pé na areia e se aventurar no surf! faremos uma trilha curta, pela manhã, até a Praia da Engenhoca, onde teremos uma aula de surf em grupo e aproveitaremos o restante do dia por lá, curtindo a praia, o mar e o clima de Itacaré sem pressa. um dia pra experimentar algo novo, se divertir juntas e, claro, pegar bastante sol.",
+      },
+      {
+        day: 4,
+        title: "dia 4 — Praia da Tiririca",
+        description:
+          "dia inteiro para viver uma das praias mais bonitas de Itacaré: Itacarezinho (ou Prainha, dependendo das condições). a ideia é aproveitar o dia sem pressa, entre mar, areia, sol e muita conversa. pra deixar tudo ainda mais divertido, teremos uma aula de altinha em grupo — porque viagem boa também tem que ter movimento e risada. no fim da tarde, voltamos pra hospedagem pra descansar.",
+      },
+      {
+        day: 5,
+        title: "dia 5 — a despedida",
+        description:
+          "antes de dizer adeus a Itacaré, uma manhã livre pra caminhar pelo centro histórico, conhecer lojinhas, comprar artesanatos e aproveitar os últimos momentos na cidade. fechamos com um café da manhã juntas, de despedida, antes de seguir pro aeroporto — os transfers são organizados de acordo com o horário do voo de cada uma, então se alguém tiver um voo mais cedo, é só avisar.",
+      },
+    ],
+    accommodation: `casa triplex a 450m do centro histórico e a 250m da Praia da Concha — 12 hóspedes, 5 quartos, 10 camas e 5 banheiros.
+
+suíte 1: 2 camas de solteiro · suíte 2: 2 camas de solteiro · suíte 3: 1 cama de solteiro e 1 de casal · suíte 4: 1 cama de solteiro e 1 de casal · suíte 5: 1 cama de casal.
+
+a organização dos quartos é decidida coletivamente na chegada, de forma tranquila — a gente se ajeita!`,
+    accommodationImages: [
+      "/images/trips/itacare/acomodacao/1.jpg",
+      "/images/trips/itacare/acomodacao/2.jpg",
+      "/images/trips/itacare/acomodacao/3.jpg",
+      "/images/trips/itacare/acomodacao/4.jpg",
+    ],
+    forWhom: [
+      {
+        title: "quem quer ir além do óbvio",
+        description:
+          "Itacaré é muito mais que praia: trilhas na mata atlântica, rios, cachoeiras e comunidades locais que não aparecem tanto nos roteiros tradicionais.",
+      },
+      {
+        title: "quem quer se conectar e se mover",
+        description:
+          "aula de surf, aula de altinha, trilhas até praias preservadas e muito tempo pra desacelerar, comer bem e trocar histórias.",
+      },
+    ],
+    faqs: [
+      {
+        question: "como funciona a expedição?",
+        answer:
+          "a ida até Ilhéus é por conta de cada uma. na chegada, você já tem um carro designado, saindo de Ilhéus rumo a Itacaré — a Gio passa o dia no aeroporto recebendo todo mundo e ajudando a encontrar o transfer certo. no dia 19 de setembro, os transfers saem de Itacaré de volta ao Aeroporto de Ilhéus.",
+      },
+      {
+        question: "preciso fazer todas as atividades?",
+        answer:
+          "não! como toda a programação já está inclusa no pacote, incentivamos que você aproveite ao máximo, mas não é obrigada a participar de nada.",
+      },
+      {
+        question: "como será a configuração das camas?",
+        answer:
+          "a casa tem diferentes configurações — são 10 camas no total, em 5 quartos. a organização dos quartos é decidida coletivamente na chegada, de forma bem tranquila.",
+      },
+      {
+        question: "vocês ajudam na compra do aéreo?",
+        answer:
+          "sim! temos uma agência parceira que ajuda vocês a encontrar passagens baratas e com bom custo-benefício — é só falar com a Gio e pedir ajuda.",
       },
       {
         question: "não quero participar da aula de surf, e agora?",
