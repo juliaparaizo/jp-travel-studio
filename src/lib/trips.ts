@@ -1075,8 +1075,7 @@ os transfers entre aeroporto e a estação de ônibus não estão inclusos — v
     national: true,
     priceInstallments: "",
     agency: "Amazônia Jungle Hotel",
-    urgentBadge: "esgotado",
-    soldOut: true,
+    urgentBadge: "3 vagas",
     tagline:
       "encontro das águas, botos cor-de-rosa e uma noite inteira dormindo na selva",
     description:
@@ -4182,6 +4181,336 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
         question: "a Julia e a Gio acompanham essa viagem?",
         answer:
           "sim! a Gio e a Julia acompanham as meninas em cada etapa da viagem — tirando o tempo livre, porque até as anfitriãs sabem a hora de deixar cada uma curtir no próprio ritmo, né? quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
+      {
+        question: "a viagem é só para mulheres?",
+        answer:
+          "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres.",
+      },
+    ],
+  },
+  {
+    slug: "atacama-uyuni-jan-2027",
+    title: "Atacama + Salar de Uyuni",
+    destination: "Atacama, Chile + Salar de Uyuni, Bolívia",
+    cardImage: "/images/trips/atacama-uyuni-jan-2027/hero/hero-1.jpg",
+    heroImage: "/images/trips/atacama-uyuni-jan-2027/hero/hero-1.jpg",
+    heroImages: [
+      "/images/trips/atacama-uyuni-jan-2027/hero/hero-1.jpg",
+      "/images/trips/atacama-uyuni-jan-2027/hero/hero-2.jpg",
+    ],
+    dates: "22 a 30 de janeiro de 2027",
+    dateForSort: "2027-01-22",
+    dateForSortEnd: "2027-01-30",
+    duration: "9 dias",
+    priceDisplay: "R$ 7.350",
+    priceValue: 7350,
+    national: false,
+    priceInstallments: "5% de desconto no pix · parcelamento em até 10x sem juros no crédito",
+    agency: "Giovana Gentil",
+    urgentBadge: "8 vagas",
+    tagline:
+      "9 dias entre o deserto mais árido do mundo e o maior espelho do céu",
+    description:
+      "9 dias entre o Chile e a Bolívia. a viagem começa no Atacama, entre vales coloridos, gêiseres, lagunas e céu estrelado. depois, cruza a fronteira em 4x4 pelo altiplano boliviano até o Salar de Uyuni. quando as condições colaboram, a água transforma o salar num espelho gigante do céu. grupo de 12 meninas, com 8 vagas abertas.",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a viagem Atacama + Uyuni (22 a 30 de janeiro de 2027) e quero garantir minha vaga :)",
+    paymentMethods: ["pix", "cartão de crédito"],
+    included: [
+      "traslado Calama–San Pedro, ida e volta",
+      "5 noites em San Pedro com café da manhã",
+      "3 noites na expedição boliviana com café da manhã e jantar",
+      "passeios privativos no Atacama com guia, ingressos e traslados",
+      "almoço no Salar do Atacama",
+      "tour astronômico",
+      "Geysers del Tatio com café da manhã",
+      "expedição 4x4 privativa de 4 dias e 3 noites com ingressos, almoços e jantares",
+      "transfer privado até a fronteira em Hito Cajón",
+    ],
+    notIncluded: [
+      "voos internacionais e domésticos",
+      "refeições não mencionadas (no Atacama, estime US$ 20 por refeição)",
+      "seguro viagem (obrigatório) e eSIM (obrigatório)",
+      "taxa de fronteira Chile–Bolívia (cerca de US$ 7)",
+      "gastos pessoais e extras",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "sexta, 22/jan — bem-vinda ao atacama",
+        description:
+          "transfer privado de Calama ao hotel em San Pedro, dia livre para caminhar, descansar e começar a aclimatação a 2.440 m.",
+      },
+      {
+        day: 2,
+        title: "sábado, 23/jan — arco íris e valle de la luna",
+        description:
+          "Yerbas Buenas, Valle del Arco Iris, Rio Salado e pôr do sol com picnic no Valle de la Luna.",
+      },
+      {
+        day: 3,
+        title: "domingo, 24/jan — salar e céu estrelado",
+        description:
+          "Salar do Atacama, Laguna Chaxa e Toconao, com almoço. à noite, tour astronômico com telescópios.",
+      },
+      {
+        day: 4,
+        title: "segunda, 25/jan — geysers e lagunas",
+        description:
+          "saída cedo para os Geysers del Tatio, café da manhã e, depois, Laguna Cejar, Ojos del Salar e Tebinquiche.",
+      },
+      {
+        day: 5,
+        title: "terça, 26/jan — rumo à bolívia",
+        description:
+          "fronteira em Hito Cajón, troca para 4x4 privado, Laguna Verde, Laguna Colorada e chegada a Villamar.",
+      },
+      {
+        day: 6,
+        title: "quarta, 27/jan — travessia do altiplano",
+        description:
+          "Lagunas Qatal e Negra, fauna andina, San Cristóbal, vale das rochas, Colchani, hotel de sal e passeio noturno no salar.",
+      },
+      {
+        day: 7,
+        title: "quinta, 28/jan — a magia de uyuni",
+        description:
+          "cemitério de trens e expedição de jipe pelo Salar de Uyuni, com o efeito espelho condicionado ao clima.",
+      },
+      {
+        day: 8,
+        title: "sexta, 29/jan — retorno ao atacama",
+        description:
+          "retorno cedo, imigração na Bolívia e no Chile e tarde livre em San Pedro.",
+      },
+      {
+        day: 9,
+        title: "sábado, 30/jan — fim do roteiro",
+        description:
+          "café da manhã e traslado privado ao aeroporto de Calama.",
+      },
+    ],
+    accommodation:
+      "5 noites em San Pedro de Atacama e 3 noites durante a expedição boliviana, em Villamar e Uyuni (incluindo uma noite em hotel de sal, em Colchani).",
+    forWhom: [
+      {
+        title: "quem quer dois desertos em uma viagem",
+        description:
+          "do deserto mais árido do mundo ao maior espelho do céu: vales coloridos, gêiseres, lagunas com flamingos e o Salar de Uyuni.",
+      },
+      {
+        title: "quem quer aventura com estrutura",
+        description:
+          "travessia em 4x4 privativo pelo altiplano boliviano, com hospedagens, refeições e ingressos já organizados.",
+      },
+      {
+        title: "quem quer viajar acompanhada",
+        description:
+          "grupo pequeno e só de mulheres, com a anfitriã do começo ao fim — sem depender da agenda das amigas.",
+      },
+    ],
+    faqs: [
+      {
+        question: "o efeito espelho é garantido?",
+        answer:
+          "não. o efeito depende das chuvas e das condições do salar.",
+      },
+      {
+        question: "como lidar com a altitude?",
+        answer:
+          "a rota passa por áreas próximas de 5.000 m. hidrate-se, respeite o ritmo da aclimatação e converse com seu médico antes da viagem.",
+      },
+      {
+        question: "preciso de seguro?",
+        answer:
+          "sim. seguro viagem e eSIM são obrigatórios. a Gio ajuda na contratação; no Holafly, use o cupom giovanagentil.",
+      },
+      {
+        question: "como funciona o pagamento?",
+        answer:
+          "R$ 7.350 por pessoa. 5% de desconto no pix; cartão em até 10x sem juros; no pix parcelado, a última parcela deve anteceder o embarque.",
+      },
+      {
+        question: "qual a política de cancelamento?",
+        answer:
+          "até 23/11/2026: 100% do saldo; de 24/11 a 23/12/2026: 85%; de 24/12/2026 a 07/01/2027: 70%; a partir de 08/01/2027: sem devolução. você pode indicar outra pessoa para ocupar sua vaga, sem custo adicional. os valores retidos cobrem compromissos já assumidos com hospedagens, ingressos e transportes.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
+      {
+        question: "a viagem é só para mulheres?",
+        answer:
+          "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres.",
+      },
+    ],
+  },
+  {
+    slug: "dolomitas-2027",
+    title: "Dolomitas",
+    destination: "Cortina d'Ampezzo, Itália",
+    cardImage: "/images/trips/dolomitas-2027/hero/hero-1.jpg",
+    heroImage: "/images/trips/dolomitas-2027/hero/hero-1.jpg",
+    heroImages: ["/images/trips/dolomitas-2027/hero/hero-1.jpg"],
+    dates: "01 a 08 de agosto de 2027",
+    dateForSort: "2027-08-01",
+    dateForSortEnd: "2027-08-08",
+    duration: "8 dias · 7 noites",
+    priceDisplay: "€ 2.500",
+    priceValue: 14906,
+    national: false,
+    priceInstallments:
+      "sinal de € 100 · 30% até 01/04/2027, 40% até 02/06/2027 e o restante até 03/07/2027",
+    agency: "Giovana Gentil",
+    urgentBadge: "5 vagas",
+    tagline:
+      "7 noites em Cortina d'Ampezzo, com 6 trilhas guiadas pelas montanhas mais bonitas da Itália",
+    description:
+      "uma semana de verão nas Dolomitas, com base em Cortina d'Ampezzo e 6 trilhas guiadas por uma guia local de montanha: Tre Cime di Lavaredo, Lago di Sorapis, Cinque Torri, Rifugio Lagazuoi, Croda da Lago e Sennes com o Lago di Braies. de dia, trilha. à noite, um lugar diferente pra jantar. grupo pequeno, só de mulheres.",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a viagem às Dolomitas (01 a 08 de agosto de 2027) e quero garantir minha vaga :)",
+    paymentMethods: ["cartão de crédito", "Wise/Revolut"],
+    included: [
+      "7 noites em hotel 3 estrelas em Cortina d'Ampezzo, com café da manhã",
+      "quartos duplos ou twin para 2 pessoas",
+      "6 trilhas guiadas com guia local de montanha",
+      "shuttle privativo até o início de cada trilha",
+      "transfer privativo aeroporto de Veneza ↔ Cortina d'Ampezzo, ida e volta",
+      "acompanhamento da Gio durante toda a viagem",
+    ],
+    notIncluded: [
+      "passagens aéreas",
+      "almoço nos dias de trilha (lanche de trilha por sua conta)",
+      "jantares",
+      "seguro viagem (obrigatório) e eSIM (obrigatório)",
+      "gastos pessoais",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "domingo, 01/08 — chegada em veneza e subida pra cortina",
+        description:
+          "desembarque no aeroporto Marco Polo, em Veneza, e transfer privativo do grupo até Cortina d'Ampezzo. check-in no hotel e primeiro jantar juntas.",
+      },
+      {
+        day: 2,
+        title: "segunda, 02/08 — Tre Cime di Lavaredo",
+        description:
+          "shuttle privativo até o início da trilha e dia guiado em volta das três torres de pedra mais famosas das Dolomitas. nível: fácil a moderada. circuito de ~10 km com ~400 m de subida, sem técnica, mas rende um dia cheio por causa das paradas. à noite, jantar em Cortina.",
+      },
+      {
+        day: 3,
+        title: "terça, 03/08 — Lago di Sorapis",
+        description:
+          "trilha guiada até o Lago di Sorapis, de água azul-turquesa no meio das montanhas, com shuttle privativo até o ponto de partida. nível: moderada. ~12 km ida e volta, ~700 m de desnível, e o trecho final tem passagens expostas com cabos. é o ponto de atenção pra quem tem medo de altura ou se o chão estiver molhado. à noite, jantar num lugar novo.",
+      },
+      {
+        day: 4,
+        title: "quarta, 04/08 — Cinque Torri",
+        description:
+          "trilha guiada pelas Cinque Torri, as cinco torres de rocha perto de Cortina, com shuttle privativo até o começo do percurso. nível: fácil. curta, pouco desnível, dá pra usar teleférico. bom dia de respiro. à noite, jantar.",
+      },
+      {
+        day: 5,
+        title: "quinta, 05/08 — Rifugio Lagazuoi",
+        description:
+          "dia de trilha guiada até o Rifugio Lagazuoi, com shuttle privativo até o ponto de partida. nível: moderada. o desafio é a descida íngreme pelos túneis da guerra (precisa de lanterna de cabeça). à noite, jantar em Cortina.",
+      },
+      {
+        day: 6,
+        title: "sexta, 06/08 — Croda da Lago",
+        description:
+          "trilha guiada na região da Croda da Lago, com shuttle privativo até o início do caminho. nível: moderada. ~12 km, ~800 m de subida, terreno mais pedregoso. à noite, jantar num lugar diferente.",
+      },
+      {
+        day: 7,
+        title: "sábado, 07/08 — Sennes e Lago di Braies",
+        description:
+          "última trilha guiada: o planalto de Sennes e o Lago di Braies, com shuttle privativo até o ponto de partida. nível: moderada, e provavelmente o dia mais longo (15 km ou mais, dependendo do traçado). à noite, jantar de despedida do grupo.",
+      },
+      {
+        day: 8,
+        title: "domingo, 08/08 — até a próxima",
+        description:
+          "café da manhã, check-out e transfer privativo de volta ao aeroporto Marco Polo, em Veneza.",
+      },
+    ],
+    accommodation:
+      "hotel 3 estrelas em Cortina d'Ampezzo, com café da manhã, em quartos duplos ou twin para 2 pessoas. 7 noites, de 01/08 a 08/08/2027.",
+    forWhom: [
+      {
+        title: "quem ama montanha e trilha",
+        description:
+          "6 trilhas guiadas pelas Dolomitas: Tre Cime di Lavaredo, Lago di Sorapis, Cinque Torri, Rifugio Lagazuoi, Croda da Lago e Lago di Braies.",
+      },
+      {
+        title: "quem quer base fixa",
+        description:
+          "7 noites no mesmo hotel em Cortina d'Ampezzo, com shuttle privativo até cada trilha — sem trocar de mala todo dia.",
+      },
+      {
+        title: "quem quer viajar acompanhada",
+        description:
+          "grupo pequeno e só de mulheres, com a anfitriã do começo ao fim — sem depender da agenda das amigas.",
+      },
+    ],
+    faqs: [
+      {
+        question: "como garanto minha vaga?",
+        answer:
+          "1. pague o sinal de € 100 pra reservar; 2. a Gio confirma sua vaga; 3. pague 30% até 01/04/2027, 40% até 02/06/2027 e o restante até 03/07/2027.",
+      },
+      {
+        question: "quais são as formas de pagamento?",
+        answer:
+          "cartão de crédito (via Stripe), transferência Wise ou Revolut. dá pra dividir como for melhor pra você, desde que siga o cronograma: sinal na reserva, 30% até 01/04, 40% até 02/06 e o restante até 03/07/2027. os valores em reais são uma estimativa pela cotação do dia; o valor final é calculado na data do pagamento.",
+      },
+      {
+        question: "e se eu precisar cancelar? o sinal é devolvido?",
+        answer:
+          "até 15 dias após a compra, você recebe 100% de volta (CDC), sinal incluso. depois disso, o sinal de € 100 não é mais devolvido, e o reembolso segue a tabela: 70% do valor pago até 02/04/2027, 50% de 03/04 a 02/05, 25% de 03/05 a 02/07 e 0% a partir de 03/07, salvo se a vaga for revendida.",
+      },
+      {
+        question: "quais trilhas a gente faz?",
+        answer:
+          "são 6 trilhas guiadas por uma guia local de montanha: Tre Cime di Lavaredo, Lago di Sorapis, Cinque Torri, Rifugio Lagazuoi, Croda da Lago e Sennes com o Lago di Braies. um shuttle privativo leva o grupo até o início de cada uma.",
+      },
+      {
+        question: "como é o nível das trilhas?",
+        answer:
+          "vão de fácil a moderada, nenhuma exige técnica de escalada. Cinque Torri: fácil, curta, pouco desnível, dá pra usar teleférico (bom dia de respiro). Tre Cime di Lavaredo: fácil a moderada, circuito de ~10 km com ~400 m de subida, dia cheio por causa das paradas. Rifugio Lagazuoi: moderada, o desafio é a descida íngreme pelos túneis da guerra (leve lanterna de cabeça). Lago di Sorapis: moderada, ~12 km ida e volta, ~700 m de desnível e trecho final com passagens expostas com cabos — atenção pra quem tem medo de altura ou com chão molhado. Croda da Lago: moderada, ~12 km, ~800 m de subida, terreno mais pedregoso. Sennes + Lago di Braies: moderada e provavelmente o dia mais longo (15 km ou mais, dependendo do traçado).",
+      },
+      {
+        question: "o almoço está incluso?",
+        answer:
+          "não. nos dias de trilha, cada uma leva o próprio lanche na mochila. o café da manhã do hotel está incluso.",
+      },
+      {
+        question: "e os jantares?",
+        answer:
+          "não estão inclusos. a ideia é jantar num lugar diferente a cada noite: pizza, comida local, prato típico…",
+      },
+      {
+        question: "como chego até cortina?",
+        answer:
+          "você voa até o aeroporto Marco Polo, em Veneza, no dia 01/08/2027. de lá, o transfer privativo leva o grupo até Cortina, e no dia 08/08 traz de volta pro aeroporto.",
+      },
+      {
+        question: "como funcionam os quartos?",
+        answer:
+          "o hotel é 3 estrelas, em Cortina d'Ampezzo, com café da manhã, e os quartos são duplos ou twin, para 2 pessoas.",
+      },
+      {
+        question: "posso ir sozinha?",
+        answer:
+          "pode, e é bem essa a ideia: o grupo é pequeno e só de mulheres.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
       },
       {
         question: "a viagem é só para mulheres?",

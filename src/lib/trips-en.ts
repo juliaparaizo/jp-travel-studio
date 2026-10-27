@@ -877,7 +877,7 @@ transfers between the airport and the bus station are not included — you cover
     dates: "march 19–23, 2027",
     duration: "5 days · 4 nights",
     priceDisplay: "R$ 4,500",
-    urgentBadge: "sold out",
+    urgentBadge: "3 spots",
     tagline:
       "the meeting of the waters, pink river dolphins and a whole night sleeping in the jungle",
     description:
@@ -3657,6 +3657,315 @@ or similar. lodging, beach clubs and other services may be replaced with equival
         question: "will Julia and Gio be on the trip?",
         answer:
           "yes! Gio and Julia accompany the girls at every step of the trip — except free time, because even hosts know when to let everyone enjoy it at their own pace, right? want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+    ],
+  },
+  "atacama-uyuni-jan-2027": {
+    title: "Atacama + Salar de Uyuni",
+    destination: "Atacama, Chile + Salar de Uyuni, Bolivia",
+    dates: "january 22–30, 2027",
+    duration: "9 days",
+    priceDisplay: "R$ 7,350",
+    priceInstallments: "5% discount on pix · up to 10x interest-free on credit card",
+    tagline:
+      "9 days between the driest desert in the world and the biggest mirror of the sky",
+    urgentBadge: "8 spots",
+    description:
+      "9 days between Chile and Bolivia. the trip starts in Atacama, among colorful valleys, geysers, lagoons and starry skies. then it crosses the border in a 4x4 over the bolivian altiplano to the Salar de Uyuni. when conditions cooperate, the water turns the salt flat into a giant mirror of the sky. a group of 12 girls, with 8 open spots.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Atacama + Uyuni trip (january 22–30, 2027) and I want to secure my spot :)",
+    paymentMethods: ["pix", "credit card"],
+    included: [
+      "Calama–San Pedro transfer, round trip",
+      "5 nights in San Pedro with breakfast",
+      "3 nights on the bolivian expedition with breakfast and dinner",
+      "private excursions in Atacama with guide, tickets and transfers",
+      "lunch at the Atacama Salt Flat",
+      "astronomy tour",
+      "Tatio Geysers with breakfast",
+      "private 4-day, 3-night 4x4 expedition with tickets, lunches and dinners",
+      "private transfer to the border at Hito Cajón",
+    ],
+    notIncluded: [
+      "international and domestic flights",
+      "meals not mentioned (in Atacama, estimate USD 20 per meal)",
+      "travel insurance (mandatory) and eSIM (mandatory)",
+      "Chile–Bolivia border fee (about USD 7)",
+      "personal expenses and extras",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "friday, 1/22 — welcome to atacama",
+        description:
+          "private transfer from Calama to the hotel in San Pedro, a free day to walk, rest and start acclimatizing at 2,440 m.",
+      },
+      {
+        day: 2,
+        title: "saturday, 1/23 — rainbow valley and valle de la luna",
+        description:
+          "Yerbas Buenas, Valle del Arco Iris, Rio Salado and a sunset picnic at Valle de la Luna.",
+      },
+      {
+        day: 3,
+        title: "sunday, 1/24 — salt flat and starry sky",
+        description:
+          "Atacama Salt Flat, Laguna Chaxa and Toconao, with lunch. in the evening, an astronomy tour with telescopes.",
+      },
+      {
+        day: 4,
+        title: "monday, 1/25 — geysers and lagoons",
+        description:
+          "an early start for the Tatio Geysers, breakfast and then Laguna Cejar, Ojos del Salar and Tebinquiche.",
+      },
+      {
+        day: 5,
+        title: "tuesday, 1/26 — heading to bolivia",
+        description:
+          "border at Hito Cajón, switching to a private 4x4, Laguna Verde, Laguna Colorada and arrival in Villamar.",
+      },
+      {
+        day: 6,
+        title: "wednesday, 1/27 — crossing the altiplano",
+        description:
+          "Qatal and Negra lagoons, andean wildlife, San Cristóbal, rock valley, Colchani, the salt hotel and a night walk on the salt flat.",
+      },
+      {
+        day: 7,
+        title: "thursday, 1/28 — the magic of uyuni",
+        description:
+          "train cemetery and a jeep expedition across the Salar de Uyuni, with the mirror effect depending on the weather.",
+      },
+      {
+        day: 8,
+        title: "friday, 1/29 — return to atacama",
+        description:
+          "an early return, immigration in Bolivia and Chile and a free afternoon in San Pedro.",
+      },
+      {
+        day: 9,
+        title: "saturday, 1/30 — end of the trip",
+        description:
+          "breakfast and a private transfer to Calama airport.",
+      },
+    ],
+    accommodation:
+      "5 nights in San Pedro de Atacama and 3 nights during the bolivian expedition, in Villamar and Uyuni (including one night in a salt hotel in Colchani).",
+    forWhom: [
+      {
+        title: "those who want two deserts in one trip",
+        description:
+          "from the driest desert in the world to the biggest mirror of the sky: colorful valleys, geysers, lagoons with flamingos and the Salar de Uyuni.",
+      },
+      {
+        title: "those who want adventure with structure",
+        description:
+          "a private 4x4 crossing of the bolivian altiplano, with lodging, meals and tickets already organized.",
+      },
+      {
+        title: "those who want to travel accompanied",
+        description:
+          "a small, women-only group with the host start to finish — without depending on your friends' schedules.",
+      },
+    ],
+    faqs: [
+      {
+        question: "is the mirror effect guaranteed?",
+        answer:
+          "no. the effect depends on rainfall and the salt flat's conditions.",
+      },
+      {
+        question: "how do i handle the altitude?",
+        answer:
+          "the route passes through areas near 5,000 m. stay hydrated, respect the acclimatization pace and talk to your doctor before the trip.",
+      },
+      {
+        question: "do i need insurance?",
+        answer:
+          "yes. travel insurance and an eSIM are mandatory. Gio helps with the purchase; for Holafly, use the coupon giovanagentil.",
+      },
+      {
+        question: "how does payment work?",
+        answer:
+          "R$ 7,350 per person. 5% discount on pix; credit card up to 10x interest-free; with installment pix, the last installment must be paid before departure.",
+      },
+      {
+        question: "what's the cancellation policy?",
+        answer:
+          "until 11/23/2026: 100% of the balance; 11/24 to 12/23/2026: 85%; 12/24/2026 to 01/07/2027: 70%; from 01/08/2027: no refund. you can name someone else to take your spot at no extra cost. retained amounts cover commitments already made for lodging, tickets and transport.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+    ],
+  },
+  "dolomitas-2027": {
+    title: "Dolomites",
+    destination: "Cortina d'Ampezzo, Italy",
+    dates: "august 1–8, 2027",
+    duration: "8 days · 7 nights",
+    priceDisplay: "€ 2,500",
+    priceInstallments:
+      "€ 100 deposit · 30% by 04/01/2027, 40% by 06/02/2027 and the rest by 07/03/2027",
+    tagline:
+      "7 nights in Cortina d'Ampezzo, with 6 guided hikes through the most beautiful mountains in Italy",
+    urgentBadge: "5 spots",
+    description:
+      "a summer week in the Dolomites, based in Cortina d'Ampezzo with 6 hikes guided by a local mountain guide: Tre Cime di Lavaredo, Lago di Sorapis, Cinque Torri, Rifugio Lagazuoi, Croda da Lago and Sennes with Lago di Braies. by day, hiking. at night, a different place to have dinner. a small, women-only group.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Dolomites trip (august 1–8, 2027) and I want to secure my spot :)",
+    paymentMethods: ["credit card", "Wise/Revolut"],
+    included: [
+      "7 nights in a 3-star hotel in Cortina d'Ampezzo, with breakfast",
+      "double or twin rooms for 2 people",
+      "6 guided hikes with a local mountain guide",
+      "private shuttle to the start of each hike",
+      "private transfer Venice airport ↔ Cortina d'Ampezzo, round trip",
+      "Gio with you throughout the trip",
+    ],
+    notIncluded: [
+      "airfare",
+      "lunch on hiking days (trail snack on your own)",
+      "dinners",
+      "travel insurance (mandatory) and eSIM (mandatory)",
+      "personal expenses",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "sunday, 8/1 — arrival in venice and the ride up to cortina",
+        description:
+          "landing at Marco Polo airport in Venice, and a private group transfer to Cortina d'Ampezzo. hotel check-in and a first dinner together.",
+      },
+      {
+        day: 2,
+        title: "monday, 8/2 — Tre Cime di Lavaredo",
+        description:
+          "private shuttle to the trailhead and a guided day around the three most famous rock towers in the Dolomites. level: easy to moderate. a ~10 km loop with ~400 m of climbing, no technical sections, but it makes for a full day because of the stops. in the evening, dinner in Cortina.",
+      },
+      {
+        day: 3,
+        title: "tuesday, 8/3 — Lago di Sorapis",
+        description:
+          "guided hike to Lago di Sorapis, with turquoise water in the middle of the mountains, with a private shuttle to the starting point. level: moderate. ~12 km round trip, ~700 m of elevation, and the final stretch has exposed sections with cables. it's the point of attention for anyone afraid of heights or if the ground is wet. in the evening, dinner somewhere new.",
+      },
+      {
+        day: 4,
+        title: "wednesday, 8/4 — Cinque Torri",
+        description:
+          "guided hike through the Cinque Torri, the five rock towers near Cortina, with a private shuttle to the start of the route. level: easy. short, little elevation, and you can use the cable car. a good breather day. in the evening, dinner.",
+      },
+      {
+        day: 5,
+        title: "thursday, 8/5 — Rifugio Lagazuoi",
+        description:
+          "a guided hiking day to Rifugio Lagazuoi, with a private shuttle to the starting point. level: moderate. the challenge is the steep descent through the war tunnels (headlamp needed). in the evening, dinner in Cortina.",
+      },
+      {
+        day: 6,
+        title: "friday, 8/6 — Croda da Lago",
+        description:
+          "guided hike in the Croda da Lago area, with a private shuttle to the start of the path. level: moderate. ~12 km, ~800 m of climbing, rockier terrain. in the evening, dinner somewhere different.",
+      },
+      {
+        day: 7,
+        title: "saturday, 8/7 — Sennes and Lago di Braies",
+        description:
+          "the last guided hike: the Sennes plateau and Lago di Braies, with a private shuttle to the starting point. level: moderate, and probably the longest day (15 km or more, depending on the route). in the evening, the group's farewell dinner.",
+      },
+      {
+        day: 8,
+        title: "sunday, 8/8 — until next time",
+        description:
+          "breakfast, check-out and a private transfer back to Marco Polo airport in Venice.",
+      },
+    ],
+    accommodation:
+      "3-star hotel in Cortina d'Ampezzo, with breakfast, in double or twin rooms for 2 people. 7 nights, from 08/01 to 08/08/2027.",
+    forWhom: [
+      {
+        title: "those who love mountains and hiking",
+        description:
+          "6 guided hikes through the Dolomites: Tre Cime di Lavaredo, Lago di Sorapis, Cinque Torri, Rifugio Lagazuoi, Croda da Lago and Lago di Braies.",
+      },
+      {
+        title: "those who want a fixed base",
+        description:
+          "7 nights at the same hotel in Cortina d'Ampezzo, with a private shuttle to each trailhead — no repacking every day.",
+      },
+      {
+        title: "those who want to travel accompanied",
+        description:
+          "a small, women-only group with the host start to finish — without depending on your friends' schedules.",
+      },
+    ],
+    faqs: [
+      {
+        question: "how do i secure my spot?",
+        answer:
+          "1. pay the € 100 deposit to reserve; 2. Gio confirms your spot; 3. pay 30% by 04/01/2027, 40% by 06/02/2027 and the rest by 07/03/2027.",
+      },
+      {
+        question: "what are the payment methods?",
+        answer:
+          "credit card (via Stripe), Wise or Revolut transfer. you can split it however works best for you, as long as you follow the schedule: deposit at booking, 30% by 04/01, 40% by 06/02 and the rest by 07/03/2027. amounts in reais are an estimate at the day's exchange rate; the final amount is calculated on the payment date.",
+      },
+      {
+        question: "what if i need to cancel? is the deposit refunded?",
+        answer:
+          "up to 15 days after purchase, you get 100% back (consumer code), deposit included. after that, the € 100 deposit is no longer refunded, and refunds follow the table: 70% of the amount paid until 04/02/2027, 50% from 04/03 to 05/02, 25% from 05/03 to 07/02 and 0% from 07/03, unless your spot is resold.",
+      },
+      {
+        question: "which hikes do we do?",
+        answer:
+          "6 hikes guided by a local mountain guide: Tre Cime di Lavaredo, Lago di Sorapis, Cinque Torri, Rifugio Lagazuoi, Croda da Lago and Sennes with Lago di Braies. a private shuttle takes the group to the start of each one.",
+      },
+      {
+        question: "what's the difficulty level of the hikes?",
+        answer:
+          "from easy to moderate, none require climbing technique. Cinque Torri: easy, short, little elevation, cable car possible (a good breather day). Tre Cime di Lavaredo: easy to moderate, ~10 km loop with ~400 m of climbing, a full day because of the stops. Rifugio Lagazuoi: moderate, the challenge is the steep descent through the war tunnels (bring a headlamp). Lago di Sorapis: moderate, ~12 km round trip, ~700 m of elevation and a final stretch with exposed sections with cables — watch out if you're afraid of heights or the ground is wet. Croda da Lago: moderate, ~12 km, ~800 m of climbing, rockier terrain. Sennes + Lago di Braies: moderate and probably the longest day (15 km or more, depending on the route).",
+      },
+      {
+        question: "is lunch included?",
+        answer:
+          "no. on hiking days, everyone carries their own snack in their backpack. the hotel's breakfast is included.",
+      },
+      {
+        question: "what about dinners?",
+        answer:
+          "they're not included. the idea is to have dinner somewhere different every night: pizza, local food, a regional dish…",
+      },
+      {
+        question: "how do i get to cortina?",
+        answer:
+          "you fly to Marco Polo airport in Venice on 08/01/2027. from there, the private transfer takes the group to Cortina, and on 08/08 brings you back to the airport.",
+      },
+      {
+        question: "how do the rooms work?",
+        answer:
+          "the hotel is 3-star, in Cortina d'Ampezzo, with breakfast, and the rooms are double or twin, for 2 people.",
+      },
+      {
+        question: "can i go solo?",
+        answer:
+          "you can, and that's exactly the idea: the group is small and women-only.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
       },
       {
         question: "is the trip women-only?",
