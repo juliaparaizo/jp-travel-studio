@@ -9,7 +9,7 @@ import { ui } from "@/lib/ui-strings";
 import AvailabilityDateFilter, { type DateRange } from "@/components/AvailabilityDateFilter";
 import { isTripWithinAvailabilityWindow, parseISODate } from "@/lib/date-utils";
 
-type Filter = "todas" | "disponiveis" | "embreve" | "nacionais" | "internacionais";
+type Filter = "todas" | "disponiveis" | "embreve" | "nacionais" | "internacionais" | "feriado";
 type Sort = "data" | "az" | "menor" | "maior";
 
 const filterLabels: { id: Filter; label: Record<Lang, string> }[] = [
@@ -18,6 +18,7 @@ const filterLabels: { id: Filter; label: Record<Lang, string> }[] = [
   { id: "embreve", label: { pt: "em breve", en: "coming soon" } },
   { id: "nacionais", label: { pt: "nacionais", en: "national" } },
   { id: "internacionais", label: { pt: "internacionais", en: "international" } },
+  { id: "feriado", label: { pt: "feriado", en: "holiday" } },
 ];
 
 const sortLabels: { id: Sort; label: Record<Lang, string> }[] = [
@@ -44,6 +45,8 @@ function applyFilter(trips: Trip[], filter: Filter): Trip[] {
       return trips.filter((t) => t.national);
     case "internacionais":
       return trips.filter((t) => !t.national);
+    case "feriado":
+      return trips.filter((t) => t.holiday);
     default:
       return trips;
   }

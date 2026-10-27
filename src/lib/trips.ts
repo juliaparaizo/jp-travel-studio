@@ -48,6 +48,7 @@ export type Trip = {
   isPlaceholderImage?: boolean;
   soldOut?: boolean;
   hidden?: boolean;
+  holiday?: boolean;
 };
 
 export const whatsappNumber = "16022065421";
@@ -313,6 +314,7 @@ evite itens pesados: livros, agendas, eletrônicos pesados e excesso de roupa. o
   },
   {
     slug: "lencois-maranhenses-4",
+    holiday: true,
     title: "Lençóis Maranhenses",
     destination: "Lençóis Maranhenses, Maranhão",
     cardImage: "/images/trips/lencois-maranhenses/hero/hero-1.jpg",
@@ -1496,6 +1498,7 @@ importante: os passeios e o cronograma estão sujeitos a alterações de acordo 
   },
   {
     slug: "amazonia-2",
+    holiday: true,
     title: "Amazônia",
     destination: "Amazônia, Brasil",
     cardImage: "/images/trips/amazonia/amazonia-1.jpeg",
@@ -2378,6 +2381,7 @@ a organização dos quartos é decidida coletivamente na chegada, de forma tranq
   },
   {
     slug: "itacare-2",
+    holiday: true,
     title: "Itacaré",
     destination: "Itacaré, Bahia",
     cardImage: "/images/trips/itacare/hero/hero-1.jpg",
@@ -3421,6 +3425,7 @@ atenção: toda a rota envolve altitude entre 2.440m (San Pedro) e mais de 4.300
   },
   {
     slug: "reveillon-caraiva-2026",
+    holiday: true,
     title: "Réveillon em Caraíva",
     destination: "Caraíva, Bahia",
     cardImage: "/images/trips/reveillon-caraiva-2026/hero/hero-1.jpg",
