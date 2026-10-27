@@ -3297,6 +3297,374 @@ important: excursions and the schedule are subject to change depending on the ri
       },
     ],
   },
+  "espanha-2027": {
+    title: "Spain",
+    destination: "Barcelona, Ibiza and Mallorca, Spain",
+    dates: "july 1–12, 2027",
+    duration: "12 days",
+    priceDisplay: "€ 2,300",
+    priceInstallments:
+      "€ 2,300 early bird (first 5 spots) · € 2,500 after that — € 100 deposit, 30% by 03/01, 40% by 05/02 and the rest by 06/02/2027",
+    tagline:
+      "eurosummer 2027: barcelona + ibiza + mallorca in 12 days with girls who travel like you",
+    urgentBadge: "sold out",
+    description:
+      "12 days of european summer split across 3 destinations: Barcelona, Ibiza and Mallorca. Gaudí, tapas, markets, coves, sunsets, beach clubs and nights out. the group is small and women-only: 8 travelers and 2 hosts.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Spain trip (july 1–12, 2027) and I want to secure my spot :)",
+    paymentMethods: ["credit card", "Wise/Revolut"],
+    included: [
+      "lodging in Barcelona: 3 nights at Generator or similar, in a private room for 4 or 6 people",
+      "lodging in Ibiza: 4 nights at Amistat or similar, in a private room, with breakfast",
+      "lodging in Mallorca: 3 nights at Nou Baleares or similar, in a private room",
+      "overnight ferry Barcelona > Ibiza, in a 4-bed cabin (times subject to the company's confirmation)",
+      "ferry Ibiza > Palma (times subject to the company's confirmation)",
+      "tickets in Barcelona: Casa Batlló, Casa Milà, Sagrada Família and Park Güell",
+      "Gaudí-themed walking tour",
+      "1 beach club day in Ibiza, with a reserved bed (or similar)",
+      "round-trip bus to Cala d'Or, in Mallorca",
+      "tourist tax in the 3 cities",
+      "hosts with you throughout the trip",
+    ],
+    notIncluded: [
+      "international airfare",
+      "airport > hotel and hotel > airport transfers (we explain exactly how to get to the hotel and get around)",
+      "meals",
+      "travel insurance (mandatory) and eSIM (mandatory)",
+      "personal expenses",
+      "optional extras paid separately: Ushuaïa, Sóller + Valldemossa train ride, Razzmatazz and Moco Museum",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "thursday, 07/1 — arrival in barcelona",
+        description:
+          "landing from the international flight, heading to the lodging and checking in. in the evening, a light welcome dinner with tapas in El Born.",
+      },
+      {
+        day: 2,
+        title: "friday, 07/2 — gaudí day",
+        description:
+          "at 9am, entry to Casa Batlló at the quietest time. around 10:30am, Casa Milà (La Pedrera), a 5-minute walk away. lunch on Passeig de Gràcia, a Gaudí-themed free walking tour and a stop at the kiss mural. the tour ends at the Sagrada Família, with reserved entry right after. in the evening, dinner and a rooftop or a light night out.",
+      },
+      {
+        day: 3,
+        title: "saturday, 07/3 — market, beach and MNAC",
+        description:
+          "in the morning, Mercat dels Encants. in the afternoon, Barceloneta beach. late afternoon, MNAC in Montjuïc, free from 3pm. in the evening, tapas dinner and a night out (Razzmatazz is optional, paid separately).",
+      },
+      {
+        day: 4,
+        title: "sunday, 07/4 — Park Güell and the historic center",
+        description:
+          "Park Güell first thing, with the best light and fewer people. then the Gothic Quarter, the cathedral and La Boqueria market. in the afternoon, Picasso Museum (free on the first sunday of the month) and, for those who want, Moco Museum (optional, paid separately). late afternoon at Parc de la Ciutadella, a relaxed dinner and boarding the overnight ferry to Ibiza, in a 4-bed cabin.",
+      },
+      {
+        day: 5,
+        title: "monday, 07/5 — arrival in ibiza",
+        description:
+          "in the morning, the overnight ferry arrives in Ibiza. in the afternoon, check-in and a first beach: Talamanca or Playa d'en Bossa. in the evening, sunset at Café del Mar or Café Mambo and the Las Dalias Night Market, which opens on mondays in july.",
+      },
+      {
+        day: 6,
+        title: "tuesday, 07/6 — ibiza beaches",
+        description:
+          "a free day to enjoy the island's beaches and coves. in the evening, dinner in Dalt Vila, the walled historic center and UNESCO site.",
+      },
+      {
+        day: 7,
+        title: "wednesday, 07/7 — hippie market and beach club",
+        description:
+          "in the morning, Punta Arabí Hippy Market, in Es Canar, which only opens on wednesdays. in the afternoon, Nikki Beach, in Santa Eulalia, close by. in the evening, dinner and drinks in the area.",
+      },
+      {
+        day: 8,
+        title: "thursday, 07/8 — a buzzing beach club",
+        description:
+          "a free beach day, or Ushuaïa (optional, paid separately). a free last night in Ibiza: Dalt Vila at night or rest for the next day.",
+      },
+      {
+        day: 9,
+        title: "friday, 07/9 — heading to mallorca",
+        description:
+          "in the morning, the ferry from Ibiza to Palma (about 2h15 on the fast ferry). in the afternoon, check-in and Illetas beach. in the evening, dinner and bars in La Lonja or a rooftop in Santa Catalina.",
+      },
+      {
+        day: 10,
+        title: "saturday, 07/10 — cala d'or",
+        description:
+          "morning and afternoon discovering the coves: Petita, Esmeralda, Serena, Gran… back late afternoon. in the evening, a night out in Palma.",
+      },
+      {
+        day: 11,
+        title: "sunday, 07/11 — serra de tramuntana or beach",
+        description:
+          "a full day with two options: a train ride to Sóller and Valldemossa (optional, paid separately), or a beach day at Cala Mondragó or Es Trenc. in the evening, the group's farewell dinner in Palma.",
+      },
+      {
+        day: 12,
+        title: "monday, 07/12 — until next time",
+        description:
+          "a free morning, with a slow breakfast. in the afternoon, heading to the airport for the return flight.",
+      },
+    ],
+    accommodation: `Barcelona: 3 nights at Generator, in a private room for 4 or 6 people. Ibiza: 4 nights at Amistat, in a private room, with breakfast. Mallorca: 3 nights at Nou Baleares, in a private room. the night of 07/04 is on the overnight ferry to Ibiza, in a 4-bed cabin.
+
+or similar. lodging, beach clubs and other services may be replaced with equivalent-category options, keeping private rooms and a central location. itinerary and times may change due to weather, availability or operator changes.`,
+    forWhom: [
+      {
+        title: "those who want the real european summer",
+        description:
+          "3 destinations in 12 days: Gaudí and tapas in Barcelona, beach clubs and sunsets in Ibiza, coves and turquoise water in Mallorca.",
+      },
+      {
+        title: "those who want to travel solo, but accompanied",
+        description:
+          "a small, women-only group with 2 hosts start to finish — without depending on your friends' schedules.",
+      },
+      {
+        title: "those who want a sorted itinerary",
+        description:
+          "private-room lodging, ferries, tickets and a day-by-day plan already organized — just show up and enjoy.",
+      },
+    ],
+    faqs: [
+      {
+        question: "what does an early bird spot mean?",
+        answer:
+          "it's the first 5 spots, at € 2,300 instead of € 2,500. it's secured for whoever pays the € 100 deposit first, once the payment is confirmed.",
+      },
+      {
+        question: "how do i secure my spot?",
+        answer:
+          "1. pay the € 100 deposit to reserve; 2. Gio confirms your spot; 3. pay 30% by 03/01/2027, 40% by 05/02/2027 and the rest by 06/02/2027.",
+      },
+      {
+        question: "what are the payment methods?",
+        answer:
+          "credit card (via Stripe), Wise or Revolut transfer. you can split it however works best for you, as long as you follow the schedule: deposit at booking, 30% by 03/01, 40% by 05/02 and the rest by 06/02/2027.",
+      },
+      {
+        question: "what if i need to cancel? is the deposit refunded?",
+        answer:
+          "up to 15 days after purchase, you get 100% back (consumer code), deposit included. after that, the € 100 deposit is no longer refunded, and refunds follow the table: 70% of the amount paid until 03/02/2027, 50% from 03/03 to 04/01, 25% from 04/02 to 06/01 and 0% from 06/02, unless your spot is resold.",
+      },
+      {
+        question: "are the ferries included?",
+        answer:
+          "yes! both are in the package: the overnight ferry from Barcelona to Ibiza, in a 4-bed cabin, and the ferry from Ibiza to Palma. times depend on the company's confirmation.",
+      },
+      {
+        question: "do i need travel experience?",
+        answer:
+          "no! the hosts accompany the group throughout the trip and teach the step-by-step of public transport in each city.",
+      },
+      {
+        question: "can i go solo?",
+        answer:
+          "you can, and that's exactly the idea: the group is small and women-only, with 8 travelers and 2 hosts.",
+      },
+      {
+        question: "how do the rooms work?",
+        answer:
+          "always private rooms: Generator in Barcelona (room for 4 or 6), Amistat in Ibiza, with breakfast, and Nou Baleares in Mallorca, or similar. the night between Barcelona and Ibiza is on the ferry, in a 4-bed cabin.",
+      },
+      {
+        question: "will Julia and Gio be on the trip?",
+        answer:
+          "yes! Gio and Julia accompany the girls at every step of the trip — except free time, because even hosts know when to let everyone enjoy it at their own pace, right? want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+    ],
+  },
+  "espanha-2027-2": {
+    title: "Spain",
+    destination: "Barcelona, Ibiza and Mallorca, Spain",
+    dates: "july 15–26, 2027",
+    duration: "12 days",
+    priceDisplay: "€ 2,300",
+    priceInstallments:
+      "€ 2,300 early bird (first 5 spots) · € 2,500 after that — € 100 deposit, 30% by 03/15, 40% by 05/16 and the rest by 06/16/2027",
+    tagline:
+      "eurosummer 2027: barcelona + ibiza + mallorca in 12 days with girls who travel like you",
+    urgentBadge: "7 spots",
+    description:
+      "12 days of european summer split across 3 destinations: Barcelona, Ibiza and Mallorca. Gaudí, tapas, markets, coves, sunsets, beach clubs and nights out. the group is small and women-only: 8 travelers and 2 hosts.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Spain trip (july 15–26, 2027) and I want to secure my spot :)",
+    paymentMethods: ["credit card", "Wise/Revolut"],
+    included: [
+      "lodging in Barcelona: 3 nights at Generator or similar, in a private room for 4 or 6 people",
+      "lodging in Ibiza: 4 nights at Amistat or similar, in a private room, with breakfast",
+      "lodging in Mallorca: 3 nights at Nou Baleares or similar, in a private room",
+      "overnight ferry Barcelona > Ibiza, in a 4-bed cabin (times subject to the company's confirmation)",
+      "ferry Ibiza > Palma (times subject to the company's confirmation)",
+      "tickets in Barcelona: Casa Batlló, Casa Milà, Sagrada Família and Park Güell",
+      "Gaudí-themed walking tour",
+      "1 beach club day in Ibiza, with a reserved bed (or similar)",
+      "round-trip bus to Cala d'Or, in Mallorca",
+      "tourist tax in the 3 cities",
+      "hosts with you throughout the trip",
+    ],
+    notIncluded: [
+      "international airfare",
+      "airport > hotel and hotel > airport transfers (we explain exactly how to get to the hotel and get around)",
+      "meals",
+      "travel insurance (mandatory) and eSIM (mandatory)",
+      "personal expenses",
+      "optional extras paid separately: Ushuaïa, Sóller + Valldemossa train ride, Razzmatazz and Moco Museum",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "thursday, 07/15 — arrival in barcelona",
+        description:
+          "landing from the international flight, heading to the lodging and checking in. in the evening, a light welcome dinner with tapas in El Born.",
+      },
+      {
+        day: 2,
+        title: "friday, 07/16 — gaudí day",
+        description:
+          "at 9am, entry to Casa Batlló at the quietest time. around 10:30am, Casa Milà (La Pedrera), a 5-minute walk away. lunch on Passeig de Gràcia, a Gaudí-themed free walking tour and a stop at the kiss mural. the tour ends at the Sagrada Família, with reserved entry right after. in the evening, dinner and a rooftop or a light night out.",
+      },
+      {
+        day: 3,
+        title: "saturday, 07/17 — market, beach and MNAC",
+        description:
+          "in the morning, Mercat dels Encants. in the afternoon, Barceloneta beach. late afternoon, MNAC in Montjuïc, free from 3pm. in the evening, tapas dinner and a night out (Razzmatazz is optional, paid separately).",
+      },
+      {
+        day: 4,
+        title: "sunday, 07/18 — Park Güell and the historic center",
+        description:
+          "Park Güell first thing, with the best light and fewer people. then the Gothic Quarter, the cathedral and La Boqueria market. in the afternoon, Picasso Museum and, for those who want, Moco Museum (optional, paid separately). late afternoon at Parc de la Ciutadella, a relaxed dinner and boarding the overnight ferry to Ibiza, in a 4-bed cabin.",
+      },
+      {
+        day: 5,
+        title: "monday, 07/19 — arrival in ibiza",
+        description:
+          "in the morning, the overnight ferry arrives in Ibiza. in the afternoon, check-in and a first beach: Talamanca or Playa d'en Bossa. in the evening, sunset at Café del Mar or Café Mambo and the Las Dalias Night Market, which opens on mondays in july.",
+      },
+      {
+        day: 6,
+        title: "tuesday, 07/20 — ibiza beaches",
+        description:
+          "a free day to enjoy the island's beaches and coves. in the evening, dinner in Dalt Vila, the walled historic center and UNESCO site.",
+      },
+      {
+        day: 7,
+        title: "wednesday, 07/21 — hippie market and beach club",
+        description:
+          "in the morning, Punta Arabí Hippy Market, in Es Canar, which only opens on wednesdays. in the afternoon, Nikki Beach, in Santa Eulalia, close by. in the evening, dinner and drinks in the area.",
+      },
+      {
+        day: 8,
+        title: "thursday, 07/22 — a buzzing beach club",
+        description:
+          "a free beach day, or Ushuaïa (optional, paid separately). a free last night in Ibiza: Dalt Vila at night or rest for the next day.",
+      },
+      {
+        day: 9,
+        title: "friday, 07/23 — heading to mallorca",
+        description:
+          "in the morning, the ferry from Ibiza to Palma (about 2h15 on the fast ferry). in the afternoon, check-in and Illetas beach. in the evening, dinner and bars in La Lonja or a rooftop in Santa Catalina.",
+      },
+      {
+        day: 10,
+        title: "saturday, 07/24 — cala d'or",
+        description:
+          "morning and afternoon discovering the coves: Petita, Esmeralda, Serena, Gran… back late afternoon. in the evening, a night out in Palma.",
+      },
+      {
+        day: 11,
+        title: "sunday, 07/25 — serra de tramuntana or beach",
+        description:
+          "a full day with two options: a train ride to Sóller and Valldemossa (optional, paid separately), or a beach day at Cala Mondragó or Es Trenc. in the evening, the group's farewell dinner in Palma.",
+      },
+      {
+        day: 12,
+        title: "monday, 07/26 — until next time",
+        description:
+          "a free morning, with a slow breakfast. in the afternoon, heading to the airport for the return flight.",
+      },
+    ],
+    accommodation: `Barcelona: 3 nights at Generator, in a private room for 4 or 6 people. Ibiza: 4 nights at Amistat, in a private room, with breakfast. Mallorca: 3 nights at Nou Baleares, in a private room. the night of 07/18 is on the overnight ferry to Ibiza, in a 4-bed cabin.
+
+or similar. lodging, beach clubs and other services may be replaced with equivalent-category options, keeping private rooms and a central location. itinerary and times may change due to weather, availability or operator changes.`,
+    forWhom: [
+      {
+        title: "those who want the real european summer",
+        description:
+          "3 destinations in 12 days: Gaudí and tapas in Barcelona, beach clubs and sunsets in Ibiza, coves and turquoise water in Mallorca.",
+      },
+      {
+        title: "those who want to travel solo, but accompanied",
+        description:
+          "a small, women-only group with 2 hosts start to finish — without depending on your friends' schedules.",
+      },
+      {
+        title: "those who want a sorted itinerary",
+        description:
+          "private-room lodging, ferries, tickets and a day-by-day plan already organized — just show up and enjoy.",
+      },
+    ],
+    faqs: [
+      {
+        question: "what does an early bird spot mean?",
+        answer:
+          "it's the first 5 spots, at € 2,300 instead of € 2,500. it's secured for whoever pays the € 100 deposit first, once the payment is confirmed.",
+      },
+      {
+        question: "how do i secure my spot?",
+        answer:
+          "1. pay the € 100 deposit to reserve; 2. Gio confirms your spot; 3. pay 30% by 03/15/2027, 40% by 05/16/2027 and the rest by 06/16/2027.",
+      },
+      {
+        question: "what are the payment methods?",
+        answer:
+          "credit card (via Stripe), Wise or Revolut transfer. you can split it however works best for you, as long as you follow the schedule: deposit at booking, 30% by 03/15, 40% by 05/16 and the rest by 06/16/2027.",
+      },
+      {
+        question: "what if i need to cancel? is the deposit refunded?",
+        answer:
+          "up to 15 days after purchase, you get 100% back (consumer code), deposit included. after that, the € 100 deposit is no longer refunded, and refunds follow the table: 70% of the amount paid until 03/16/2027, 50% from 03/17 to 04/15, 25% from 04/16 to 06/15 and 0% from 06/16, unless your spot is resold.",
+      },
+      {
+        question: "are the ferries included?",
+        answer:
+          "yes! both are in the package: the overnight ferry from Barcelona to Ibiza, in a 4-bed cabin, and the ferry from Ibiza to Palma. times depend on the company's confirmation.",
+      },
+      {
+        question: "do i need travel experience?",
+        answer:
+          "no! the hosts accompany the group throughout the trip and teach the step-by-step of public transport in each city.",
+      },
+      {
+        question: "can i go solo?",
+        answer:
+          "you can, and that's exactly the idea: the group is small and women-only, with 8 travelers and 2 hosts.",
+      },
+      {
+        question: "how do the rooms work?",
+        answer:
+          "always private rooms: Generator in Barcelona (room for 4 or 6), Amistat in Ibiza, with breakfast, and Nou Baleares in Mallorca, or similar. the night between Barcelona and Ibiza is on the ferry, in a 4-bed cabin.",
+      },
+      {
+        question: "will Julia and Gio be on the trip?",
+        answer:
+          "yes! Gio and Julia accompany the girls at every step of the trip — except free time, because even hosts know when to let everyone enjoy it at their own pace, right? want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+    ],
+  },
 };
 
 export function localizeTrip(trip: Trip, lang: "pt" | "en"): Trip {
