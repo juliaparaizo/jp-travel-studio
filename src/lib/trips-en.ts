@@ -4348,6 +4348,115 @@ we recommend bringing cash, as some places don't take cards.`,
       },
     ],
   },
+  "sailing-ilha-grande-paraty": {
+    title: "Sailing Trip: Ilha Grande & Paraty",
+    destination: "Ilha Grande and Paraty, Rio de Janeiro, Brazil",
+    dates: "january 15–17, 2027",
+    duration: "3 days · 2 nights",
+    priceDisplay: "R$ 4,800",
+    priceInstallments:
+      "Pix payment only — 30% (R$ 1,440) at booking, 20% by 11/25/2026, 25% by 12/10/2026 and 25% by 01/05/2027",
+    urgentBadge: "6 spots",
+    tagline:
+      "3 days sailing the Costa Verde, with crystal-clear lagoons, hidden beaches and nights sleeping at sea",
+    description:
+      "3 days sailing the Costa Verde aboard a Lagoon 440 sailing catamaran, with a skipper. crystal-clear lagoons, hidden beaches, snorkeling, sunset on the deck and nights sleeping at sea. only 6 spots.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Ilha Grande & Paraty Sailing Trip (january 15–17, 2027) and I want to secure my spot :)",
+    paymentMethods: ["Pix"],
+    included: [
+      "round-trip transfer Rio ↔ Paraty",
+      "2 nights aboard the Lagoon 440 catamaran, in a shared double cabin",
+      "skipper throughout the trip",
+      "boat fuel",
+      "2 breakfasts on board",
+      "2 lunches on board",
+      "snacks and water throughout the trip",
+      "itinerary through the lagoons and beaches of Ilha Grande and Paraty",
+      "2 hosts (Julia Paraizo and Isabella Salla) with the group start to finish",
+    ],
+    notIncluded: [
+      "dinners (we'll have dinner together where we stop at night)",
+      "alcoholic drinks",
+      "travel insurance",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "friday, 1/15 — rio → paraty → ilha grande",
+        description:
+          "leaving Rio at 6am along the Costa Verde, with a stop on the way. boarding in Paraty at 11am and lunch on board. sailing to Ilha Grande, Lagoa Verde, snorkeling and a sea swim. sunset on the deck, dinner on land in Vila do Abraão and the first night at sea.",
+      },
+      {
+        day: 2,
+        title: "saturday, 1/16 — ilha grande → paraty",
+        description:
+          "breakfast on board and Lagoa Azul. hidden beaches and coves, lunch on board. sailing back along the Costa Verde, with sunset under sail. dinner in Paraty's historic center and a last night on board.",
+      },
+      {
+        day: 3,
+        title: "sunday, 1/17 — paraty → rio",
+        description:
+          "breakfast on board and a morning swim around the Paraty islands. disembarking at 11am and heading back to Rio, arriving around 4:30pm.",
+      },
+    ],
+    accommodation:
+      "the boat: a Lagoon 440 sailing catamaran, with a skipper throughout the trip. 2 nights on board, in a shared double cabin. the catamaran has a salon with a fully equipped kitchen, bathrooms, netting on the foredeck and a roomy deck to enjoy the sunset at sea.",
+    forWhom: [
+      {
+        title: "those who want the real sea",
+        description:
+          "3 days sailing the Costa Verde: crystal-clear lagoons, hidden beaches, snorkeling, sunset on the deck and nights sleeping at sea.",
+      },
+      {
+        title: "those who want everything sorted",
+        description:
+          "transfer, a catamaran with a skipper, meals on board and the itinerary all ready — just show up at the meeting point in Rio.",
+      },
+      {
+        title: "those who want a small group",
+        description:
+          "only 6 spots, on a Lagoon 440 sailing catamaran, with 2 hosts, me and Isabella Salla, with you start to finish.",
+      },
+    ],
+    faqs: [
+      {
+        question: "how does payment work?",
+        answer:
+          "R$ 4,800 per person, paid by Pix only: 30% (R$ 1,440) at booking to secure your spot; 20% (R$ 960) by 11/25/2026; 25% (R$ 1,200) by 12/10/2026; and 25% (R$ 1,200) by 01/05/2027.",
+      },
+      {
+        question: "how do departure, boarding and disembarking work?",
+        answer:
+          "outbound (1/15): the van leaves Rio at 6am and follows the Costa Verde, with a stop along the way. arrival in Paraty is around 10:30am, and boarding the catamaran is at 11am. return (1/17): disembarking in Paraty is at 11am, the van leaves right after and arrives in Rio around 4:30pm. the meeting point in Rio will be confirmed to the group before the trip.",
+      },
+      {
+        question: "are dinners included?",
+        answer:
+          "no. we have dinner together where we stop at night: in Vila do Abraão on friday, and in Paraty's historic center on saturday.",
+      },
+      {
+        question: "what are the cabins like?",
+        answer:
+          "2 nights aboard the Lagoon 440 catamaran, in a shared double cabin.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "yes! Isabella Salla and i are the hosts and we accompany the group start to finish, at every step of the trip — except free time, of course :) and we'll always be available for any questions that come up, before or during the trip 💛",
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+      {
+        question: "is travel insurance included?",
+        answer:
+          "travel insurance is not included.",
+      },
+    ],
+  },
 };
 
 export function localizeTrip(trip: Trip, lang: "pt" | "en"): Trip {

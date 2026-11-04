@@ -4953,6 +4953,141 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
           "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres.",
       },
     ],
+  },
+  {
+    slug: "sailing-ilha-grande-paraty",
+    title: "Sailing Trip: Ilha Grande & Paraty",
+    destination: "Ilha Grande e Paraty, Rio de Janeiro",
+    cardImage: "/images/trips/sailing-ilha-grande-paraty/hero/hero-1.jpg",
+    heroImage: "/images/trips/sailing-ilha-grande-paraty/hero/hero-1.jpg",
+    heroImages: [
+      "/images/trips/sailing-ilha-grande-paraty/hero/hero-1.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/hero/hero-2.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/hero/hero-3.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/hero/hero-4.jpg",
+    ],
+    dates: "15 a 17 de janeiro de 2027",
+    dateForSort: "2027-01-15",
+    dateForSortEnd: "2027-01-17",
+    duration: "3 dias · 2 noites",
+    priceDisplay: "R$ 4.800",
+    priceValue: 4800,
+    national: true,
+    priceInstallments:
+      "pagamento somente via Pix — 30% (R$ 1.440) na reserva, 20% até 25/11/2026, 25% até 10/12/2026 e 25% até 05/01/2027",
+    agency: "",
+    urgentBadge: "6 vagas",
+    tagline:
+      "3 dias velejando pela Costa Verde, com lagoas cristalinas, praias escondidas e noites dormindo no mar",
+    description:
+      "3 dias velejando pela Costa Verde a bordo de um catamarã à vela Lagoon 440, com skipper. lagoas cristalinas, praias escondidas, snorkel, pôr do sol no deck e noites dormindo no mar. só 6 vagas.",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a Sailing Trip Ilha Grande & Paraty (15 a 17 de janeiro de 2027) e quero garantir minha vaga :)",
+    paymentMethods: ["Pix"],
+    included: [
+      "transfer Rio ↔ Paraty, ida e volta",
+      "2 noites a bordo do catamarã Lagoon 440, em cabine dupla compartilhada",
+      "skipper durante toda a viagem",
+      "combustível do barco",
+      "2 cafés da manhã a bordo",
+      "2 almoços a bordo",
+      "snacks e água durante toda a viagem",
+      "roteiro pelas lagoas e praias da Ilha Grande e de Paraty",
+      "2 hosts (Julia Paraizo e Isabella Salla) acompanhando o grupo do início ao fim",
+    ],
+    notIncluded: [
+      "jantares (vamos jantar juntas nos lugares onde paramos à noite)",
+      "bebidas alcoólicas",
+      "seguro viagem",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "sexta, 15/jan — rio → paraty → ilha grande",
+        description:
+          "saída do Rio às 6h pela Costa Verde, com uma parada no caminho. embarque em Paraty às 11h e almoço a bordo. velejada até a Ilha Grande, Lagoa Verde, snorkel e banho de mar. pôr do sol no deck, jantar em terra na Vila do Abraão e primeira noite no mar.",
+      },
+      {
+        day: 2,
+        title: "sábado, 16/jan — ilha grande → paraty",
+        description:
+          "café da manhã a bordo e Lagoa Azul. praias e enseadas escondidas, almoço a bordo. velejada de volta pela Costa Verde, com pôr do sol velejando. jantar no centro histórico de Paraty e última noite a bordo.",
+      },
+      {
+        day: 3,
+        title: "domingo, 17/jan — paraty → rio",
+        description:
+          "café da manhã a bordo e banho de mar matinal nas ilhas de Paraty. desembarque às 11h e volta pro Rio, com chegada prevista por volta das 16h30.",
+      },
+    ],
+    accommodation:
+      "o barco: catamarã à vela Lagoon 440, com skipper durante toda a viagem. são 2 noites a bordo, em cabine dupla compartilhada. o catamarã tem salão com cozinha equipada, banheiros, redes no trampolim e deck amplo pra curtir o pôr do sol no mar.",
+    accommodationImages: [
+      "/images/trips/sailing-ilha-grande-paraty/barco/1.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/barco/2.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/barco/3.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/barco/4.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/barco/5.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/barco/6.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/barco/7.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/barco/8.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/barco/9.jpg",
+      "/images/trips/sailing-ilha-grande-paraty/barco/10.jpg",
+    ],
+    forWhom: [
+      {
+        title: "quem quer o mar de verdade",
+        description:
+          "3 dias velejando pela Costa Verde: lagoas cristalinas, praias escondidas, snorkel, pôr do sol no deck e noites dormindo no mar.",
+      },
+      {
+        title: "quem quer tudo resolvido",
+        description:
+          "transfer, catamarã com skipper, refeições a bordo e roteiro prontos — é só chegar no ponto de encontro no Rio.",
+      },
+      {
+        title: "quem quer um grupo pequeno",
+        description:
+          "só 6 vagas, num catamarã à vela Lagoon 440, com 2 hosts, eu e a Isabella Salla, acompanhando do começo ao fim.",
+      },
+    ],
+    faqs: [
+      {
+        question: "como funciona o pagamento?",
+        answer:
+          "R$ 4.800 por pessoa, pagamento somente via Pix: 30% (R$ 1.440) na reserva pra garantir a vaga; 20% (R$ 960) até 25/11/2026; 25% (R$ 1.200) até 10/12/2026; e 25% (R$ 1.200) até 05/01/2027.",
+      },
+      {
+        question: "como funcionam a saída, o embarque e o desembarque?",
+        answer:
+          "ida (15/01): a van sai do Rio às 6h e segue pela Costa Verde, com uma parada no caminho. a chegada em Paraty é por volta das 10h30, e o embarque no catamarã é às 11h. volta (17/01): o desembarque em Paraty é às 11h, a van sai em seguida e chega no Rio por volta das 16h30. o ponto de encontro no Rio será confirmado para o grupo antes da viagem.",
+      },
+      {
+        question: "os jantares estão inclusos?",
+        answer:
+          "não. a gente janta junto nos lugares onde para à noite: na Vila do Abraão, na sexta, e no centro histórico de Paraty, no sábado.",
+      },
+      {
+        question: "como são as cabines?",
+        answer:
+          "são 2 noites a bordo do catamarã Lagoon 440, em cabine dupla compartilhada.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "sim! eu e a Isabella Salla somos as hosts e acompanhamos o grupo do início ao fim, em todas as etapas da viagem — tirando o tempo livre, claro :) e estaremos sempre disponíveis pra qualquer dúvida que surgir, antes ou durante a viagem 💛",
+      },
+      {
+        question: "a viagem é só para mulheres?",
+        answer:
+          "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres.",
+      },
+      {
+        question: "tem seguro viagem?",
+        answer:
+          "o seguro viagem não está incluso.",
+      },
+    ],
   }
 ];
 
