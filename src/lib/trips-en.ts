@@ -2819,7 +2819,7 @@ heads up: the whole route involves altitudes between 2,440m (San Pedro) and over
       "beach, river and Pataxó culture to welcome 2027 in Caraíva, with the New Year's party on your own",
     description:
       "8 days of New Year's in Caraíva with Gio and a group of up to 12 women. group-exclusive lodging at Tupinambá Pousada e Hostel, breakfast, transfers from Porto Seguro, a boat trip along the Caraíva River and a visit to the Pataxó Reserve at Porto do Boi. the New Year's Eve party isn't included, so each of you can choose how to celebrate.",
-    urgentBadge: "2 spots",
+    urgentBadge: "sold out",
     whatsappMessage:
       "Hi Julia! I just read the material about the New Year's trip to Caraíva (december 26, 2026 – january 2, 2027) and I want to secure my spot :)",
     paymentMethods: ["credit card"],
@@ -3900,7 +3900,7 @@ or similar. lodging, beach clubs and other services may be replaced with equival
     priceInstallments: "5% discount on pix · up to 10x interest-free on credit card",
     tagline:
       "9 days between the driest desert in the world and the biggest mirror of the sky",
-    urgentBadge: "8 spots",
+    urgentBadge: "sold out",
     description:
       "9 days between Chile and Bolivia. the trip starts in Atacama, among colorful valleys, geysers, lagoons and starry skies. then it crosses the border in a 4x4 over the bolivian altiplano to the Salar de Uyuni. when conditions cooperate, the water turns the salt flat into a giant mirror of the sky. a group of 12 girls, with 8 open spots.",
     whatsappMessage:
@@ -4454,6 +4454,325 @@ we recommend bringing cash, as some places don't take cards.`,
         question: "is travel insurance included?",
         answer:
           "travel insurance is not included.",
+      },
+    ],
+  },
+  "costa-rica-santa-teresa-2027": {
+    title: "Costa Rica",
+    destination: "Santa Teresa, Costa Rica",
+    dates: "february 17–23, 2027",
+    duration: "7 days · 6 nights",
+    priceDisplay: "USD 1,500",
+    priceInstallments:
+      "batch 1: USD 1,500 (5 spots) · batch 2: USD 1,600 (4 spots) — 50% deposit (USD 750 or USD 800) by 11/30/2026 and the rest on arrival at the hostel",
+    tagline:
+      "surf, yoga, ATV and Tortuga Island in Santa Teresa, with 6 nights in a private dorm just for the group",
+    urgentBadge: "13 spots",
+    description:
+      "7 days in Santa Teresa, Costa Rica, with Julia and Isa Salla: 2 beginner surf lessons, yoga, a 24-hour ATV, a boat tour to Tortuga Island with lunch and a sunset on the beach every day. lodging in a private dorm just for the group, at Hostel La Posada, with breakfast and dinner every night. only 13 spots.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Costa Rica trip (february 17–23, 2027) and I want to secure my spot :)",
+    paymentMethods: ["credit card", "debit card", "bank account"],
+    included: [
+      "6 nights in a private dorm just for the group, at Hostel La Posada (up to 5 per room)",
+      "breakfast every day",
+      "dinner every night (6 dinners)",
+      "2 surf lessons + 1 yoga class",
+      "Tortuga Island tour with lunch",
+      "ATVs for 24h (1 for every 2 girls)",
+      "welcome tote bag",
+      "a host with the group",
+    ],
+    notIncluded: [
+      "airfare",
+      "airport ↔ hostel transfer (USD 130 total, round trip)",
+      "lunches (except on the Tortuga Island day)",
+      "extra activities",
+      "travel insurance",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "wednesday, 2/17 — arrival",
+        description:
+          "check-in at 2pm at Hostel La Posada. a free afternoon to settle in and meet the group, a first sunset on the beach and a welcome dinner at the hostel.",
+      },
+      {
+        day: 2,
+        title: "thursday, 2/18 — first surf lesson",
+        description:
+          "breakfast at the hostel and a beginner surf lesson, at tide time (confirmed the day before). a free afternoon for the beach, cafés and sunset. dinner at the hostel with the group. tip: no experience needed — bring a rash guard or UV shirt and water-resistant sunscreen.",
+      },
+      {
+        day: 3,
+        title: "friday, 2/19 — yoga & an easy day",
+        description:
+          "breakfast at the hostel and a yoga class at 8:30am or 4pm. a free day to explore the village, the cafés and the little shops, sunset on the beach and dinner at the hostel with the group. tip: bring comfortable clothes for yoga and use the day to rest your body after surfing.",
+      },
+      {
+        day: 4,
+        title: "saturday, 2/20 — atv day",
+        description:
+          "at 9am, pickup of the 5 ATVs (1 for every 2 girls), which stay with the group for 24h. suggestion: Montezuma Waterfall, one of the most beautiful outings in the region. dinner at the hostel with the group. important: whoever drives must bring a valid driver's license, plus sneakers or sandals and a swimsuit for the waterfall.",
+      },
+      {
+        day: 5,
+        title: "sunday, 2/21 — surf",
+        description:
+          "a second surf lesson, at tide time. a free afternoon and dinner at the hostel.",
+      },
+      {
+        day: 6,
+        title: "monday, 2/22 — tortuga island",
+        description:
+          "7:45am: a boat tour to Tortuga Island, with lunch included (chicken, fish or vegetarian). a last dinner together.",
+      },
+      {
+        day: 7,
+        title: "tuesday, 2/23 — farewell",
+        description:
+          "breakfast and check-out by 11am. departure for San José.",
+      },
+    ],
+    accommodation:
+      "6 nights at Hostel La Posada, in Santa Teresa, in a private dorm just for the group (up to 5 per room), with breakfast every day and dinner every night.",
+    forWhom: [
+      {
+        title: "those who want to surf without any experience",
+        description:
+          "2 beginner surf lessons, at tide time, with yoga and an easy day to rest your body.",
+      },
+      {
+        title: "those who want adventure and beach in the same week",
+        description:
+          "a 24-hour ATV, Montezuma Waterfall, a boat tour to Tortuga Island and a sunset on the beach every day.",
+      },
+      {
+        title: "those who want to travel accompanied",
+        description:
+          "a group of girls, with 2 hosts (me and Isa Salla) start to finish, in a private dorm just for the group.",
+      },
+    ],
+    faqs: [
+      {
+        question: "how does payment work?",
+        answer:
+          "booking is through the link for the available batch (WeTravel), with a 50% deposit by credit card, debit card or bank account (brazilian cards work). batch 1: USD 1,500 (5 spots), with a USD 750 deposit. batch 2: USD 1,600 (4 spots), with a USD 800 deposit — it opens when the first 5 spots sell out. deposit deadline: 11/30/2026. the other 50% is paid on arrival at the hostel. the deposit is non-refundable, because the lodging is blocked just for the group in high season.",
+      },
+      {
+        question: "when do i need to arrive and how do i get to santa teresa?",
+        answer:
+          "fly to San José (SJO). arrive on tuesday (2/16) or very early on wednesday: it's ~5h to Santa Teresa, with a ferry. the group transfer is being quoted — we're quoting a private van to take the group together from San José to Santa Teresa.",
+      },
+      {
+        question: "what documents do i need?",
+        answer:
+          "a passport valid for 6+ months (no visa for brazilians), a yellow fever certificate (CIVP) with the vaccine taken 10+ days before departure (talk to me if you have questions about how to get the certificate), a driver's license if you'll drive the ATV, a return ticket and travel insurance.",
+      },
+      {
+        question: "how much extra cash should i bring?",
+        answer:
+          "besides the 50% balance of the package (paid on arrival), a suggestion: lunches ~USD 75–125, transfer ~USD 130 and snacks and drinks ~USD 60–100. dollars are accepted almost everywhere, and i suggest downloading the Wise app for conversions.",
+      },
+      {
+        question: "do i need surf experience?",
+        answer:
+          "no! the lessons are for beginners, at tide time. bring a rash guard or UV shirt and water-resistant sunscreen.",
+      },
+      {
+        question: "how does the atv work?",
+        answer:
+          "there are 5 ATVs, 1 for every 2 girls, picked up at 9am and kept by the group for 24h. whoever drives must bring a valid driver's license. the suggested outing is Montezuma Waterfall — bring sneakers or sandals and a swimsuit.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "yes! Isa Salla and i are the hosts and we accompany the group start to finish, at every step of the trip — except free time, of course :) and we'll always be available for any questions that come up, before or during the trip 💛",
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+    ],
+  },
+  "monte-roraima-2027": {
+    title: "Mount Roraima",
+    destination: "Mount Roraima, Venezuela · Brazil · Guyana",
+    dates: "january 25 – february 2, 2027",
+    duration: "10 days",
+    priceDisplay: "R$ 7,750",
+    priceInstallments:
+      "per person, by group size: up to 4 people R$ 9,180 · up to 5 people R$ 8,300 · 6 or more R$ 7,750 — 50% via Pix at booking and the rest in cash or by card, in up to 6 interest-free installments",
+    tagline:
+      "mixed package: a 7-day trek to the top of Mount Roraima, a tepui over 2 billion years old",
+    urgentBadge: "mixed group",
+    description:
+      "heads up: this is a mixed package, open to women and men. a 10-day expedition to Mount Roraima, at the triple border of Venezuela, Brazil and Guyana: 7 days of trekking through savanna, rivers and waterfalls to the top of the tepui, with 3 nights camping up there, among carnivorous plants, endemic animals and rock formations shaped by wind and water. with certified native guides and a brazilian guide every day, in partnership with Trilha Eco Aventura. Julia accompanies the group together with the guides.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Mount Roraima expedition (january 25 – february 2, 2027) and I want to secure my spot :)",
+    paymentMethods: ["pix (50% at booking)", "cash (remainder)", "credit card in up to 6 interest-free installments (remainder)"],
+    included: [
+      "2 nights in a double room with breakfast in Boa Vista-RR (the 1st at the start and the 2nd at the end of the expedition)",
+      "transfer Boa Vista-RR ↔ Santa Elena (Venezuela), round trip",
+      "immigration procedures to enter Venezuela",
+      "1 night with breakfast in a double/twin room in Santa Elena de Uairén (Pousada Vila Apoipo)",
+      "4x4 transfer Santa Elena ↔ Paraitepuy village, round trip",
+      "porter for your personal backpack (up to 5 kg per person)",
+      "Canaima National Park entry fee",
+      "7-day trek on Mount Roraima (3 nights on top and 3 nights in the savanna)",
+      "7 breakfasts, 7 lunches and 6 dinners during the trek",
+      "certified native guides with vast knowledge of the flora and fauna",
+      "a brazilian guide every day of the itinerary",
+      "porters for tents and food",
+      "shared tent (2 people)",
+      "cooks and eco toilets",
+      "pre-expedition briefing and help with airfare and logistics",
+      "team support during the itinerary, via WhatsApp and in person (guide)",
+      "satellite tracker (emergencies) and radio for communication",
+      "first aid kit",
+      "travel insurance",
+    ],
+    notIncluded: [
+      "airfare and boarding fees",
+      "personal equipment (backpack, sleeping bag, sleeping mat, etc.)",
+      "extra expenses and drinks not specified",
+      "border fees and personal documentation",
+      "lunch and dinner on the travel day from Boa Vista to Santa Elena",
+      "dinner on arrival in Boa Vista",
+      "any other item not mentioned as included",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "day 1 — arrival in boa vista (early hours of the 25th into the 26th)",
+        description:
+          "arrival in Boa Vista needs to be in the early hours of the 25th into the 26th. on arrival, the team waits at the lodging. after check-in, free time to rest or explore the city. overnight in Boa Vista.",
+      },
+      {
+        day: 2,
+        title: "day 2 — boa vista → pacaraima → santa elena de uairén (venezuela)",
+        description:
+          "a relaxed morning, no rush. after breakfast, a short alignment meeting with the group, with guidance and an equipment check. after lunch (not included), at 1pm, we head to the Brazil–Venezuela border: about 3 hours of travel to immigration, and a few more minutes to the lodging in Santa Elena de Uairén, the gateway to Mount Roraima. lodging: Pousada Vila Apoipo, in a double or twin room. breakfast included.",
+      },
+      {
+        day: 3,
+        title: "day 3 — santa elena → paraitepuy → rio tek camp",
+        description:
+          "departure at 8am in 4x4 vehicles, for about 3 hours, to the indigenous community of Paraitepuy, the start of the trail. a snack (in place of lunch), park entry registration (environmental preservation fee of R$ 50 per person) and the start of a ~14 km hike through golden fields and small streams, with Roraima and Kukenan on the horizon. little elevation gain, so it's not too tiring. Rio Tek camp, where we bathe in the river (bring biodegradable soap and shampoo). breakfast, lunch and dinner.",
+      },
+      {
+        day: 4,
+        title: "day 4 — rio tek camp → base camp",
+        description:
+          "after breakfast, we cross the Tek and Kukenan rivers (wear socks for the crossings, they slip less). the trail is tougher than the day before, climbing from 1,050 m to 1,870 m, with imposing views of Kukenan and Roraima, and endemic plants. lunch and dinner at base camp, where the shower is very cold. total hike: 12 km.",
+      },
+      {
+        day: 5,
+        title: "day 5 — base camp → top of mount roraima → sucre camp",
+        description:
+          "a day of achievement, for many the most beautiful and challenging. about 6 km, rising from 1,870 m to 2,700 m, in 5 to 6 hours of hiking, over steep, wet stretches, passing the Pass of Tears. arriving at the top is surreal: a huge plateau of sculpted rocks, bromeliad gardens and crystal-clear rivers. at the “hotel” (the caves at the top), the tents are already set up and lunch is ready. breakfast, lunch and dinner.",
+      },
+      {
+        day: 6,
+        title: "day 6 — sucre camp → la ventana → natural jacuzzis",
+        description:
+          "breakfast with the sunrise up high. we explore the summit of the tepui, among formations that look like sculptures, and visit La Ventana, a natural viewpoint to see Kukenan above the sea of clouds. then a swim in the Natural Jacuzzis, crystal-clear pools that reflect the sky. total hike: 12 km.",
+      },
+      {
+        day: 7,
+        title: "day 7 — triple border → crystal valley → el fosso",
+        description:
+          "an early start for an intense day: 24 km of ups and downs on the summit. first, the Triple Border, where Venezuela, Guyana and Brazil meet. then the Crystal Valley, with time for contemplation and photos, lunch and the way back via El Fosso, an incredible waterfall. back to camp for a wash, dinner and the last night on top.",
+      },
+      {
+        day: 8,
+        title: "day 8 — top of mount roraima → base camp → rio tek camp",
+        description:
+          "a day to say goodbye to the mountain, after 3 nights on top. we start the descent early, very carefully, to base camp for lunch and a short rest, and then on to Rio Tek camp for the last night in the Gran Sabana, with a dip in the river. about 16 km of trail.",
+      },
+      {
+        day: 9,
+        title: "day 9 — rio tek camp → paraitepuy → santa elena → boa vista",
+        description:
+          "we wake early to watch the sunrise at Rio Tek and, after breakfast, take the last hike back to Paraitepuy (about 14 km). the 4x4 waits for lunch, and we continue to the border at Santa Elena (2 hours) and then on to Boa Vista (3+ hours). overnight at Barruda Hotel in Boa Vista, with a hot shower and well-deserved rest.",
+      },
+      {
+        day: 10,
+        title: "day 10 — farewell",
+        description:
+          "breakfast and a farewell to Boa Vista. return flights leave in the early hours of 2/3, since the expedition ends on the 2nd and we head straight back to Boa Vista.",
+      },
+    ],
+    accommodation:
+      "3 nights of lodging (2 in Boa Vista and 1 in Santa Elena de Uairén, at Pousada Vila Apoipo) and 6 nights of camping: Rio Tek, base camp and 3 nights on top of Mount Roraima, in a tent shared by 2 people, with cooks and eco toilets.",
+    forWhom: [
+      {
+        title: "those who want one of the biggest trekking challenges around",
+        description:
+          "7 days of trekking to the top of Mount Roraima, a tepui over 2 billion years old, among carnivorous plants, endemic animals and rock formations shaped by wind and water.",
+      },
+      {
+        title: "those who want to travel in a mixed group",
+        description:
+          "this is a mixed package: open to women and men, with the same expedition and the same structure for everyone.",
+      },
+      {
+        title: "those who are up for real camping and hiking",
+        description:
+          "7 days of trail, with days of up to 24 km, tent nights (down to ~5 °C on top) and river baths. it's a physical expedition, so make sure you're ready.",
+      },
+    ],
+    faqs: [
+      {
+        question: "is the trip women-only?",
+        answer:
+          "no — this is a mixed package, open to women and men.",
+      },
+      {
+        question: "how much does it cost?",
+        answer:
+          "prices are per person and depend on group size: up to 4 people, R$ 9,180; up to 5 people, R$ 8,300; 6 people or more, R$ 7,750.",
+      },
+      {
+        question: "how does payment work?",
+        answer:
+          "50% of the amount via Pix, to confirm your spot. the rest can be paid in cash or by credit card, in up to 6 interest-free installments.",
+      },
+      {
+        question: "what's the cancellation policy?",
+        answer:
+          "cancellation must be requested at least 30 days before services begin. after that, a 50% retention fee of the total contracted amount applies. refunds are issued minus bank transfer fees. no-shows are charged 100% of the contracted services, with no refund.",
+      },
+      {
+        question: "who accompanies the group?",
+        answer:
+          "me (Julia) and the Trilha Eco Aventura guides: certified native guides, with vast knowledge of the region's flora and fauna, and a brazilian guide every day of the itinerary.",
+      },
+      {
+        question: "when do i need to arrive and when can i fly back?",
+        answer:
+          "arrival in Boa Vista needs to be in the early hours of the 25th into the 26th, because on the 26th, at 1pm, we leave for Santa Elena. the expedition ends on 2/2, we head straight back to Boa Vista, and return flights leave in the early hours of the 3rd. you arrive and depart via Boa Vista.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "yes! i accompany the group together with the Trilha Eco Aventura guides, start to finish of the expedition — and i'll always be available for any questions that come up, before or during the trip 💛",
+      },
+      {
+        question: "what should i bring?",
+        answer:
+          "a light waterproof poncho and a backpack rain cover, a sleeping mat, a sleeping bag rated for low temperatures (~5 °C), a headlamp and spare batteries, light clothes for seven days (no jeans: prefer synthetic fabric, which dries faster), warm layers and more than four pairs of thick socks, swimwear and a microfiber towel, mountain boots or sports sneakers and trekking sandals, a hat or cap, sunglasses, sunscreen, insect repellent, water purification tablets, toiletries (biodegradable soap), a bottle of at least 1 liter, a camera with spare batteries and snacks (nuts, granola, bars and chocolate). total pack weight shouldn't exceed 10 to 12 kg.",
+      },
+      {
+        question: "can the itinerary change?",
+        answer:
+          "yes. the outings depend on weather conditions and the date schedule, so all of them can change.",
+      },
+      {
+        question: "is there a porter for my backpack?",
+        answer:
+          "yes, there's a porter for your personal backpack (up to 5 kg per person) and porters for tents and food.",
       },
     ],
   },

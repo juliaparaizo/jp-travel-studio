@@ -3444,7 +3444,8 @@ atenção: toda a rota envolve altitude entre 2.440m (San Pedro) e mais de 4.300
       "praia, rio e cultura Pataxó para receber 2027 em Caraíva, com a festa da virada por sua conta",
     description:
       "8 dias de Réveillon em Caraíva com a Gio e uma turma de até 12 mulheres. hospedagem exclusiva para o grupo no Tupinambá Pousada e Hostel, café da manhã, traslados de Porto Seguro, passeio de barco pelo Rio Caraíva e visita à Reserva Pataxó do Porto do Boi. a festa da virada não está inclusa, para que cada uma escolha como quer celebrar.",
-    urgentBadge: "2 vagas",
+    urgentBadge: "esgotado",
+    soldOut: true,
     whatsappMessage:
       "Oi Julia! Acabei de ler o material sobre a viagem de Réveillon em Caraíva (26 de dezembro de 2026 a 2 de janeiro de 2027) e quero garantir minha vaga :)",
     paymentMethods: ["cartão de crédito"],
@@ -4643,7 +4644,8 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
     national: false,
     priceInstallments: "5% de desconto no pix · parcelamento em até 10x sem juros no crédito",
     agency: "Giovana Gentil",
-    urgentBadge: "8 vagas",
+    urgentBadge: "esgotado",
+    soldOut: true,
     tagline:
       "9 dias entre o deserto mais árido do mundo e o maior espelho do céu",
     description:
@@ -5086,6 +5088,354 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
         question: "tem seguro viagem?",
         answer:
           "o seguro viagem não está incluso.",
+      },
+    ],
+  },
+  {
+    slug: "costa-rica-santa-teresa-2027",
+    title: "Costa Rica",
+    destination: "Santa Teresa, Costa Rica",
+    cardImage: "/images/trips/costa-rica-santa-teresa-2027/hero/hero-1.jpg",
+    heroImage: "/images/trips/costa-rica-santa-teresa-2027/hero/hero-1.jpg",
+    heroImages: [
+      "/images/trips/costa-rica-santa-teresa-2027/hero/hero-1.jpg",
+      "/images/trips/costa-rica-santa-teresa-2027/hero/hero-2.jpg",
+      "/images/trips/costa-rica-santa-teresa-2027/hero/hero-3.jpg",
+      "/images/trips/costa-rica-santa-teresa-2027/hero/hero-4.jpg",
+      "/images/trips/costa-rica-santa-teresa-2027/hero/hero-5.jpg",
+      "/images/trips/costa-rica-santa-teresa-2027/hero/hero-6.jpg",
+      "/images/trips/costa-rica-santa-teresa-2027/hero/hero-7.jpg",
+    ],
+    dates: "17 a 23 de fevereiro de 2027",
+    dateForSort: "2027-02-17",
+    dateForSortEnd: "2027-02-23",
+    duration: "7 dias · 6 noites",
+    priceDisplay: "USD 1.500",
+    priceValue: 8250,
+    national: false,
+    priceInstallments:
+      "lote 1: USD 1.500 (5 vagas) · lote 2: USD 1.600 (4 vagas) — sinal de 50% (USD 750 ou USD 800) até 30/11/2026 e o restante na chegada ao hostel",
+    agency: "Julia Paraizo × Isabella Salla",
+    urgentBadge: "13 vagas",
+    tagline:
+      "surf, yoga, ATV e a Ilha Tortuga em Santa Teresa, com 6 noites num dorm privativo só pro grupo",
+    description:
+      "7 dias em Santa Teresa, na Costa Rica, com a Julia e a Isa Salla: 2 aulas de surf pra iniciantes, yoga, quadriciclo por 24h, tour de barco até a Ilha Tortuga com almoço e pôr do sol na praia todos os dias. hospedagem num dorm privativo só pro grupo, no Hostel La Posada, com café da manhã e jantar todas as noites. são só 13 vagas.",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a viagem à Costa Rica (17 a 23 de fevereiro de 2027) e quero garantir minha vaga :)",
+    paymentMethods: ["cartão de crédito", "cartão de débito", "conta bancária"],
+    included: [
+      "6 noites em dorm privativo só do grupo, no Hostel La Posada (até 5 por quarto)",
+      "café da manhã todos os dias",
+      "jantar todas as noites (6 jantares)",
+      "2 aulas de surf + 1 aula de yoga",
+      "tour Ilha Tortuga com almoço",
+      "ATVs por 24h (1 pra cada 2 meninas)",
+      "tote bag de boas-vindas",
+      "host acompanhando o grupo",
+    ],
+    notIncluded: [
+      "passagens aéreas",
+      "transfer aeroporto ↔ hostel (USD 130 total, ida e volta)",
+      "almoços (exceto no dia da Ilha Tortuga)",
+      "atividades extras",
+      "seguro viagem",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "quarta, 17/fev — chegada",
+        description:
+          "check-in às 14h no Hostel La Posada. tarde livre pra se acomodar e conhecer o grupo, primeiro pôr do sol na praia e jantar de boas-vindas no hostel.",
+      },
+      {
+        day: 2,
+        title: "quinta, 18/fev — primeira aula de surf",
+        description:
+          "café da manhã no hostel e aula de surf pra iniciantes, no horário da maré (confirmado na véspera). tarde livre pra praia, cafés e pôr do sol. jantar no hostel com o grupo. dica: não precisa ter experiência — leve lycra ou camiseta UV e protetor solar resistente à água.",
+      },
+      {
+        day: 3,
+        title: "sexta, 19/fev — yoga & dia leve",
+        description:
+          "café da manhã no hostel e aula de yoga às 8h30 ou às 16h. dia livre pra explorar a vila, os cafés e as lojinhas, pôr do sol na praia e jantar no hostel com o grupo. dica: leve roupa confortável pro yoga e aproveite pra descansar o corpo depois do surf.",
+      },
+      {
+        day: 4,
+        title: "sábado, 20/fev — dia de ATV",
+        description:
+          "às 9h, retirada dos 5 quadriciclos (1 pra cada 2 meninas), que ficam com o grupo por 24h. sugestão: Cachoeira de Montezuma, um dos passeios mais bonitos da região. jantar no hostel com o grupo. importante: quem for dirigir precisa levar a CNH válida, além de tênis ou papete e roupa de banho pra cachoeira.",
+      },
+      {
+        day: 5,
+        title: "domingo, 21/fev — surf",
+        description:
+          "segunda aula de surf, no horário da maré. tarde livre e jantar no hostel.",
+      },
+      {
+        day: 6,
+        title: "segunda, 22/fev — ilha tortuga",
+        description:
+          "7h45: tour de barco até a Ilha Tortuga, com almoço incluso (frango, peixe ou vegetariano). último jantar juntas.",
+      },
+      {
+        day: 7,
+        title: "terça, 23/fev — despedida",
+        description:
+          "café da manhã e check-out até as 11h. partida pra San José.",
+      },
+    ],
+    accommodation:
+      "6 noites no Hostel La Posada, em Santa Teresa, num dorm privativo só do grupo (até 5 por quarto), com café da manhã todos os dias e jantar todas as noites.",
+    forWhom: [
+      {
+        title: "quem quer surfar sem precisar de experiência",
+        description:
+          "2 aulas de surf pra iniciantes, no horário da maré, com yoga e dia leve pra descansar o corpo.",
+      },
+      {
+        title: "quem quer aventura e praia na mesma semana",
+        description:
+          "quadriciclo por 24h, Cachoeira de Montezuma, tour de barco até a Ilha Tortuga e pôr do sol na praia todos os dias.",
+      },
+      {
+        title: "quem quer viajar acompanhada",
+        description:
+          "grupo de meninas, com 2 hosts (eu e a Isa Salla) do começo ao fim, num dorm privativo só pro grupo.",
+      },
+    ],
+    faqs: [
+      {
+        question: "como funciona o pagamento?",
+        answer:
+          "a reserva é pelo link do lote disponível (WeTravel), com 50% de sinal no cartão de crédito, débito ou conta bancária (cartão brasileiro funciona). lote 1: USD 1.500 (5 vagas), com sinal de USD 750. lote 2: USD 1.600 (4 vagas), com sinal de USD 800 — ele abre quando as 5 primeiras vagas esgotarem. prazo do sinal: 30/11/2026. os outros 50% são pagos na chegada ao hostel. o sinal não é reembolsável, porque a hospedagem fica bloqueada só pro grupo em alta temporada.",
+      },
+      {
+        question: "quando preciso chegar e como chego em Santa Teresa?",
+        answer:
+          "voo pra San José (SJO). chegue na terça (16/02) ou bem cedo na quarta: são ~5h até Santa Teresa, com ferry. o transfer em grupo está em cotação — estamos cotando uma van privada pra levar o grupo junto de San José até Santa Teresa.",
+      },
+      {
+        question: "que documentos eu preciso?",
+        answer:
+          "passaporte com 6+ meses de validade (sem visto pra brasileiras), certificado de febre amarela (CIVP) com a vacina tomada 10+ dias antes do embarque (fale comigo se tiver dúvidas de como tirar o certificado), CNH se for dirigir o ATV, passagem de volta e seguro viagem.",
+      },
+      {
+        question: "quanto levo de dinheiro extra?",
+        answer:
+          "além do saldo de 50% do pacote (pago na chegada), sugestão: almoços ~USD 75–125, transfer ~USD 130 e lanches e drinks ~USD 60–100. o dólar é aceito em quase todo lugar, e eu sugiro baixar o app Wise para conversões.",
+      },
+      {
+        question: "preciso ter experiência de surf?",
+        answer:
+          "não! as aulas são pra iniciantes, no horário da maré. leve lycra ou camiseta UV e protetor solar resistente à água.",
+      },
+      {
+        question: "como funciona o ATV?",
+        answer:
+          "são 5 quadriciclos, 1 pra cada 2 meninas, retirados às 9h e que ficam com o grupo por 24h. quem for dirigir precisa levar a CNH válida. a sugestão de passeio é a Cachoeira de Montezuma — leve tênis ou papete e roupa de banho.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "sim! eu e a Isa Salla somos as hosts e acompanhamos o grupo do início ao fim, em todas as etapas da viagem — tirando o tempo livre, claro :) e estaremos sempre disponíveis pra qualquer dúvida que surgir, antes ou durante a viagem 💛",
+      },
+      {
+        question: "a viagem é só para mulheres?",
+        answer:
+          "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres.",
+      },
+    ],
+  },
+  {
+    slug: "monte-roraima-2027",
+    title: "Monte Roraima",
+    destination: "Monte Roraima, Venezuela · Brasil · Guiana",
+    cardImage: "/images/trips/monte-roraima-2027/hero/hero-1.jpg",
+    heroImage: "/images/trips/monte-roraima-2027/hero/hero-1.jpg",
+    heroImages: [
+      "/images/trips/monte-roraima-2027/hero/hero-1.jpg",
+      "/images/trips/monte-roraima-2027/hero/hero-2.jpg",
+    ],
+    dates: "25 de janeiro a 2 de fevereiro de 2027",
+    dateForSort: "2027-01-25",
+    dateForSortEnd: "2027-02-02",
+    duration: "10 dias",
+    priceDisplay: "R$ 7.750",
+    priceValue: 7750,
+    national: false,
+    priceInstallments:
+      "por pessoa, conforme o tamanho do grupo: até 4 pessoas R$ 9.180 · até 5 pessoas R$ 8.300 · 6 ou mais R$ 7.750 — 50% via Pix na reserva e o restante em dinheiro ou no cartão, em até 6x sem juros",
+    agency: "Trilha Eco Aventura",
+    urgentBadge: "pacote misto",
+    tagline:
+      "pacote misto: trekking de 7 dias até o topo do Monte Roraima, um tepui com mais de 2 bilhões de anos",
+    description:
+      "atenção: esse é um pacote misto, aberto a mulheres e homens. 10 dias de expedição ao Monte Roraima, na tríplice fronteira entre Venezuela, Brasil e Guiana: 7 dias de trekking por savana, rios e cachoeiras até o topo do tepui, com 3 noites acampados lá em cima, entre plantas carnívoras, animais endêmicos e formações rochosas moldadas pelo vento e pela água. com guias nativos certificados e um guia brasileiro em todos os dias, em parceria com a Trilha Eco Aventura. a Julia acompanha o grupo junto com os guias.",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a expedição ao Monte Roraima (25 de janeiro a 2 de fevereiro de 2027) e quero garantir minha vaga :)",
+    paymentMethods: ["pix (50% na reserva)", "dinheiro (restante)", "cartão de crédito em até 6x sem juros (restante)"],
+    included: [
+      "2 noites em apartamento duplo com café da manhã em Boa Vista-RR (a 1ª no início e a 2ª no fim da expedição)",
+      "traslado Boa Vista-RR ↔ Santa Elena (Venezuela), ida e volta",
+      "trâmite na imigração para entrada na Venezuela",
+      "1 noite com café da manhã em apto. duplo/casal em Santa Elena de Uairén (Pousada Vila Apoipo)",
+      "traslado em 4x4 Santa Elena ↔ aldeia de Paraitepuy, ida e volta",
+      "carregador para mochila pessoal (até 5 kg por pessoa)",
+      "taxa de entrada no Parque Nacional Canaima",
+      "trekking de 7 dias no Monte Roraima (3 noites no topo e 3 noites na savana)",
+      "7 cafés da manhã, 7 almoços e 6 jantares durante o trekking",
+      "guias certificados e nativos, com vasto conhecimento da flora e da fauna",
+      "guia brasileiro em todos os dias do roteiro",
+      "carregadores para barracas e alimentos",
+      "barraca compartilhada (2 pessoas)",
+      "cozinheiros e banheiros ecológicos",
+      "briefing pré-expedição e assessoria para compra de passagens aéreas e logística",
+      "suporte da equipe durante o roteiro, via WhatsApp e presencial (guia)",
+      "rastreador satelital (emergências) e rádio para comunicação",
+      "kit de primeiros socorros",
+      "seguro viagem",
+    ],
+    notIncluded: [
+      "passagem aérea e taxas de embarque",
+      "equipamentos pessoais (mochila, saco de dormir, isolante etc.)",
+      "despesas extras e bebidas não especificadas",
+      "taxas de fronteira e documentação pessoal",
+      "almoço e jantar no dia do deslocamento de Boa Vista a Santa Elena",
+      "jantar na chegada em Boa Vista",
+      "qualquer outro item não mencionado como incluso",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "dia 1 — chegada em boa vista (madrugada do dia 25 para 26)",
+        description:
+          "a chegada em Boa Vista precisa ser na madrugada do dia 25 para o dia 26. ao desembarcar, a equipe espera na hospedagem. após o check-in, tempo livre pra descansar ou explorar a cidade. pernoite em Boa Vista.",
+      },
+      {
+        day: 2,
+        title: "dia 2 — boa vista → pacaraima → santa elena de uairén (venezuela)",
+        description:
+          "manhã tranquila, sem pressa. após o café, uma breve reunião de alinhamento com o grupo, com orientações e checagem de equipamentos. após o almoço (não incluso), às 13h, seguimos rumo à fronteira Brasil–Venezuela: cerca de 3 horas de viagem até a imigração, e mais alguns minutos até a hospedagem em Santa Elena de Uairén, porta de entrada do Monte Roraima. hospedagem: Pousada Vila Apoipo, em quarto duplo ou casal. café da manhã incluso.",
+      },
+      {
+        day: 3,
+        title: "dia 3 — santa elena → paraitepuy → acampamento rio tek",
+        description:
+          "saída às 8h em veículos 4x4, por cerca de 3 horas, até a comunidade indígena de Paraitepuy, ponto inicial da trilha. lanche (no lugar do almoço), registro de entrada no parque (taxa de preservação ambiental de R$ 50 por pessoa) e começo da caminhada de cerca de 14 km, por campos dourados e pequenos riachos, com o Roraima e o Kukenan no horizonte. pouco ganho de elevação, então não é tão cansativo. acampamento Rio Tek, onde tomamos banho no rio (leve sabonete e shampoo biodegradável). café da manhã, almoço e jantar.",
+      },
+      {
+        day: 4,
+        title: "dia 4 — acampamento rio tek → acampamento base",
+        description:
+          "depois do café, travessia dos rios Tek e Kukenan (use meias nas travessias, escorrega menos). a trilha é mais puxada que a do dia anterior, com ascensão de 1.050 m a 1.870 m de altitude, e vistas imponentes do Kukenan e do Roraima, com plantas endêmicas. almoço e jantar no acampamento base, onde o banho é bem geladinho. caminhada total: 12 km.",
+      },
+      {
+        day: 5,
+        title: "dia 5 — acampamento base → topo do monte roraima → acampamento sucre",
+        description:
+          "dia de conquista, pra muitos o mais lindo e desafiador. são cerca de 6 km, com desnível de 1.870 m a 2.700 m, em 5 a 6 horas de trilha, por trechos íngremes e úmidos, passando pelo Passo das Lágrimas. a chegada ao topo é surreal: um imenso platô de pedras esculpidas, jardins de bromélias e rios cristalinos. no “hotel” (as cavernas do topo), as barracas já estão montadas e o almoço pronto. café da manhã, almoço e jantar.",
+      },
+      {
+        day: 6,
+        title: "dia 6 — acampamento sucre → la ventana → jacuzzis naturais",
+        description:
+          "café da manhã junto do nascer do sol nas alturas. exploramos o cume do tepui, entre formações que lembram esculturas, e visitamos La Ventana, um mirante natural de onde se vê o Kukenan sobre o mar de nuvens. depois, banho nas Jacuzzis Naturais, piscinas de água cristalina que refletem o céu. caminhada total: 12 km.",
+      },
+      {
+        day: 7,
+        title: "dia 7 — tríplice fronteira → vale dos cristais → el fosso",
+        description:
+          "saída bem cedo pra um dia intenso: 24 km entre subidas e descidas no topo. primeiro, a Tríplice Fronteira, que une Venezuela, Guiana e Brasil. depois, o Vale dos Cristais, com tempo pra contemplação e fotos, almoço e volta passando pelo El Fosso, uma cachoeira incrível. retorno ao acampamento pra banho, jantar e a última noite no topo.",
+      },
+      {
+        day: 8,
+        title: "dia 8 — topo do monte roraima → acampamento base → acampamento rio tek",
+        description:
+          "dia de se despedir da montanha, após 3 noites no topo. descida logo cedo, com muito cuidado, até o acampamento base pro almoço e um breve descanso, e depois até o acampamento Rio Tek, pra última noite na Gran Sabana, com mergulho no rio. cerca de 16 km de trilha.",
+      },
+      {
+        day: 9,
+        title: "dia 9 — acampamento rio tek → paraitepuy → santa elena → boa vista",
+        description:
+          "acordamos cedo pra ver o nascer do sol no Rio Tek e, depois do café, fazemos a última trilha de volta a Paraitepuy (cerca de 14 km). o 4x4 espera pro almoço, e seguimos até a fronteira em Santa Elena (2 horas) e depois até Boa Vista (mais de 3 horas). pernoite no Barruda Hotel, em Boa Vista, com banho quente e descanso merecido.",
+      },
+      {
+        day: 10,
+        title: "dia 10 — despedida",
+        description:
+          "café da manhã e despedida de Boa Vista. os voos de volta saem na madrugada do dia 03/02, já que a expedição termina no dia 02 e voltamos direto pra Boa Vista.",
+      },
+    ],
+    accommodation:
+      "3 noites em hospedagem (2 em Boa Vista e 1 em Santa Elena de Uairén, na Pousada Vila Apoipo) e 6 noites de acampamento: Rio Tek, acampamento base e 3 noites no topo do Monte Roraima, em barraca compartilhada por 2 pessoas, com cozinheiros e banheiros ecológicos.",
+    forWhom: [
+      {
+        title: "quem quer o maior desafio de trekking do brasil e arredores",
+        description:
+          "7 dias de trekking até o topo do Monte Roraima, um tepui com mais de 2 bilhões de anos, entre plantas carnívoras, animais endêmicos e formações rochosas moldadas pelo vento e pela água.",
+      },
+      {
+        title: "quem quer viajar em grupo misto",
+        description:
+          "esse é um pacote misto: aberto a mulheres e homens, com a mesma expedição e a mesma estrutura pra todo mundo.",
+      },
+      {
+        title: "quem topa acampar e caminhar de verdade",
+        description:
+          "são 7 dias de trilha, com dias de até 24 km, noites de barraca (até 5 °C no topo) e banho de rio. é uma expedição física, então vale ter certeza de que está preparada(o).",
+      },
+    ],
+    faqs: [
+      {
+        question: "a viagem é só para mulheres?",
+        answer:
+          "não — esse é um pacote misto, aberto a mulheres e homens.",
+      },
+      {
+        question: "quanto custa?",
+        answer:
+          "os valores são por pessoa e dependem do tamanho do grupo: até 4 pessoas, R$ 9.180; até 5 pessoas, R$ 8.300; 6 pessoas ou mais, R$ 7.750.",
+      },
+      {
+        question: "como funciona o pagamento?",
+        answer:
+          "50% do valor via Pix, pra confirmar a vaga. o restante pode ser pago em dinheiro ou no cartão de crédito, em até 6x sem juros.",
+      },
+      {
+        question: "qual a política de cancelamento?",
+        answer:
+          "o cancelamento deve ser solicitado com no mínimo 30 dias de antecedência do início dos serviços. depois desse prazo, é cobrada uma taxa retentiva de 50% do valor total contratado. reembolsos são feitos com a dedução das taxas de transferência bancária. em caso de não comparecimento (no-show), a cobrança é de 100% dos serviços contratados, sem direito a reembolso.",
+      },
+      {
+        question: "quem acompanha o grupo?",
+        answer:
+          "eu (Julia) e os guias da Trilha Eco Aventura: guias certificados e nativos, com vasto conhecimento da flora e da fauna da região, e um guia brasileiro em todos os dias do roteiro.",
+      },
+      {
+        question: "quando preciso chegar e quando posso voltar?",
+        answer:
+          "a chegada em Boa Vista precisa ser na madrugada do dia 25 para o dia 26, porque no dia 26, às 13h, a gente sai rumo a Santa Elena. a expedição termina no dia 02/02, voltamos direto pra Boa Vista, e os voos de volta saem na madrugada do dia 03. a gente chega e sai por Boa Vista.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "sim! eu acompanho o grupo junto com os guias da Trilha Eco Aventura, do início ao fim da expedição — e estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem 💛",
+      },
+      {
+        question: "o que levar?",
+        answer:
+          "poncho impermeável leve e capa de chuva pra mochila, isolante térmico, saco de dormir resistente a baixas temperaturas (~5 °C), lanterna e pilhas extras, roupas leves pra sete dias (nada de jeans: prefira tecido sintético, que seca mais rápido), agasalhos e mais de quatro pares de meias grossas, roupa de banho e toalha de microfibra, bota de montanha ou tênis esportivo e sandália de trekking, chapéu ou boné, óculos de sol, protetor solar, repelente, pastilhas pra purificar a água, itens de higiene (sabão biodegradável), garrafa de pelo menos 1 litro, câmera com baterias extras e snacks (castanhas, granola, barras e chocolate). o peso total da mochila não deve passar de 10 a 12 kg.",
+      },
+      {
+        question: "o roteiro pode mudar?",
+        answer:
+          "sim. os passeios dependem da condição climática e da programação de datas, então todos podem sofrer alterações.",
+      },
+      {
+        question: "tem carregador de mochila?",
+        answer:
+          "sim, há carregador pra mochila pessoal (até 5 kg por pessoa) e carregadores pras barracas e alimentos.",
       },
     ],
   }
