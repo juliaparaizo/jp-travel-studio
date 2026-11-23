@@ -5438,6 +5438,159 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
           "sim, há carregador pra mochila pessoal (até 5 kg por pessoa) e carregadores pras barracas e alimentos.",
       },
     ],
+  },
+  {
+    slug: "itacare-marco-2027",
+    title: "Itacaré",
+    destination: "Itacaré, Bahia",
+    cardImage: "/images/trips/itacare-marco-2027/hero/hero-1.jpg",
+    heroImage: "/images/trips/itacare-marco-2027/hero/hero-1.jpg",
+    heroImages: [
+      "/images/trips/itacare-marco-2027/hero/hero-1.jpg",
+      "/images/trips/itacare-marco-2027/hero/hero-2.jpg",
+      "/images/trips/itacare-marco-2027/hero/hero-3.jpg",
+      "/images/trips/itacare-marco-2027/hero/hero-4.jpg",
+      "/images/trips/itacare-marco-2027/hero/hero-5.jpg",
+      "/images/trips/itacare-marco-2027/hero/hero-6.jpg",
+      "/images/trips/itacare-marco-2027/hero/hero-7.jpg",
+      "/images/trips/itacare-marco-2027/hero/hero-8.jpg",
+      "/images/trips/itacare-marco-2027/hero/hero-9.jpg",
+    ],
+    dates: "11 a 15 de março de 2027",
+    dateForSort: "2027-03-11",
+    dateForSortEnd: "2027-03-15",
+    duration: "5 dias",
+    priceDisplay: "R$ 2.800",
+    priceValue: 2800,
+    national: true,
+    priceInstallments:
+      "no cartão, em até 6x (com juros) · no pix ou boleto, dá pra dividir, contanto que esteja tudo quitado até 09/02/2027",
+    agency: "Giovana Gentil x Numaré Brand",
+    urgentBadge: "10 vagas",
+    tagline:
+      "5 dias de surf, sol e centrinho no sul da Bahia, de novo com a Numaré",
+    description:
+      "Itacaré de novo, e de novo com a Numaré. são duas aulas de surf, praias que valem cada degrau da trilha, uma tarde de piscina e drinks e o centrinho toda noite, porque ninguém resiste. a Malice, fundadora da Numaré, vai com a gente e cada uma recebe o kit da marca logo na chegada. 12 meninas, 10 vagas.",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a viagem a Itacaré (11 a 15 de março de 2027) e quero garantir minha vaga :)",
+    paymentMethods: ["pix", "boleto", "cartão de crédito"],
+    included: [
+      "hospedagem na casa com piscina",
+      "café da manhã diário",
+      "transfer entre Ilhéus e Itacaré, ida e volta",
+      "kit Numaré",
+      "2 aulas de surf (Engenhoca e Resende)",
+    ],
+    notIncluded: [
+      "passagem aérea",
+      "almoços e jantares",
+      "deslocamentos internos em Itacaré",
+      "bebidas e despesas pessoais",
+      "tudo o que não estiver nas inclusões",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "quinta, 11/mar — chegada em itacaré",
+        description:
+          "encontro no aeroporto de Ilhéus e ida pra casa. entrega dos kits Numaré e, à noite, primeiro rolê no centrinho pra conhecer o grupo.",
+      },
+      {
+        day: 2,
+        title: "sexta, 12/mar — engenhoca e aula de surf",
+        description:
+          "dia na praia da Engenhoca com aula de surf. à noite, centrinho.",
+      },
+      {
+        day: 3,
+        title: "sábado, 13/mar — praia do resende e aula de surf",
+        description:
+          "segunda aula de surf, agora na praia do Resende. à noite, centrinho.",
+      },
+      {
+        day: 4,
+        title: "domingo, 14/mar — prainha, piscina e drinks",
+        description:
+          "manhã na Prainha, tarde de piscina e drinks e, claro, centrinho à noite.",
+      },
+      {
+        day: 5,
+        title: "segunda, 15/mar — partida",
+        description:
+          "hora de arrumar a mala (e as saudades). seguimos até o aeroporto de Ilhéus conforme os voos.",
+      },
+    ],
+    accommodation:
+      "casa a 450 m do centrinho, com 3 camas queen e 6 camas de solteiro, 5 banheiros, cozinha equipada e piscina. a divisão dos quartos é decidida em grupo na chegada.",
+    forWhom: [
+      {
+        title: "quem quer surf, sol e centrinho",
+        description:
+          "5 dias no sul da Bahia: 2 aulas de surf, praias que valem cada degrau da trilha, uma tarde de piscina e drinks e o centrinho toda noite.",
+      },
+      {
+        title: "quem quer viajar com a Numaré",
+        description:
+          "a viagem é mais uma vez em parceria com a Numaré: cada participante recebe o kit da marca na chegada, e a Malice, fundadora da marca, vai com a gente.",
+      },
+      {
+        title: "quem quer um grupo pequeno",
+        description:
+          "12 meninas numa casa com piscina, a 450 m do centrinho, com a Gio acompanhando do começo ao fim.",
+      },
+    ],
+    faqs: [
+      {
+        question: "como funciona a chegada?",
+        answer:
+          "a ida até Ilhéus é por conta de cada uma: chegue até as 12h do dia 11/03. a Gio recebe o grupo no aeroporto e a gente segue junto pra Itacaré.",
+      },
+      {
+        question: "como será a configuração das camas?",
+        answer:
+          "a casa tem 3 camas queen e 6 camas de solteiro, com 5 banheiros. a divisão é decidida em grupo na chegada, de forma tranquila.",
+      },
+      {
+        question: "como a Numaré entra na viagem?",
+        answer:
+          "a viagem é mais uma vez em parceria com a Numaré. cada participante recebe o kit da marca na chegada e a Malice, fundadora da Numaré, vai com a gente.",
+      },
+      {
+        question: "preciso participar da aula de surf?",
+        answer:
+          "não. avise a Gio ou a Malice com antecedência e aproveite a praia durante a aula.",
+      },
+      {
+        question: "como compro meu voo?",
+        answer:
+          "a passagem fica por sua conta: confira os horários de ida e volta na parte de voos desta página antes de comprar (ida: chegando em Ilhéus até as 12h do dia 11/03; volta: saindo de Ilhéus a partir das 15h do dia 15/03). e você não precisa caçar sozinha: a gente tem uma pessoa exclusivamente pra te ajudar com isso, que encontra os voos com o melhor custo-benefício e em preços especiais. é só pedir pra Gio.",
+      },
+      {
+        question: "como funciona o pagamento?",
+        answer:
+          "R$ 2.800 por pessoa. no cartão, em até 6x (com juros). no pix ou boleto, dá pra dividir, contanto que esteja tudo quitado até 09/02/2027, 30 dias antes da viagem.",
+      },
+      {
+        question: "qual a política de cancelamento?",
+        answer:
+          "até 15 dias após a compra: 100% de reembolso (CDC). até 11/11/2026 (mais de 120 dias): 70% do valor pago. de 12/11 a 11/12/2026 (119 a 90 dias): 50%. de 12/12/2026 a 09/02/2027 (89 a 30 dias): 25%. a partir de 10/02/2027 (menos de 30 dias): 0%, salvo se a vaga for revendida. em caso de cancelamento, você pode indicar outra pessoa pra ocupar sua vaga, sem custo adicional. os valores retidos cobrem compromissos já assumidos com hospedagens, ingressos e transportes.",
+      },
+      {
+        question: "quanto devo reservar de gastos extras?",
+        answer:
+          "reserve entre R$ 300 e R$ 500 para almoços, jantares, bebidas, deslocamentos internos e gastos pessoais ao longo da viagem, conforme o seu estilo. o café da manhã está incluso todos os dias.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim, junto com a Malice, fundadora da Numaré. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
+      {
+        question: "a viagem é só para mulheres?",
+        answer:
+          "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres.",
+      },
+    ],
   }
 ];
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { LanguageProvider } from "@/lib/i18n";
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <LanguageProvider>
           <Navbar />
           <main className="flex-1">{children}</main>
+          <Footer />
           <WhatsAppButton />
         </LanguageProvider>
       </body>

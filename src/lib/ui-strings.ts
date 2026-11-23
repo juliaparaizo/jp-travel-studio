@@ -78,6 +78,21 @@ export const ui = {
     pt: "não deu pra enviar agora — tenta de novo em instantes ou chama no whatsapp.",
     en: "couldn't send right now — try again shortly or reach out on whatsapp.",
   },
+  newsletterTitle: { pt: "fica por dentro", en: "stay in the loop" },
+  newsletterSubtitle: {
+    pt: "receba no e-mail as novas viagens, datas e dicas de viagem, sem spam.",
+    en: "get new trips, dates and travel tips in your inbox, no spam.",
+  },
+  newsletterEmailPlaceholder: { pt: "seu e-mail", en: "your email" },
+  newsletterConsent: {
+    pt: "aceito receber e-mails da Julia com novidades sobre viagens e dicas. posso cancelar quando quiser.",
+    en: "i agree to receive emails from Julia with trip news and travel tips. i can unsubscribe anytime.",
+  },
+  newsletterButton: { pt: "quero receber", en: "subscribe" },
+  newsletterSuccess: {
+    pt: "pronto! você vai receber as novidades por e-mail 💌",
+    en: "done! you'll get the news by email 💌",
+  },
   instagramHandle: { pt: "@juliaparaizo", en: "@juliaparaizo" },
   instagramSubtitle: {
     pt: "acompanhe minhas aventuras em tempo real",

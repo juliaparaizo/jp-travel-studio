@@ -4776,6 +4776,140 @@ we recommend bringing cash, as some places don't take cards.`,
       },
     ],
   },
+  "itacare-marco-2027": {
+    title: "Itacaré",
+    destination: "Itacaré, Brazil",
+    dates: "march 11–15, 2027",
+    duration: "5 days",
+    priceDisplay: "R$ 2,800",
+    priceInstallments:
+      "by card, in up to 6x (with interest) · by pix or boleto, you can split it, as long as everything is paid by 02/09/2027",
+    tagline:
+      "5 days of surf, sun and the centrinho in southern Bahia, with Numaré again",
+    urgentBadge: "10 spots",
+    description:
+      "Itacaré again, and again with Numaré. two surf lessons, beaches worth every step of the trail, an afternoon of pool and drinks and the centrinho every night, because nobody can resist. Malice, Numaré's founder, comes with us and everyone gets the brand's kit right on arrival. 12 girls, 10 spots.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Itacaré trip (march 11–15, 2027) and I want to secure my spot :)",
+    paymentMethods: ["pix", "boleto", "credit card"],
+    included: [
+      "lodging in the house with a pool",
+      "daily breakfast",
+      "transfer between Ilhéus and Itacaré, round trip",
+      "Numaré kit",
+      "2 surf lessons (Engenhoca and Resende)",
+    ],
+    notIncluded: [
+      "airfare",
+      "lunches and dinners",
+      "local transport within Itacaré",
+      "drinks and personal expenses",
+      "anything not listed in the inclusions",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "thursday, 3/11 — arrival in itacaré",
+        description:
+          "meeting at Ilhéus airport and heading to the house. handing out the Numaré kits and, in the evening, a first night out in the centrinho to meet the group.",
+      },
+      {
+        day: 2,
+        title: "friday, 3/12 — engenhoca and surf lesson",
+        description:
+          "a day at Engenhoca beach with a surf lesson. in the evening, centrinho.",
+      },
+      {
+        day: 3,
+        title: "saturday, 3/13 — resende beach and surf lesson",
+        description:
+          "a second surf lesson, now at Resende beach. in the evening, centrinho.",
+      },
+      {
+        day: 4,
+        title: "sunday, 3/14 — prainha, pool and drinks",
+        description:
+          "a morning at Prainha, an afternoon of pool and drinks and, of course, centrinho at night.",
+      },
+      {
+        day: 5,
+        title: "monday, 3/15 — departure",
+        description:
+          "time to pack your bags (and your longing). we head to Ilhéus airport according to the flights.",
+      },
+    ],
+    accommodation:
+      "a house 450 m from the centrinho, with 3 queen beds and 6 single beds, 5 bathrooms, a fully equipped kitchen and a pool. the room split is decided as a group on arrival.",
+    forWhom: [
+      {
+        title: "those who want surf, sun and the centrinho",
+        description:
+          "5 days in southern Bahia: 2 surf lessons, beaches worth every step of the trail, an afternoon of pool and drinks and the centrinho every night.",
+      },
+      {
+        title: "those who want to travel with Numaré",
+        description:
+          "the trip is once again in partnership with Numaré: every participant gets the brand's kit on arrival, and Malice, the brand's founder, comes with us.",
+      },
+      {
+        title: "those who want a small group",
+        description:
+          "12 girls in a house with a pool, 450 m from the centrinho, with Gio accompanying start to finish.",
+      },
+    ],
+    faqs: [
+      {
+        question: "how does arrival work?",
+        answer:
+          "getting to Ilhéus is on your own: arrive by 12pm on 3/11. Gio meets the group at the airport and we head to Itacaré together.",
+      },
+      {
+        question: "what's the bed setup?",
+        answer:
+          "the house has 3 queen beds and 6 single beds, with 5 bathrooms. the split is decided as a group on arrival, in a relaxed way.",
+      },
+      {
+        question: "how does Numaré fit into the trip?",
+        answer:
+          "the trip is once again in partnership with Numaré. every participant gets the brand's kit on arrival and Malice, Numaré's founder, comes with us.",
+      },
+      {
+        question: "do i have to take the surf lesson?",
+        answer:
+          "no. let Gio or Malice know ahead of time and enjoy the beach during the lesson.",
+      },
+      {
+        question: "how do i buy my flight?",
+        answer:
+          "the ticket is on your own: check the outbound and return times in the flights section of this page before buying (outbound: landing in Ilhéus by 12pm on 3/11; return: leaving Ilhéus from 3pm on 3/15). and you don't have to hunt on your own: we have someone exclusively to help with this, who finds the best-value flights at special prices. just ask Gio.",
+      },
+      {
+        question: "how does payment work?",
+        answer:
+          "R$ 2,800 per person. by card, in up to 6x (with interest). by pix or boleto, you can split it, as long as everything is paid by 02/09/2027, 30 days before the trip.",
+      },
+      {
+        question: "what's the cancellation policy?",
+        answer:
+          "up to 15 days after purchase: 100% refund (consumer code). until 11/11/2026 (more than 120 days): 70% of the amount paid. 11/12 to 12/11/2026 (119 to 90 days): 50%. 12/12/2026 to 02/09/2027 (89 to 30 days): 25%. from 02/10/2027 (less than 30 days): 0%, unless your spot is resold. in case of cancellation, you can name someone else to take your spot at no extra cost. retained amounts cover commitments already made for lodging, tickets and transport.",
+      },
+      {
+        question: "how much should i set aside for extras?",
+        answer:
+          "set aside between R$ 300 and R$ 500 for lunches, dinners, drinks, local transport and personal expenses during the trip, depending on your style. breakfast is included every day.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish, together with Malice, Numaré's founder. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+    ],
+  },
 };
 
 export function localizeTrip(trip: Trip, lang: "pt" | "en"): Trip {
