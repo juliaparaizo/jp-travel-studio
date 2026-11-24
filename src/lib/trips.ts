@@ -48,6 +48,8 @@ export type Trip = {
   isPlaceholderImage?: boolean;
   soldOut?: boolean;
   hidden?: boolean;
+  /** Path to the trip's PDF material in /public (e.g. "/material/jalapao-3.pdf"). Served via /material/[slug]. */
+  materialPdf?: string;
   holiday?: boolean;
 };
 
