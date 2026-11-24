@@ -81,7 +81,6 @@ export async function POST(req: NextRequest) {
                 styles: profile.mix ? ["a bit of everything"] : profile.styles,
                 pace: profile.pace,
                 firstGroupTrip: profile.firstGroup === null ? null : !profile.firstGroup,
-                priority: profile.priority,
               },
               trips: facts,
             }),

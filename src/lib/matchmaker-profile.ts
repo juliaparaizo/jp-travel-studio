@@ -4,7 +4,6 @@ import type { Pace, Style } from "@/lib/trip-profiles";
 const ORIGINS: Origin[] = ["brasil", "northAmerica", "europe", "other"];
 const STYLES: Style[] = ["adventure", "nature", "beach", "culture"];
 const PACES: Pace[] = ["adventurous", "balanced", "relaxed"];
-const PRIORITIES = ["safety", "friends", "organization", "price"] as const;
 
 const bool = (v: unknown): boolean | null => (typeof v === "boolean" ? v : null);
 
@@ -36,9 +35,7 @@ export function sanitizeProfile(input: unknown): Profile | null {
     styles: Array.isArray(p.styles) ? p.styles.filter((s): s is Style => STYLES.includes(s as Style)) : [],
     mix: p.mix === true,
     pace: PACES.includes(p.pace as Pace) ? (p.pace as Pace) : null,
-    companion: p.companion === "alone" || p.companion === "friend" ? p.companion : null,
     firstGroup: bool(p.firstGroup),
     womenOnly: bool(p.womenOnly),
-    priority: PRIORITIES.includes(p.priority as (typeof PRIORITIES)[number]) ? (p.priority as Profile["priority"]) : null,
   };
 }

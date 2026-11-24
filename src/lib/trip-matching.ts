@@ -17,10 +17,8 @@ export type Profile = {
   styles: Style[];
   mix: boolean;
   pace: Pace | null;
-  companion: "alone" | "friend" | null;
   firstGroup: boolean | null;
   womenOnly: boolean | null;
-  priority: "safety" | "friends" | "organization" | "price" | null;
 };
 
 export const BUDGET_BANDS = [
@@ -58,10 +56,8 @@ export function emptyProfile(): Profile {
     styles: [],
     mix: false,
     pace: null,
-    companion: null,
     firstGroup: null,
     womenOnly: null,
-    priority: null,
   };
 }
 
@@ -239,12 +235,6 @@ export function matchTrips(profile: Profile, lang: Lang, now: Date = new Date())
           : "it's a demanding expedition that needs fitness — worth talking to Julia if it's your first group trip.",
       );
     }
-    if (profile.priority === "safety" && !tp.mixed)
-      reasons.push(pt ? "grupo só de mulheres, com host do começo ao fim." : "a women-only group with a host start to finish.");
-    if (profile.priority === "organization")
-      reasons.push(pt ? "roteiro, hospedagem e logística já organizados." : "itinerary, lodging and logistics already organized.");
-    if (profile.priority === "price" && cost <= budgetMax)
-      reasons.push(pt ? "boa relação entre preço e o que está incluso." : "good value for what's included.");
 
     const score = Math.round(
       (budget * WEIGHTS.budget +

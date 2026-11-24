@@ -75,8 +75,8 @@ export async function POST(req: NextRequest) {
     availability: profile.flexibleDates ? "flexível" : profile.months.join(", "),
     maxDays: profile.maxDays,
     interests: profile.mix ? ["um pouco de tudo"] : profile.styles,
-    pace: profile.pace, companion: profile.companion, firstGroupTrip: profile.firstGroup === null ? null : !profile.firstGroup,
-    womenOnly: profile.womenOnly, priority: profile.priority,
+    pace: profile.pace, firstGroupTrip: profile.firstGroup === null ? null : !profile.firstGroup,
+    womenOnly: profile.womenOnly,
     recommended, interest, status: "novo",
   };
   console.log("matchmaker: new lead", JSON.stringify(record));
@@ -101,8 +101,8 @@ export async function POST(req: NextRequest) {
     ["orçamento", `${band}${profile.budgetAll ? " (voo e extras inclusos)" : " (só pacote)"}`],
     ["disponibilidade", record.availability], ["máx. de dias", String(profile.maxDays ?? "—")],
     ["interesses", record.interests.join(", ") || "—"], ["ritmo", profile.pace ?? "—"],
-    ["viaja", profile.companion ?? "—"], ["1ª viagem em grupo", profile.firstGroup === null ? "—" : profile.firstGroup ? "não" : "sim"],
-    ["só mulheres", profile.womenOnly === null ? "—" : profile.womenOnly ? "sim" : "tanto faz"], ["prioridade", profile.priority ?? "—"],
+    ["1ª viagem em grupo", profile.firstGroup === null ? "—" : profile.firstGroup ? "não" : "sim"],
+    ["só mulheres", profile.womenOnly === null ? "—" : profile.womenOnly ? "sim" : "tanto faz"],
     ["melhores matches", recommended.map((r) => `${r.title} (${r.score}%)`).join(" · ") || "—"],
     ["nível de interesse", interest], ["status", "novo"],
   ];

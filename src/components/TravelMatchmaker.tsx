@@ -24,7 +24,7 @@ type Lang = "pt" | "en";
 type Opt = { value: string; label: Record<Lang, string>; hint?: Record<Lang, string> };
 type StepId =
   | "origin" | "intl" | "budget" | "budgetAll" | "dates" | "days"
-  | "style" | "pace" | "companion" | "firstGroup" | "womenOnly" | "priority";
+  | "style" | "pace" | "firstGroup" | "womenOnly";
 
 const usd = (brl: number) => Math.round(brl / BRL_PER_USD / 50) * 50;
 const budgetOpts: Opt[] = BUDGET_BANDS.map((b, i) => ({
@@ -53,10 +53,8 @@ const T = {
       days: ["quantos dias você tem?", "o máximo de dias que você consegue ficar fora."],
       style: ["que tipo de experiência você procura?", "pode escolher mais de uma."],
       pace: ["qual o seu ritmo de viagem?", "não existe resposta errada."],
-      companion: ["você viaja sozinha ou com alguém?", ""],
       firstGroup: ["já fez uma viagem em grupo antes?", ""],
       womenOnly: ["prefere um grupo só de mulheres?", "a maioria das viagens é só pra mulheres, mas algumas são mistas."],
-      priority: ["o que mais importa numa viagem em grupo?", "isso me ajuda a explicar as recomendações."],
     } as Record<StepId, [string, string]>,
     opts: {
       origin: [["brasil", "Brasil"], ["northAmerica", "EUA ou Canadá"], ["europe", "Europa"], ["other", "outro lugar"]],
@@ -66,9 +64,7 @@ const T = {
       days: [["4", "até 4 dias"], ["7", "até 7 dias"], ["10", "até 10 dias"], ["99", "sem limite"]],
       style: [["adventure", "aventura e outdoor"], ["nature", "natureza e paisagens"], ["beach", "praias e destinos tropicais"], ["culture", "cultura e lugares autênticos"], ["mix", "um pouco de tudo"]],
       pace: [["adventurous", "aventureira", "quero explorar o máximo possível"], ["balanced", "equilibrada", "aventura, mas com tempo pra relaxar"], ["relaxed", "tranquila", "prefiro viajar mais devagar"]],
-      companion: [["alone", "sozinha"], ["friend", "com alguém"]],
       womenOnly: [["yes", "só mulheres"], ["no", "tanto faz"]],
-      priority: [["safety", "segurança"], ["friends", "fazer novas amigas"], ["organization", "tudo organizado"], ["price", "preço"]],
     } as Record<string, string[][]>,
     resultsTitle: "suas viagens ideais",
     found: (n: number) => (n === 1 ? "1 viagem combina com você" : `${n} viagens combinam com você`),
@@ -103,10 +99,8 @@ const T = {
       days: ["how many days do you have?", "the most days you can be away."],
       style: ["what kind of experience are you looking for?", "you can pick more than one."],
       pace: ["what's your travel pace?", "there are no wrong answers."],
-      companion: ["are you traveling alone or with someone?", ""],
       firstGroup: ["have you joined a group trip before?", ""],
       womenOnly: ["do you prefer a women-only group?", "most trips are women-only, but a few are mixed."],
-      priority: ["what matters most to you in a group trip?", "this helps me explain the recommendations."],
     } as Record<StepId, [string, string]>,
     opts: {
       origin: [["brasil", "Brazil"], ["northAmerica", "USA or Canada"], ["europe", "Europe"], ["other", "somewhere else"]],
@@ -116,9 +110,7 @@ const T = {
       days: [["4", "up to 4 days"], ["7", "up to 7 days"], ["10", "up to 10 days"], ["99", "no limit"]],
       style: [["adventure", "adventure and outdoors"], ["nature", "nature and landscapes"], ["beach", "beaches and tropical places"], ["culture", "culture and authentic places"], ["mix", "a bit of everything"]],
       pace: [["adventurous", "adventurous", "i want to explore as much as possible"], ["balanced", "balanced", "adventure, but time to relax too"], ["relaxed", "relaxed", "i prefer slower travel"]],
-      companion: [["alone", "alone"], ["friend", "with someone"]],
       womenOnly: [["yes", "women only"], ["no", "doesn't matter"]],
-      priority: [["safety", "safety"], ["friends", "making new friends"], ["organization", "everything organized"], ["price", "price"]],
     } as Record<string, string[][]>,
     resultsTitle: "your ideal trips",
     found: (n: number) => (n === 1 ? "1 trip matches you" : `${n} trips match you`),
@@ -171,7 +163,7 @@ export default function TravelMatchmaker() {
     if (profile.origin === "brasil") list.push("intl");
     list.push("budget");
     if (profile.budgetBand !== null) list.push("budgetAll");
-    list.push("dates", "days", "style", "pace", "companion", "firstGroup", "womenOnly", "priority");
+    list.push("dates", "days", "style", "pace", "firstGroup", "womenOnly");
     return list;
   }, [profile.origin, profile.budgetBand]);
 
@@ -229,10 +221,8 @@ export default function TravelMatchmaker() {
       case "budgetAll": patch({ budgetAll: value === "all" }); break;
       case "days": patch({ maxDays: value === "99" ? null : Number(value) }); break;
       case "pace": patch({ pace: value as Pace }); break;
-      case "companion": patch({ companion: value as "alone" | "friend" }); break;
       case "firstGroup": patch({ firstGroup: value === "no" }); break;
       case "womenOnly": patch({ womenOnly: value === "yes" }); break;
-      case "priority": patch({ priority: value as Profile["priority"] }); break;
     }
     if (step !== "origin") window.setTimeout(advance, 160);
   };
@@ -271,10 +261,8 @@ export default function TravelMatchmaker() {
       case "days": return v === "99" ? profile.maxDays === null : profile.maxDays === Number(v);
       case "style": return v === "mix" ? profile.mix : profile.styles.includes(v as Style);
       case "pace": return profile.pace === v;
-      case "companion": return profile.companion === v;
       case "firstGroup": return profile.firstGroup === (v === "no");
       case "womenOnly": return profile.womenOnly === (v === "yes");
-      case "priority": return profile.priority === v;
       default: return false;
     }
   };
