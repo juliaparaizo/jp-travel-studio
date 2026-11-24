@@ -6,6 +6,7 @@ import { tripsSorted, type Trip } from "@/lib/trips";
 import { localizeTrip } from "@/lib/trips-en";
 import { useLanguage, type Lang } from "@/lib/i18n";
 import { ui } from "@/lib/ui-strings";
+import TravelMatchmaker from "@/components/TravelMatchmaker";
 import AvailabilityDateFilter, { type DateRange } from "@/components/AvailabilityDateFilter";
 import { isTripWithinAvailabilityWindow, parseISODate } from "@/lib/date-utils";
 
@@ -104,6 +105,8 @@ export default function TripsSection() {
       <p className="mx-auto mb-12 max-w-2xl text-center text-sm leading-relaxed text-[var(--foreground)]/70">
         {subtitle[lang]}
       </p>
+
+      <TravelMatchmaker />
 
       <div className="mb-4 flex justify-center">
         <div className="flex flex-wrap justify-center gap-1 rounded-full border border-[var(--foreground)]/15 bg-[var(--foreground)]/5 p-1.5">
