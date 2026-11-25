@@ -5763,10 +5763,7 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
       "/images/trips/san-blas-panama-2027/hero/hero-3.jpg",
       "/images/trips/san-blas-panama-2027/hero/hero-4.jpg",
       "/images/trips/san-blas-panama-2027/hero/hero-5.jpg",
-      "/images/trips/san-blas-panama-2027/hero/hero-6.jpg",
-      "/images/trips/san-blas-panama-2027/hero/hero-7.jpg",
-      "/images/trips/san-blas-panama-2027/hero/hero-8.jpg",
-      "/images/trips/san-blas-panama-2027/hero/hero-9.jpg"
+      "/images/trips/san-blas-panama-2027/hero/hero-6.jpg"
     ],
     "dates": "13 a 16 de fevereiro de 2027",
     "dateForSort": "2027-02-13",
@@ -5810,12 +5807,12 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
       {
         "day": 2,
         "title": "domingo, 14/fev — ilha em ilha",
-        "description": "um grupo diferente de ilhas: snorkel, kayak/paddle, vôlei na areia ou só relaxar. o roteiro exato depende do clima e de outros barcos."
+        "description": "você visita um grupo diferente de ilhas por dia. não dá pra garantir a rota exata, porque depende do clima e de outros barcos, mas você vai passar por algumas destas: Lemon Cays, Chichime, Banedup, Cambombia, Green Island, Ogopsibudup, Ogopukib, Nuinudup e Gaigirgordup."
       },
       {
         "day": 3,
         "title": "segunda, 15/fev — mais ilhas",
-        "description": "mais um dia de ilhas, entre algumas destas: Lemon Cays, Chichime, Banedup, Cambombia, Green Island, Ogopsibudup, Ogopukib, Nuinudup e Gaigirgordup."
+        "description": "mais um dia em outro grupo de ilhas: snorkel, kayak/paddle, vôlei na areia ou só relaxar na areia ou no barco."
       },
       {
         "day": 4,
@@ -5851,10 +5848,6 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
       {
         "question": "preciso levar dinheiro?",
         "answer": "sim. não há caixa eletrônico nem casa de câmbio em San Blas, então leve algum dinheiro em dólar, em notas pequenas, pra gastos extras (bebidas, gorjeta, lembranças)."
-      },
-      {
-        "question": "é um passeio guiado?",
-        "answer": "não, é uma aventura de verdade: algumas embarcações exigem jogo de cintura no embarque. alguns barcos têm cachorro a bordo, então avise se tiver alergia."
       },
       {
         "question": "a Julia estará presente nessa viagem?",

@@ -5095,12 +5095,12 @@ we recommend bringing cash, as some places don't take cards.`,
       {
         "day": 2,
         "title": "sunday, 2/14 — island to island",
-        "description": "a different group of islands: snorkeling, kayaking/paddling, beach volleyball or just relaxing. the exact route depends on the weather and other boats."
+        "description": "you visit a different group of islands every day. we can't guarantee the exact route, since it depends on the weather and other boats, but you'll visit some of these: Lemon Cays, Chichime, Banedup, Cambombia, Green Island, Ogopsibudup, Ogopukib, Nuinudup and Gaigirgordup."
       },
       {
         "day": 3,
         "title": "monday, 2/15 — more islands",
-        "description": "one more island day, among some of these: Lemon Cays, Chichime, Banedup, Cambombia, Green Island, Ogopsibudup, Ogopukib, Nuinudup and Gaigirgordup."
+        "description": "one more day at another group of islands: snorkeling, kayaking/paddling, beach volleyball or just relaxing on shore or on board."
       },
       {
         "day": 4,
@@ -5126,10 +5126,6 @@ we recommend bringing cash, as some places don't take cards.`,
       {
         "question": "do i need to bring cash?",
         "answer": "yes. there are no ATMs or currency exchange in San Blas, so bring some US dollars in small bills for extras (drinks, tips, souvenirs)."
-      },
-      {
-        "question": "is it a guided tour?",
-        "answer": "no, it's a real adventure: some boats require some flexibility when boarding. some boats have a dog on board, so let us know if you have allergies."
       },
       {
         "question": "will Julia be there on this trip?",
