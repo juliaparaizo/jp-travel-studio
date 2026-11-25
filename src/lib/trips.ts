@@ -5784,7 +5784,7 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
     "included": [
       "3 noites a bordo do veleiro Shakira, em cabine compartilhada",
       "3 refeições por dia, água, chá e café",
-      "equipamento de snorkel, kayak/paddle ou linha de pesca (depende do barco)",
+      "equipamento de snorkel, kayak ou linha de pesca (depende do barco)",
       "dinghy com motor para as visitas às ilhas",
       "transfer Panama City ⇄ San Blas (jipe + lancha), ida e volta",
       "taxa de entrada Guna Yala (US$ 20)",
@@ -5812,7 +5812,7 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
       {
         "day": 3,
         "title": "segunda, 15/fev — mais ilhas",
-        "description": "mais um dia em outro grupo de ilhas: snorkel, kayak/paddle, vôlei na areia ou só relaxar na areia ou no barco."
+        "description": "mais um dia em outro grupo de ilhas: snorkel, kayak, vôlei na areia ou só relaxar na areia ou no barco."
       },
       {
         "day": 4,
@@ -5852,6 +5852,163 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
       {
         "question": "a Julia estará presente nessa viagem?",
         "answer": "sim! eu e a Grazi Azevedo (@graziaazevedoo) somos as hosts e acompanhamos o grupo do início ao fim, em todas as etapas da viagem — tirando o tempo livre, claro :) e estaremos sempre disponíveis pra qualquer dúvida que surgir, antes ou durante a viagem 💛"
+      },
+      {
+        "question": "a viagem é só para mulheres?",
+        "answer": "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres."
+      },
+      {
+        "question": "tem seguro viagem?",
+        "answer": "o seguro viagem é obrigatório e não está incluso."
+      }
+    ]
+  },
+  {
+    "slug": "kite-trip-prea-2027",
+    "title": "Kite Trip Preá",
+    "destination": "Praia do Preá, Ceará",
+    "cardImage": "/images/trips/kite-trip-prea-2027/hero/hero-1.jpg",
+    "heroImage": "/images/trips/kite-trip-prea-2027/hero/hero-1.jpg",
+    "heroImages": [
+      "/images/trips/kite-trip-prea-2027/hero/hero-1.jpg",
+      "/images/trips/kite-trip-prea-2027/hero/hero-2.jpg",
+      "/images/trips/kite-trip-prea-2027/hero/hero-3.jpg",
+      "/images/trips/kite-trip-prea-2027/hero/hero-4.jpg",
+      "/images/trips/kite-trip-prea-2027/hero/hero-5.jpg",
+      "/images/trips/kite-trip-prea-2027/hero/hero-6.jpg",
+      "/images/trips/kite-trip-prea-2027/hero/hero-7.jpg",
+      "/images/trips/kite-trip-prea-2027/hero/hero-8.jpg"
+    ],
+    "dates": "10 a 15 de junho de 2027",
+    "dateForSort": "2027-06-10",
+    "dateForSortEnd": "2027-06-15",
+    "duration": "6 dias · 5 noites",
+    "priceDisplay": "R$ 8.000",
+    "priceValue": 8000,
+    "national": true,
+    "priceInstallments": "no cartão, em até 6x sem juros · no pix à vista, até 5% de desconto",
+    "agency": "",
+    "urgentBadge": "7 vagas",
+    "tagline": "aprenda kitesurf no paraíso do Ceará, com aulas todas as tardes e bangalô pé na areia",
+    "description": "5 noites na Praia do Preá, a 12 km de Jericoacoara, com aulas de kitesurf todas as tardes, bangalô pé na areia de frente pro mar e um grupo só de meninas. a viagem é pra quem sempre quis aprender kite e quer fazer isso do jeito certo: aulas semi-particulares, hospedagem de charme e tudo organizado do começo ao fim. não precisa ter experiência nenhuma. são só 7 vagas.",
+    "whatsappMessage": "Oi Julia! Acabei de ler o material sobre a Kite Trip Preá (10 a 15 de junho de 2027) e quero garantir minha vaga :)",
+    "paymentMethods": [
+      "cartão de crédito",
+      "pix"
+    ],
+    "included": [
+      "5 noites no bangalô Praia do Rancho do Peixe, de frente pro mar, em quarto quádruplo",
+      "café da manhã todos os dias",
+      "4 almoços no restaurante do Rancho do Peixe",
+      "jantar de boas-vindas na pizzaria do Rancho (com 1 bebida não alcoólica)",
+      "jantar de encerramento na Vila Kalango (com 1 bebida não alcoólica)",
+      "4 aulas de kitesurf de 2 horas, semi-particulares, com equipamento",
+      "transfer em grupo aeroporto de Jericoacoara ⇄ Preá, ida e volta",
+      "taxas de serviço e ISS",
+      "host acompanhando o grupo durante toda a viagem"
+    ],
+    "notIncluded": [
+      "passagem aérea",
+      "jantares das noites livres",
+      "bebidas além das inclusas",
+      "passeios e atividades extras",
+      "seguro viagem",
+      "gastos pessoais"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "quinta, 10/jun — chegada",
+        "description": "chegada no aeroporto de Jericoacoara, transfer em grupo e check-in no Rancho do Peixe. jantar de boas-vindas na pizzaria do Rancho."
+      },
+      {
+        "day": 2,
+        "title": "sexta, 11/jun — aula de kite 1",
+        "description": "café da manhã, almoço no Rancho do Peixe e a primeira aula de kite à tarde. noite livre."
+      },
+      {
+        "day": 3,
+        "title": "sábado, 12/jun — aula de kite 2",
+        "description": "café da manhã, almoço no Rancho do Peixe e a segunda aula de kite à tarde. noite livre."
+      },
+      {
+        "day": 4,
+        "title": "domingo, 13/jun — aula de kite 3",
+        "description": "café da manhã, almoço no Rancho do Peixe e a terceira aula de kite à tarde. noite livre."
+      },
+      {
+        "day": 5,
+        "title": "segunda, 14/jun — aula de kite 4",
+        "description": "café da manhã, almoço no Rancho do Peixe e a quarta aula de kite à tarde. à noite, jantar de encerramento na Vila Kalango."
+      },
+      {
+        "day": 6,
+        "title": "terça, 15/jun — volta",
+        "description": "café da manhã e check-out. tempo livre e transfer em grupo para o aeroporto."
+      }
+    ],
+    "accommodation": "o Rancho do Peixe é uma pousada pé na areia na Praia do Preá, numa área quase deserta da costa, dentro de uma fazenda de coqueiros. são só 26 bangalôs feitos com madeira de reflorestamento e telhado de palha de carnaúba, com piscina de 25 metros, deck na praia com bar e pizzaria, e spa. a gente fica no bangalô Praia, na beira da areia e de frente pro mar, num deck suspenso: dá pra dormir ouvindo as ondas e acordar com o sol nascendo. são 80 m² pra até 4 pessoas, com 1 cama king + 2 camas de solteiro, frigobar, ventilador de teto, ducha quente, Wi-Fi e deck privativo de frente pro mar. sem TV, pra desconectar de verdade. café da manhã todos os dias.",
+    "accommodationImages": [
+      "/images/trips/kite-trip-prea-2027/pousada/1.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/2.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/3.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/4.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/5.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/6.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/7.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/8.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/9.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/10.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/11.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/12.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/13.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/14.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/15.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/16.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/17.jpg",
+      "/images/trips/kite-trip-prea-2027/pousada/18.jpg"
+    ],
+    "forWhom": [],
+    "faqs": [
+      {
+        "question": "como são as aulas de kitesurf?",
+        "answer": "são 4 aulas de 2 horas (8 horas no total), uma por tarde, com a escola especializada que funciona dentro do próprio Rancho. as aulas são semi-particulares: 1 instrutor para cada 2 alunas, o que faz você evoluir bem mais rápido que em aula de grupo. o equipamento (kite, prancha, trapézio e colete) está incluso, e a escola fica no Rancho, é só descer pra areia. a gente começa do zero: segurança e controle do kite na areia, depois body drag na água e as primeiras tentativas em cima da prancha."
+      },
+      {
+        "question": "preciso saber kitesurf?",
+        "answer": "não. as aulas são pra iniciantes e começam do zero."
+      },
+      {
+        "question": "posso ir sozinha?",
+        "answer": "pode, a maioria vai. você divide o bangalô com outras meninas do grupo e eu fico com vocês durante toda a viagem."
+      },
+      {
+        "question": "como funciona o quarto?",
+        "answer": "são 4 meninas por bangalô, com 1 cama king e 2 de solteiro. a divisão é combinada antes da viagem."
+      },
+      {
+        "question": "e se não tiver vento?",
+        "answer": "junho é o começo da temporada de vento no Ceará. se alguma aula não puder acontecer, ela é remarcada dentro da viagem."
+      },
+      {
+        "question": "preciso estar em forma?",
+        "answer": "não precisa ser atleta, mas ajuda ter uma condição física básica e se sentir à vontade no mar."
+      },
+      {
+        "question": "como chego lá e quais os horários do transfer?",
+        "answer": "o aeroporto é o de Jericoacoara (JJD), em Cruz (CE), a mais ou menos 1 hora do Rancho. tem voo saindo de São Paulo, Rio e outras capitais, direto ou com conexão.\n\no transfer em grupo sai em horário fixo:\n- ida: voo chegando em JJD até 14h do dia 10/06\n- volta: voo saindo de JJD depois das 14h do dia 15/06\n\nantes de comprar a passagem, fala comigo pra confirmar os horários. quem chegar ou sair fora desses horários paga o próprio transfer, e eu ajudo a organizar. quem não usar o transfer do grupo não tem desconto no pacote."
+      },
+      {
+        "question": "o que fazer nas noites livres?",
+        "answer": "dá pra jantar no Rancho, ver o pôr do sol na praia ou ir até Jeri, que fica a uns 25 minutos."
+      },
+      {
+        "question": "como funciona o pagamento e o cancelamento?",
+        "answer": "R$ 8.000 por pessoa, em quarto quádruplo.\n\n- cartão: em até 6x sem juros\n- pix à vista: até 5% de desconto\n\ncancelamento sem multa até 45 dias antes do check-in (até 26/04/2027).\n\npra garantir sua vaga, me chama no direct do @juliaparaizo.travel ou no WhatsApp."
+      },
+      {
+        "question": "o que levar?",
+        "answer": "- roupa de banho e protetor solar\n- roupa leve e uma blusa pro vento\n- seguro viagem\n- dinheiro pros extras e noites livres"
       },
       {
         "question": "a viagem é só para mulheres?",

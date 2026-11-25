@@ -34,6 +34,7 @@ const profiles: [RegExp, TripProfile][] = [
   [/^amazonia/, { styles: ["nature", "adventure", "culture"], pace: "balanced", difficulty: "moderate", region: "brasil" }],
   [/^atacama-uyuni/, { styles: ["nature", "adventure"], pace: "adventurous", difficulty: "moderate", region: "southAmerica" }],
   [/^atacama/, { styles: ["nature", "culture"], pace: "balanced", difficulty: "easy", region: "southAmerica" }],
+  [/^kite-trip/, { styles: ["beach", "adventure"], pace: "balanced", difficulty: "moderate", region: "brasil" }],
   [/^itacare/, { styles: ["beach", "nature", "adventure"], pace: "balanced", difficulty: "easy", region: "brasil" }],
   [/^reveillon-caraiva/, { styles: ["beach", "culture"], pace: "relaxed", difficulty: "easy", region: "brasil" }],
   [/^lombok-bali/, { styles: ["beach", "culture", "nature"], pace: "balanced", difficulty: "easy", region: "asia" }],

@@ -5072,7 +5072,7 @@ we recommend bringing cash, as some places don't take cards.`,
     "included": [
       "3 nights aboard the sailboat Shakira, in a shared cabin",
       "3 meals a day, water, tea and coffee",
-      "snorkel gear, kayak/paddle or fishing line (depends on the boat)",
+      "snorkel gear, kayak or fishing line (depends on the boat)",
       "motorized dinghy for island visits",
       "round-trip transfer Panama City ⇄ San Blas (4x4 jeep + boat)",
       "Guna Yala entrance fee (US$ 20)",
@@ -5100,7 +5100,7 @@ we recommend bringing cash, as some places don't take cards.`,
       {
         "day": 3,
         "title": "monday, 2/15 — more islands",
-        "description": "one more day at another group of islands: snorkeling, kayaking/paddling, beach volleyball or just relaxing on shore or on board."
+        "description": "one more day at another group of islands: snorkeling, kayaking, beach volleyball or just relaxing on shore or on board."
       },
       {
         "day": 4,
@@ -5130,6 +5130,125 @@ we recommend bringing cash, as some places don't take cards.`,
       {
         "question": "will Julia be there on this trip?",
         "answer": "yes! Grazi Azevedo (@graziaazevedoo) and i are the hosts and we accompany the group start to finish, at every step of the trip — except free time, of course :) and we'll always be available for any questions that come up, before or during the trip 💛"
+      },
+      {
+        "question": "is the trip women-only?",
+        "answer": "yes, all Julia Paraizo experiences are exclusively for women."
+      },
+      {
+        "question": "is travel insurance included?",
+        "answer": "travel insurance is mandatory and not included."
+      }
+    ]
+  },
+  "kite-trip-prea-2027": {
+    "title": "Kite Trip Preá",
+    "destination": "Preá Beach, Ceará",
+    "dates": "june 10–15, 2027",
+    "duration": "6 days · 5 nights",
+    "priceDisplay": "R$ 8,000",
+    "priceInstallments": "on credit card, up to 6 interest-free installments · pay in full via Pix, up to 5% off",
+    "urgentBadge": "7 spots",
+    "tagline": "learn kitesurfing in Ceará's paradise, with lessons every afternoon and a beachfront bungalow",
+    "description": "5 nights at Preá Beach, 12 km from Jericoacoara, with kitesurfing lessons every afternoon, a barefoot-in-the-sand beachfront bungalow and a women-only group. this trip is for anyone who has always wanted to learn kite and wants to do it right: semi-private lessons, a charming stay and everything organized from start to finish. no experience needed. only 7 spots.",
+    "whatsappMessage": "Hi Julia! I just read the material about the Kite Trip Preá (June 10–15, 2027) and I want to secure my spot :)",
+    "paymentMethods": [
+      "credit card",
+      "pix"
+    ],
+    "included": [
+      "5 nights in the Praia bungalow at Rancho do Peixe, beachfront, in a quadruple room",
+      "breakfast every day",
+      "4 lunches at the Rancho do Peixe restaurant",
+      "welcome dinner at the Rancho pizzeria (with 1 non-alcoholic drink)",
+      "closing dinner at Vila Kalango (with 1 non-alcoholic drink)",
+      "4 semi-private kitesurfing lessons of 2 hours, equipment included",
+      "group transfer Jericoacoara airport ⇄ Preá, round trip",
+      "service fees and taxes",
+      "host with the group throughout the trip"
+    ],
+    "notIncluded": [
+      "airfare",
+      "dinners on free nights",
+      "drinks beyond those included",
+      "extra tours and activities",
+      "travel insurance",
+      "personal expenses"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "thursday, 6/10 — arrival",
+        "description": "arrival at Jericoacoara airport, group transfer and check-in at Rancho do Peixe. welcome dinner at the Rancho pizzeria."
+      },
+      {
+        "day": 2,
+        "title": "friday, 6/11 — kite lesson 1",
+        "description": "breakfast, lunch at Rancho do Peixe and the first kite lesson in the afternoon. free evening."
+      },
+      {
+        "day": 3,
+        "title": "saturday, 6/12 — kite lesson 2",
+        "description": "breakfast, lunch at Rancho do Peixe and the second kite lesson in the afternoon. free evening."
+      },
+      {
+        "day": 4,
+        "title": "sunday, 6/13 — kite lesson 3",
+        "description": "breakfast, lunch at Rancho do Peixe and the third kite lesson in the afternoon. free evening."
+      },
+      {
+        "day": 5,
+        "title": "monday, 6/14 — kite lesson 4",
+        "description": "breakfast, lunch at Rancho do Peixe and the fourth kite lesson in the afternoon. closing dinner at Vila Kalango."
+      },
+      {
+        "day": 6,
+        "title": "tuesday, 6/15 — return",
+        "description": "breakfast and check-out. free time and group transfer to the airport."
+      }
+    ],
+    "accommodation": "Rancho do Peixe is a barefoot-in-the-sand inn at Preá Beach, in an almost deserted stretch of coast inside a coconut farm. only 26 bungalows built from reforested wood with carnauba palm roofs, a 25-meter pool, a beach deck with bar and pizzeria, and a spa. we stay in the Praia bungalow, right on the sand and facing the sea, on a raised deck: fall asleep to the waves and wake up with the sunrise. 80 m² for up to 4 people, with 1 king bed + 2 single beds, minibar, ceiling fan, hot shower, Wi-Fi and a private oceanfront deck. no TV, to really disconnect. breakfast every day.",
+    "forWhom": [],
+    "faqs": [
+      {
+        "question": "how do the kitesurfing lessons work?",
+        "answer": "there are 4 lessons of 2 hours (8 hours total), one each afternoon, with the specialized school that runs inside the Rancho itself. lessons are semi-private: 1 instructor for every 2 students, so you progress much faster than in a group class. equipment (kite, board, harness and vest) is included, and the school is at the Rancho, just walk down to the sand. we start from zero: safety and kite control on the sand, then body drag in the water and your first tries on the board."
+      },
+      {
+        "question": "do I need to know how to kitesurf?",
+        "answer": "no. the lessons are for beginners and start from zero."
+      },
+      {
+        "question": "can I go alone?",
+        "answer": "yes, most people do. you share the bungalow with other girls from the group and I stay with you throughout the trip."
+      },
+      {
+        "question": "how do the rooms work?",
+        "answer": "4 girls per bungalow, with 1 king bed and 2 single beds. room assignments are arranged before the trip."
+      },
+      {
+        "question": "what if there's no wind?",
+        "answer": "june is the start of the wind season in Ceará. if a lesson can't happen, it is rescheduled within the trip."
+      },
+      {
+        "question": "do I need to be in shape?",
+        "answer": "you don't need to be an athlete, but basic fitness and feeling comfortable in the sea help."
+      },
+      {
+        "question": "how do I get there and what are the transfer times?",
+        "answer": "the airport is Jericoacoara (JJD), in Cruz (CE), about 1 hour from the Rancho. there are flights from São Paulo, Rio and other capitals, direct or with a connection.\n\nthe group transfer leaves at fixed times:\n- arrival: flight landing at JJD by 2 pm on 6/10\n- return: flight leaving JJD after 2 pm on 6/15\n\nbefore buying your ticket, talk to me to confirm the times. anyone arriving or leaving outside these times pays for their own transfer, and I'll help organize it. there is no discount for not using the group transfer."
+      },
+      {
+        "question": "what is there to do on the free evenings?",
+        "answer": "you can have dinner at the Rancho, watch the sunset on the beach or go to Jeri, about 25 minutes away."
+      },
+      {
+        "question": "how do payment and cancellation work?",
+        "answer": "R$ 8,000 per person, in a quadruple room.\n\n- credit card: up to 6 interest-free installments\n- pay in full via Pix: up to 5% off\n\nfree cancellation up to 45 days before check-in (until 04/26/2027).\n\nto secure your spot, message me on Instagram @juliaparaizo.travel or on WhatsApp."
+      },
+      {
+        "question": "what should I bring?",
+        "answer": "- swimsuit and sunscreen\n- light clothes and a layer for the wind\n- travel insurance\n- cash for extras and free evenings"
       },
       {
         "question": "is the trip women-only?",
