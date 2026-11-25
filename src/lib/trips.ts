@@ -5774,9 +5774,9 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
     "national": false,
     "priceInstallments": "via Pix: sinal de R$ 600 + 3 parcelas de R$ 2.700",
     "agency": "",
-    "urgentBadge": "8 vagas",
+    "urgentBadge": "6 vagas",
     "tagline": "3 dias de ilha em ilha no arquipélago de San Blas, morando num veleiro e acordando numa ilha diferente",
-    "description": "girls trip a bordo do veleiro Shakira, no arquipélago de San Blas (Guna Yala), no Panamá: água cristalina, snorkel, kayak, sunset no deck e nenhuma mala pra desfazer. 3 noites a bordo, saída e chegada em Panama City. são só 8 vagas.",
+    "description": "girls trip a bordo do veleiro Shakira, no arquipélago de San Blas (Guna Yala), no Panamá: água cristalina, snorkel, kayak, sunset no deck e nenhuma mala pra desfazer. 3 noites a bordo, saída e chegada em Panama City. são só 6 vagas.",
     "whatsappMessage": "Oi Julia! Acabei de ler o material sobre a viagem a San Blas, Panamá (13 a 16 de fevereiro de 2027) e quero garantir minha vaga :)",
     "paymentMethods": [
       "Pix"

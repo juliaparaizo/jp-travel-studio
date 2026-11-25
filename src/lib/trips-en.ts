@@ -5062,9 +5062,9 @@ we recommend bringing cash, as some places don't take cards.`,
     "duration": "4 days · 3 nights",
     "priceDisplay": "R$ 8,700",
     "priceInstallments": "via Pix: R$ 600 deposit + 3 installments of R$ 2,700",
-    "urgentBadge": "8 spots",
+    "urgentBadge": "6 spots",
     "tagline": "3 days island-hopping the San Blas archipelago, living on a sailboat and waking up at a different island",
-    "description": "a girls trip aboard the sailboat Shakira in the San Blas (Guna Yala) archipelago in Panama: crystal-clear water, snorkeling, kayaking, sunset on the deck and no suitcase to unpack. 3 nights on board, departing and returning to Panama City. only 8 spots.",
+    "description": "a girls trip aboard the sailboat Shakira in the San Blas (Guna Yala) archipelago in Panama: crystal-clear water, snorkeling, kayaking, sunset on the deck and no suitcase to unpack. 3 nights on board, departing and returning to Panama City. only 6 spots.",
     "whatsappMessage": "Hi Julia! I just read the material about the San Blas, Panama trip (february 13–16, 2027) and I want to secure my spot :)",
     "paymentMethods": [
       "Pix"
