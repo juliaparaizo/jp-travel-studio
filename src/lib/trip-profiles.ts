@@ -42,6 +42,7 @@ const profiles: [RegExp, TripProfile][] = [
   [/^espanha/, { styles: ["beach", "culture"], pace: "balanced", difficulty: "easy", region: "europe" }],
   [/^dolomitas/, { styles: ["nature", "adventure"], pace: "adventurous", difficulty: "moderate", region: "europe" }],
   [/^cote-dazur/, { styles: ["culture", "beach"], pace: "relaxed", difficulty: "easy", region: "europe" }],
+  [/^san-blas/, { styles: ["beach", "adventure", "nature"], pace: "adventurous", difficulty: "moderate", region: "centralAmerica" }],
   [/^costa-rica/, { styles: ["beach", "adventure", "nature"], pace: "balanced", difficulty: "easy", region: "centralAmerica" }],
   [/^monte-roraima/, { styles: ["adventure", "nature"], pace: "adventurous", difficulty: "hard", region: "brasil", mixed: true }],
   [/^laponia/, { styles: ["nature", "adventure"], pace: "balanced", difficulty: "easy", region: "nordic" }],

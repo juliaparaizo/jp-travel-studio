@@ -4037,6 +4037,151 @@ or similar. lodging, beach clubs and other services may be replaced with equival
       },
     ],
   },
+  "atacama-uyuni-mar-2027": {
+    title: "Atacama + Salar de Uyuni",
+    destination: "Atacama, Chile + Salar de Uyuni, Bolivia",
+    dates: "march 10–18, 2027",
+    duration: "9 days",
+    priceDisplay: "R$ 7,350",
+    priceInstallments: "5% discount on pix · up to 10x interest-free on credit card",
+    tagline:
+      "9 days between the driest desert in the world and the biggest mirror of the sky",
+    description:
+      "9 days between Chile and Bolivia. the trip starts in Atacama, among colorful valleys, geysers, lagoons and starry skies. then it crosses the border in a 4x4 over the bolivian altiplano to the Salar de Uyuni. when conditions cooperate, the water turns the salt flat into a giant mirror of the sky. a group of 12 girls.",
+    whatsappMessage:
+      "Hi Julia! I just read the material about the Atacama + Uyuni trip (march 10–18, 2027) and I want to secure my spot :)",
+    paymentMethods: ["pix", "credit card"],
+    included: [
+      "Calama–San Pedro transfer, round trip",
+      "5 nights in San Pedro with breakfast",
+      "3 nights on the bolivian expedition with breakfast and dinner",
+      "private excursions in Atacama with guide, tickets and transfers",
+      "lunch at the Atacama Salt Flat",
+      "astronomy tour",
+      "Tatio Geysers with breakfast",
+      "private 4-day, 3-night 4x4 expedition with tickets, lunches and dinners",
+      "private transfer to the border at Hito Cajón",
+    ],
+    notIncluded: [
+      "international and domestic flights",
+      "meals not mentioned (in Atacama, estimate USD 20 per meal)",
+      "travel insurance (mandatory) and eSIM (mandatory)",
+      "Chile–Bolivia border fee (about USD 7)",
+      "personal expenses and extras",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "wednesday, 3/10 — welcome to atacama",
+        description:
+          "private transfer from Calama to the hotel in San Pedro, a free day to walk, rest and start acclimatizing at 2,440 m.",
+      },
+      {
+        day: 2,
+        title: "thursday, 3/11 — rainbow valley and valle de la luna",
+        description:
+          "Yerbas Buenas, Valle del Arco Iris, Rio Salado and a sunset picnic at Valle de la Luna.",
+      },
+      {
+        day: 3,
+        title: "friday, 3/12 — salt flat and starry sky",
+        description:
+          "Atacama Salt Flat, Laguna Chaxa and Toconao, with lunch. in the evening, an astronomy tour with telescopes.",
+      },
+      {
+        day: 4,
+        title: "saturday, 3/13 — geysers and lagoons",
+        description:
+          "an early start for the Tatio Geysers, breakfast and then Laguna Cejar, Ojos del Salar and Tebinquiche.",
+      },
+      {
+        day: 5,
+        title: "sunday, 3/14 — heading to bolivia",
+        description:
+          "border at Hito Cajón, switching to a private 4x4, Laguna Verde, Laguna Colorada and arrival in Villamar.",
+      },
+      {
+        day: 6,
+        title: "monday, 3/15 — crossing the altiplano",
+        description:
+          "Qatal and Negra lagoons, andean wildlife, San Cristóbal, rock valley, Colchani, the salt hotel and a night walk on the salt flat.",
+      },
+      {
+        day: 7,
+        title: "tuesday, 3/16 — the magic of uyuni",
+        description:
+          "train cemetery and a jeep expedition across the Salar de Uyuni, with the mirror effect depending on the weather.",
+      },
+      {
+        day: 8,
+        title: "wednesday, 3/17 — return to atacama",
+        description:
+          "an early return, immigration in Bolivia and Chile and a free afternoon in San Pedro.",
+      },
+      {
+        day: 9,
+        title: "thursday, 3/18 — end of the trip",
+        description:
+          "breakfast and a private transfer to Calama airport.",
+      },
+    ],
+    accommodation:
+      "5 nights in San Pedro de Atacama and 3 nights during the bolivian expedition, in Villamar and Uyuni (including one night in a salt hotel in Colchani).",
+    forWhom: [
+      {
+        title: "those who want two deserts in one trip",
+        description:
+          "from the driest desert in the world to the biggest mirror of the sky: colorful valleys, geysers, lagoons with flamingos and the Salar de Uyuni.",
+      },
+      {
+        title: "those who want adventure with structure",
+        description:
+          "a private 4x4 crossing of the bolivian altiplano, with lodging, meals and tickets already organized.",
+      },
+      {
+        title: "those who want to travel accompanied",
+        description:
+          "a small, women-only group with the host start to finish — without depending on your friends' schedules.",
+      },
+    ],
+    faqs: [
+      {
+        question: "is the mirror effect guaranteed?",
+        answer:
+          "no. the effect depends on rainfall and the salt flat's conditions.",
+      },
+      {
+        question: "how do i handle the altitude?",
+        answer:
+          "the route passes through areas near 5,000 m. stay hydrated, respect the acclimatization pace and talk to your doctor before the trip.",
+      },
+      {
+        question: "do i need insurance?",
+        answer:
+          "yes. travel insurance and an eSIM are mandatory. Gio helps with the purchase; for Holafly, use the coupon giovanagentil.",
+      },
+      {
+        question: "how does payment work?",
+        answer:
+          "R$ 7,350 per person. 5% discount on pix; credit card up to 10x interest-free; with installment pix, the last installment must be paid before departure.",
+      },
+      {
+        question: "what's the cancellation policy?",
+        answer:
+          "until 01/09/2027: 100% of the balance; 01/10 to 02/08/2027: 85%; 02/09 to 02/23/2027: 70%; from 02/24/2027: no refund. you can name someone else to take your spot at no extra cost. retained amounts cover commitments already made for lodging, tickets and transport.",
+      },
+      {
+        question: "will Julia be there on this trip?",
+        answer:
+          "for this edition i won't be there in person, but you'll be in great hands: Giovana Gentil, my business partner, accompanies the group on every expedition, start to finish. i've done this trip myself and hand-picked this agency, so you can trust every detail has been thought through. and of course, i'll always be available for any questions that come up, before or during the trip. want to get to know Gi? just check out her Instagram: @giovanagentil.travel 💛",
+      },
+      {
+        question: "is the trip women-only?",
+        answer:
+          "yes, all Julia Paraizo experiences are exclusively for women.",
+      },
+    ],
+  },
   "dolomitas-2027": {
     title: "Dolomites",
     destination: "Cortina d'Ampezzo, Italy",
@@ -4909,6 +5054,96 @@ we recommend bringing cash, as some places don't take cards.`,
           "yes, all Julia Paraizo experiences are exclusively for women.",
       },
     ],
+  },
+  "san-blas-panama-2027": {
+    "title": "San Blas, Panama",
+    "destination": "San Blas (Guna Yala), Panama",
+    "dates": "february 13–16, 2027",
+    "duration": "4 days · 3 nights",
+    "priceDisplay": "R$ 8,700",
+    "priceInstallments": "via Pix: R$ 600 deposit + 3 installments of R$ 2,700",
+    "urgentBadge": "8 spots",
+    "tagline": "3 days island-hopping the San Blas archipelago, living on a sailboat and waking up at a different island",
+    "description": "a girls trip aboard the sailboat Shakira in the San Blas (Guna Yala) archipelago in Panama: crystal-clear water, snorkeling, kayaking, sunset on the deck and no suitcase to unpack. 3 nights on board, departing and returning to Panama City. only 8 spots.",
+    "whatsappMessage": "Hi Julia! I just read the material about the San Blas, Panama trip (february 13–16, 2027) and I want to secure my spot :)",
+    "paymentMethods": [
+      "Pix"
+    ],
+    "included": [
+      "3 nights aboard the sailboat Shakira, in a shared cabin",
+      "3 meals a day, water, tea and coffee",
+      "snorkel gear, kayak/paddle or fishing line (depends on the boat)",
+      "motorized dinghy for island visits",
+      "round-trip transfer Panama City ⇄ San Blas (4x4 jeep + boat)",
+      "Guna Yala entrance fee (US$ 20)",
+      "2 hosts (Julia Paraizo and Grazi Azevedo) with the group"
+    ],
+    "notIncluded": [
+      "flights to Panama City",
+      "lodging in Panama City (departure is at dawn, so it's worth sleeping there the night before)",
+      "alcoholic drinks, snacks and mixers (bring them from Panama City)",
+      "special diet: US$ 25 per person (vegan, vegetarian, pescatarian or gluten-free)",
+      "tip for the crew (optional)",
+      "travel insurance (mandatory)"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "saturday, 2/13 — panama city → san blas",
+        "description": "leaving Panama City between 5am and 6am, by 4x4 jeep + boat (about 4h). boarding, meeting the captain and crew, the first island, the first dive and sunset on the deck."
+      },
+      {
+        "day": 2,
+        "title": "sunday, 2/14 — island to island",
+        "description": "a different group of islands: snorkeling, kayaking/paddling, beach volleyball or just relaxing. the exact route depends on the weather and other boats."
+      },
+      {
+        "day": 3,
+        "title": "monday, 2/15 — more islands",
+        "description": "one more island day, among some of these: Lemon Cays, Chichime, Banedup, Cambombia, Green Island, Ogopsibudup, Ogopukib, Nuinudup and Gaigirgordup."
+      },
+      {
+        "day": 4,
+        "title": "tuesday, 2/16 — back to panama city",
+        "description": "a last breakfast on board and back to Panama City, arriving around 12pm."
+      }
+    ],
+    "accommodation": "the boat: Shakira, a 56-foot monohull (ketch) for up to 8 passengers. 1 private double cabin with an ensuite bathroom + 2 triple cabins (each with a double bed + a single bunk), 2 shared bathrooms, Starlink on board, kayak and snorkel and fishing gear.",
+    "forWhom": [],
+    "faqs": [
+      {
+        "question": "how does payment work?",
+        "answer": "R$ 8,700 per person, via Pix.\n(equivalent to US$ 1,500, already including currency conversion costs)\n\n1. deposit at booking: R$ 600 (non-refundable)\n2. by 12/15/2026: R$ 2,700\n3. by 1/15/2027: R$ 2,700\n4. by 2/5/2027: R$ 2,700\n\nto book, send me a copy of your passport and pay the deposit. your spot is only confirmed with both."
+      },
+      {
+        "question": "how do departure and arrival work?",
+        "answer": "departure and arrival are in Panama City. the transfer leaves at dawn, between 5am and 6am, by 4x4 jeep + boat (about 4h), and the return arrives around 12pm on the last day. since departure is so early, it's worth sleeping in Panama City the night before."
+      },
+      {
+        "question": "is there a luggage limit?",
+        "answer": "yes, 15 kg per person on the transfer."
+      },
+      {
+        "question": "do i need to bring cash?",
+        "answer": "yes. there are no ATMs or currency exchange in San Blas, so bring some US dollars in small bills for extras (drinks, tips, souvenirs)."
+      },
+      {
+        "question": "is it a guided tour?",
+        "answer": "no, it's a real adventure: some boats require some flexibility when boarding. some boats have a dog on board, so let us know if you have allergies."
+      },
+      {
+        "question": "will Julia be there on this trip?",
+        "answer": "yes! Grazi Azevedo (@graziaazevedoo) and i are the hosts and we accompany the group start to finish, at every step of the trip — except free time, of course :) and we'll always be available for any questions that come up, before or during the trip 💛"
+      },
+      {
+        "question": "is the trip women-only?",
+        "answer": "yes, all Julia Paraizo experiences are exclusively for women."
+      },
+      {
+        "question": "is travel insurance included?",
+        "answer": "travel insurance is mandatory and not included."
+      }
+    ]
   },
 };
 

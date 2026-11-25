@@ -4787,6 +4787,163 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
     ],
   },
   {
+    slug: "atacama-uyuni-mar-2027",
+    title: "Atacama + Salar de Uyuni",
+    destination: "Atacama, Chile + Salar de Uyuni, Bolívia",
+    cardImage: "/images/trips/atacama-uyuni-mar-2027/hero/hero-1.jpg",
+    heroImage: "/images/trips/atacama-uyuni-mar-2027/hero/hero-1.jpg",
+    heroImages: [
+      "/images/trips/atacama-uyuni-mar-2027/hero/hero-1.jpg",
+      "/images/trips/atacama-uyuni-mar-2027/hero/hero-2.jpg",
+    ],
+    dates: "10 a 18 de março de 2027",
+    dateForSort: "2027-03-10",
+    dateForSortEnd: "2027-03-18",
+    duration: "9 dias",
+    priceDisplay: "R$ 7.350",
+    priceValue: 7350,
+    national: false,
+    priceInstallments: "5% de desconto no pix · parcelamento em até 10x sem juros no crédito",
+    agency: "Giovana Gentil",
+    tagline:
+      "9 dias entre o deserto mais árido do mundo e o maior espelho do céu",
+    description:
+      "9 dias entre o Chile e a Bolívia. a viagem começa no Atacama, entre vales coloridos, gêiseres, lagunas e céu estrelado. depois, cruza a fronteira em 4x4 pelo altiplano boliviano até o Salar de Uyuni. quando as condições colaboram, a água transforma o salar num espelho gigante do céu. grupo de 12 meninas.",
+    whatsappMessage:
+      "Oi Julia! Acabei de ler o material sobre a viagem Atacama + Uyuni (10 a 18 de março de 2027) e quero garantir minha vaga :)",
+    paymentMethods: ["pix", "cartão de crédito"],
+    included: [
+      "traslado Calama–San Pedro, ida e volta",
+      "5 noites em San Pedro com café da manhã",
+      "3 noites na expedição boliviana com café da manhã e jantar",
+      "passeios privativos no Atacama com guia, ingressos e traslados",
+      "almoço no Salar do Atacama",
+      "tour astronômico",
+      "Geysers del Tatio com café da manhã",
+      "expedição 4x4 privativa de 4 dias e 3 noites com ingressos, almoços e jantares",
+      "transfer privado até a fronteira em Hito Cajón",
+    ],
+    notIncluded: [
+      "voos internacionais e domésticos",
+      "refeições não mencionadas (no Atacama, estime US$ 20 por refeição)",
+      "seguro viagem (obrigatório) e eSIM (obrigatório)",
+      "taxa de fronteira Chile–Bolívia (cerca de US$ 7)",
+      "gastos pessoais e extras",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "quarta, 10/mar — bem-vinda ao atacama",
+        description:
+          "transfer privado de Calama ao hotel em San Pedro, dia livre para caminhar, descansar e começar a aclimatação a 2.440 m.",
+      },
+      {
+        day: 2,
+        title: "quinta, 11/mar — arco íris e valle de la luna",
+        description:
+          "Yerbas Buenas, Valle del Arco Iris, Rio Salado e pôr do sol com picnic no Valle de la Luna.",
+      },
+      {
+        day: 3,
+        title: "sexta, 12/mar — salar e céu estrelado",
+        description:
+          "Salar do Atacama, Laguna Chaxa e Toconao, com almoço. à noite, tour astronômico com telescópios.",
+      },
+      {
+        day: 4,
+        title: "sábado, 13/mar — geysers e lagunas",
+        description:
+          "saída cedo para os Geysers del Tatio, café da manhã e, depois, Laguna Cejar, Ojos del Salar e Tebinquiche.",
+      },
+      {
+        day: 5,
+        title: "domingo, 14/mar — rumo à bolívia",
+        description:
+          "fronteira em Hito Cajón, troca para 4x4 privado, Laguna Verde, Laguna Colorada e chegada a Villamar.",
+      },
+      {
+        day: 6,
+        title: "segunda, 15/mar — travessia do altiplano",
+        description:
+          "Lagunas Qatal e Negra, fauna andina, San Cristóbal, vale das rochas, Colchani, hotel de sal e passeio noturno no salar.",
+      },
+      {
+        day: 7,
+        title: "terça, 16/mar — a magia de uyuni",
+        description:
+          "cemitério de trens e expedição de jipe pelo Salar de Uyuni, com o efeito espelho condicionado ao clima.",
+      },
+      {
+        day: 8,
+        title: "quarta, 17/mar — retorno ao atacama",
+        description:
+          "retorno cedo, imigração na Bolívia e no Chile e tarde livre em San Pedro.",
+      },
+      {
+        day: 9,
+        title: "quinta, 18/mar — fim do roteiro",
+        description:
+          "café da manhã e traslado privado ao aeroporto de Calama.",
+      },
+    ],
+    accommodation:
+      "5 noites em San Pedro de Atacama e 3 noites durante a expedição boliviana, em Villamar e Uyuni (incluindo uma noite em hotel de sal, em Colchani).",
+    forWhom: [
+      {
+        title: "quem quer dois desertos em uma viagem",
+        description:
+          "do deserto mais árido do mundo ao maior espelho do céu: vales coloridos, gêiseres, lagunas com flamingos e o Salar de Uyuni.",
+      },
+      {
+        title: "quem quer aventura com estrutura",
+        description:
+          "travessia em 4x4 privativo pelo altiplano boliviano, com hospedagens, refeições e ingressos já organizados.",
+      },
+      {
+        title: "quem quer viajar acompanhada",
+        description:
+          "grupo pequeno e só de mulheres, com a anfitriã do começo ao fim — sem depender da agenda das amigas.",
+      },
+    ],
+    faqs: [
+      {
+        question: "o efeito espelho é garantido?",
+        answer:
+          "não. o efeito depende das chuvas e das condições do salar.",
+      },
+      {
+        question: "como lidar com a altitude?",
+        answer:
+          "a rota passa por áreas próximas de 5.000 m. hidrate-se, respeite o ritmo da aclimatação e converse com seu médico antes da viagem.",
+      },
+      {
+        question: "preciso de seguro?",
+        answer:
+          "sim. seguro viagem e eSIM são obrigatórios. a Gio ajuda na contratação; no Holafly, use o cupom giovanagentil.",
+      },
+      {
+        question: "como funciona o pagamento?",
+        answer:
+          "R$ 7.350 por pessoa. 5% de desconto no pix; cartão em até 10x sem juros; no pix parcelado, a última parcela deve anteceder o embarque.",
+      },
+      {
+        question: "qual a política de cancelamento?",
+        answer:
+          "até 09/01/2027: 100% do saldo; de 10/01 a 08/02/2027: 85%; de 09/02 a 23/02/2027: 70%; a partir de 24/02/2027: sem devolução. você pode indicar outra pessoa para ocupar sua vaga, sem custo adicional. os valores retidos cobrem compromissos já assumidos com hospedagens, ingressos e transportes.",
+      },
+      {
+        question: "a Julia estará presente nessa viagem?",
+        answer:
+          "nessa edição eu não estarei presencialmente, mas vocês estarão em ótimas mãos: a Giovana Gentil, minha sócia, acompanha o grupo em todas as expedições, do começo ao fim. eu já fiz essa viagem pessoalmente e escolhi essa agência a dedo, então pode confiar que está tudo pensado nos mínimos detalhes. e claro, estarei sempre disponível pra qualquer dúvida que surgir, antes ou durante a viagem. quiser conhecer a Gi, é só dar uma olhada no Instagram dela: @giovanagentil.travel 💛",
+      },
+      {
+        question: "a viagem é só para mulheres?",
+        answer:
+          "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres.",
+      },
+    ],
+  },
+  {
     slug: "dolomitas-2027",
     title: "Dolomitas",
     destination: "Cortina d'Ampezzo, Itália",
@@ -5593,6 +5750,125 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
           "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres.",
       },
     ],
+  },
+  {
+    "slug": "san-blas-panama-2027",
+    "title": "San Blas, Panamá",
+    "destination": "San Blas (Guna Yala), Panamá",
+    "cardImage": "/images/trips/san-blas-panama-2027/hero/hero-1.jpg",
+    "heroImage": "/images/trips/san-blas-panama-2027/hero/hero-1.jpg",
+    "heroImages": [
+      "/images/trips/san-blas-panama-2027/hero/hero-1.jpg",
+      "/images/trips/san-blas-panama-2027/hero/hero-2.jpg",
+      "/images/trips/san-blas-panama-2027/hero/hero-3.jpg",
+      "/images/trips/san-blas-panama-2027/hero/hero-4.jpg",
+      "/images/trips/san-blas-panama-2027/hero/hero-5.jpg",
+      "/images/trips/san-blas-panama-2027/hero/hero-6.jpg",
+      "/images/trips/san-blas-panama-2027/hero/hero-7.jpg",
+      "/images/trips/san-blas-panama-2027/hero/hero-8.jpg",
+      "/images/trips/san-blas-panama-2027/hero/hero-9.jpg"
+    ],
+    "dates": "13 a 16 de fevereiro de 2027",
+    "dateForSort": "2027-02-13",
+    "dateForSortEnd": "2027-02-16",
+    "duration": "4 dias · 3 noites",
+    "priceDisplay": "R$ 8.700",
+    "priceValue": 8700,
+    "national": false,
+    "priceInstallments": "via Pix: sinal de R$ 600 + 3 parcelas de R$ 2.700",
+    "agency": "",
+    "urgentBadge": "8 vagas",
+    "tagline": "3 dias de ilha em ilha no arquipélago de San Blas, morando num veleiro e acordando numa ilha diferente",
+    "description": "girls trip a bordo do veleiro Shakira, no arquipélago de San Blas (Guna Yala), no Panamá: água cristalina, snorkel, kayak, sunset no deck e nenhuma mala pra desfazer. 3 noites a bordo, saída e chegada em Panama City. são só 8 vagas.",
+    "whatsappMessage": "Oi Julia! Acabei de ler o material sobre a viagem a San Blas, Panamá (13 a 16 de fevereiro de 2027) e quero garantir minha vaga :)",
+    "paymentMethods": [
+      "Pix"
+    ],
+    "included": [
+      "3 noites a bordo do veleiro Shakira, em cabine compartilhada",
+      "3 refeições por dia, água, chá e café",
+      "equipamento de snorkel, kayak/paddle ou linha de pesca (depende do barco)",
+      "dinghy com motor para as visitas às ilhas",
+      "transfer Panama City ⇄ San Blas (jipe + lancha), ida e volta",
+      "taxa de entrada Guna Yala (US$ 20)",
+      "2 hosts (Julia Paraizo e Grazi Azevedo) acompanhando o grupo"
+    ],
+    "notIncluded": [
+      "passagens aéreas até Panama City",
+      "hospedagem em Panama City (a saída é de madrugada, então vale dormir lá na noite anterior)",
+      "bebidas alcoólicas, snacks e mixers (leve de Panama City)",
+      "dieta especial: US$ 25 por pessoa (vegana, vegetariana, pescetariana ou sem glúten)",
+      "gorjeta para a tripulação (opcional)",
+      "seguro viagem (obrigatório)"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "sábado, 13/fev — panama city → san blas",
+        "description": "saída de Panama City entre 5h e 6h da manhã, de jipe 4x4 + lancha (cerca de 4h). embarque, conhecer o capitão e a tripulação, primeira ilha, primeiro mergulho e pôr do sol no deck."
+      },
+      {
+        "day": 2,
+        "title": "domingo, 14/fev — ilha em ilha",
+        "description": "um grupo diferente de ilhas: snorkel, kayak/paddle, vôlei na areia ou só relaxar. o roteiro exato depende do clima e de outros barcos."
+      },
+      {
+        "day": 3,
+        "title": "segunda, 15/fev — mais ilhas",
+        "description": "mais um dia de ilhas, entre algumas destas: Lemon Cays, Chichime, Banedup, Cambombia, Green Island, Ogopsibudup, Ogopukib, Nuinudup e Gaigirgordup."
+      },
+      {
+        "day": 4,
+        "title": "terça, 16/fev — volta pra panama city",
+        "description": "último café da manhã a bordo e volta pra Panama City, com chegada por volta das 12h."
+      }
+    ],
+    "accommodation": "o barco: Shakira, um monohull (ketch) de 56 pés, pra até 8 passageiros. são 1 cabine dupla privativa com banheiro ensuite + 2 cabines triplas (cada uma com cama de casal + beliche de solteiro), 2 banheiros compartilhados, Starlink a bordo, kayak e equipamento de snorkel e de pesca.",
+    "accommodationImages": [
+      "/images/trips/san-blas-panama-2027/barco/1.jpg",
+      "/images/trips/san-blas-panama-2027/barco/2.jpg",
+      "/images/trips/san-blas-panama-2027/barco/3.jpg",
+      "/images/trips/san-blas-panama-2027/barco/4.jpg",
+      "/images/trips/san-blas-panama-2027/barco/5.jpg",
+      "/images/trips/san-blas-panama-2027/barco/6.jpg",
+      "/images/trips/san-blas-panama-2027/barco/7.jpg",
+      "/images/trips/san-blas-panama-2027/barco/8.jpg"
+    ],
+    "forWhom": [],
+    "faqs": [
+      {
+        "question": "como funciona o pagamento?",
+        "answer": "R$ 8.700 por pessoa, via Pix.\n(equivale a US$ 1.500, já com os custos de conversão)\n\n1. sinal na reserva: R$ 600 (não reembolsável)\n2. até 15/12/2026: R$ 2.700\n3. até 15/01/2027: R$ 2.700\n4. até 05/02/2027: R$ 2.700\n\npra reservar, me envie uma cópia do passaporte e pague o sinal. a vaga só está confirmada com os dois."
+      },
+      {
+        "question": "como funciona a saída e a chegada?",
+        "answer": "a saída e a chegada são em Panama City. o transfer sai de madrugada, entre 5h e 6h, de jipe 4x4 + lancha (cerca de 4h), e a volta chega por volta das 12h do último dia. como a saída é muito cedo, vale dormir em Panama City na noite anterior."
+      },
+      {
+        "question": "tem limite de bagagem?",
+        "answer": "sim, 15 kg por pessoa no transfer."
+      },
+      {
+        "question": "preciso levar dinheiro?",
+        "answer": "sim. não há caixa eletrônico nem casa de câmbio em San Blas, então leve algum dinheiro em dólar, em notas pequenas, pra gastos extras (bebidas, gorjeta, lembranças)."
+      },
+      {
+        "question": "é um passeio guiado?",
+        "answer": "não, é uma aventura de verdade: algumas embarcações exigem jogo de cintura no embarque. alguns barcos têm cachorro a bordo, então avise se tiver alergia."
+      },
+      {
+        "question": "a Julia estará presente nessa viagem?",
+        "answer": "sim! eu e a Grazi Azevedo (@graziaazevedoo) somos as hosts e acompanhamos o grupo do início ao fim, em todas as etapas da viagem — tirando o tempo livre, claro :) e estaremos sempre disponíveis pra qualquer dúvida que surgir, antes ou durante a viagem 💛"
+      },
+      {
+        "question": "a viagem é só para mulheres?",
+        "answer": "sim, todas as experiências da Julia Paraizo são exclusivas para mulheres."
+      },
+      {
+        "question": "tem seguro viagem?",
+        "answer": "o seguro viagem é obrigatório e não está incluso."
+      }
+    ]
   }
 ];
 
