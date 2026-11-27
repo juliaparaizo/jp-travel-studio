@@ -6019,6 +6019,147 @@ ou similar. hospedagens, beach clubs e demais serviços podem ser substituídos 
         "answer": "o seguro viagem é obrigatório e não está incluso."
       }
     ]
+  },
+  {
+    "slug": "carnaval-corumbau-2027",
+    "title": "Carnaval em Corumbau",
+    "destination": "Corumbau, Bahia",
+    "cardImage": "/images/trips/carnaval-corumbau-2027/hero/hero-1.jpg",
+    "heroImage": "/images/trips/carnaval-corumbau-2027/hero/hero-1.jpg",
+    "heroImages": [
+      "/images/trips/carnaval-corumbau-2027/hero/hero-1.jpg",
+      "/images/trips/carnaval-corumbau-2027/hero/hero-2.jpg",
+      "/images/trips/carnaval-corumbau-2027/hero/hero-3.jpg",
+      "/images/trips/carnaval-corumbau-2027/hero/hero-4.jpg",
+      "/images/trips/carnaval-corumbau-2027/hero/hero-5.jpg",
+      "/images/trips/carnaval-corumbau-2027/hero/hero-6.jpg",
+      "/images/trips/carnaval-corumbau-2027/hero/hero-7.jpg",
+      "/images/trips/carnaval-corumbau-2027/hero/hero-8.jpg",
+      "/images/trips/carnaval-corumbau-2027/hero/hero-9.jpg"
+    ],
+    "dates": "5 a 10 de fevereiro de 2027",
+    "dateForSort": "2027-02-05",
+    "dateForSortEnd": "2027-02-10",
+    "duration": "6 dias · 5 noites",
+    "priceDisplay": "R$ 6.000",
+    "priceValue": 6000,
+    "national": true,
+    "priceInstallments": "via Pix, sem parcelamento: 50% na reserva e 50% até o check-in",
+    "agency": "",
+    "urgentBadge": "8 vagas",
+    "holiday": true,
+    "tagline": "girls trip de carnaval no paraíso escondido da Bahia, numa pousada boutique a poucos metros da praia",
+    "description": "cinco noites numa pousada boutique, mergulho nos recifes, Caraíva, aldeia indígena e praias desertas. um carnaval sem multidão, com tudo organizado pra você só aproveitar.\n\nCorumbau é uma vila de pescadores no sul da Bahia, entre Caraíva e Cumuruxatiba. tem mar calmo, recifes de corais e uma ponta de areia que entra no oceano. quase não tem trânsito, não tem prédio e não tem bloco lotado. você chega em Porto Seguro e a gente cuida do resto, da lancha até Corumbau ao último passeio.\n\npra quem é: mulheres que querem descansar no carnaval sem abrir mão de aventura, quem quer conhecer gente nova ou vai viajar sozinha e prefere ir em grupo. são só 8 vagas, com Julia e Grazi Azevedo (@graziaazevedoo) como hosts.",
+    "whatsappMessage": "Oi Julia! Acabei de ler o material sobre o Carnaval em Corumbau (5 a 10 de fevereiro de 2027) e quero garantir minha vaga :)",
+    "paymentMethods": [
+      "Pix"
+    ],
+    "included": [
+      "5 noites na Villa Itohã, em casa privativa com quarto compartilhado",
+      "café da manhã todos os dias",
+      "lancha Porto Seguro → Corumbau → Porto Seguro (ida e volta)",
+      "recepção com drink de boas-vindas",
+      "passeio de barco aos recifes com snorkel",
+      "travessia do Rio Corumbau, buggy e taxa de entrada na Reserva Indígena Porto do Boi",
+      "passeio a Caraíva",
+      "transfer, travessia de lancha do Rio Cahy e passeio na Barra do Cahy",
+      "transfers de ida e volta pra Ponta do Corumbau nos dias 1 e 5",
+      "acompanhamento das hosts (Julia e Grazi) durante toda a viagem"
+    ],
+    "notIncluded": [
+      "passagem aérea ou transporte até Porto Seguro",
+      "almoços e jantares, inclusive o jantar de confraternização",
+      "bebidas e gastos pessoais",
+      "seguro viagem (recomendado)",
+      "qualquer item que não esteja na lista de inclusos"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "sexta, 5/fev — chegada e boas-vindas",
+        "description": "encontro em Porto Seguro e travessia de lancha até Corumbau, com vista do litoral pelo mar. recepção especial na Villa Itohã com drink de boas-vindas, caminhada pela praia e pôr do sol na Ponta do Corumbau (transfer incluso). à noite, jantar de confraternização com gastronomia baiana (consumo por conta de cada uma)."
+      },
+      {
+        "day": 2,
+        "title": "sábado, 6/fev — mergulho nos recifes",
+        "description": "passeio de barco até os recifes de corais, snorkel pra ver peixes e vida marinha de pertinho e paradas pra banho e contemplação. almoço com frutos do mar (por conta de cada uma) e tarde livre na Ponta do Corumbau. o passeio depende da maré, do vento e das condições do mar; se precisar, a gente troca o dia."
+      },
+      {
+        "day": 3,
+        "title": "domingo, 7/fev — aldeia indígena e Caraíva",
+        "description": "travessia do Rio Corumbau e passeio de buggy até a Aldeia Indígena Porto do Boi, com entrada na reserva inclusa. chegada em Caraíva: ruas de areia, lojinhas e o charme da vila. almoço regional (por conta de cada uma), banho de rio e praia, final de tarde em Caraíva e retorno à Villa Itohã."
+      },
+      {
+        "day": 4,
+        "title": "segunda, 8/fev — Barra do Cahy",
+        "description": "transfer até a região do Cahy e travessia do rio de lancha. passeio de buggy ou quadriciclo por praias mais reservadas e visita à Barra do Cahy, conforme as condições de acesso. almoço por conta de cada uma e retorno à Villa Itohã."
+      },
+      {
+        "day": 5,
+        "title": "terça, 9/fev — dia de praia",
+        "description": "dia livre na Ponta do Corumbau, com transfer de ida e volta incluso. última noite juntas na pousada."
+      },
+      {
+        "day": 6,
+        "title": "quarta, 10/fev — retorno",
+        "description": "café da manhã, despedida e lancha de volta pra Porto Seguro."
+      }
+    ],
+    "accommodation": "a gente fica na Villa Itohã (@villaitoha), uma pousada boutique no centrinho de Corumbau, a poucos metros da praia. o grupo tem uma casa privativa só pra nós, com 2 suítes e 1 quarto (quartos compartilhados entre as meninas do grupo) e área privativa com churrasqueira. na área comum da pousada tem piscina, pergolado e espaços de descanso. o café da manhã especial é servido todos os dias, e a pousada tem gerador próprio de energia, então não tem susto com falta de luz.",
+    "accommodationImages": [
+      "/images/trips/carnaval-corumbau-2027/pousada/1.jpg",
+      "/images/trips/carnaval-corumbau-2027/pousada/2.jpg",
+      "/images/trips/carnaval-corumbau-2027/pousada/3.jpg",
+      "/images/trips/carnaval-corumbau-2027/pousada/4.jpg",
+      "/images/trips/carnaval-corumbau-2027/pousada/5.jpg",
+      "/images/trips/carnaval-corumbau-2027/pousada/6.jpg",
+      "/images/trips/carnaval-corumbau-2027/pousada/7.jpg",
+      "/images/trips/carnaval-corumbau-2027/pousada/8.jpg",
+      "/images/trips/carnaval-corumbau-2027/pousada/9.jpg"
+    ],
+    "forWhom": [],
+    "faqs": [
+      {
+        "question": "como funciona o pagamento?",
+        "answer": "R$ 6.000 por pessoa, só via Pix.\n\n- 50% na reserva, pra garantir a vaga\n- 50% até o check-in\n\ncada participante assina um contrato individual. a gente manda o contrato e os dados do Pix, e a vaga fica garantida assim que o sinal de 50% for pago."
+      },
+      {
+        "question": "dá pra parcelar?",
+        "answer": "não. o pagamento é só por Pix: 50% pra garantir a vaga e 50% até o check-in."
+      },
+      {
+        "question": "posso ir sozinha?",
+        "answer": "pode, e a maioria das meninas vai assim! o grupo é pequeno justamente pra todo mundo se conhecer."
+      },
+      {
+        "question": "vou dividir quarto?",
+        "answer": "vai. a casa tem 2 suítes e 1 quarto pras 8 meninas, então os quartos são compartilhados. se quiser dividir com uma amiga, avisa na reserva."
+      },
+      {
+        "question": "como chego em Porto Seguro?",
+        "answer": "a passagem até Porto Seguro é por sua conta. antes de comprar, alinha o horário com a gente pra encaixar na lancha do grupo."
+      },
+      {
+        "question": "preciso levar dinheiro pras refeições?",
+        "answer": "o café da manhã está incluso. almoços, jantares e bebidas ficam por sua conta."
+      },
+      {
+        "question": "e se o tempo não ajudar?",
+        "answer": "os passeios de mar dependem da maré e do vento. se precisar, a gente reorganiza a ordem dos dias."
+      },
+      {
+        "question": "Corumbau tem festa de carnaval?",
+        "answer": "não é um carnaval de bloco. a ideia é curtir o feriado com mar, natureza e o grupo, longe da multidão."
+      },
+      {
+        "question": "quem vai com a gente?",
+        "answer": "a viagem é guiada por Julia e Grazi, que vão com o grupo do primeiro ao último dia. elas cuidam da logística, dos horários e de qualquer imprevisto, pra você só aproveitar."
+      },
+      {
+        "question": "a viagem é só para mulheres?",
+        "answer": "sim, a viagem é só para mulheres."
+      }
+    ]
   }
 ];
 

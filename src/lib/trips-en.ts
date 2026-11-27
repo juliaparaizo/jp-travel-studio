@@ -5260,6 +5260,116 @@ we recommend bringing cash, as some places don't take cards.`,
       }
     ]
   },
+  "carnaval-corumbau-2027": {
+    "title": "Carnival in Corumbau",
+    "destination": "Corumbau, Bahia",
+    "dates": "february 5–10, 2027",
+    "duration": "6 days · 5 nights",
+    "priceDisplay": "R$ 6,000",
+    "priceInstallments": "via Pix, no installment plan: 50% to book and 50% by check-in",
+    "urgentBadge": "8 spots",
+    "tagline": "a carnival girls trip to Bahia's hidden paradise, in a boutique inn just steps from the beach",
+    "description": "five nights in a boutique inn, snorkeling at the reefs, Caraíva, an Indigenous village and deserted beaches. a carnival without crowds, with everything organized so you can just enjoy.\n\nCorumbau is a fishing village in southern Bahia, between Caraíva and Cumuruxatiba. it has calm sea, coral reefs and a sandbar reaching into the ocean. there's barely any traffic, no tall buildings and no packed street parties. you arrive in Porto Seguro and we take care of the rest, from the speedboat to Corumbau to the last tour.\n\nwho it's for: women who want to rest during carnival without giving up adventure, who want to meet new people, or who are traveling solo and prefer a group. only 8 spots, hosted by Julia and Grazi Azevedo (@graziaazevedoo).",
+    "whatsappMessage": "Hi Julia! I just read the material about Carnival in Corumbau (February 5–10, 2027) and I want to secure my spot :)",
+    "paymentMethods": [
+      "Pix"
+    ],
+    "included": [
+      "5 nights at Villa Itohã, in a private house with shared rooms",
+      "breakfast every day",
+      "speedboat Porto Seguro → Corumbau → Porto Seguro (round trip)",
+      "welcome reception with a drink",
+      "boat tour to the reefs with snorkeling",
+      "Corumbau River crossing, buggy ride and entrance fee to the Porto do Boi Indigenous Reserve",
+      "Caraíva tour",
+      "transfer, speedboat crossing of the Cahy River and Barra do Cahy tour",
+      "round-trip transfers to Ponta do Corumbau on days 1 and 5",
+      "hosts (Julia and Grazi) with the group throughout the trip"
+    ],
+    "notIncluded": [
+      "airfare or transport to Porto Seguro",
+      "lunches and dinners, including the group dinner",
+      "drinks and personal expenses",
+      "travel insurance (recommended)",
+      "anything not on the included list"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "friday, 2/5 — arrival and welcome",
+        "description": "meet in Porto Seguro and take a speedboat to Corumbau, seeing the coast from the sea. special welcome at Villa Itohã with a drink, beach walk and sunset at Ponta do Corumbau (transfer included). in the evening, a group dinner with Bahian food (each pays their own)."
+      },
+      {
+        "day": 2,
+        "title": "saturday, 2/6 — snorkeling at the reefs",
+        "description": "boat tour to the coral reefs, snorkeling to see fish and marine life up close, with swim and sightseeing stops. seafood lunch (each pays their own) and a free afternoon at Ponta do Corumbau. the tour depends on tide, wind and sea conditions; if needed, we switch days."
+      },
+      {
+        "day": 3,
+        "title": "sunday, 2/7 — Indigenous village and Caraíva",
+        "description": "Corumbau River crossing and buggy ride to the Porto do Boi Indigenous Village, reserve entrance included. arrival in Caraíva: sand streets, little shops and village charm. regional lunch (each pays their own), river and beach swims, late afternoon in Caraíva and return to Villa Itohã."
+      },
+      {
+        "day": 4,
+        "title": "monday, 2/8 — Barra do Cahy",
+        "description": "transfer to the Cahy area and river crossing by speedboat. buggy or quad bike ride along more secluded beaches and a visit to Barra do Cahy, depending on access conditions. lunch (each pays their own) and return to Villa Itohã."
+      },
+      {
+        "day": 5,
+        "title": "tuesday, 2/9 — beach day",
+        "description": "free day at Ponta do Corumbau, round-trip transfer included. last night together at the inn."
+      },
+      {
+        "day": 6,
+        "title": "wednesday, 2/10 — return",
+        "description": "breakfast, goodbyes and the speedboat back to Porto Seguro."
+      }
+    ],
+    "accommodation": "we stay at Villa Itohã (@villaitoha), a boutique inn in the center of Corumbau, just steps from the beach. the group gets a private house with 2 en-suites and 1 bedroom (rooms shared among the girls) and a private barbecue area. the inn's common area has a pool, pergola and lounge spaces. a special breakfast is served every day, and the inn has its own power generator, so no worries about outages.",
+    "forWhom": [],
+    "faqs": [
+      {
+        "question": "how does payment work?",
+        "answer": "R$ 6,000 per person, Pix only.\n\n- 50% to book your spot\n- 50% by check-in\n\neach participant signs an individual contract. we send the contract and the Pix details, and your spot is confirmed once the 50% deposit is paid."
+      },
+      {
+        "question": "can I pay in installments?",
+        "answer": "no. payment is by Pix only: 50% to secure your spot and 50% by check-in."
+      },
+      {
+        "question": "can I go alone?",
+        "answer": "yes, and most girls do! the group is small precisely so everyone gets to know each other."
+      },
+      {
+        "question": "will I share a room?",
+        "answer": "yes. the house has 2 en-suites and 1 bedroom for the 8 girls, so rooms are shared. if you want to room with a friend, tell us when booking."
+      },
+      {
+        "question": "how do I get to Porto Seguro?",
+        "answer": "the trip to Porto Seguro is on you. before buying your ticket, check the timing with us so you make the group speedboat."
+      },
+      {
+        "question": "do I need money for meals?",
+        "answer": "breakfast is included. lunches, dinners and drinks are on you."
+      },
+      {
+        "question": "what if the weather doesn't cooperate?",
+        "answer": "sea tours depend on tide and wind. if needed, we rearrange the order of the days."
+      },
+      {
+        "question": "is there a carnival party in Corumbau?",
+        "answer": "it's not a street-party carnival. the idea is to enjoy the holiday with sea, nature and the group, away from the crowds."
+      },
+      {
+        "question": "who is going with us?",
+        "answer": "the trip is led by Julia and Grazi, who are with the group from the first to the last day. they handle logistics, schedules and anything unexpected so you can just enjoy."
+      },
+      {
+        "question": "is the trip women-only?",
+        "answer": "yes, the trip is for women only."
+      }
+    ]
+  },
 };
 
 export function localizeTrip(trip: Trip, lang: "pt" | "en"): Trip {

@@ -149,7 +149,7 @@ export default function TripDetail({ slug }: { slug: string }) {
             {trip.description && (
               <section className="mt-20">
                 <SectionLabel number={nextSection()}>{ui.overview[lang]}</SectionLabel>
-                <p className="mx-auto max-w-3xl leading-relaxed text-[var(--foreground)]/90">
+                <p className="mx-auto max-w-3xl whitespace-pre-line leading-relaxed text-[var(--foreground)]/90">
                   {trip.description}
                 </p>
               </section>
